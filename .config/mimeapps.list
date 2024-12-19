@@ -1,0 +1,22 @@
+[Added Associations]
+image/png=org.nomacs.ImageLounge.desktop;
+image/jpeg=org.nomacs.ImageLounge.desktop;
+application/pdf=qpdfview.desktop;com.brave.Browser.desktop;gimp.desktop;
+application/vnd.openxmlformats-officedocument.wordprocessingml.document=libreoffice-writer.desktop;com.brave.Browser.desktop;
+image/svg+xml=org.nomacs.ImageLounge.desktop;
+text/plain=nvim.desktop;
+application/x-theme=nvim.desktop;
+application/x-shellscript=nvim.desktop;
+application/octet-stream=userapp-nvim-U6BDZ2.desktop;
+
+[Default Applications]
+image/png=org.nomacs.ImageLounge.desktop
+image/jpeg=org.nomacs.ImageLounge.desktop
+x-scheme-handler/eclipse+command x-scheme-handler/eclipse+mpc=_home_lazar_st_stm32cubeide_1.16.1_.desktop
+application/vnd.openxmlformats-officedocument.wordprocessingml.document=libreoffice-writer.desktop
+image/svg+xml=org.nomacs.ImageLounge.desktop
+text/plain=nvim.desktop
+application/pdf=qpdfview.desktop
+application/x-theme=nvim.desktop
+application/x-shellscript=nvim.desktop
+application/octet-stream=userapp-nvim-U6BDZ2.desktop

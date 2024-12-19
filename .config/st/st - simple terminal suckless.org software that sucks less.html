@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+	<meta charset="utf-8">
+	<title>st - simple terminal | suckless.org software that sucks less</title>
+	<link rel="stylesheet" type="text/css" href="st%20-%20simple%20terminal%20suckless.org%20software%20that%20sucks%20less_files/style.css">
+</head>
+
+<body><div id="header">
+	<a href="https://suckless.org/"><img src="st%20-%20simple%20terminal%20suckless.org%20software%20that%20sucks%20less_files/logo.svg" alt=""></a>&nbsp;
+	<a id="headerLink" href="https://suckless.org/">suckless.org</a>
+	<span class="hidden"> - </span>
+	<span id="headerSubtitle">st - simple terminal</span>
+</div>
+<hr class="hidden">
+<div id="menu">
+	<a href="https://suckless.org/">home</a>
+	<a href="https://dwm.suckless.org/">dwm</a>
+	<a href="https://st.suckless.org/"><b>st</b></a>
+	<a href="https://core.suckless.org/">core</a>
+	<a href="https://surf.suckless.org/">surf</a>
+	<a href="https://tools.suckless.org/">tools</a>
+	<a href="https://libs.suckless.org/">libs</a>
+	<a href="https://ev.suckless.org/">e.V.</a>
+	<span class="right">
+		<a href="https://dl.suckless.org/">download</a>
+		<a href="https://git.suckless.org/">source</a>
+	</span>
+</div>
+<hr class="hidden">
+<div id="content">
+<div id="nav">
+	<ul>
+	<li><a href="https://st.suckless.org/">about</a></li>
+	<li><a href="https://st.suckless.org/goals/">goals/</a></li>
+	<li><a href="https://st.suckless.org/patches/"><b>patches/</b></a>
+		<ul>
+		<li><a href="https://st.suckless.org/patches/alpha/"><b>alpha/</b></a></li>
+		<li><a href="https://st.suckless.org/patches/alpha_focus_highlight/">alpha focus highlight/</a></li>
+		<li><a href="https://st.suckless.org/patches/anygeometry/">anygeometry/</a></li>
+		<li><a href="https://st.suckless.org/patches/anysize/">anysize/</a></li>
+		<li><a href="https://st.suckless.org/patches/autocomplete/">autocomplete/</a></li>
+		<li><a href="https://st.suckless.org/patches/background_image/">background image/</a></li>
+		<li><a href="https://st.suckless.org/patches/blinking_cursor/">blinking cursor/</a></li>
+		<li><a href="https://st.suckless.org/patches/bold-is-not-bright/">bold is not bright/</a></li>
+		<li><a href="https://st.suckless.org/patches/boxdraw/">boxdraw/</a></li>
+		<li><a href="https://st.suckless.org/patches/changealpha/">changealpha/</a></li>
+		<li><a href="https://st.suckless.org/patches/charoffsets/">charoffsets/</a></li>
+		<li><a href="https://st.suckless.org/patches/clipboard/">clipboard/</a></li>
+		<li><a href="https://st.suckless.org/patches/colors_at_launch/">colors at launch/</a></li>
+		<li><a href="https://st.suckless.org/patches/colorschemes/">colorschemes/</a></li>
+		<li><a href="https://st.suckless.org/patches/copyurl/">copyurl/</a></li>
+		<li><a href="https://st.suckless.org/patches/csi_22_23/">csi 22 23/</a></li>
+		<li><a href="https://st.suckless.org/patches/cyberpunk-neon/">cyberpunk neon/</a></li>
+		<li><a href="https://st.suckless.org/patches/cyclefonts/">cyclefonts/</a></li>
+		<li><a href="https://st.suckless.org/patches/defaultfontsize/">defaultfontsize/</a></li>
+		<li><a href="https://st.suckless.org/patches/delkey/">delkey/</a></li>
+		<li><a href="https://st.suckless.org/patches/desktopentry/">desktopentry/</a></li>
+		<li><a href="https://st.suckless.org/patches/disable_bold_italic_fonts/">disable bold italic fonts/</a></li>
+		<li><a href="https://st.suckless.org/patches/dracula/">dracula/</a></li>
+		<li><a href="https://st.suckless.org/patches/dynamic-cursor-color/">dynamic cursor color/</a></li>
+		<li><a href="https://st.suckless.org/patches/externalpipe/">externalpipe/</a></li>
+		<li><a href="https://st.suckless.org/patches/externalpipe-signal/">externalpipe signal/</a></li>
+		<li><a href="https://st.suckless.org/patches/fix_ime/">fix ime/</a></li>
+		<li><a href="https://st.suckless.org/patches/fix_keyboard_input/">fix keyboard input/</a></li>
+		<li><a href="https://st.suckless.org/patches/font2/">font2/</a></li>
+		<li><a href="https://st.suckless.org/patches/fullscreen/">fullscreen/</a></li>
+		<li><a href="https://st.suckless.org/patches/glyph_wide_support/">glyph wide support/</a></li>
+		<li><a href="https://st.suckless.org/patches/gradient/">gradient/</a></li>
+		<li><a href="https://st.suckless.org/patches/gruvbox/">gruvbox/</a></li>
+		<li><a href="https://st.suckless.org/patches/gruvbox-material/">gruvbox material/</a></li>
+		<li><a href="https://st.suckless.org/patches/hidecursor/">hidecursor/</a></li>
+		<li><a href="https://st.suckless.org/patches/invert/">invert/</a></li>
+		<li><a href="https://st.suckless.org/patches/iso14755/">iso14755/</a></li>
+		<li><a href="https://st.suckless.org/patches/keyboard_select/">keyboard select/</a></li>
+		<li><a href="https://st.suckless.org/patches/ligatures/">ligatures/</a></li>
+		<li><a href="https://st.suckless.org/patches/line_snap_delimiter/">line snap delimiter/</a></li>
+		<li><a href="https://st.suckless.org/patches/moonfly/">moonfly/</a></li>
+		<li><a href="https://st.suckless.org/patches/nano_shortcuts_support/">nano shortcuts support/</a></li>
+		<li><a href="https://st.suckless.org/patches/netwmicon/">netwmicon/</a></li>
+		<li><a href="https://st.suckless.org/patches/newterm/">newterm/</a></li>
+		<li><a href="https://st.suckless.org/patches/nobadweight/">nobadweight/</a></li>
+		<li><a href="https://st.suckless.org/patches/nordtheme/">nordtheme/</a></li>
+		<li><a href="https://st.suckless.org/patches/open_copied_url/">open copied url/</a></li>
+		<li><a href="https://st.suckless.org/patches/openbsd/">openbsd/</a></li>
+		<li><a href="https://st.suckless.org/patches/palettes/">palettes/</a></li>
+		<li><a href="https://st.suckless.org/patches/relativeborder/">relativeborder/</a></li>
+		<li><a href="https://st.suckless.org/patches/right_click_to_plumb/">right click to plumb/</a></li>
+		<li><a href="https://st.suckless.org/patches/rightclickpaste/">rightclickpaste/</a></li>
+		<li><a href="https://st.suckless.org/patches/scrollback/">scrollback/</a></li>
+		<li><a href="https://st.suckless.org/patches/selectionbg-alpha/">selectionbg alpha/</a></li>
+		<li><a href="https://st.suckless.org/patches/selectioncolors/">selectioncolors/</a></li>
+		<li><a href="https://st.suckless.org/patches/solarized/">solarized/</a></li>
+		<li><a href="https://st.suckless.org/patches/spoiler/">spoiler/</a></li>
+		<li><a href="https://st.suckless.org/patches/swapmouse/">swapmouse/</a></li>
+		<li><a href="https://st.suckless.org/patches/sync/">sync/</a></li>
+		<li><a href="https://st.suckless.org/patches/themed_cursor/">themed cursor/</a></li>
+		<li><a href="https://st.suckless.org/patches/title_parsing_fix/">title parsing fix/</a></li>
+		<li><a href="https://st.suckless.org/patches/undercurl/">undercurl/</a></li>
+		<li><a href="https://st.suckless.org/patches/universcroll/">universcroll/</a></li>
+		<li><a href="https://st.suckless.org/patches/vertcenter/">vertcenter/</a></li>
+		<li><a href="https://st.suckless.org/patches/vim_browse/">vim browse/</a></li>
+		<li><a href="https://st.suckless.org/patches/visualbell/">visualbell/</a></li>
+		<li><a href="https://st.suckless.org/patches/visualbell2/">visualbell2/</a></li>
+		<li><a href="https://st.suckless.org/patches/w3m/">w3m/</a></li>
+		<li><a href="https://st.suckless.org/patches/workingdir/">workingdir/</a></li>
+		<li><a href="https://st.suckless.org/patches/xclearwin/">xclearwin/</a></li>
+		<li><a href="https://st.suckless.org/patches/xrandrfontsize/">xrandrfontsize/</a></li>
+		<li><a href="https://st.suckless.org/patches/xresources/">xresources/</a></li>
+		<li><a href="https://st.suckless.org/patches/xresources-with-reload-signal/">xresources with reload signal/</a></li>
+		<li><a href="https://st.suckless.org/patches/xtheme/">xtheme/</a></li>
+		</ul>
+	</li>
+	<li><a href="https://st.suckless.org/screenshots/">screenshots/</a></li>
+	</ul>
+</div>
+<hr class="hidden">
+<div id="main">
+
+<h1>alpha</h1>
+<p><a href="https://st.suckless.org/patches/alpha/st-alpha.png"><img src="st%20-%20simple%20terminal%20suckless.org%20software%20that%20sucks%20less_files/st-alpha-s.png" alt="Screenshot"></a></p>
+<h2>Description</h2>
+<p>This patch allows users to change the opacity of the background. Note that <em>you
+need an X composite manager</em> (e.g. compton, xcompmgr) to make this patch
+effective.</p>
+<h2>Notes</h2>
+<ul>
+<li>The alpha value affects the default background only.</li>
+<li>The color designated by 'defaultbg' should not be used elsewhere.</li>
+<li>Embedding might fail after applying this patch.</li>
+</ul>
+<h2>Changes in 0.8.2</h2>
+<ul>
+<li>The internal method for querying X visual is changed. St will respect the
+visual of its parent window, allowing it to be embedded easily.</li>
+<li>Opacity value is now typed in float.</li>
+<li><code>-A</code> option is added to allow changing the opacity value without compiling.</li>
+</ul>
+<h2>Download</h2>
+<ul>
+<li><a href="https://st.suckless.org/patches/alpha/st-alpha-0.4.1.diff">st-alpha-0.4.1.diff</a></li>
+<li><a href="https://st.suckless.org/patches/alpha/st-alpha-0.5.diff">st-alpha-0.5.diff</a></li>
+<li><a href="https://st.suckless.org/patches/alpha/st-alpha-0.6.diff">st-alpha-0.6.diff</a></li>
+<li><a href="https://st.suckless.org/patches/alpha/st-alpha-0.7.diff">st-alpha-0.7.diff</a></li>
+<li><a href="https://st.suckless.org/patches/alpha/st-alpha-20160727-308bfbf.diff">st-alpha-20160727-308bfbf.diff</a></li>
+<li><a href="https://st.suckless.org/patches/alpha/st-alpha-20170509-5a10aca.diff">st-alpha-20170509-5a10aca.diff</a></li>
+<li><a href="https://st.suckless.org/patches/alpha/st-alpha-20171221-0ac685f.diff">st-alpha-20171221-0ac685f.diff</a></li>
+<li><a href="https://st.suckless.org/patches/alpha/st-alpha-0.8.1.diff">st-alpha-0.8.1.diff</a></li>
+<li><a href="https://st.suckless.org/patches/alpha/st-alpha-20180616-0.8.1.diff">st-alpha-20180616-0.8.1.diff</a></li>
+<li><a href="https://st.suckless.org/patches/alpha/st-alpha-20190116-3be4cf1.diff">st-alpha-20190116-3be4cf1.diff</a></li>
+<li><a href="https://st.suckless.org/patches/alpha/st-alpha-0.8.2.diff">st-alpha-0.8.2.diff</a></li>
+<li><a href="https://st.suckless.org/patches/alpha/st-alpha-20220206-0.8.5.diff">st-alpha-0.8.5.diff</a></li>
+</ul>
+<p>Following patch also applies alpha to background color set with OSC 11:</p>
+<ul>
+<li><a href="https://st.suckless.org/patches/alpha/st-alpha-osc11-20220222-0.8.5.diff">st-alpha-osc11-20220222-0.8.5.diff</a></li>
+</ul>
+<h2>Authors</h2>
+<ul>
+<li>Eon S. Jeon - <a href="mailto:esjeon@hyunmu.am">esjeon@hyunmu.am</a></li>
+<li>pr - <a href="mailto:protodev@gmx.net">protodev@gmx.net</a> (0.5 port)</li>
+<li>Laslo Hunhold - <a href="mailto:dev@frign.de">dev@frign.de</a> (0.6, git ports)</li>
+<li>Ivan J. - <a href="mailto:parazyd@dyne.org">parazyd@dyne.org</a> (git port)</li>
+<li>Matthew Parnell - <a href="mailto:matt@parnmatt.co.uk">matt@parnmatt.co.uk</a> (0.7 port)</li>
+<li>Johannes Mayrhofer - <a href="mailto:jm.spam@gmx.net">jm.spam@gmx.net</a> (0.8.1 port)</li>
+<li>Àlex Ramírez <a href="mailto:aramirez@posteo.net">aramirez@posteo.net</a> (0.8.1 pre-multiplication fix).</li>
+</ul>
+</div>
+
+</div>
+
+
+</body></html>
