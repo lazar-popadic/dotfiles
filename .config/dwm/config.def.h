@@ -14,11 +14,11 @@ static const unsigned int systraypinning = 0;   /* 0: sloppy systray follows sel
 static const unsigned int systrayspacing = 6;   /* systray spacing */
 static const int systraypinningfailfirst = 1;   /* 1: if pinning fails, display systray on the first monitor, False: display systray on the last monitor*/
 static const int showsystray             = 1;   /* 0 means no systray */
-static const char *fonts[]          = { "BitstromWera Nerd Font:size=11" };
-static const char dmenufont[]       = "BitstromWera Nerd Font:size=11";
-static const char dmenu_w[]	= "264";
-static const char dmenu_y[]	= "32";
-static const char dmenu_x[]	= "4";
+static const char *fonts[]          = { "BitstromWera Nerd Font:size=10" };
+static const char dmenufont[]       = "BitstromWera Nerd Font:size=10";
+//static const char dmenu_w[]	= "480";
+//static const char dmenu_y[]	= "478";
+//static const char dmenu_x[]	= "720";
 static const char grudzien[]   			= "#2e6983";
 static const char black[]       		= "#000000";
 static const char white[]       		= "#ffffff";
@@ -99,7 +99,7 @@ static const Layout layouts[] = {
 
 /* commands */
 static char dmenumon[2] = "0"; /* component of dmenucmd, manipulated in spawn() */
-static const char *dmenucmd[] = { "dmenu_run", "-x", dmenu_x, "-z", dmenu_w, "-y", dmenu_y, "-m", dmenumon, NULL };
+static const char *dmenucmd[] = { "dmenu_run", "-c","-m", dmenumon, NULL };
 static const char *termcmd[]  = { "st", NULL };
 
 static const Key keys[] = {
