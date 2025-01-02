@@ -7,14 +7,14 @@ Notice: Location: 45.20 N, 19.70 E
 Notice: Color temperature: 6500K
 Notice: Brightness: 1.00
 Notice: Status: Enabled
-Notice: Period: Daytime
-Notice: Color temperature: 5700K
-F: Can't get document portal: GDBus.Error:org.freedesktop.portal.Error.Failed: Can't mount path /run/user/1000/doc
+Notice: Period: Night
+Notice: Color temperature: 3600K
 WARNING: Could not find theme AdwaitaLegacy
+F: Can't get document portal: GDBus.Error:org.freedesktop.portal.Error.Failed: Can't mount path /run/user/1000/doc
 
-(nitrogen:10909): Gtk-WARNING **: 14:31:12.740: Unable to locate theme engine in module_path: "adwaita",
+(nitrogen:1455): Gtk-WARNING **: 19:22:59.619: Unable to locate theme engine in module_path: "adwaita",
 
-(nitrogen:10909): Gtk-WARNING **: 14:31:12.740: Unable to locate theme engine in module_path: "adwaita",
+(nitrogen:1455): Gtk-WARNING **: 19:22:59.619: Unable to locate theme engine in module_path: "adwaita",
 Connection error
 
 Connection error
@@ -24,161 +24,41 @@ Connection error
 /home/lazar/.local/bin/volume.sh: line 15: ((: > 0 : syntax error: operand expected (error token is "> 0 ")
 Connection error
 
-[2:0102/143113.009996:ERROR:bus.cc(407)] Failed to connect to the bus: Failed to connect to socket /run/dbus/system_bus_socket: No such file or directory
 
-(copyq:10924): Gtk-WARNING **: 14:31:13.160: Unable to locate theme engine in module_path: "adwaita",
+(copyq:1469): Gtk-WARNING **: 19:22:59.726: Unable to locate theme engine in module_path: "adwaita",
 
-(copyq:10924): Gtk-WARNING **: 14:31:13.160: Unable to locate theme engine in module_path: "adwaita",
+(copyq:1469): Gtk-WARNING **: 19:22:59.727: Unable to locate theme engine in module_path: "adwaita",
 
-(nitrogen:10909): Gtk-WARNING **: 14:31:13.311: Unable to locate theme engine in module_path: "adwaita",
+(nitrogen:1455): Gtk-WARNING **: 19:22:59.840: Unable to locate theme engine in module_path: "adwaita",
 
-(nitrogen:10909): Gtk-WARNING **: 14:31:13.312: Unable to locate theme engine in module_path: "adwaita",
+(nitrogen:1455): Gtk-WARNING **: 19:22:59.841: Unable to locate theme engine in module_path: "adwaita",
 
-(nitrogen:10909): GLib-GObject-CRITICAL **: 14:31:13.331: Attempting to freeze the notification queue for object GtkSettings[0x5604306218b0]; Property notification does not work during instance finalization.
+(nitrogen:1455): GLib-GObject-CRITICAL **: 19:22:59.849: Attempting to freeze the notification queue for object GtkSettings[0x561a4cbd37e0]; Property notification does not work during instance finalization.
 
-(nitrogen:10909): GLib-GObject-CRITICAL **: 14:31:13.332: Attempting to thaw the notification queue for object GtkSettings[0x5604306218b0]; Property notification does not work during instance finalization.
+(nitrogen:1455): GLib-GObject-CRITICAL **: 19:22:59.849: Attempting to thaw the notification queue for object GtkSettings[0x561a4cbd37e0]; Property notification does not work during instance finalization.
 Warning: [default] QtWarning: QSystemTrayIcon::setVisible: No Icon set
-New PolkitAgentListener  0x5613906a3390
-Adding new listener  PolkitQt1::Agent::Listener(0x7fff9b08d800) for  0x5613906a3390
+New PolkitAgentListener  0x561847b49690
+Adding new listener  PolkitQt1::Agent::Listener(0x7ffc8e6c74f0) for  0x561847b49690
 Warning: [qt.qpa.xcb] QtWarning: Unhandled client message:  "_NET_SYSTEM_TRAY_S0"
-[2:0102/143114.057335:ERROR:bus.cc(407)] Failed to connect to the bus: Failed to connect to socket /run/dbus/system_bus_socket: No such file or directory
-[2:0102/143114.057435:ERROR:bus.cc(407)] Failed to connect to the bus: Failed to connect to socket /run/dbus/system_bus_socket: No such file or directory
+[2:0102/192300.532800:ERROR:bus.cc(407)] Failed to connect to the bus: Failed to connect to socket /run/dbus/system_bus_socket: No such file or directory
+N 19:23:01.138914 wp-internal-comp-l ../lib/wp/private/internal-comp-loader.c:945:wp_internal_comp_loader_load: Loading profile 'main'
+N 19:23:01.346835 wp-internal-comp-l ../lib/wp/private/internal-comp-loader.c:589:on_component_loaded: <WpCore:0x5621448640d0> optional component 'support.logind [module: libwireplumber-module-logind]' failed to load: Failed to locate module libwireplumber-module-logind
+N 19:23:01.346905 wp-internal-comp-l ../lib/wp/private/internal-comp-loader.c:641:wp_component_array_load_task_execute_step: <WpCore:0x5621448640d0> skipping component 'monitor.bluez.seat-monitoring [virtual]' because some of its dependencies were not loaded
+N 19:23:01.348231          wp-device ../lib/wp/device.c:630:wp_spa_device_new_from_spa_factory: SPA handle 'api.bluez5.enum.dbus' could not be loaded; is it installed?
+N 19:23:01.348265         s-monitors bluez.lua:386:createMonitor: PipeWire's BlueZ SPA plugin is missing or broken. Bluetooth devices will not be supported.
+N 19:23:01.349410          wp-device ../lib/wp/device.c:630:wp_spa_device_new_from_spa_factory: SPA handle 'api.bluez5.midi.enum' could not be loaded; is it installed?
+N 19:23:01.349448         s-monitors bluez-midi.lua:95:createMonitor: PipeWire's BlueZ MIDI SPA missing or broken. Bluetooth not supported.
+E 19:23:01.349567        pw.resource ../src/pipewire/resource.c:255:pw_resource_errorf_id: can't create node: No such file or directory
+W 19:23:01.349573            wp-node ../lib/wp/node.c:913:wp_impl_node_new_from_pw_factory: failed to create node from factory 'spa-node-factory'
+N 19:23:01.349580         s-monitors bluez-midi.lua:130:createServers: Failed to create BLE MIDI server.
+[0:00:43.442428385] [1782] [1;32m INFO [1;37mCamera [1;34mcamera_manager.cpp:325 [0mlibcamera v0.3.2
+[2:0102/192301.682027:ERROR:bus.cc(407)] Failed to connect to the bus: Failed to connect to socket /run/dbus/system_bus_socket: No such file or directory
+[2:0102/192301.682115:ERROR:bus.cc(407)] Failed to connect to the bus: Failed to connect to socket /run/dbus/system_bus_socket: No such file or directory
 LaunchProcess: failed to execvp:
 xdg-settings
-N 14:31:14.733468 wp-internal-comp-l ../lib/wp/private/internal-comp-loader.c:945:wp_internal_comp_loader_load: Loading profile 'main'
-N 14:31:14.892748 wp-internal-comp-l ../lib/wp/private/internal-comp-loader.c:589:on_component_loaded: <WpCore:0x55ba624710d0> optional component 'support.logind [module: libwireplumber-module-logind]' failed to load: Failed to locate module libwireplumber-module-logind
-N 14:31:14.892787 wp-internal-comp-l ../lib/wp/private/internal-comp-loader.c:641:wp_component_array_load_task_execute_step: <WpCore:0x55ba624710d0> skipping component 'monitor.bluez.seat-monitoring [virtual]' because some of its dependencies were not loaded
-N 14:31:14.893511          wp-device ../lib/wp/device.c:630:wp_spa_device_new_from_spa_factory: SPA handle 'api.bluez5.enum.dbus' could not be loaded; is it installed?
-N 14:31:14.893530         s-monitors bluez.lua:386:createMonitor: PipeWire's BlueZ SPA plugin is missing or broken. Bluetooth devices will not be supported.
-N 14:31:14.894093          wp-device ../lib/wp/device.c:630:wp_spa_device_new_from_spa_factory: SPA handle 'api.bluez5.midi.enum' could not be loaded; is it installed?
-N 14:31:14.894120         s-monitors bluez-midi.lua:95:createMonitor: PipeWire's BlueZ MIDI SPA missing or broken. Bluetooth not supported.
-E 14:31:14.894182        pw.resource ../src/pipewire/resource.c:255:pw_resource_errorf_id: can't create node: No such file or directory
-W 14:31:14.894199            wp-node ../lib/wp/node.c:913:wp_impl_node_new_from_pw_factory: failed to create node from factory 'spa-node-factory'
-N 14:31:14.894206         s-monitors bluez-midi.lua:130:createServers: Failed to create BLE MIDI server.
-[1:39:49.445607811] [11348] [1;32m INFO [1;37mCamera [1;34mcamera_manager.cpp:325 [0mlibcamera v0.3.2
-[2:0102/143116.272739:ERROR:bus.cc(407)] Failed to connect to the bus: Failed to connect to socket /run/dbus/system_bus_socket: No such file or directory
-[2:0102/143116.272809:ERROR:bus.cc(407)] Failed to connect to the bus: Failed to connect to socket /run/dbus/system_bus_socket: No such file or directory
-[2:0102/143116.272832:ERROR:bus.cc(407)] Failed to connect to the bus: Failed to connect to socket /run/dbus/system_bus_socket: No such file or directory
+[2:0102/192304.076063:ERROR:bus.cc(407)] Failed to connect to the bus: Failed to connect to socket /run/dbus/system_bus_socket: No such file or directory
+[2:0102/192304.076124:ERROR:bus.cc(407)] Failed to connect to the bus: Failed to connect to socket /run/dbus/system_bus_socket: No such file or directory
+[2:0102/192304.076148:ERROR:bus.cc(407)] Failed to connect to the bus: Failed to connect to socket /run/dbus/system_bus_socket: No such file or directory
 [MobX] Since strict-mode is enabled, changing (observed) observable values without using an action is not allowed. Tried to modify: Settings@13.store
-erresc: unknown csi ESC[?2026$p
-erresc: unknown csi ESC[4:3m
-erresc: unknown csi ESC[>4;2m
-(node:79) MaxListenersExceededWarning: Possible EventEmitter memory leak detected. 11 select-capture-device:ecdbc6e1-a5ad-4ee4-9d20-f142ef0b0b3a listeners added to [IpcRenderer]. MaxListeners is 10. Use emitter.setMaxListeners() to increase limit
+(node:87) MaxListenersExceededWarning: Possible EventEmitter memory leak detected. 11 select-capture-device:ecdbc6e1-a5ad-4ee4-9d20-f142ef0b0b3a listeners added to [IpcRenderer]. MaxListeners is 10. Use emitter.setMaxListeners() to increase limit
 (Use `exe --trace-warnings ...` to show where the warning was created)
-/bin/bash: line 1: unexpected EOF while looking for matching `''
-
-(lxappearance:12513): GLib-CRITICAL **: 14:31:58.317: g_utf8_collate: assertion 'str1 != NULL' failed
-
-(lxappearance:12513): GLib-CRITICAL **: 14:31:58.318: g_utf8_collate: assertion 'str2 != NULL' failed
-
-(lxappearance:12513): GLib-CRITICAL **: 14:31:58.318: g_utf8_collate: assertion 'str2 != NULL' failed
-
-(lxappearance:12513): GLib-CRITICAL **: 14:31:58.318: g_utf8_collate: assertion 'str2 != NULL' failed
-erresc: unknown csi ESC[>4;0m
-F: Can't get document portal: GDBus.Error:org.freedesktop.DBus.Error.NoReply: Message recipient disconnected from message bus without replying
-Gtk-Message: 14:32:51.840: Failed to load module "gtk-dark-theme"
-Gtk-Message: 14:32:51.840: Failed to load module "gtk-dark-theme"
-Gtk-Message: 14:32:52.129: Failed to load module "gtk-dark-theme"
-Gtk-Message: 14:32:52.129: Failed to load module "gtk-dark-theme"
-[2:2:0102/143252.220766:ERROR:object_proxy.cc(576)] Failed to call method: org.kde.KWallet.isEnabled: object_path= /modules/kwalletd6: org.freedesktop.DBus.Error.ServiceUnknown: The name org.kde.kwalletd6 was not provided by any .service files
-[2:2:0102/143252.220850:ERROR:kwallet_dbus.cc(117)] Error contacting kwalletd6 (isEnabled)
-[2:2:0102/143252.221844:ERROR:object_proxy.cc(576)] Failed to call method: org.kde.KLauncher.start_service_by_desktop_name: object_path= /KLauncher: org.freedesktop.DBus.Error.ServiceUnknown: org.freedesktop.DBus.Error.ServiceUnknown
-[2:2:0102/143252.221890:ERROR:kwallet_dbus.cc(86)] Error contacting klauncher to start kwalletd6
-[2:2:0102/143252.222342:ERROR:object_proxy.cc(576)] Failed to call method: org.kde.KWallet.close: object_path= /modules/kwalletd6: org.freedesktop.DBus.Error.ServiceUnknown: The name org.kde.kwalletd6 was not provided by any .service files
-[2:2:0102/143252.222352:ERROR:kwallet_dbus.cc(412)] Error contacting kwalletd6 (close)
-[2:2:0102/143252.227777:ERROR:object_proxy.cc(576)] Failed to call method: org.kde.KWallet.isEnabled: object_path= /modules/kwalletd5: org.freedesktop.DBus.Error.ServiceUnknown: org.freedesktop.DBus.Error.ServiceUnknown
-[2:2:0102/143252.227833:ERROR:kwallet_dbus.cc(117)] Error contacting kwalletd5 (isEnabled)
-[2:2:0102/143252.228093:ERROR:object_proxy.cc(576)] Failed to call method: org.kde.KLauncher.start_service_by_desktop_name: object_path= /KLauncher: org.freedesktop.DBus.Error.ServiceUnknown: org.freedesktop.DBus.Error.ServiceUnknown
-[2:2:0102/143252.228106:ERROR:kwallet_dbus.cc(86)] Error contacting klauncher to start kwalletd5
-[2:2:0102/143252.228316:ERROR:object_proxy.cc(576)] Failed to call method: org.kde.KWallet.close: object_path= /modules/kwalletd5: org.freedesktop.DBus.Error.ServiceUnknown: org.freedesktop.DBus.Error.ServiceUnknown
-[2:2:0102/143252.228329:ERROR:kwallet_dbus.cc(412)] Error contacting kwalletd5 (close)
-[2:2:0102/143252.231827:ERROR:object_proxy.cc(576)] Failed to call method: org.kde.KWallet.isEnabled: object_path= /modules/kwalletd: org.freedesktop.DBus.Error.ServiceUnknown: org.freedesktop.DBus.Error.ServiceUnknown
-[2:2:0102/143252.231873:ERROR:kwallet_dbus.cc(117)] Error contacting kwalletd (isEnabled)
-[2:2:0102/143252.232066:ERROR:object_proxy.cc(576)] Failed to call method: org.kde.KLauncher.start_service_by_desktop_name: object_path= /KLauncher: org.freedesktop.DBus.Error.ServiceUnknown: org.freedesktop.DBus.Error.ServiceUnknown
-[2:2:0102/143252.232072:ERROR:kwallet_dbus.cc(86)] Error contacting klauncher to start kwalletd
-[2:2:0102/143252.232242:ERROR:object_proxy.cc(576)] Failed to call method: org.kde.KWallet.close: object_path= /modules/kwalletd: org.freedesktop.DBus.Error.ServiceUnknown: org.freedesktop.DBus.Error.ServiceUnknown
-[2:2:0102/143252.232247:ERROR:kwallet_dbus.cc(412)] Error contacting kwalletd (close)
-[2:161:0102/143252.615305:ERROR:object_proxy.cc(576)] Failed to call method: org.freedesktop.DBus.Properties.Get: object_path= /org/freedesktop/UPower: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.UPower was not provided by any .service files
-[2:161:0102/143252.615700:ERROR:object_proxy.cc(576)] Failed to call method: org.freedesktop.UPower.GetDisplayDevice: object_path= /org/freedesktop/UPower: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.UPower was not provided by any .service files
-[2:161:0102/143252.615945:ERROR:object_proxy.cc(576)] Failed to call method: org.freedesktop.UPower.EnumerateDevices: object_path= /org/freedesktop/UPower: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.UPower was not provided by any .service files
-[2:2:0102/143252.625775:ERROR:object_proxy.cc(576)] Failed to call method: org.freedesktop.portal.Secret.RetrieveSecret: object_path= /org/freedesktop/portal/desktop: org.freedesktop.DBus.Error.UnknownMethod: No such interface “org.freedesktop.portal.Secret” on object at path /org/freedesktop/portal/desktop
-[2:2:0102/143252.625832:ERROR:secret_portal_key_provider.cc(150)] Failed to retrieve secret: No response from portal.
-[2:2:0102/143253.110009:ERROR:sharing_service.cc(296)] Device registration failed with fatal error
-[2:38:0102/143253.116814:ERROR:get_updates_processor.cc(267)] PostClientToServerMessage() failed during GetUpdates with error Network error (ERR_INTERNET_DISCONNECTED)
-
-(file-roller:16292): GLib-GIO-CRITICAL **: 14:34:54.563: g_file_new_for_path: assertion 'path != NULL' failed
-
-(file-roller:16292): GLib-GIO-CRITICAL **: 14:34:54.563: g_file_query_info: assertion 'G_IS_FILE (file)' failed
-
-(file-roller:16292): GLib-GObject-CRITICAL **: 14:34:54.563: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
-
-(file-roller:16292): GLib-GIO-CRITICAL **: 14:34:54.563: g_file_new_for_path: assertion 'path != NULL' failed
-
-(file-roller:16292): GLib-GIO-CRITICAL **: 14:34:54.563: g_file_query_info: assertion 'G_IS_FILE (file)' failed
-
-(file-roller:16292): GLib-GObject-CRITICAL **: 14:34:54.563: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
-
-(file-roller:16292): GLib-GIO-CRITICAL **: 14:34:54.563: g_file_new_for_path: assertion 'path != NULL' failed
-
-(file-roller:16292): GLib-GIO-CRITICAL **: 14:34:54.563: g_file_query_info: assertion 'G_IS_FILE (file)' failed
-
-(file-roller:16292): GLib-GObject-CRITICAL **: 14:34:54.563: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
-
-(file-roller:16292): GLib-GIO-CRITICAL **: 14:34:54.563: g_file_new_for_path: assertion 'path != NULL' failed
-
-(file-roller:16292): GLib-GIO-CRITICAL **: 14:34:54.563: g_file_query_info: assertion 'G_IS_FILE (file)' failed
-
-(file-roller:16292): GLib-GObject-CRITICAL **: 14:34:54.563: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
-
-(file-roller:16292): GLib-GIO-CRITICAL **: 14:34:54.563: g_file_new_for_path: assertion 'path != NULL' failed
-
-(file-roller:16292): GLib-GIO-CRITICAL **: 14:34:54.563: g_file_query_info: assertion 'G_IS_FILE (file)' failed
-
-(file-roller:16292): GLib-GObject-CRITICAL **: 14:34:54.563: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
-[2:36:0102/143500.679145:ERROR:get_updates_processor.cc(267)] PostClientToServerMessage() failed during GetUpdates with error Network error (ERR_INTERNET_DISCONNECTED)
-
-(file-roller:16829): GLib-GIO-CRITICAL **: 14:35:12.215: g_file_new_for_path: assertion 'path != NULL' failed
-
-(file-roller:16829): GLib-GIO-CRITICAL **: 14:35:12.215: g_file_query_info: assertion 'G_IS_FILE (file)' failed
-
-(file-roller:16829): GLib-GObject-CRITICAL **: 14:35:12.215: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
-
-(file-roller:16829): GLib-GIO-CRITICAL **: 14:35:12.215: g_file_new_for_path: assertion 'path != NULL' failed
-
-(file-roller:16829): GLib-GIO-CRITICAL **: 14:35:12.215: g_file_query_info: assertion 'G_IS_FILE (file)' failed
-
-(file-roller:16829): GLib-GObject-CRITICAL **: 14:35:12.215: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
-
-(file-roller:16829): GLib-GIO-CRITICAL **: 14:35:12.215: g_file_new_for_path: assertion 'path != NULL' failed
-
-(file-roller:16829): GLib-GIO-CRITICAL **: 14:35:12.215: g_file_query_info: assertion 'G_IS_FILE (file)' failed
-
-(file-roller:16829): GLib-GObject-CRITICAL **: 14:35:12.215: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
-
-(file-roller:16829): GLib-GIO-CRITICAL **: 14:35:12.215: g_file_new_for_path: assertion 'path != NULL' failed
-
-(file-roller:16829): GLib-GIO-CRITICAL **: 14:35:12.215: g_file_query_info: assertion 'G_IS_FILE (file)' failed
-
-(file-roller:16829): GLib-GObject-CRITICAL **: 14:35:12.215: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
-
-(file-roller:16829): GLib-GIO-CRITICAL **: 14:35:12.215: g_file_new_for_path: assertion 'path != NULL' failed
-
-(file-roller:16829): GLib-GIO-CRITICAL **: 14:35:12.215: g_file_query_info: assertion 'G_IS_FILE (file)' failed
-
-(file-roller:16829): GLib-GObject-CRITICAL **: 14:35:12.215: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
-
-(lxappearance:17746): GLib-CRITICAL **: 14:35:58.114: g_utf8_collate: assertion 'str1 != NULL' failed
-
-(lxappearance:17746): GLib-CRITICAL **: 14:35:58.114: g_utf8_collate: assertion 'str2 != NULL' failed
-
-(lxappearance:17746): GLib-CRITICAL **: 14:35:58.114: g_utf8_collate: assertion 'str2 != NULL' failed
-
-(lxappearance:17746): GLib-CRITICAL **: 14:35:58.115: g_utf8_collate: assertion 'str2 != NULL' failed
-
-(lxappearance:18262): GLib-CRITICAL **: 14:36:27.119: g_utf8_collate: assertion 'str1 != NULL' failed
-
-(lxappearance:18262): GLib-CRITICAL **: 14:36:27.120: g_utf8_collate: assertion 'str2 != NULL' failed
-
-(lxappearance:18262): GLib-CRITICAL **: 14:36:27.120: g_utf8_collate: assertion 'str2 != NULL' failed
-
-(lxappearance:18262): GLib-CRITICAL **: 14:36:27.120: g_utf8_collate: assertion 'str2 != NULL' failed
