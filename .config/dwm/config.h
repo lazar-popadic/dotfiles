@@ -3,19 +3,19 @@
 
 /* appearance */
 static const unsigned int borderpx  = 1;        /* border pixel of windows */
-static const unsigned int gappx     = 4;        /* gaps between windows */
+static const unsigned int gappx     = 2;        /* gaps between windows */
 static const unsigned int snap      = 16;       /* snap pixel */
 static const int showbar            = 1;        /* 0 means no bar */
 static const int topbar             = 1;        /* 0 means bottom bar */
-static const int vertpad            = 4;       /* vertical padding of bar */
-static const int sidepad            = 4;       /* horizontal padding of bar */
-static const int user_bh            = 6;        /* 2 is the default spacing around the bar's font */
+static const int vertpad            = 2;       /* vertical padding of bar */
+static const int sidepad            = 2;       /* horizontal padding of bar */
+static const int user_bh            = 8;        /* 2 is the default spacing around the bar's font */
 static const unsigned int systraypinning = 0;   /* 0: sloppy systray follows selected monitor, >0: pin systray to monitor X */
 static const unsigned int systrayspacing = 6;   /* systray spacing */
 static const int systraypinningfailfirst = 1;   /* 1: if pinning fails, display systray on the first monitor, False: display systray on the last monitor*/
 static const int showsystray             = 1;   /* 0 means no systray */
-static const char *fonts[]          = { "BitstromWera Nerd Font Propo:style=Oblique:size=10" };
-static const char dmenufont[]       = "BitstromWera Nerd Font Propo:size=10";
+static const char *fonts[]          = { "BitstromWera Nerd Font Propo:style=Oblique:size=9" };
+static const char dmenufont[]       = "BitstromWera Nerd Font Propo:size=9";
 //static const char dmenu_w[]	= "480";
 //static const char dmenu_y[]	= "478";
 //static const char dmenu_x[]	= "720";
@@ -29,13 +29,13 @@ static const unsigned int invisible = 0x00;
 static const unsigned int alpha = 0xcc;
 static const char *colors[][3]      = {
 	/*               	fg      	bg    		border   */
-	[SchemeSel]  	= { 	black,		adumbration_yellow, 		adumbration_yellow },
-	[SchemeNorm] 	= { 	adumbration_yellow, 		black, 		black },
-	[SchemeStatus]	= { 	adumbration_yellow, 		black,  	"#000000"  }, // Statusbar right {text,background,not used but cannot be empty}
-	[SchemeTagsSel]	= { 	black,		adumbration_yellow,  	"#000000"  }, // Tagbar left selected {text,background,not used but cannot be empty}
-	[SchemeTagsNorm]= { 	adumbration_yellow, 		black,  	"#000000"  }, // Tagbar left unselected {text,background,not used but cannot be empty}
-	[SchemeInfoSel]	= { 	adumbration_yellow, 		black,  	"#000000"  }, // infobar middle  selected {text,background,not used but cannot be empty}
-	[SchemeInfoNorm]= { 	adumbration_yellow, 		black,  	"#000000"  }, // infobar middle  unselected {text,background,not used but cannot be empty}
+	[SchemeSel]  	= { 	black,		white, 		white },
+	[SchemeNorm] 	= { 	white, 		black, 		black },
+	[SchemeStatus]	= { 	white, 		black,  	"#000000"  }, // Statusbar right {text,background,not used but cannot be empty}
+	[SchemeTagsSel]	= { 	black,		white,  	"#000000"  }, // Tagbar left selected {text,background,not used but cannot be empty}
+	[SchemeTagsNorm]= { 	white, 		black,  	"#000000"  }, // Tagbar left unselected {text,background,not used but cannot be empty}
+	[SchemeInfoSel]	= { 	white, 		black,  	"#000000"  }, // infobar middle  selected {text,background,not used but cannot be empty}
+	[SchemeInfoNorm]= { 	white, 		black,  	"#000000"  }, // infobar middle  unselected {text,background,not used but cannot be empty}
 };
 static const unsigned int alphas[][3]      = {
 	/*               	fg      	bg       	border     */

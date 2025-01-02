@@ -6,12 +6,12 @@ layout=$(xkblayout-state print "%s(%e)")
 # Depending on the keyboard layout, run one of three commands
 case $layout in
 	"us(basic)")
-        	echo "󰌌 eng"
+        	echo "󰥻 eng"
         ;;
 	"rs(basic)")
-		echo "󰌌 срб"
+		echo "󰥻 срб"
         ;;
     	"rs(latin)")
-        	echo "󰌌 srb"
+        	echo "󰥻 srb"
         ;;
 esac

@@ -6,7 +6,7 @@
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
 //static char *font = "NotoMono Nerd Font:size=11:antialias=true:autohint=true";
-static char *font = "BitstromWera Nerd Font:size=10";
+static char *font = "BitstromWera Nerd Font:size=9";
 static int borderpx = 1;
 
 /*
@@ -95,7 +95,7 @@ char *termname = "st-256color";
 unsigned int tabspaces = 8;
 
 /* bg opacity */
-float alpha = 0.64;
+float alpha = 0.52;
 
 /* Terminal colors (16 first used in escape sequence) */
 static const char *colorname[] = {
@@ -164,7 +164,7 @@ static const char *colorname[] = {
  * Default colors (colorname index)
  * foreground, background, cursor, reverse cursor
  */
-unsigned int defaultfg = 278;
+unsigned int defaultfg = 276;
 unsigned int defaultbg = 277;
 unsigned int defaultcs = 256;
 static unsigned int defaultrcs = 257;
