@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg width="18" height="18" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+	<defs>
+		<style id="current-color-scheme" type="text/css">.ColorScheme-Text {color:#090d11;}.ColorScheme-Background{color:#ffffff;}</style>
+	</defs>
+	<metadata>
+		<rdf:RDF>
+			<cc:Work rdf:about="">
+				<dc:format>image/svg+xml</dc:format>
+				<dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+			</cc:Work>
+		</rdf:RDF>
+	</metadata>
+	<g transform="translate(8066.9,-501.93)">
+		<path id="d" class="ColorScheme-Text" transform="translate(-8065.9,502.93)" d="m5.7188 2 4.0312 7h4.6875l-4.0625-7zm-0.6875 1-4.0312 7 2.3438 4.0312 4.0312-7zm1.875 6.9688-2.3125 4.0312h8.0625l2.3438-4.0312z" style="fill-opacity:.75;fill:currentColor"/>
+		<path id="c" class="ColorScheme-Background" transform="translate(-8065.9,502.93)" d="m5.0586 1c-0.29546 0.20799-0.50381 0.54427-0.52734 0.90625-1.356e-4 0.010416-1.356e-4 0.020834 0 0.03125-0.21857 0.098485-0.40632 0.26414-0.53125 0.46875l-4.0312 7c-0.20486 0.35984-0.20486 0.82766 0 1.1875l2.3438 4.0312c0.08942 0.15395 0.21698 0.27979 0.36523 0.375h10.607c0.16357-0.10196 0.3049-0.23981 0.40234-0.40625l2.3438-4.0312c0.31103-0.534 0.11948-1.3002-0.40625-1.625-0.0099-0.186-0.06388-0.3695-0.15625-0.53125l-4.0625-7c-0.097446-0.16644-0.23878-0.30429-0.40234-0.40625zm0.66016 1h4.6562l4.0625 7h-4.6875zm-0.6875 1 2.3438 4.0312-4.0312 7-2.3438-4.0312zm1.875 6.9688h8.0938l-2.3438 4.0312h-8.0625z" style="fill-opacity:.5;fill:currentColor"/>
+	</g>
+</svg>

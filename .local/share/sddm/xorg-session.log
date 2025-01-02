@@ -1,0 +1,175 @@
+Notice: Solar elevations: > 3.0 (Day), < -6.0 (Night)
+Notice: Temperatures: 5700K (Day), 3600K (Night)
+Notice: Brightness: 1.00:1.00
+Notice: Gamma (Day): 0.800, 0.800, 0.800
+Notice: Gamma (Night): 0.800, 0.800, 0.800
+Notice: Location: 45.20 N, 19.70 E
+Notice: Color temperature: 6500K
+Notice: Brightness: 1.00
+Notice: Status: Enabled
+Notice: Period: Daytime
+Notice: Color temperature: 5700K
+WARNING: Could not find theme AdwaitaLegacy
+Connection error
+
+Connection error
+
+/home/lazar/.local/bin/volume.sh: line 11: ((: > 59 : syntax error: operand expected (error token is "> 59 ")
+/home/lazar/.local/bin/volume.sh: line 13: ((: > 19 : syntax error: operand expected (error token is "> 19 ")
+/home/lazar/.local/bin/volume.sh: line 15: ((: > 0 : syntax error: operand expected (error token is "> 0 ")
+Connection error
+
+F: Can't get document portal: GDBus.Error:org.freedesktop.DBus.Error.NoReply: Message recipient disconnected from message bus without replying
+
+(nitrogen:935): Gtk-WARNING **: 13:51:36.499: Unable to locate theme engine in module_path: "adwaita",
+
+(nitrogen:935): Gtk-WARNING **: 13:51:36.500: Unable to locate theme engine in module_path: "adwaita",
+
+(copyq:949): Gtk-WARNING **: 13:51:36.580: Unable to locate theme engine in module_path: "adwaita",
+
+(copyq:949): Gtk-WARNING **: 13:51:36.580: Unable to locate theme engine in module_path: "adwaita",
+New PolkitAgentListener  0x564380597680
+Adding new listener  PolkitQt1::Agent::Listener(0x7ffcb96b4540) for  0x564380597680
+Warning: [default] QtWarning: QSystemTrayIcon::setVisible: No Icon set
+
+(nitrogen:935): Gtk-WARNING **: 13:51:36.865: Unable to locate theme engine in module_path: "adwaita",
+
+(nitrogen:935): Gtk-WARNING **: 13:51:36.865: Unable to locate theme engine in module_path: "adwaita",
+
+(nitrogen:935): GLib-GObject-CRITICAL **: 13:51:36.874: Attempting to freeze the notification queue for object GtkSettings[0x55cc548deff0]; Property notification does not work during instance finalization.
+
+(nitrogen:935): GLib-GObject-CRITICAL **: 13:51:36.874: Attempting to thaw the notification queue for object GtkSettings[0x55cc548deff0]; Property notification does not work during instance finalization.
+Warning: [qt.qpa.xcb] QtWarning: Unhandled client message:  "_NET_SYSTEM_TRAY_S0"
+[2:0102/135137.483135:ERROR:bus.cc(407)] Failed to connect to the bus: Failed to connect to socket /run/dbus/system_bus_socket: No such file or directory
+N 13:51:38.078874 wp-internal-comp-l ../lib/wp/private/internal-comp-loader.c:945:wp_internal_comp_loader_load: Loading profile 'main'
+N 13:51:38.260822 wp-internal-comp-l ../lib/wp/private/internal-comp-loader.c:589:on_component_loaded: <WpCore:0x5628c74800d0> optional component 'support.logind [module: libwireplumber-module-logind]' failed to load: Failed to locate module libwireplumber-module-logind
+N 13:51:38.260860 wp-internal-comp-l ../lib/wp/private/internal-comp-loader.c:641:wp_component_array_load_task_execute_step: <WpCore:0x5628c74800d0> skipping component 'monitor.bluez.seat-monitoring [virtual]' because some of its dependencies were not loaded
+N 13:51:38.261831          wp-device ../lib/wp/device.c:630:wp_spa_device_new_from_spa_factory: SPA handle 'api.bluez5.enum.dbus' could not be loaded; is it installed?
+N 13:51:38.261860         s-monitors bluez.lua:386:createMonitor: PipeWire's BlueZ SPA plugin is missing or broken. Bluetooth devices will not be supported.
+N 13:51:38.262532          wp-device ../lib/wp/device.c:630:wp_spa_device_new_from_spa_factory: SPA handle 'api.bluez5.midi.enum' could not be loaded; is it installed?
+N 13:51:38.262551         s-monitors bluez-midi.lua:95:createMonitor: PipeWire's BlueZ MIDI SPA missing or broken. Bluetooth not supported.
+E 13:51:38.262623        pw.resource ../src/pipewire/resource.c:255:pw_resource_errorf_id: can't create node: No such file or directory
+W 13:51:38.262632            wp-node ../lib/wp/node.c:913:wp_impl_node_new_from_pw_factory: failed to create node from factory 'spa-node-factory'
+N 13:51:38.262641         s-monitors bluez-midi.lua:130:createServers: Failed to create BLE MIDI server.
+[0:00:13.356843251] [1256] [1;32m INFO [1;37mCamera [1;34mcamera_manager.cpp:325 [0mlibcamera v0.3.2
+[2:0102/135138.513637:ERROR:bus.cc(407)] Failed to connect to the bus: Failed to connect to socket /run/dbus/system_bus_socket: No such file or directory
+[2:0102/135138.513722:ERROR:bus.cc(407)] Failed to connect to the bus: Failed to connect to socket /run/dbus/system_bus_socket: No such file or directory
+LaunchProcess: failed to execvp:
+xdg-settings
+[2:0102/135140.939086:ERROR:bus.cc(407)] Failed to connect to the bus: Failed to connect to socket /run/dbus/system_bus_socket: No such file or directory
+[2:0102/135140.939152:ERROR:bus.cc(407)] Failed to connect to the bus: Failed to connect to socket /run/dbus/system_bus_socket: No such file or directory
+[2:0102/135140.939180:ERROR:bus.cc(407)] Failed to connect to the bus: Failed to connect to socket /run/dbus/system_bus_socket: No such file or directory
+[MobX] Since strict-mode is enabled, changing (observed) observable values without using an action is not allowed. Tried to modify: Settings@13.store
+F: Can't get document portal: GDBus.Error:org.freedesktop.portal.Error.Failed: Can't mount path /run/user/1000/doc
+Gtk-Message: 13:51:45.912: Failed to load module "gtk-dark-theme"
+Gtk-Message: 13:51:45.912: Failed to load module "gtk-dark-theme"
+Gtk-Message: 13:51:46.962: Failed to load module "gtk-dark-theme"
+Gtk-Message: 13:51:46.962: Failed to load module "gtk-dark-theme"
+[2:2:0102/135147.221246:ERROR:object_proxy.cc(576)] Failed to call method: org.kde.KWallet.isEnabled: object_path= /modules/kwalletd6: org.freedesktop.DBus.Error.ServiceUnknown: The name org.kde.kwalletd6 was not provided by any .service files
+[2:2:0102/135147.222291:ERROR:kwallet_dbus.cc(117)] Error contacting kwalletd6 (isEnabled)
+[2:2:0102/135147.224527:ERROR:object_proxy.cc(576)] Failed to call method: org.kde.KLauncher.start_service_by_desktop_name: object_path= /KLauncher: org.freedesktop.DBus.Error.ServiceUnknown: org.freedesktop.DBus.Error.ServiceUnknown
+[2:2:0102/135147.224573:ERROR:kwallet_dbus.cc(86)] Error contacting klauncher to start kwalletd6
+[2:2:0102/135147.225207:ERROR:object_proxy.cc(576)] Failed to call method: org.kde.KWallet.close: object_path= /modules/kwalletd6: org.freedesktop.DBus.Error.ServiceUnknown: The name org.kde.kwalletd6 was not provided by any .service files
+[2:2:0102/135147.225243:ERROR:kwallet_dbus.cc(412)] Error contacting kwalletd6 (close)
+[2:2:0102/135147.233328:ERROR:object_proxy.cc(576)] Failed to call method: org.kde.KWallet.isEnabled: object_path= /modules/kwalletd5: org.freedesktop.DBus.Error.ServiceUnknown: org.freedesktop.DBus.Error.ServiceUnknown
+[2:2:0102/135147.233369:ERROR:kwallet_dbus.cc(117)] Error contacting kwalletd5 (isEnabled)
+[2:2:0102/135147.233718:ERROR:object_proxy.cc(576)] Failed to call method: org.kde.KLauncher.start_service_by_desktop_name: object_path= /KLauncher: org.freedesktop.DBus.Error.ServiceUnknown: org.freedesktop.DBus.Error.ServiceUnknown
+[2:2:0102/135147.233744:ERROR:kwallet_dbus.cc(86)] Error contacting klauncher to start kwalletd5
+[2:2:0102/135147.234068:ERROR:object_proxy.cc(576)] Failed to call method: org.kde.KWallet.close: object_path= /modules/kwalletd5: org.freedesktop.DBus.Error.ServiceUnknown: org.freedesktop.DBus.Error.ServiceUnknown
+[2:2:0102/135147.234100:ERROR:kwallet_dbus.cc(412)] Error contacting kwalletd5 (close)
+[2:2:0102/135147.239707:ERROR:object_proxy.cc(576)] Failed to call method: org.kde.KWallet.isEnabled: object_path= /modules/kwalletd: org.freedesktop.DBus.Error.ServiceUnknown: org.freedesktop.DBus.Error.ServiceUnknown
+[2:2:0102/135147.239748:ERROR:kwallet_dbus.cc(117)] Error contacting kwalletd (isEnabled)
+[2:2:0102/135147.240055:ERROR:object_proxy.cc(576)] Failed to call method: org.kde.KLauncher.start_service_by_desktop_name: object_path= /KLauncher: org.freedesktop.DBus.Error.ServiceUnknown: org.freedesktop.DBus.Error.ServiceUnknown
+[2:2:0102/135147.240135:ERROR:kwallet_dbus.cc(86)] Error contacting klauncher to start kwalletd
+[2:2:0102/135147.240361:ERROR:object_proxy.cc(576)] Failed to call method: org.kde.KWallet.close: object_path= /modules/kwalletd: org.freedesktop.DBus.Error.ServiceUnknown: org.freedesktop.DBus.Error.ServiceUnknown
+[2:2:0102/135147.240389:ERROR:kwallet_dbus.cc(412)] Error contacting kwalletd (close)
+[2:161:0102/135148.071614:ERROR:object_proxy.cc(576)] Failed to call method: org.freedesktop.DBus.Properties.Get: object_path= /org/freedesktop/UPower: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.UPower was not provided by any .service files
+[2:161:0102/135148.071967:ERROR:object_proxy.cc(576)] Failed to call method: org.freedesktop.UPower.GetDisplayDevice: object_path= /org/freedesktop/UPower: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.UPower was not provided by any .service files
+[2:161:0102/135148.072315:ERROR:object_proxy.cc(576)] Failed to call method: org.freedesktop.UPower.EnumerateDevices: object_path= /org/freedesktop/UPower: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.UPower was not provided by any .service files
+[2:2:0102/135148.079085:ERROR:object_proxy.cc(576)] Failed to call method: org.freedesktop.portal.Secret.RetrieveSecret: object_path= /org/freedesktop/portal/desktop: org.freedesktop.DBus.Error.UnknownMethod: No such interface “org.freedesktop.portal.Secret” on object at path /org/freedesktop/portal/desktop
+[2:2:0102/135148.079128:ERROR:secret_portal_key_provider.cc(150)] Failed to retrieve secret: No response from portal.
+[2:2:0102/135148.701869:ERROR:sharing_service.cc(296)] Device registration failed with fatal error
+(node:85) MaxListenersExceededWarning: Possible EventEmitter memory leak detected. 11 select-capture-device:ecdbc6e1-a5ad-4ee4-9d20-f142ef0b0b3a listeners added to [IpcRenderer]. MaxListeners is 10. Use emitter.setMaxListeners() to increase limit
+(Use `exe --trace-warnings ...` to show where the warning was created)
+erresc: unknown csi ESC[?2026$p
+erresc: unknown csi ESC[4:3m
+erresc: unknown csi ESC[>4;2m
+erresc: unknown csi ESC[>4;0m
+
+(lxappearance:9417): GLib-CRITICAL **: 12:58:12.402: g_utf8_collate: assertion 'str1 != NULL' failed
+
+(lxappearance:9417): GLib-CRITICAL **: 12:58:12.405: g_utf8_collate: assertion 'str2 != NULL' failed
+
+(lxappearance:9417): GLib-CRITICAL **: 12:58:12.406: g_utf8_collate: assertion 'str2 != NULL' failed
+
+(lxappearance:9417): GLib-CRITICAL **: 12:58:12.407: g_utf8_collate: assertion 'str2 != NULL' failed
+
+(lxappearance:11011): GLib-CRITICAL **: 12:59:47.091: g_utf8_collate: assertion 'str1 != NULL' failed
+
+(lxappearance:11011): GLib-CRITICAL **: 12:59:47.091: g_utf8_collate: assertion 'str2 != NULL' failed
+
+(lxappearance:11011): GLib-CRITICAL **: 12:59:47.091: g_utf8_collate: assertion 'str2 != NULL' failed
+
+(lxappearance:11011): GLib-CRITICAL **: 12:59:47.092: g_utf8_collate: assertion 'str2 != NULL' failed
+
+(lxappearance:11011): Gtk-WARNING **: 12:59:50.353: Theme directory mimetypes/96 of theme Antu-icons-master has no size field
+
+
+(lxappearance:11011): Gtk-WARNING **: 12:59:50.353: Theme directory mimetypes/256 of theme Antu-icons-master has no size field
+
+erresc: unknown csi ESC[?2026$p
+erresc: unknown csi ESC[4:3m
+erresc: unknown csi ESC[>4;2m
+erresc: unknown csi ESC[>4;0m
+
+(lxappearance:16903): GLib-CRITICAL **: 13:05:38.042: g_utf8_collate: assertion 'str1 != NULL' failed
+
+(lxappearance:16903): GLib-CRITICAL **: 13:05:38.042: g_utf8_collate: assertion 'str2 != NULL' failed
+
+(lxappearance:16903): GLib-CRITICAL **: 13:05:38.043: g_utf8_collate: assertion 'str2 != NULL' failed
+
+(lxappearance:16903): GLib-CRITICAL **: 13:05:38.043: g_utf8_collate: assertion 'str2 != NULL' failed
+
+(lxappearance:16903): Gtk-WARNING **: 13:07:42.275: Theme directory mimetypes/96 of theme Antu-icons-master has no size field
+
+
+(lxappearance:16903): Gtk-WARNING **: 13:07:42.275: Theme directory mimetypes/256 of theme Antu-icons-master has no size field
+
+[0102/130841.129951:INFO:pipe.h(28)] Pipe destructor called
+[0102/130841.130105:INFO:pipe.cc(97)] Pipe close.
+[0102/130841.130111:INFO:pipe.cc(119)] Read handle closed.
+[0102/130841.130116:INFO:pipe.cc(126)] Write handle closed.
+[0102/130841.130133:INFO:pipe.cc(129)] Pipe closed.
+F: Can't get document portal: GDBus.Error:org.freedesktop.DBus.Error.NoReply: Message recipient disconnected from message bus without replying
+Gtk-Message: 13:08:42.533: Failed to load module "gtk-dark-theme"
+Gtk-Message: 13:08:42.533: Failed to load module "gtk-dark-theme"
+Gtk-Message: 13:08:42.785: Failed to load module "gtk-dark-theme"
+Gtk-Message: 13:08:42.785: Failed to load module "gtk-dark-theme"
+[2:2:0102/130842.867216:ERROR:object_proxy.cc(576)] Failed to call method: org.kde.KWallet.isEnabled: object_path= /modules/kwalletd6: org.freedesktop.DBus.Error.ServiceUnknown: The name org.kde.kwalletd6 was not provided by any .service files
+[2:2:0102/130842.867273:ERROR:kwallet_dbus.cc(117)] Error contacting kwalletd6 (isEnabled)
+[2:2:0102/130842.867581:ERROR:object_proxy.cc(576)] Failed to call method: org.kde.KLauncher.start_service_by_desktop_name: object_path= /KLauncher: org.freedesktop.DBus.Error.ServiceUnknown: org.freedesktop.DBus.Error.ServiceUnknown
+[2:2:0102/130842.867604:ERROR:kwallet_dbus.cc(86)] Error contacting klauncher to start kwalletd6
+[2:2:0102/130842.868037:ERROR:object_proxy.cc(576)] Failed to call method: org.kde.KWallet.close: object_path= /modules/kwalletd6: org.freedesktop.DBus.Error.ServiceUnknown: The name org.kde.kwalletd6 was not provided by any .service files
+[2:2:0102/130842.868050:ERROR:kwallet_dbus.cc(412)] Error contacting kwalletd6 (close)
+[2:2:0102/130842.872059:ERROR:object_proxy.cc(576)] Failed to call method: org.kde.KWallet.isEnabled: object_path= /modules/kwalletd5: org.freedesktop.DBus.Error.ServiceUnknown: org.freedesktop.DBus.Error.ServiceUnknown
+[2:2:0102/130842.872088:ERROR:kwallet_dbus.cc(117)] Error contacting kwalletd5 (isEnabled)
+[2:2:0102/130842.872317:ERROR:object_proxy.cc(576)] Failed to call method: org.kde.KLauncher.start_service_by_desktop_name: object_path= /KLauncher: org.freedesktop.DBus.Error.ServiceUnknown: org.freedesktop.DBus.Error.ServiceUnknown
+[2:2:0102/130842.872328:ERROR:kwallet_dbus.cc(86)] Error contacting klauncher to start kwalletd5
+[2:2:0102/130842.872600:ERROR:object_proxy.cc(576)] Failed to call method: org.kde.KWallet.close: object_path= /modules/kwalletd5: org.freedesktop.DBus.Error.ServiceUnknown: org.freedesktop.DBus.Error.ServiceUnknown
+[2:2:0102/130842.872616:ERROR:kwallet_dbus.cc(412)] Error contacting kwalletd5 (close)
+[2:2:0102/130842.876080:ERROR:object_proxy.cc(576)] Failed to call method: org.kde.KWallet.isEnabled: object_path= /modules/kwalletd: org.freedesktop.DBus.Error.ServiceUnknown: org.freedesktop.DBus.Error.ServiceUnknown
+[2:2:0102/130842.876118:ERROR:kwallet_dbus.cc(117)] Error contacting kwalletd (isEnabled)
+[2:2:0102/130842.876378:ERROR:object_proxy.cc(576)] Failed to call method: org.kde.KLauncher.start_service_by_desktop_name: object_path= /KLauncher: org.freedesktop.DBus.Error.ServiceUnknown: org.freedesktop.DBus.Error.ServiceUnknown
+[2:2:0102/130842.876387:ERROR:kwallet_dbus.cc(86)] Error contacting klauncher to start kwalletd
+[2:2:0102/130842.876597:ERROR:object_proxy.cc(576)] Failed to call method: org.kde.KWallet.close: object_path= /modules/kwalletd: org.freedesktop.DBus.Error.ServiceUnknown: org.freedesktop.DBus.Error.ServiceUnknown
+[2:2:0102/130842.876609:ERROR:kwallet_dbus.cc(412)] Error contacting kwalletd (close)
+[2:161:0102/130843.166596:ERROR:object_proxy.cc(576)] Failed to call method: org.freedesktop.DBus.Properties.Get: object_path= /org/freedesktop/UPower: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.UPower was not provided by any .service files
+[2:161:0102/130843.166867:ERROR:object_proxy.cc(576)] Failed to call method: org.freedesktop.UPower.GetDisplayDevice: object_path= /org/freedesktop/UPower: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.UPower was not provided by any .service files
+[2:161:0102/130843.167112:ERROR:object_proxy.cc(576)] Failed to call method: org.freedesktop.UPower.EnumerateDevices: object_path= /org/freedesktop/UPower: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.UPower was not provided by any .service files
+[2:2:0102/130843.176654:ERROR:object_proxy.cc(576)] Failed to call method: org.freedesktop.portal.Secret.RetrieveSecret: object_path= /org/freedesktop/portal/desktop: org.freedesktop.DBus.Error.UnknownMethod: No such interface “org.freedesktop.portal.Secret” on object at path /org/freedesktop/portal/desktop
+[2:2:0102/130843.176694:ERROR:secret_portal_key_provider.cc(150)] Failed to retrieve secret: No response from portal.
+[2:2:0102/130843.940039:ERROR:sharing_service.cc(296)] Device registration failed with fatal error
+erresc: unknown csi ESC[?2026$p
+erresc: unknown csi ESC[4:3m
+erresc: unknown csi ESC[>4;2m
+erresc: unknown csi ESC[>4;0m

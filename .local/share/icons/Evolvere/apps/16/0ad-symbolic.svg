@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg width="16" height="16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+	<defs>
+		<style id="current-color-scheme" type="text/css">.ColorScheme-Text {color:#090d11;}.ColorScheme-Background{color:#ffffff;}</style>
+	</defs>
+	<metadata>
+		<rdf:RDF>
+			<cc:Work rdf:about="">
+				<dc:format>image/svg+xml</dc:format>
+				<dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+			</cc:Work>
+		</rdf:RDF>
+	</metadata>
+	<path id="d" class="ColorScheme-Text" d="m7.5 1c-3.5839 0-6.5 2.9161-6.5 6.5s2.9161 6.5 6.5 6.5 6.5-2.9161 6.5-6.5-2.9161-6.5-6.5-6.5zm-0.5 1.0254v4.9746h-4.9746c0.23748-2.6422 2.3324-4.7371 4.9746-4.9746zm1 0c2.6422 0.23748 4.7371 2.3324 4.9746 4.9746h-4.9746zm-5.9746 5.9746h4.9746v4.9746c-2.6422-0.23748-4.7371-2.3324-4.9746-4.9746zm5.9746 0h4.9746c-0.23748 2.6422-2.3324 4.7371-4.9746 4.9746z" style="fill-opacity:.75;fill:currentColor"/>
+</svg>

@@ -1,0 +1,17 @@
+﻿---
+# File created by FreeCAD 1.0.0 Revision: 39109 (Git)
+General:
+  UUID: "ebfabb34-1fbf-416b-a41c-ccceb6ef6017"
+  Name: "Plastic_grey"
+  Author: "David Carter"
+  License: "GPL-2.0-or-later"
+  Description: "Defines the Plastic appearance properties"
+AppearanceModels:
+  Basic Rendering:
+    UUID: "f006c7e4-35b7-43d5-bbf9-c5d572309e6e"
+    AmbientColor: "(0.1000, 0.1000, 0.1000, 1.0)"
+    DiffuseColor: "(0.572549,0.572549,0.572549,1)"
+    EmissiveColor: "(0.211765,0.211765,0.211765,1)"
+    Shininess: "0.0078"
+    SpecularColor: "(0.0600, 0.0600, 0.0600, 1.0)"
+    Transparency: "0"

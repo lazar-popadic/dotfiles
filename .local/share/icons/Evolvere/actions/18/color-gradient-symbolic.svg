@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="h" width="18" height="18" version="1.0" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<metadata id="v">
+		<rdf:RDF>
+			<cc:Work rdf:about="">
+				<dc:format>image/svg+xml</dc:format>
+				<dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+			</cc:Work>
+		</rdf:RDF>
+	</metadata>
+	<defs id="n">
+		<style id="current-color-scheme" type="text/css">.ColorScheme-Text {color:#090d11;}.ColorScheme-Background{color:#ffffff;}</style>
+	</defs>
+	<g id="x" transform="translate(0,-2)">
+		<g id="z" transform="matrix(1 0 0 .85714 0 1.5714)" style="opacity:.95;stroke-width:1.0801">
+			<path id="a" class="ColorScheme-Text" d="m3 4h1v14h-1z" style="fill-opacity:.75;fill:currentColor;stroke-width:1.1667"/>
+		</g>
+		<use id="s" transform="matrix(1 0 0 .85714 1 1.5714)" width="100%" height="100%" style="opacity:.9;stroke-width:1.0801" xlink:href="#a"/>
+		<use id="k" transform="matrix(1 0 0 .85714 2 1.5714)" width="100%" height="100%" style="opacity:.85;stroke-width:1.0801" xlink:href="#a"/>
+		<use id="f" transform="matrix(1 0 0 .85714 3 1.5714)" width="100%" height="100%" style="opacity:.8;stroke-width:1.0801" xlink:href="#a"/>
+		<use id="o" transform="matrix(1 0 0 .85714 4 1.5714)" width="100%" height="100%" style="opacity:.75;stroke-width:1.0801" xlink:href="#a"/>
+		<use id="l" transform="matrix(1 0 0 .85714 5 1.5714)" width="100%" height="100%" style="opacity:.7;stroke-width:1.0801" xlink:href="#a"/>
+		<use id="r" transform="matrix(1 0 0 .85714 6 1.5714)" width="100%" height="100%" style="opacity:.65;stroke-width:1.0801" xlink:href="#a"/>
+		<use id="g" transform="matrix(1 0 0 .85714 7 1.5714)" width="100%" height="100%" style="opacity:.6;stroke-width:1.0801" xlink:href="#a"/>
+		<use id="q" transform="matrix(1 0 0 .85714 8 1.5714)" width="100%" height="100%" style="opacity:.55;stroke-width:1.0801" xlink:href="#a"/>
+		<use id="p" transform="matrix(1 0 0 .85714 9 1.5714)" width="100%" height="100%" style="opacity:.5;stroke-width:1.0801" xlink:href="#a"/>
+		<use id="e" transform="matrix(1 0 0 .85714 10 1.5714)" width="100%" height="100%" style="opacity:.45;stroke-width:1.0801" xlink:href="#a"/>
+		<use id="t" transform="matrix(1 0 0 .85714 11 1.5714)" width="100%" height="100%" style="opacity:.4;stroke-width:1.0801" xlink:href="#a"/>
+	</g>
+	<path id="w" class="ColorScheme-Text" d="m3 2c-0.554 0-1 0.446-1 1v12c0 0.554 0.446 1 1 1h12c0.554 0 1-0.446 1-1v-12c0-0.554-0.446-1-1-1zm0 1h12v12h-12z" style="fill-opacity:.75;fill:currentColor"/>
+</svg>

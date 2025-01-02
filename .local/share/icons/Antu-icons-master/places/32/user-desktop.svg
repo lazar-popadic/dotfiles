@@ -1,0 +1,8 @@
+<svg height="32" viewBox="0 0 32 32" width="32" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><defs id="antufoldercolor">
+    <style type="text/css" id="current-color-scheme">
+      .ColorScheme-Highlight {
+        color:#45aaf5;
+      }
+      </style>
+  </defs><linearGradient id="a" gradientUnits="userSpaceOnUse" x1="-23.99999868984" x2="-23.99999868984" y1="307.65002845832" y2="293.65001607865"><stop offset="0" stop-color="#fff" stop-opacity=".7"/><stop offset="1" stop-color="#fff" stop-opacity=".85"/></linearGradient><linearGradient id="b" gradientUnits="userSpaceOnUse" x1="-25.0000011939" x2="-25.0000011939" y1="309.6500410255" y2="286.65002878645"><stop offset="0" stop-color="#2f435a"/><stop offset="1" stop-color="#384d63"/></linearGradient><linearGradient id="c" gradientUnits="userSpaceOnUse" x1="-23.433064" x2="-23.433064" y1="309.54974" y2="286.54974"><stop offset="0" stop-color="#fff" stop-opacity="0"/><stop offset="1" stop-color="#fff" stop-opacity=".2"/></linearGradient><g transform="translate(40.433064 -281.549741)"><rect fill="#223240" height="29.999996" ry="2" width="31.999998" x="-40.433064" y="282.54974"/><rect fill="url(#b)" height="27.999981" ry="1" width="30.000002" x="-39.433064" y="283.54974"/><path d="m-38.433064 284.54977h27.999998v25.999968h-27.999998z" fill="#223240"/><path d="m-37.433064 285.54977h26v23.99995h-26z" style="fill:currentColor"
+class="ColorScheme-Highlight"/><path d="m-37.433064 285.54974h26v23.99995h-26z" fill="url(#c)"/><path d="m-34.433064 289.54974v9h12v-9zm13 3v6.99999h-6v2.00001h12v-9zm-15 12v5.00001h24v-5.00001z" fill-opacity=".15"/><path d="m-34.433063 288.54973v9h12v-9zm13 3v6.99999h-6v2.00001h12v-9zm-15 12v5.00001h24v-5.00001z" fill="url(#a)"/></g></svg>

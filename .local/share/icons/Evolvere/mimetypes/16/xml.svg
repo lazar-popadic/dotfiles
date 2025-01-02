@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg width="16" height="16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<metadata>
+		<rdf:RDF>
+			<cc:Work rdf:about="">
+				<dc:format>image/svg+xml</dc:format>
+				<dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+			</cc:Work>
+		</rdf:RDF>
+	</metadata>
+	<defs>
+		<style id="current-color-scheme" type="text/css">.ColorScheme-Text {color:#090d11;}.ColorScheme-Background{color:#ffffff;}</style>
+	</defs>
+	<path class="ColorScheme-Text" d="m9.9863 0.5a1 1 0 0 0-0.94141 0.70508l-4 13a1 1 0 0 0 0.66016 1.25 1 1 0 0 0 1.25-0.66016l4-13a1 1 0 0 0-0.66016-1.25 1 1 0 0 0-0.30859-0.044922zm-4.9141 2.9043a0.6 0.6 0 0 0-0.15625 0.0019531 0.6 0.6 0 0 0-0.39648 0.23438l-3.2695 4.3594 3.2695 4.3594a0.6 0.6 0 0 0 0.83984 0.12109 0.6 0.6 0 0 0 0.12109-0.83984l-2.7305-3.6406 2.7305-3.6406a0.6 0.6 0 0 0-0.12109-0.83984 0.6 0.6 0 0 0-0.28711-0.11523zm5.8555 0a0.6 0.6 0 0 0-0.28711 0.11523 0.6 0.6 0 0 0-0.12109 0.83984l2.7305 3.6406-2.7305 3.6406a0.6 0.6 0 0 0 0.12109 0.83984 0.6 0.6 0 0 0 0.83984-0.12109l3.2695-4.3594-3.2695-4.3594a0.6 0.6 0 0 0-0.39648-0.23438 0.6 0.6 0 0 0-0.15625-0.0019531z" style="fill-opacity:.75;fill:currentColor"/>
+	<path class="ColorScheme-Background" d="m11.006 0.5a0.5 0.5 0 0 0-0.46484 0.30273l-6 14a0.5 0.5 0 0 0 0.26172 0.65625 0.5 0.5 0 0 0 0.65625-0.26172l6-14a0.5 0.5 0 0 0-0.26172-0.65625 0.5 0.5 0 0 0-0.19141-0.041016zm-7.0684 2.5039a0.5 0.5 0 0 0-0.33203 0.18945l-3.5 4.5a0.50005 0.50005 0 0 0 0 0.61328l3.5 4.5a0.5 0.5 0 0 0 0.70117 0.08789 0.5 0.5 0 0 0 0.087891-0.70117l-3.2617-4.1934 3.2617-4.1934a0.5 0.5 0 0 0-0.087891-0.70117 0.5 0.5 0 0 0-0.36914-0.10156zm8.125 0a0.5 0.5 0 0 0-0.36914 0.10156 0.5 0.5 0 0 0-0.08789 0.70117l3.2617 4.1934-3.2617 4.1934a0.5 0.5 0 0 0 0.08789 0.70117 0.5 0.5 0 0 0 0.70117-0.08789l3.5-4.5a0.50005 0.50005 0 0 0 0-0.61328l-3.5-4.5a0.5 0.5 0 0 0-0.33203-0.18945z" style="fill-opacity:.5;fill:currentColor"/>
+</svg>

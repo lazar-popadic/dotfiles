@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   height="32"
+   viewBox="0 0 32 32"
+   width="32"
+   version="1.1"
+   id="svg10"
+   sodipodi:docname="text-x-texinfo.svg"
+   xml:space="preserve"
+   inkscape:version="1.2.2 (b0a8486541, 2022-12-01)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"><defs
+     id="defs14"><linearGradient
+       inkscape:collect="always"
+       id="linearGradient2520"><stop
+         style="stop-color:#0f75ed;stop-opacity:1;"
+         offset="0"
+         id="stop2516" /><stop
+         style="stop-color:#34b0fa;stop-opacity:1;"
+         offset="1"
+         id="stop2518" /></linearGradient><style
+       id="current-color-scheme"
+       type="text/css">
+      .ColorScheme-Text {
+        color:#122036;
+      }
+      </style><style
+       id="current-color-scheme-1"
+       type="text/css">
+      .ColorScheme-Text {
+        color:#122036;
+      }
+      </style><style
+       type="text/css"
+       id="current-color-scheme-10">
+      .ColorScheme-Text {
+        color:#122036;
+      }
+      </style><style
+       type="text/css"
+       id="current-color-scheme-5">
+      .ColorScheme-Text {
+        color:#122036;
+      }
+      </style><style
+       type="text/css"
+       id="current-color-scheme-1-2">
+      .ColorScheme-Text {
+        color:#122036;
+      }
+      </style><style
+       id="current-color-scheme-10-9"
+       type="text/css">
+      .ColorScheme-Text {
+        color:#122036;
+      }
+      </style><style
+       id="current-color-scheme-6"
+       type="text/css">
+      .ColorScheme-Text {
+        color:#122036;
+      }
+      </style><style
+       id="current-color-scheme-1-9"
+       type="text/css">
+      .ColorScheme-Text {
+        color:#122036;
+      }
+      </style><style
+       type="text/css"
+       id="current-color-scheme-10-1">
+      .ColorScheme-Text {
+        color:#122036;
+      }
+      </style><style
+       id="current-color-scheme-7"
+       type="text/css">
+      .ColorScheme-Text {
+        color:#122036;
+      }
+      </style><style
+       id="current-color-scheme-1-5"
+       type="text/css">
+      .ColorScheme-Text {
+        color:#122036;
+      }
+      </style><style
+       type="text/css"
+       id="current-color-scheme-10-3">
+      .ColorScheme-Text {
+        color:#122036;
+      }
+      </style><style
+       type="text/css"
+       id="current-color-scheme-5-5">
+      .ColorScheme-Text {
+        color:#122036;
+      }
+      </style><style
+       type="text/css"
+       id="current-color-scheme-1-2-6">
+      .ColorScheme-Text {
+        color:#122036;
+      }
+      </style><style
+       id="current-color-scheme-10-9-2"
+       type="text/css">
+      .ColorScheme-Text {
+        color:#122036;
+      }
+      </style><style
+       id="current-color-scheme-6-9"
+       type="text/css">
+      .ColorScheme-Text {
+        color:#122036;
+      }
+      </style><style
+       id="current-color-scheme-1-9-1"
+       type="text/css">
+      .ColorScheme-Text {
+        color:#122036;
+      }
+      </style><style
+       type="text/css"
+       id="current-color-scheme-10-1-2">
+      .ColorScheme-Text {
+        color:#122036;
+      }
+      </style><linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient2520"
+       id="linearGradient2522"
+       x1="-68"
+       y1="315.64999"
+       x2="-68"
+       y2="289.64999"
+       gradientUnits="userSpaceOnUse" /></defs><sodipodi:namedview
+     id="namedview12"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     showgrid="true"
+     inkscape:zoom="22.693708"
+     inkscape:cx="13.197491"
+     inkscape:cy="16.832859"
+     inkscape:window-width="1517"
+     inkscape:window-height="1363"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="svg10"><inkscape:grid
+       type="xygrid"
+       id="grid418" /></sodipodi:namedview><g
+     transform="translate(84 -286.64999)"
+     id="g8"><path
+       style="fill:#0e44b2;fill-opacity:1"
+       d="m -79,287.64997 h 21.999999 c 1.108,0 2,0.89202 2,2.00001 v 26.00001 c 0,1.10797 -0.892,1.99998 -2,1.99998 H -79 c -1.108,0 -2,-0.89201 -2,-1.99998 v -26 c 0,-1.108 0.892,-2 2,-2.00002 z"
+       id="path2" /><path
+       style="fill-opacity:1;fill:url(#linearGradient2522)"
+       d="M -78.999999,288.65001 H -57 c 0.554,0 1,0.44599 1,1 v 26 c 0,0.55401 -0.446,1 -1,1 h -21.999999 c -0.554,0 -1,-0.44599 -1,-1 v -26 c 0,-0.55399 0.446,-1 1,-1 z"
+       id="path4" /><path
+       style="fill:#0e44b2;fill-opacity:1"
+       d="m -68.000004,301.64999 c -1.107996,0 -1.999998,0.892 -1.999998,2 v 3 3 c 0,1.108 0.892002,2 1.999998,2 1.108002,0 2.000004,-0.892 2.000004,-2 v -3 -3 c 0,-1.108 -0.892002,-2 -2.000004,-2 z"
+       id="path3507" /><path
+       style="fill:#0e44b2;fill-opacity:1"
+       d="m -68.000004,295.64999 c -1.107996,0 -1.999998,0.892 -1.999998,2 0,1.108 0.892002,2 1.999998,2 1.108002,0 2.000004,-0.892 2.000004,-2 0,-1.108 -0.892002,-2 -2.000004,-2 z"
+       id="path6-3" /><path
+       style="fill:#ffffff;fill-opacity:1"
+       d="m -1.478e-5,291.29288 c -1.10799602,0 -1.99999802,0.892 -1.99999802,2 v 3 3 c 0,1.108 0.892002,2 1.99999802,2 1.10800198,0 2.00000398,-0.892 2.00000398,-2 v -3 -3 c 0,-1.108 -0.892002,-2 -2.00000398,-2 z"
+       transform="translate(-67.999989,9.3570799)"
+       id="path3503" /><path
+       style="fill:#ffffff;fill-opacity:1"
+       d="m -1.478e-5,285.29288 c -1.10799602,0 -1.99999802,0.892 -1.99999802,2 0,1.108 0.892002,2 1.99999802,2 1.10800198,0 2.00000398,-0.892 2.00000398,-2 0,-1.108 -0.892002,-2 -2.00000398,-2 z"
+       transform="translate(-67.999989,9.3570799)"
+       id="path6" /></g></svg>

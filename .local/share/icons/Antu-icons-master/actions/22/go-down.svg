@@ -1,0 +1,8 @@
+<svg height="22" viewBox="0 0 22 22" width="22" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><defs id="antufoldercolor">
+    <style type="text/css" id="current-color-scheme">
+      .ColorScheme-Highlight {
+        color:#45aaf5;
+      }
+      </style>
+  </defs><linearGradient id="a" gradientTransform="matrix(0 -1 -1 0 22.000001 22)" gradientUnits="userSpaceOnUse" x1="3.000001" x2="20" y1="11.000001" y2="11.000001"><stop offset="0" stop-color="#fff" stop-opacity="0"/><stop offset="1" stop-color="#fff" stop-opacity=".2"/></linearGradient><g stroke-linecap="round" stroke-linejoin="round"><path d="m19.890625 7.546875c.17037.334866.138685.736967-.08203 1.041016l-8 11c-.399409.54875-1.217779.54875-1.617188 0l-7.9999998-11c-.480101-.660894-.0083-1.587448.808594-1.587891h4v-5c.000055-.552262.447738-.999945 1-1h2.9999998 3c.552262.000055.999945.447738 1 1v5h4c.376086.000332.720191.211625.890624.546875z" style="fill:currentColor"
+class="ColorScheme-Highlight"/><path d="m19 8-8 11-7.9999998-11h5v-6h2.9999998 3v6z" fill="url(#a)"/><path d="m19.998047 7.943359c.01291.226281-.05151.454501-.189453.644532l-8 11c-.399409.548749-1.217779.548749-1.617188 0l-7.9999998-11c-.4801-.660894-.0083-1.587448.808594-1.587891h4v-5c.000055-.552261.447739-.999945 1-1h2.9999998 3c.552261.000055.999945.447739 1 1v5h4c.376086.000332.720191.211625.890625.546875.06389.125575.09967.260716.107422.396484zm-.998047.05664h-5v-6h-3-2.9999998v6h-5l7.9999998 11z" fill-opacity=".2"/></g></svg>

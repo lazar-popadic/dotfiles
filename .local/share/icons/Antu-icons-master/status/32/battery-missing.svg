@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   height="32"
+   width="32"
+   version="1.1"
+   id="svg3"
+   sodipodi:docname="battery-missing.svg"
+   inkscape:version="1.3.2 (091e20ef0f, 2023-11-25, custom)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs3">
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient1"
+       id="linearGradient2"
+       x1="52"
+       y1="29"
+       x2="51"
+       y2="14"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="translate(-7,0.5)" />
+    <linearGradient
+       id="linearGradient1"
+       inkscape:collect="always">
+      <stop
+         style="stop-color:#252a34;stop-opacity:1;"
+         offset="0"
+         id="stop1" />
+      <stop
+         style="stop-color:#353d4b;stop-opacity:1;"
+         offset="1"
+         id="stop2" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3"
+       id="linearGradient4"
+       x1="51"
+       y1="27"
+       x2="51"
+       y2="15"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="translate(-7,0.5)" />
+    <linearGradient
+       id="linearGradient3"
+       inkscape:collect="always">
+      <stop
+         style="stop-color:#454545;stop-opacity:1;"
+         offset="0"
+         id="stop3" />
+      <stop
+         style="stop-color:#202020;stop-opacity:1;"
+         offset="1"
+         id="stop4" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient6"
+       id="linearGradient33374-3"
+       x1="63.535721"
+       y1="451.50504"
+       x2="63.535721"
+       y2="443.50504"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient6">
+      <stop
+         style="stop-color:#f41f3e;stop-opacity:1;"
+         offset="0"
+         id="stop5" />
+      <stop
+         style="stop-color:#fc3955;stop-opacity:1;"
+         offset="1"
+         id="stop6" />
+    </linearGradient>
+  </defs>
+  <sodipodi:namedview
+     id="namedview3"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="18.28125"
+     inkscape:cx="5.9897436"
+     inkscape:cy="13.073504"
+     inkscape:window-width="2560"
+     inkscape:window-height="1356"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg3" />
+  <style
+     type="text/css"
+     id="current-color-scheme">
+        .ColorScheme-Text {
+            color:#232629;
+        }
+        .ColorScheme-NegativeText {
+            color:#da4453;
+        }
+    </style>
+  <g
+     id="g3"
+     transform="translate(-25,-6.00041)">
+    <path
+       id="rect861-8-27-3-9-6-7-0-5-2-3"
+       style="fill:#15151a;fill-opacity:1;stroke:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:fill markers stroke"
+       d="m 30,13 c -1.107999,0 -2,0.892 -2,2 v 14 c 0,1.108 0.892001,2 2,2 h 19 c 1.107999,0 2,-0.892 2,-2 v -2 h 1 c 1.107999,0 2,-0.892 2,-2 v -6 c 0,-1.108 -0.892001,-2 -2,-2 h -1 v -2 c 0,-1.108 -0.892001,-2 -2,-2 z"
+       sodipodi:nodetypes="sssssscsssscsss" />
+    <path
+       id="rect2-5"
+       style="fill:url(#linearGradient2);fill-opacity:1;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;paint-order:stroke fill markers"
+       d="m 30,14 c -0.553999,0 -1,0.446 -1,1 v 14 c 0,0.554 0.446001,1 1,1 h 19 c 0.553999,0 1,-0.446 1,-1 v -3 h 1.998047 C 52.553007,26 53,25.55301 53,24.99805 v -5.9961 C 53,18.44699 52.553007,18 51.998047,18 H 50 v -3 c 0,-0.554 -0.446001,-1 -1,-1 z"
+       sodipodi:nodetypes="sssssscsssscsss" />
+    <path
+       id="rect3-62"
+       style="fill:url(#linearGradient4);stroke-width:2;stroke-linecap:round;stroke-linejoin:round;paint-order:stroke fill markers"
+       d="m 30,15 v 14 h 19 v -4 h 3 v -6 h -3 v -4 z"
+       sodipodi:nodetypes="ccccccccc" />
+    <g
+       id="path33222-9"
+       transform="translate(-28.404317,-421.50586)">
+      <path
+         style="color:#000000;fill:#cc0120;fill-opacity:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:1.8;paint-order:fill markers stroke"
+         d="m 64.403733,438.50668 c -0.334344,3e-5 -0.646559,0.16713 -0.832031,0.44531 l -6.868577,11.99918 c -0.442845,0.66455 0.03344,1.55452 0.832031,1.55469 l 13.868577,8.2e-4 c 0.798589,-1.7e-4 1.274876,-0.89014 0.832031,-1.55469 l -7,-12 c -0.185472,-0.27818 -0.497687,-0.44528 -0.832031,-0.44531 z m -0.868577,5.80191 5.999437,6.19809 -10.130296,-8.2e-4 z"
+         id="path33228-1"
+         sodipodi:nodetypes="cccccccccccc" />
+      <path
+         style="color:#000000;fill:url(#linearGradient33374-3);fill-opacity:1;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:1.8;paint-order:fill markers stroke"
+         d="m 57.53572,451.50504 13.868577,8.2e-4 -7,-12 z"
+         id="path33226-2"
+         sodipodi:nodetypes="cccc" />
+    </g>
+    <path
+       id="rect34256-7-1"
+       style="fill:#cc0120;fill-opacity:1;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:1.8;paint-order:fill markers stroke;stop-color:#000000"
+       d="m 36,23 c -0.553998,0 -1,0.446011 -1,1 v 2 c 0,0.553999 0.446002,1 1,1 0.553999,0 1,-0.446001 1,-1 v -2 c 0,-0.553989 -0.446001,-1 -1,-1 z m 0,5 c -0.553999,0 -1,0.446001 -1,1 0,0.553999 0.446001,1 1,1 0.553999,0 1,-0.446001 1,-1 0,-0.553999 -0.446001,-1 -1,-1 z" />
+    <path
+       id="rect34256-7"
+       style="fill:#fddde2;fill-opacity:1;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:1.8;paint-order:fill markers stroke;stop-color:#000000"
+       d="m 36,22 c -0.553998,0 -1,0.446011 -1,1 v 2 c 0,0.553999 0.446002,1 1,1 0.553999,0 1,-0.446001 1,-1 v -2 c 0,-0.553989 -0.446001,-1 -1,-1 z m 0,5 c -0.553999,0 -1,0.446001 -1,1 0,0.553999 0.446001,1 1,1 0.553999,0 1,-0.446001 1,-1 0,-0.553999 -0.446001,-1 -1,-1 z" />
+  </g>
+</svg>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg width="24" height="24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+	<defs>
+		<style id="current-color-scheme" type="text/css">.ColorScheme-Text {color:#090d11;}.ColorScheme-Background{color:#ffffff;}</style>
+	</defs>
+	<metadata>
+		<rdf:RDF>
+			<cc:Work rdf:about="">
+				<dc:format>image/svg+xml</dc:format>
+				<dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+			</cc:Work>
+		</rdf:RDF>
+	</metadata>
+	<path id="d" class="ColorScheme-Text" d="m12 3c-4.9706-3.53e-5 -9 4.0294-9 9-3.53e-5 4.9706 4.0294 9 9 9 4.9706 3.5e-5 9-4.0294 9-9 3.5e-5 -4.9706-4.0294-9-9-9zm1 1.8516-0.01758 6.834 6.166 1.3145-7.3477-0.01953-0.78125-1.1797z" style="fill-opacity:.75;fill:currentColor"/>
+</svg>

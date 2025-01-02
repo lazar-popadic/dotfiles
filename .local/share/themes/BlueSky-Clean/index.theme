@@ -1,0 +1,10 @@
+[X-GNOME-Metatheme]
+Name=BlueSky-Clean
+Type=X-GNOME-Metatheme
+Comment= BlueSky Clean Gtk Themes 
+Encoding=UTF-8
+GtkTheme=BlueSky-Clean
+MetacityTheme=BlueSky-Clean
+IconTheme=Papirus
+CursorTheme=Adwaita
+CursorSize=24
