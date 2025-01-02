@@ -17,13 +17,15 @@ char black[8] = "#000000";
 char white[8] = "#ffffff";
 char grudzien[8] = "#2e6983";
 char c_sands[8] = "#9a9d94";
-char dopesmoker_blue[8] = "#00324d";
-char converging_grey[8] = "#242424";
+char dopesmoker_blue[8]		= "#00324d";
+char converging_grey[8]		= "#242424";
+char adumbration_yellow[8]	= "#e4a95f";
+char adumbration_red[8]       	= "#c72028";
 static const char *colors[SchemeLast][2] = {
 	/*		    	fg			bg    */
-	[SchemeNorm] = { 	white,			converging_grey },
-	[SchemeSel]  = { 	converging_grey, 	white },
-	[SchemeOut]  = { 	converging_grey, 	white },
+	[SchemeNorm] = { 	adumbration_yellow,			black },
+	[SchemeSel]  = { 	black, 	adumbration_yellow },
+	[SchemeOut]  = { 	black, 	adumbration_yellow },
 };
 
 static const unsigned int alphas[SchemeLast][2] = {
