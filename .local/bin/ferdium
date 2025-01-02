@@ -1,0 +1,2 @@
+#!/bin/sh
+dbus-launch flatpak run org.ferdium.Ferdium
