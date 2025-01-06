@@ -7,14 +7,14 @@ Notice: Location: 45.20 N, 19.70 E
 Notice: Color temperature: 6500K
 Notice: Brightness: 1.00
 Notice: Status: Enabled
-Notice: Period: Night
-Notice: Color temperature: 3600K
+Notice: Period: Daytime
+Notice: Color temperature: 5700K
 WARNING: Could not find theme AdwaitaLegacy
 F: Can't get document portal: GDBus.Error:org.freedesktop.portal.Error.Failed: Can't mount path /run/user/1000/doc
 
-(nitrogen:1455): Gtk-WARNING **: 19:22:59.619: Unable to locate theme engine in module_path: "adwaita",
+(nitrogen:964): Gtk-WARNING **: 14:56:34.804: Unable to locate theme engine in module_path: "adwaita",
 
-(nitrogen:1455): Gtk-WARNING **: 19:22:59.619: Unable to locate theme engine in module_path: "adwaita",
+(nitrogen:964): Gtk-WARNING **: 14:56:34.804: Unable to locate theme engine in module_path: "adwaita",
 Connection error
 
 Connection error
@@ -25,47 +25,2856 @@ Connection error
 Connection error
 
 
-(copyq:1469): Gtk-WARNING **: 19:22:59.726: Unable to locate theme engine in module_path: "adwaita",
+(copyq:981): Gtk-WARNING **: 14:56:34.903: Unable to locate theme engine in module_path: "adwaita",
 
-(copyq:1469): Gtk-WARNING **: 19:22:59.727: Unable to locate theme engine in module_path: "adwaita",
+(copyq:981): Gtk-WARNING **: 14:56:34.903: Unable to locate theme engine in module_path: "adwaita",
 
-(nitrogen:1455): Gtk-WARNING **: 19:22:59.840: Unable to locate theme engine in module_path: "adwaita",
+(nitrogen:964): Gtk-WARNING **: 14:56:34.996: Unable to locate theme engine in module_path: "adwaita",
 
-(nitrogen:1455): Gtk-WARNING **: 19:22:59.841: Unable to locate theme engine in module_path: "adwaita",
+(nitrogen:964): Gtk-WARNING **: 14:56:34.996: Unable to locate theme engine in module_path: "adwaita",
 
-(nitrogen:1455): GLib-GObject-CRITICAL **: 19:22:59.849: Attempting to freeze the notification queue for object GtkSettings[0x561a4cbd37e0]; Property notification does not work during instance finalization.
+(nitrogen:964): GLib-GObject-CRITICAL **: 14:56:35.004: Attempting to freeze the notification queue for object GtkSettings[0x559a5b2d4200]; Property notification does not work during instance finalization.
 
-(nitrogen:1455): GLib-GObject-CRITICAL **: 19:22:59.849: Attempting to thaw the notification queue for object GtkSettings[0x561a4cbd37e0]; Property notification does not work during instance finalization.
+(nitrogen:964): GLib-GObject-CRITICAL **: 14:56:35.005: Attempting to thaw the notification queue for object GtkSettings[0x559a5b2d4200]; Property notification does not work during instance finalization.
+New PolkitAgentListener  0x55681b4295a0
+Adding new listener  PolkitQt1::Agent::Listener(0x7ffff05bb620) for  0x55681b4295a0
 Warning: [default] QtWarning: QSystemTrayIcon::setVisible: No Icon set
-New PolkitAgentListener  0x561847b49690
-Adding new listener  PolkitQt1::Agent::Listener(0x7ffc8e6c74f0) for  0x561847b49690
 Warning: [qt.qpa.xcb] QtWarning: Unhandled client message:  "_NET_SYSTEM_TRAY_S0"
-[2:0102/192300.532800:ERROR:bus.cc(407)] Failed to connect to the bus: Failed to connect to socket /run/dbus/system_bus_socket: No such file or directory
-N 19:23:01.138914 wp-internal-comp-l ../lib/wp/private/internal-comp-loader.c:945:wp_internal_comp_loader_load: Loading profile 'main'
-N 19:23:01.346835 wp-internal-comp-l ../lib/wp/private/internal-comp-loader.c:589:on_component_loaded: <WpCore:0x5621448640d0> optional component 'support.logind [module: libwireplumber-module-logind]' failed to load: Failed to locate module libwireplumber-module-logind
-N 19:23:01.346905 wp-internal-comp-l ../lib/wp/private/internal-comp-loader.c:641:wp_component_array_load_task_execute_step: <WpCore:0x5621448640d0> skipping component 'monitor.bluez.seat-monitoring [virtual]' because some of its dependencies were not loaded
-N 19:23:01.348231          wp-device ../lib/wp/device.c:630:wp_spa_device_new_from_spa_factory: SPA handle 'api.bluez5.enum.dbus' could not be loaded; is it installed?
-N 19:23:01.348265         s-monitors bluez.lua:386:createMonitor: PipeWire's BlueZ SPA plugin is missing or broken. Bluetooth devices will not be supported.
-N 19:23:01.349410          wp-device ../lib/wp/device.c:630:wp_spa_device_new_from_spa_factory: SPA handle 'api.bluez5.midi.enum' could not be loaded; is it installed?
-N 19:23:01.349448         s-monitors bluez-midi.lua:95:createMonitor: PipeWire's BlueZ MIDI SPA missing or broken. Bluetooth not supported.
-E 19:23:01.349567        pw.resource ../src/pipewire/resource.c:255:pw_resource_errorf_id: can't create node: No such file or directory
-W 19:23:01.349573            wp-node ../lib/wp/node.c:913:wp_impl_node_new_from_pw_factory: failed to create node from factory 'spa-node-factory'
-N 19:23:01.349580         s-monitors bluez-midi.lua:130:createServers: Failed to create BLE MIDI server.
-[0:00:43.442428385] [1782] [1;32m INFO [1;37mCamera [1;34mcamera_manager.cpp:325 [0mlibcamera v0.3.2
-[2:0102/192301.682027:ERROR:bus.cc(407)] Failed to connect to the bus: Failed to connect to socket /run/dbus/system_bus_socket: No such file or directory
-[2:0102/192301.682115:ERROR:bus.cc(407)] Failed to connect to the bus: Failed to connect to socket /run/dbus/system_bus_socket: No such file or directory
+[2:0106/145635.547605:ERROR:bus.cc(407)] Failed to connect to the bus: Failed to connect to socket /run/dbus/system_bus_socket: No such file or directory
+N 14:56:36.352955 wp-internal-comp-l ../lib/wp/private/internal-comp-loader.c:945:wp_internal_comp_loader_load: Loading profile 'main'
+N 14:56:36.529505 wp-internal-comp-l ../lib/wp/private/internal-comp-loader.c:589:on_component_loaded: <WpCore:0x55571de370d0> optional component 'support.logind [module: libwireplumber-module-logind]' failed to load: Failed to locate module libwireplumber-module-logind
+N 14:56:36.529531 wp-internal-comp-l ../lib/wp/private/internal-comp-loader.c:641:wp_component_array_load_task_execute_step: <WpCore:0x55571de370d0> skipping component 'monitor.bluez.seat-monitoring [virtual]' because some of its dependencies were not loaded
+N 14:56:36.530400          wp-device ../lib/wp/device.c:630:wp_spa_device_new_from_spa_factory: SPA handle 'api.bluez5.enum.dbus' could not be loaded; is it installed?
+N 14:56:36.530423         s-monitors bluez.lua:386:createMonitor: PipeWire's BlueZ SPA plugin is missing or broken. Bluetooth devices will not be supported.
+N 14:56:36.531003          wp-device ../lib/wp/device.c:630:wp_spa_device_new_from_spa_factory: SPA handle 'api.bluez5.midi.enum' could not be loaded; is it installed?
+N 14:56:36.531033         s-monitors bluez-midi.lua:95:createMonitor: PipeWire's BlueZ MIDI SPA missing or broken. Bluetooth not supported.
+E 14:56:36.531098        pw.resource ../src/pipewire/resource.c:255:pw_resource_errorf_id: can't create node: No such file or directory
+W 14:56:36.531114            wp-node ../lib/wp/node.c:913:wp_impl_node_new_from_pw_factory: failed to create node from factory 'spa-node-factory'
+N 14:56:36.531120         s-monitors bluez-midi.lua:130:createServers: Failed to create BLE MIDI server.
+[2:0106/145636.629762:ERROR:bus.cc(407)] Failed to connect to the bus: Failed to connect to socket /run/dbus/system_bus_socket: No such file or directory
+[2:0106/145636.629861:ERROR:bus.cc(407)] Failed to connect to the bus: Failed to connect to socket /run/dbus/system_bus_socket: No such file or directory
+[0:00:13.635072333] [1300] [1;32m INFO [1;37mCamera [1;34mcamera_manager.cpp:325 [0mlibcamera v0.3.2
 LaunchProcess: failed to execvp:
 xdg-settings
-[2:0102/192304.076063:ERROR:bus.cc(407)] Failed to connect to the bus: Failed to connect to socket /run/dbus/system_bus_socket: No such file or directory
-[2:0102/192304.076124:ERROR:bus.cc(407)] Failed to connect to the bus: Failed to connect to socket /run/dbus/system_bus_socket: No such file or directory
-[2:0102/192304.076148:ERROR:bus.cc(407)] Failed to connect to the bus: Failed to connect to socket /run/dbus/system_bus_socket: No such file or directory
+[2:0106/145639.078119:ERROR:bus.cc(407)] Failed to connect to the bus: Failed to connect to socket /run/dbus/system_bus_socket: No such file or directory
+[2:0106/145639.078212:ERROR:bus.cc(407)] Failed to connect to the bus: Failed to connect to socket /run/dbus/system_bus_socket: No such file or directory
+[2:0106/145639.078255:ERROR:bus.cc(407)] Failed to connect to the bus: Failed to connect to socket /run/dbus/system_bus_socket: No such file or directory
 [MobX] Since strict-mode is enabled, changing (observed) observable values without using an action is not allowed. Tried to modify: Settings@13.store
-(node:87) MaxListenersExceededWarning: Possible EventEmitter memory leak detected. 11 select-capture-device:ecdbc6e1-a5ad-4ee4-9d20-f142ef0b0b3a listeners added to [IpcRenderer]. MaxListeners is 10. Use emitter.setMaxListeners() to increase limit
-(Use `exe --trace-warnings ...` to show where the warning was created)
+[54:0106/145656.880059:ERROR:simple_file_enumerator.cc(58)] Could not get file info for /home/lazar/.var/app/org.ferdium.Ferdium/config/Ferdium/Partitions/service-78a3fa20-eca9-41e5-bb3a-c640e03ece2f/Cache/Cache_Data/todelete_ac5b9d265f524512_0_1
+F: Can't get document portal: GDBus.Error:org.freedesktop.DBus.Error.NoReply: Message recipient disconnected from message bus without replying
+Gtk-Message: 14:57:01.766: Failed to load module "gtk-dark-theme"
+Gtk-Message: 14:57:01.766: Failed to load module "gtk-dark-theme"
+Gtk-Message: 14:57:02.638: Failed to load module "gtk-dark-theme"
+Gtk-Message: 14:57:02.638: Failed to load module "gtk-dark-theme"
+[2:2:0106/145702.895121:ERROR:object_proxy.cc(576)] Failed to call method: org.kde.KWallet.isEnabled: object_path= /modules/kwalletd6: org.freedesktop.DBus.Error.ServiceUnknown: The name org.kde.kwalletd6 was not provided by any .service files
+[2:2:0106/145702.896979:ERROR:kwallet_dbus.cc(117)] Error contacting kwalletd6 (isEnabled)
+[2:2:0106/145702.898621:ERROR:object_proxy.cc(576)] Failed to call method: org.kde.KLauncher.start_service_by_desktop_name: object_path= /KLauncher: org.freedesktop.DBus.Error.ServiceUnknown: org.freedesktop.DBus.Error.ServiceUnknown
+[2:2:0106/145702.898658:ERROR:kwallet_dbus.cc(86)] Error contacting klauncher to start kwalletd6
+[2:2:0106/145702.899253:ERROR:object_proxy.cc(576)] Failed to call method: org.kde.KWallet.close: object_path= /modules/kwalletd6: org.freedesktop.DBus.Error.ServiceUnknown: The name org.kde.kwalletd6 was not provided by any .service files
+[2:2:0106/145702.899281:ERROR:kwallet_dbus.cc(412)] Error contacting kwalletd6 (close)
+[2:2:0106/145702.908250:ERROR:object_proxy.cc(576)] Failed to call method: org.kde.KWallet.isEnabled: object_path= /modules/kwalletd5: org.freedesktop.DBus.Error.ServiceUnknown: org.freedesktop.DBus.Error.ServiceUnknown
+[2:2:0106/145702.908284:ERROR:kwallet_dbus.cc(117)] Error contacting kwalletd5 (isEnabled)
+[2:2:0106/145702.908675:ERROR:object_proxy.cc(576)] Failed to call method: org.kde.KLauncher.start_service_by_desktop_name: object_path= /KLauncher: org.freedesktop.DBus.Error.ServiceUnknown: org.freedesktop.DBus.Error.ServiceUnknown
+[2:2:0106/145702.908698:ERROR:kwallet_dbus.cc(86)] Error contacting klauncher to start kwalletd5
+[2:2:0106/145702.908979:ERROR:object_proxy.cc(576)] Failed to call method: org.kde.KWallet.close: object_path= /modules/kwalletd5: org.freedesktop.DBus.Error.ServiceUnknown: org.freedesktop.DBus.Error.ServiceUnknown
+[2:2:0106/145702.908996:ERROR:kwallet_dbus.cc(412)] Error contacting kwalletd5 (close)
+[2:2:0106/145702.915652:ERROR:object_proxy.cc(576)] Failed to call method: org.kde.KWallet.isEnabled: object_path= /modules/kwalletd: org.freedesktop.DBus.Error.ServiceUnknown: org.freedesktop.DBus.Error.ServiceUnknown
+[2:2:0106/145702.915691:ERROR:kwallet_dbus.cc(117)] Error contacting kwalletd (isEnabled)
+[2:2:0106/145702.917771:ERROR:object_proxy.cc(576)] Failed to call method: org.kde.KLauncher.start_service_by_desktop_name: object_path= /KLauncher: org.freedesktop.DBus.Error.ServiceUnknown: org.freedesktop.DBus.Error.ServiceUnknown
+[2:2:0106/145702.917824:ERROR:kwallet_dbus.cc(86)] Error contacting klauncher to start kwalletd
+[2:2:0106/145702.918895:ERROR:object_proxy.cc(576)] Failed to call method: org.kde.KWallet.close: object_path= /modules/kwalletd: org.freedesktop.DBus.Error.ServiceUnknown: org.freedesktop.DBus.Error.ServiceUnknown
+[2:2:0106/145702.918927:ERROR:kwallet_dbus.cc(412)] Error contacting kwalletd (close)
+[2:167:0106/145703.415076:ERROR:object_proxy.cc(576)] Failed to call method: org.freedesktop.DBus.Properties.Get: object_path= /org/freedesktop/UPower: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.UPower was not provided by any .service files
+[2:167:0106/145703.415457:ERROR:object_proxy.cc(576)] Failed to call method: org.freedesktop.UPower.GetDisplayDevice: object_path= /org/freedesktop/UPower: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.UPower was not provided by any .service files
+[2:2:0106/145703.415718:ERROR:object_proxy.cc(576)] Failed to call method: org.freedesktop.portal.Secret.RetrieveSecret: object_path= /org/freedesktop/portal/desktop: org.freedesktop.DBus.Error.UnknownMethod: No such interface “org.freedesktop.portal.Secret” on object at path /org/freedesktop/portal/desktop
+[2:2:0106/145703.415729:ERROR:secret_portal_key_provider.cc(150)] Failed to retrieve secret: No response from portal.
+[2:167:0106/145703.415787:ERROR:object_proxy.cc(576)] Failed to call method: org.freedesktop.UPower.EnumerateDevices: object_path= /org/freedesktop/UPower: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.UPower was not provided by any .service files
+[2:2:0106/145703.910706:ERROR:sharing_service.cc(296)] Device registration failed with fatal error
+[2:2:0106/145713.907689:ERROR:interface_endpoint_client.cc(725)] Message 1 rejected by interface blink.mojom.WidgetHost
+[2:36:0106/145746.615947:ERROR:get_updates_processor.cc(267)] PostClientToServerMessage() failed during GetUpdates with error Network error (ERR_INTERNET_DISCONNECTED)
+[2:36:0106/145914.059491:ERROR:get_updates_processor.cc(267)] PostClientToServerMessage() failed during GetUpdates with error Network error (ERR_NETWORK_CHANGED)
+[2:37:0106/145916.065345:ERROR:get_updates_processor.cc(267)] PostClientToServerMessage() failed during GetUpdates with error Network error (ERR_NAME_NOT_RESOLVED)
+[2:38:0106/145921.645527:ERROR:get_updates_processor.cc(267)] PostClientToServerMessage() failed during GetUpdates with error Network error (ERR_NETWORK_CHANGED)
+erresc: unknown csi ESC[?2026$p
+erresc: unknown csi ESC[4:3m
+erresc: unknown csi ESC[>4;2m
+erresc: unknown csi ESC[?1001r
+erresc: unknown csi ESC[>4;0m
 erresc: unknown csi ESC[?2026$p
 erresc: unknown csi ESC[4:3m
 erresc: unknown csi ESC[>4;2m
 erresc: unknown csi ESC[>4;0m
+erresc: unknown csi ESC[?2026$p
+erresc: unknown csi ESC[4:3m
+erresc: unknown csi ESC[>4;2m
+erresc: unknown csi ESC[>4;0m
+erresc: unknown csi ESC[?2026$p
+erresc: unknown csi ESC[4:3m
+erresc: unknown csi ESC[>4;2m
+erresc: unknown csi ESC[>4;0m
+erresc: unknown str ESC]8
+erresc: unknown str ESC]8
+erresc: unknown csi ESC[?2026$p
+erresc: unknown csi ESC[4:3m
+erresc: unknown csi ESC[>4;2m
+erresc: unknown csi ESC[>4;0m
+erresc: unknown str ESC]8
+erresc: unknown str ESC]8
+Crashing due to FD ownership violation:
+#0 0x555ad8dc666a <unknown>
+#1 0x555ad8dbf56c <unknown>
+#2 0x555ad8dbf527 close
+#3 0x7fb4efb58326 pa_close
+#4 0x7fb4efb58719 pa_close_allv
+#5 0x7fb4efb61201 pa_close_all
+#6 0x7fb4efbc1ca8 <unknown>
+#7 0x7fb4efbc2835 <unknown>
+#8 0x7fb4efbc2ea8 pa_context_connect
+#9 0x7fb4ef92cd27 pulse_connect
+#10 0x7fb4ef92c5be _snd_pcm_pulse_open
+#11 0x7fb4f441e0ba <unknown>
+#12 0x7fb4f441e726 <unknown>
+#13 0x7fb4f44217bf snd_pcm_open
+#14 0x555ad5e69152 <unknown>
+#15 0x555ad5e69ef9 <unknown>
+#16 0x555ad5e65d42 <unknown>
+#17 0x555ad5e6587b <unknown>
+#18 0x555ad5e5b5e3 <unknown>
+#19 0x555ad5e5b4c1 <unknown>
+#20 0x555ad5e5d304 <unknown>
+#21 0x555ad5e5cbcc <unknown>
+#22 0x555ad820d8bb <unknown>
+#23 0x555ad820d13c <unknown>
+#24 0x555ad81f9c68 <unknown>
+#25 0x555ad81f97e4 <unknown>
+#26 0x555ad81fc647 <unknown>
+#27 0x555ad8201bcd <unknown>
+#28 0x555ad820184b <unknown>
+#29 0x555ad5e1e5c7 <unknown>
+#30 0x555ad8204eab <unknown>
+#31 0x555ad90d58db <unknown>
+#32 0x555ad90dc7d7 <unknown>
+#33 0x555ad90d70db <unknown>
+#34 0x555ad90e654f <unknown>
+#35 0x555ad90e5bf8 <unknown>
+#36 0x555ad90dc80e <unknown>
+#37 0x555ad90d3059 <unknown>
+#38 0x555ad51c9d8f <unknown>
+#39 0x555ad90fc58c <unknown>
+#40 0x555ad8d695ff <unknown>
+#41 0x555ad8d8a062 <unknown>
+#42 0x555ad8d22127 <unknown>
+#43 0x555ad8d8a7e1 <unknown>
+#44 0x555ad8d49f0e <unknown>
+#45 0x555ad86be6e8 <unknown>
+#46 0x555ad54e77f0 <unknown>
+#47 0x555ad54e88b6 <unknown>
+#48 0x555ad54e654a <unknown>
+#49 0x555ad54e6630 <unknown>
+#50 0x555ad5193017 <unknown>
+#51 0x7fb4f40b308a <unknown>
+#52 0x7fb4f40b314b __libc_start_main
+#53 0x555ad4d6f02a _start
+ALSA lib ../../pulse/pulse.c:242:(pulse_connect) PulseAudio: Unable to connect: Connection refused
+
+[294:0106/154438.937256:ERROR:alsa_util.cc(204)] PcmOpen: default,Connection refused
+Crashing due to FD ownership violation:
+
+(ferdium:2): libnotify-WARNING **: 15:44:38.939: Running in confined mode, using Portal notifications. Some features and hints won't be supported
+#0 0x555ad8dc666a <unknown>
+#1 0x555ad8dbf56c <unknown>
+#2 0x555ad8dbf527 close
+#3 0x7fb4efb58326 pa_close
+#4 0x7fb4efb58719 pa_close_allv
+#5 0x7fb4efb61201 pa_close_all
+#6 0x7fb4efbc1ca8 <unknown>
+#7 0x7fb4efbc2835 <unknown>
+#8 0x7fb4efbc2ea8 pa_context_connect
+#9 0x7fb4ef92cd27 pulse_connect
+#10 0x7fb4ef92c5be _snd_pcm_pulse_open
+#11 0x7fb4f441e0ba <unknown>
+#12 0x7fb4f441e726 <unknown>
+#13 0x7fb4f4421cd4 <unknown>
+#14 0x7fb4f4448327 _snd_pcm_plug_open
+#15 0x7fb4f441e0ba <unknown>
+#16 0x7fb4f441e726 <unknown>
+#17 0x7fb4f44217bf snd_pcm_open
+#18 0x555ad5e69152 <unknown>
+#19 0x555ad5e69ef9 <unknown>
+#20 0x555ad5e65e99 <unknown>
+#21 0x555ad5e6587b <unknown>
+#22 0x555ad5e5b5e3 <unknown>
+#23 0x555ad5e5b4c1 <unknown>
+#24 0x555ad5e5d304 <unknown>
+#25 0x555ad5e5cbcc <unknown>
+#26 0x555ad820d8bb <unknown>
+#27 0x555ad820d13c <unknown>
+#28 0x555ad81f9c68 <unknown>
+#29 0x555ad81f97e4 <unknown>
+#30 0x555ad81fc647 <unknown>
+#31 0x555ad8201bcd <unknown>
+#32 0x555ad820184b <unknown>
+#33 0x555ad5e1e5c7 <unknown>
+#34 0x555ad8204eab <unknown>
+#35 0x555ad90d58db <unknown>
+#36 0x555ad90dc7d7 <unknown>
+#37 0x555ad90d70db <unknown>
+#38 0x555ad90e654f <unknown>
+#39 0x555ad90e5bf8 <unknown>
+#40 0x555ad90dc80e <unknown>
+#41 0x555ad90d3059 <unknown>
+#42 0x555ad51c9d8f <unknown>
+#43 0x555ad90fc58c <unknown>
+#44 0x555ad8d695ff <unknown>
+#45 0x555ad8d8a062 <unknown>
+#46 0x555ad8d22127 <unknown>
+#47 0x555ad8d8a7e1 <unknown>
+#48 0x555ad8d49f0e <unknown>
+#49 0x555ad86be6e8 <unknown>
+#50 0x555ad54e77f0 <unknown>
+#51 0x555ad54e88b6 <unknown>
+#52 0x555ad54e654a <unknown>
+#53 0x555ad54e6630 <unknown>
+#54 0x555ad5193017 <unknown>
+#55 0x7fb4f40b308a <unknown>
+#56 0x7fb4f40b314b __libc_start_main
+#57 0x555ad4d6f02a _start
+ALSA lib ../../pulse/pulse.c:242:(pulse_connect) PulseAudio: Unable to connect: Connection refused
+
+[294:0106/154438.992042:ERROR:alsa_util.cc(204)] PcmOpen: plug:default,Connection refused
+erresc: unknown csi ESC[?2026$p
+erresc: unknown csi ESC[4:3m
+erresc: unknown csi ESC[>4;2m
+erresc: unknown csi ESC[>4;0m
+erresc: unknown str ESC]8
+erresc: unknown str ESC]8
+erresc: unknown csi ESC[?2026$p
+erresc: unknown csi ESC[4:3m
+erresc: unknown csi ESC[>4;2m
+erresc: unknown csi ESC[>4;0m
+erresc: unknown csi ESC[?2026$p
+erresc: unknown csi ESC[4:3m
+erresc: unknown csi ESC[>4;2m
+erresc: unknown csi ESC[>4;0m
+erresc: unknown csi ESC[?2026$p
+erresc: unknown csi ESC[4:3m
+erresc: unknown csi ESC[>4;2m
+erresc: unknown csi ESC[>4;0m
+erresc: unknown str ESC]8
+erresc: unknown str ESC]8
+erresc: unknown csi ESC[?2026$p
+erresc: unknown csi ESC[4:3m
+erresc: unknown csi ESC[>4;2m
+erresc: unknown csi ESC[>4;0m
+erresc: unknown csi ESC[?2026$p
+erresc: unknown csi ESC[4:3m
+erresc: unknown csi ESC[>4;2m
+Crashing due to FD ownership violation:
+#0 0x555ad8dc666a <unknown>
+#1 0x555ad8dbf56c <unknown>
+#2 0x555ad8dbf527 close
+#3 0x7fb4efb58326 pa_close
+#4 0x7fb4efb58719 pa_close_allv
+#5 0x7fb4efb61201 pa_close_all
+#6 0x7fb4efbc1ca8 <unknown>
+#7 0x7fb4efbc2835 <unknown>
+#8 0x7fb4efbc2ea8 pa_context_connect
+#9 0x7fb4ef92cd27 pulse_connect
+#10 0x7fb4ef92c5be _snd_pcm_pulse_open
+#11 0x7fb4f441e0ba <unknown>
+#12 0x7fb4f441e726 <unknown>
+#13 0x7fb4f44217bf snd_pcm_open
+#14 0x555ad5e69152 <unknown>
+#15 0x555ad5e69ef9 <unknown>
+#16 0x555ad5e65d42 <unknown>
+#17 0x555ad5e6587b <unknown>
+#18 0x555ad5e5b5e3 <unknown>
+#19 0x555ad5e5b4c1 <unknown>
+#20 0x555ad5e5d304 <unknown>
+#21 0x555ad5e5cbcc <unknown>
+#22 0x555ad820d8bb <unknown>
+#23 0x555ad820d13c <unknown>
+#24 0x555ad81f9c68 <unknown>
+#25 0x555ad81f97e4 <unknown>
+#26 0x555ad81fc647 <unknown>
+#27 0x555ad8201bcd <unknown>
+#28 0x555ad820184b <unknown>
+#29 0x555ad5e1e5c7 <unknown>
+#30 0x555ad8204eab <unknown>
+#31 0x555ad90d58db <unknown>
+#32 0x555ad90dc7d7 <unknown>
+#33 0x555ad90d70db <unknown>
+#34 0x555ad90e654f <unknown>
+#35 0x555ad90e5bf8 <unknown>
+#36 0x555ad90dc80e <unknown>
+#37 0x555ad90d3059 <unknown>
+#38 0x555ad51c9d8f <unknown>
+#39 0x555ad90fc58c <unknown>
+#40 0x555ad8d695ff <unknown>
+#41 0x555ad8d8a062 <unknown>
+#42 0x555ad8d22127 <unknown>
+#43 0x555ad8d8a7e1 <unknown>
+#44 0x555ad8d49f0e <unknown>
+#45 0x555ad86be6e8 <unknown>
+#46 0x555ad54e77f0 <unknown>
+#47 0x555ad54e88b6 <unknown>
+#48 0x555ad54e654a <unknown>
+#49 0x555ad54e6630 <unknown>
+#50 0x555ad5193017 <unknown>
+#51 0x7fb4f40b308a <unknown>
+#52 0x7fb4f40b314b __libc_start_main
+#53 0x555ad4d6f02a _start
+ALSA lib ../../pulse/pulse.c:242:(pulse_connect) PulseAudio: Unable to connect: Connection refused
+
+[294:0106/154804.502962:ERROR:alsa_util.cc(204)] PcmOpen: default,Connection refused
+Crashing due to FD ownership violation:
+#0 0x555ad8dc666a <unknown>
+#1 0x555ad8dbf56c <unknown>
+#2 0x555ad8dbf527 close
+#3 0x7fb4efb58326 pa_close
+#4 0x7fb4efb58719 pa_close_allv
+#5 0x7fb4efb61201 pa_close_all
+#6 0x7fb4efbc1ca8 <unknown>
+#7 0x7fb4efbc2835 <unknown>
+#8 0x7fb4efbc2ea8 pa_context_connect
+#9 0x7fb4ef92cd27 pulse_connect
+#10 0x7fb4ef92c5be _snd_pcm_pulse_open
+#11 0x7fb4f441e0ba <unknown>
+#12 0x7fb4f441e726 <unknown>
+#13 0x7fb4f4421cd4 <unknown>
+#14 0x7fb4f4448327 _snd_pcm_plug_open
+#15 0x7fb4f441e0ba <unknown>
+#16 0x7fb4f441e726 <unknown>
+#17 0x7fb4f44217bf snd_pcm_open
+#18 0x555ad5e69152 <unknown>
+#19 0x555ad5e69ef9 <unknown>
+#20 0x555ad5e65e99 <unknown>
+#21 0x555ad5e6587b <unknown>
+#22 0x555ad5e5b5e3 <unknown>
+#23 0x555ad5e5b4c1 <unknown>
+#24 0x555ad5e5d304 <unknown>
+#25 0x555ad5e5cbcc <unknown>
+#26 0x555ad820d8bb <unknown>
+#27 0x555ad820d13c <unknown>
+#28 0x555ad81f9c68 <unknown>
+#29 0x555ad81f97e4 <unknown>
+#30 0x555ad81fc647 <unknown>
+#31 0x555ad8201bcd <unknown>
+#32 0x555ad820184b <unknown>
+#33 0x555ad5e1e5c7 <unknown>
+#34 0x555ad8204eab <unknown>
+#35 0x555ad90d58db <unknown>
+#36 0x555ad90dc7d7 <unknown>
+#37 0x555ad90d70db <unknown>
+#38 0x555ad90e654f <unknown>
+#39 0x555ad90e5bf8 <unknown>
+#40 0x555ad90dc80e <unknown>
+#41 0x555ad90d3059 <unknown>
+#42 0x555ad51c9d8f <unknown>
+#43 0x555ad90fc58c <unknown>
+#44 0x555ad8d695ff <unknown>
+#45 0x555ad8d8a062 <unknown>
+#46 0x555ad8d22127 <unknown>
+#47 0x555ad8d8a7e1 <unknown>
+#48 0x555ad8d49f0e <unknown>
+#49 0x555ad86be6e8 <unknown>
+#50 0x555ad54e77f0 <unknown>
+#51 0x555ad54e88b6 <unknown>
+#52 0x555ad54e654a <unknown>
+#53 0x555ad54e6630 <unknown>
+#54 0x555ad5193017 <unknown>
+#55 0x7fb4f40b308a <unknown>
+#56 0x7fb4f40b314b __libc_start_main
+#57 0x555ad4d6f02a _start
+ALSA lib ../../pulse/pulse.c:242:(pulse_connect) PulseAudio: Unable to connect: Connection refused
+
+[294:0106/154804.554989:ERROR:alsa_util.cc(204)] PcmOpen: plug:default,Connection refused
+Notice: Period: Transition (Day: 99.99%)
+Notice: Color temperature: 5699K
+Notice: Period: Transition (Day: 99.86%)
+Notice: Color temperature: 5697K
+Notice: Period: Transition (Day: 99.73%)
+Notice: Color temperature: 5694K
+Notice: Period: Transition (Day: 99.60%)
+Notice: Color temperature: 5691K
+Notice: Period: Transition (Day: 99.47%)
+Notice: Color temperature: 5688K
+Notice: Period: Transition (Day: 99.33%)
+Notice: Color temperature: 5686K
+Notice: Period: Transition (Day: 99.20%)
+Notice: Color temperature: 5683K
+Notice: Period: Transition (Day: 99.07%)
+Notice: Color temperature: 5680K
+Notice: Period: Transition (Day: 98.94%)
+Notice: Color temperature: 5677K
+Notice: Period: Transition (Day: 98.81%)
+Notice: Color temperature: 5674K
+Notice: Period: Transition (Day: 98.68%)
+Notice: Color temperature: 5672K
+Notice: Period: Transition (Day: 98.54%)
+Notice: Color temperature: 5669K
+Notice: Period: Transition (Day: 98.41%)
+Notice: Color temperature: 5666K
+Notice: Period: Transition (Day: 98.28%)
+Notice: Color temperature: 5663K
+Notice: Period: Transition (Day: 98.15%)
+Notice: Color temperature: 5661K
+Notice: Period: Transition (Day: 98.02%)
+Notice: Color temperature: 5658K
+Notice: Period: Transition (Day: 97.89%)
+Notice: Color temperature: 5655K
+Notice: Period: Transition (Day: 97.75%)
+Notice: Color temperature: 5652K
+Notice: Period: Transition (Day: 97.62%)
+Notice: Color temperature: 5650K
+Notice: Period: Transition (Day: 97.49%)
+Notice: Color temperature: 5647K
+Notice: Period: Transition (Day: 97.36%)
+Notice: Color temperature: 5644K
+Notice: Period: Transition (Day: 97.23%)
+Notice: Color temperature: 5641K
+Notice: Period: Transition (Day: 97.10%)
+Notice: Color temperature: 5639K
+Notice: Period: Transition (Day: 96.96%)
+Notice: Color temperature: 5636K
+Notice: Period: Transition (Day: 96.83%)
+Notice: Color temperature: 5633K
+Notice: Period: Transition (Day: 96.70%)
+Notice: Color temperature: 5630K
+Notice: Period: Transition (Day: 96.57%)
+Notice: Color temperature: 5627K
+Notice: Period: Transition (Day: 96.44%)
+Notice: Color temperature: 5625K
+Notice: Period: Transition (Day: 96.30%)
+Notice: Color temperature: 5622K
+Notice: Period: Transition (Day: 96.17%)
+Notice: Color temperature: 5619K
+Notice: Period: Transition (Day: 96.04%)
+Notice: Color temperature: 5616K
+Notice: Period: Transition (Day: 95.91%)
+Notice: Color temperature: 5614K
+erresc: unknown csi ESC[?2026$p
+erresc: unknown csi ESC[4:3m
+erresc: unknown csi ESC[>4;2m
+Notice: Period: Transition (Day: 95.78%)
+Notice: Color temperature: 5611K
+erresc: unknown csi ESC[>4;0m
+Notice: Period: Transition (Day: 95.64%)
+Notice: Color temperature: 5608K
+erresc: unknown csi ESC[?2026$p
+erresc: unknown csi ESC[4:3m
+erresc: unknown csi ESC[>4;2m
+Notice: Period: Transition (Day: 95.51%)
+Notice: Color temperature: 5605K
+Notice: Period: Transition (Day: 95.38%)
+Notice: Color temperature: 5602K
+Notice: Period: Transition (Day: 95.25%)
+Notice: Color temperature: 5600K
+Notice: Period: Transition (Day: 95.11%)
+Notice: Color temperature: 5597K
+Notice: Period: Transition (Day: 94.98%)
+Notice: Color temperature: 5594K
+Notice: Period: Transition (Day: 94.85%)
+Notice: Color temperature: 5591K
+Notice: Period: Transition (Day: 94.72%)
+Notice: Color temperature: 5589K
+erresc: unknown csi ESC[>4;0m
+Notice: Period: Transition (Day: 94.59%)
+Notice: Color temperature: 5586K
+Notice: Period: Transition (Day: 94.45%)
+Notice: Color temperature: 5583K
+erresc: unknown csi ESC[?2026$p
+erresc: unknown csi ESC[4:3m
+erresc: unknown csi ESC[>4;2m
+Notice: Period: Transition (Day: 94.32%)
+Notice: Color temperature: 5580K
+Notice: Period: Transition (Day: 94.19%)
+Notice: Color temperature: 5577K
+erresc: unknown csi ESC[>4;0m
+Notice: Period: Transition (Day: 94.06%)
+Notice: Color temperature: 5575K
+Notice: Period: Transition (Day: 93.92%)
+Notice: Color temperature: 5572K
+Notice: Period: Transition (Day: 93.79%)
+Notice: Color temperature: 5569K
+Notice: Period: Transition (Day: 93.66%)
+Notice: Color temperature: 5566K
+Notice: Period: Transition (Day: 93.53%)
+Notice: Color temperature: 5564K
+erresc: unknown csi ESC[?2026$p
+erresc: unknown csi ESC[4:3m
+erresc: unknown csi ESC[>4;2m
+Notice: Period: Transition (Day: 93.39%)
+Notice: Color temperature: 5561K
+Notice: Period: Transition (Day: 93.26%)
+Notice: Color temperature: 5558K
+Notice: Period: Transition (Day: 93.13%)
+Notice: Color temperature: 5555K
+Notice: Period: Transition (Day: 93.00%)
+Notice: Color temperature: 5552K
+Notice: Period: Transition (Day: 92.86%)
+Notice: Color temperature: 5550K
+Notice: Period: Transition (Day: 92.73%)
+Notice: Color temperature: 5547K
+Notice: Period: Transition (Day: 92.60%)
+Notice: Color temperature: 5544K
+Notice: Period: Transition (Day: 92.46%)
+Notice: Color temperature: 5541K
+Notice: Period: Transition (Day: 92.33%)
+Notice: Color temperature: 5538K
+Notice: Period: Transition (Day: 92.20%)
+Notice: Color temperature: 5536K
+Notice: Period: Transition (Day: 92.07%)
+Notice: Color temperature: 5533K
+Notice: Period: Transition (Day: 91.93%)
+Notice: Color temperature: 5530K
+Notice: Period: Transition (Day: 91.80%)
+Notice: Color temperature: 5527K
+Notice: Period: Transition (Day: 91.67%)
+Notice: Color temperature: 5525K
+Notice: Period: Transition (Day: 91.53%)
+Notice: Color temperature: 5522K
+Notice: Period: Transition (Day: 91.40%)
+Notice: Color temperature: 5519K
+Notice: Period: Transition (Day: 91.27%)
+Notice: Color temperature: 5516K
+Notice: Period: Transition (Day: 91.14%)
+Notice: Color temperature: 5513K
+Notice: Period: Transition (Day: 91.00%)
+Notice: Color temperature: 5511K
+Notice: Period: Transition (Day: 90.87%)
+Notice: Color temperature: 5508K
+Notice: Period: Transition (Day: 90.74%)
+Notice: Color temperature: 5505K
+Notice: Period: Transition (Day: 90.60%)
+Notice: Color temperature: 5502K
+Notice: Period: Transition (Day: 90.47%)
+Notice: Color temperature: 5499K
+Notice: Period: Transition (Day: 90.34%)
+Notice: Color temperature: 5497K
+Notice: Period: Transition (Day: 90.20%)
+Notice: Color temperature: 5494K
+Notice: Period: Transition (Day: 90.07%)
+Notice: Color temperature: 5491K
+Notice: Period: Transition (Day: 89.94%)
+Notice: Color temperature: 5488K
+Notice: Period: Transition (Day: 89.80%)
+Notice: Color temperature: 5485K
+Notice: Period: Transition (Day: 89.67%)
+Notice: Color temperature: 5483K
+Notice: Period: Transition (Day: 89.54%)
+Notice: Color temperature: 5480K
+Notice: Period: Transition (Day: 89.40%)
+Notice: Color temperature: 5477K
+Notice: Period: Transition (Day: 89.27%)
+Notice: Color temperature: 5474K
+Notice: Period: Transition (Day: 89.14%)
+Notice: Color temperature: 5471K
+Notice: Period: Transition (Day: 89.00%)
+Notice: Color temperature: 5469K
+Notice: Period: Transition (Day: 88.87%)
+Notice: Color temperature: 5466K
+Notice: Period: Transition (Day: 88.74%)
+Notice: Color temperature: 5463K
+Notice: Period: Transition (Day: 88.60%)
+Notice: Color temperature: 5460K
+Notice: Period: Transition (Day: 88.47%)
+Notice: Color temperature: 5457K
+Notice: Period: Transition (Day: 88.34%)
+Notice: Color temperature: 5455K
+Notice: Period: Transition (Day: 88.20%)
+Notice: Color temperature: 5452K
+Notice: Period: Transition (Day: 88.07%)
+Notice: Color temperature: 5449K
+Notice: Period: Transition (Day: 87.94%)
+Notice: Color temperature: 5446K
+Notice: Period: Transition (Day: 87.80%)
+Notice: Color temperature: 5443K
+Notice: Period: Transition (Day: 87.67%)
+Notice: Color temperature: 5441K
+Notice: Period: Transition (Day: 87.54%)
+Notice: Color temperature: 5438K
+Notice: Period: Transition (Day: 87.40%)
+Notice: Color temperature: 5435K
+Notice: Period: Transition (Day: 87.27%)
+Notice: Color temperature: 5432K
+Notice: Period: Transition (Day: 87.13%)
+Notice: Color temperature: 5429K
+Notice: Period: Transition (Day: 87.00%)
+Notice: Color temperature: 5427K
+Notice: Period: Transition (Day: 86.87%)
+Notice: Color temperature: 5424K
+Notice: Period: Transition (Day: 86.73%)
+Notice: Color temperature: 5421K
+Notice: Period: Transition (Day: 86.60%)
+Notice: Color temperature: 5418K
+Notice: Period: Transition (Day: 86.47%)
+Notice: Color temperature: 5415K
+Notice: Period: Transition (Day: 86.33%)
+Notice: Color temperature: 5412K
+Notice: Period: Transition (Day: 86.20%)
+Notice: Color temperature: 5410K
+Notice: Period: Transition (Day: 86.06%)
+Notice: Color temperature: 5407K
+Notice: Period: Transition (Day: 85.93%)
+Notice: Color temperature: 5404K
+Notice: Period: Transition (Day: 85.80%)
+Notice: Color temperature: 5401K
+Notice: Period: Transition (Day: 85.66%)
+Notice: Color temperature: 5398K
+Notice: Period: Transition (Day: 85.53%)
+Notice: Color temperature: 5396K
+Notice: Period: Transition (Day: 85.39%)
+Notice: Color temperature: 5393K
+Notice: Period: Transition (Day: 85.26%)
+Notice: Color temperature: 5390K
+Notice: Period: Transition (Day: 85.13%)
+Notice: Color temperature: 5387K
+Notice: Period: Transition (Day: 84.99%)
+Notice: Color temperature: 5384K
+Notice: Period: Transition (Day: 84.86%)
+Notice: Color temperature: 5381K
+Notice: Period: Transition (Day: 84.72%)
+Notice: Color temperature: 5379K
+Notice: Period: Transition (Day: 84.59%)
+Notice: Color temperature: 5376K
+Notice: Period: Transition (Day: 84.45%)
+Notice: Color temperature: 5373K
+Notice: Period: Transition (Day: 84.32%)
+Notice: Color temperature: 5370K
+Notice: Period: Transition (Day: 84.19%)
+Notice: Color temperature: 5367K
+Notice: Period: Transition (Day: 84.05%)
+Notice: Color temperature: 5365K
+Notice: Period: Transition (Day: 83.92%)
+Notice: Color temperature: 5362K
+Notice: Period: Transition (Day: 83.78%)
+Notice: Color temperature: 5359K
+Notice: Period: Transition (Day: 83.65%)
+Notice: Color temperature: 5356K
+Notice: Period: Transition (Day: 83.51%)
+Notice: Color temperature: 5353K
+Notice: Period: Transition (Day: 83.38%)
+Notice: Color temperature: 5350K
+Notice: Period: Transition (Day: 83.24%)
+Notice: Color temperature: 5348K
+Notice: Period: Transition (Day: 83.11%)
+Notice: Color temperature: 5345K
+Notice: Period: Transition (Day: 82.98%)
+Notice: Color temperature: 5342K
+Notice: Period: Transition (Day: 82.84%)
+Notice: Color temperature: 5339K
+Notice: Period: Transition (Day: 82.71%)
+Notice: Color temperature: 5336K
+Notice: Period: Transition (Day: 82.57%)
+Notice: Color temperature: 5334K
+Notice: Period: Transition (Day: 82.44%)
+Notice: Color temperature: 5331K
+Notice: Period: Transition (Day: 82.30%)
+Notice: Color temperature: 5328K
+Notice: Period: Transition (Day: 82.17%)
+Notice: Color temperature: 5325K
+Notice: Period: Transition (Day: 82.03%)
+Notice: Color temperature: 5322K
+Notice: Period: Transition (Day: 81.90%)
+Notice: Color temperature: 5319K
+Notice: Period: Transition (Day: 81.76%)
+Notice: Color temperature: 5317K
+Notice: Period: Transition (Day: 81.63%)
+Notice: Color temperature: 5314K
+Notice: Period: Transition (Day: 81.49%)
+Notice: Color temperature: 5311K
+Notice: Period: Transition (Day: 81.36%)
+Notice: Color temperature: 5308K
+Notice: Period: Transition (Day: 81.23%)
+Notice: Color temperature: 5305K
+Notice: Period: Transition (Day: 81.09%)
+Notice: Color temperature: 5302K
+Notice: Period: Transition (Day: 80.96%)
+Notice: Color temperature: 5300K
+Notice: Period: Transition (Day: 80.82%)
+Notice: Color temperature: 5297K
+Notice: Period: Transition (Day: 80.69%)
+Notice: Color temperature: 5294K
+Notice: Period: Transition (Day: 80.55%)
+Notice: Color temperature: 5291K
+Notice: Period: Transition (Day: 80.42%)
+Notice: Color temperature: 5288K
+Notice: Period: Transition (Day: 80.28%)
+Notice: Color temperature: 5285K
+Notice: Period: Transition (Day: 80.15%)
+Notice: Color temperature: 5283K
+Notice: Period: Transition (Day: 80.01%)
+Notice: Color temperature: 5280K
+Notice: Period: Transition (Day: 79.88%)
+Notice: Color temperature: 5277K
+Notice: Period: Transition (Day: 79.74%)
+Notice: Color temperature: 5274K
+Notice: Period: Transition (Day: 79.61%)
+Notice: Color temperature: 5271K
+Notice: Period: Transition (Day: 79.47%)
+Notice: Color temperature: 5268K
+Notice: Period: Transition (Day: 79.34%)
+Notice: Color temperature: 5266K
+Notice: Period: Transition (Day: 79.20%)
+Notice: Color temperature: 5263K
+Notice: Period: Transition (Day: 79.06%)
+Notice: Color temperature: 5260K
+Notice: Period: Transition (Day: 78.93%)
+Notice: Color temperature: 5257K
+Notice: Period: Transition (Day: 78.79%)
+Notice: Color temperature: 5254K
+Notice: Period: Transition (Day: 78.66%)
+Notice: Color temperature: 5251K
+Notice: Period: Transition (Day: 78.52%)
+Notice: Color temperature: 5249K
+Notice: Period: Transition (Day: 78.39%)
+Notice: Color temperature: 5246K
+Notice: Period: Transition (Day: 78.25%)
+Notice: Color temperature: 5243K
+Notice: Period: Transition (Day: 78.12%)
+Notice: Color temperature: 5240K
+Notice: Period: Transition (Day: 77.98%)
+Notice: Color temperature: 5237K
+Notice: Period: Transition (Day: 77.85%)
+Notice: Color temperature: 5234K
+Notice: Period: Transition (Day: 77.71%)
+Notice: Color temperature: 5231K
+Notice: Period: Transition (Day: 77.58%)
+Notice: Color temperature: 5229K
+Notice: Period: Transition (Day: 77.44%)
+Notice: Color temperature: 5226K
+Notice: Period: Transition (Day: 77.31%)
+Notice: Color temperature: 5223K
+Notice: Period: Transition (Day: 77.17%)
+Notice: Color temperature: 5220K
+Notice: Period: Transition (Day: 77.03%)
+Notice: Color temperature: 5217K
+Notice: Period: Transition (Day: 76.90%)
+Notice: Color temperature: 5214K
+Notice: Period: Transition (Day: 76.76%)
+Notice: Color temperature: 5212K
+Notice: Period: Transition (Day: 76.63%)
+Notice: Color temperature: 5209K
+Notice: Period: Transition (Day: 76.49%)
+Notice: Color temperature: 5206K
+Notice: Period: Transition (Day: 76.36%)
+Notice: Color temperature: 5203K
+Notice: Period: Transition (Day: 76.22%)
+Notice: Color temperature: 5200K
+Notice: Period: Transition (Day: 76.08%)
+Notice: Color temperature: 5197K
+Notice: Period: Transition (Day: 75.95%)
+Notice: Color temperature: 5194K
+Notice: Period: Transition (Day: 75.81%)
+Notice: Color temperature: 5192K
+Notice: Period: Transition (Day: 75.68%)
+Notice: Color temperature: 5189K
+Notice: Period: Transition (Day: 75.54%)
+Notice: Color temperature: 5186K
+Notice: Period: Transition (Day: 75.41%)
+Notice: Color temperature: 5183K
+Notice: Period: Transition (Day: 75.27%)
+Notice: Color temperature: 5180K
+Notice: Period: Transition (Day: 75.13%)
+Notice: Color temperature: 5177K
+Notice: Period: Transition (Day: 75.00%)
+Notice: Color temperature: 5174K
+Notice: Period: Transition (Day: 74.86%)
+Notice: Color temperature: 5172K
+Notice: Period: Transition (Day: 74.73%)
+Notice: Color temperature: 5169K
+Notice: Period: Transition (Day: 74.59%)
+Notice: Color temperature: 5166K
+Notice: Period: Transition (Day: 74.45%)
+Notice: Color temperature: 5163K
+Notice: Period: Transition (Day: 74.32%)
+Notice: Color temperature: 5160K
+Notice: Period: Transition (Day: 74.18%)
+Notice: Color temperature: 5157K
+Notice: Period: Transition (Day: 74.05%)
+Notice: Color temperature: 5154K
+Notice: Period: Transition (Day: 73.91%)
+Notice: Color temperature: 5152K
+Notice: Period: Transition (Day: 73.77%)
+Notice: Color temperature: 5149K
+Notice: Period: Transition (Day: 73.64%)
+Notice: Color temperature: 5146K
+Notice: Period: Transition (Day: 73.50%)
+Notice: Color temperature: 5143K
+Notice: Period: Transition (Day: 73.37%)
+Notice: Color temperature: 5140K
+Notice: Period: Transition (Day: 73.23%)
+Notice: Color temperature: 5137K
+Notice: Period: Transition (Day: 73.09%)
+Notice: Color temperature: 5134K
+Notice: Period: Transition (Day: 72.96%)
+Notice: Color temperature: 5132K
+Notice: Period: Transition (Day: 72.82%)
+Notice: Color temperature: 5129K
+Notice: Period: Transition (Day: 72.68%)
+Notice: Color temperature: 5126K
+Notice: Period: Transition (Day: 72.55%)
+Notice: Color temperature: 5123K
+Notice: Period: Transition (Day: 72.41%)
+Notice: Color temperature: 5120K
+Notice: Period: Transition (Day: 72.27%)
+Notice: Color temperature: 5117K
+Notice: Period: Transition (Day: 72.14%)
+Notice: Color temperature: 5114K
+Notice: Period: Transition (Day: 72.00%)
+Notice: Color temperature: 5112K
+Notice: Period: Transition (Day: 71.87%)
+Notice: Color temperature: 5109K
+Notice: Period: Transition (Day: 71.73%)
+Notice: Color temperature: 5106K
+Notice: Period: Transition (Day: 71.59%)
+Notice: Color temperature: 5103K
+Notice: Period: Transition (Day: 71.46%)
+Notice: Color temperature: 5100K
+Notice: Period: Transition (Day: 71.32%)
+Notice: Color temperature: 5097K
+Notice: Period: Transition (Day: 71.18%)
+Notice: Color temperature: 5094K
+Notice: Period: Transition (Day: 71.05%)
+Notice: Color temperature: 5091K
+Notice: Period: Transition (Day: 70.91%)
+Notice: Color temperature: 5089K
+Notice: Period: Transition (Day: 70.77%)
+Notice: Color temperature: 5086K
+Notice: Period: Transition (Day: 70.64%)
+Notice: Color temperature: 5083K
+Notice: Period: Transition (Day: 70.50%)
+Notice: Color temperature: 5080K
+Notice: Period: Transition (Day: 70.36%)
+Notice: Color temperature: 5077K
+erresc: unknown csi ESC[>4;0m
+Notice: Period: Transition (Day: 70.23%)
+Notice: Color temperature: 5074K
+Notice: Period: Transition (Day: 70.09%)
+Notice: Color temperature: 5071K
+Notice: Period: Transition (Day: 69.95%)
+Notice: Color temperature: 5069K
+Notice: Period: Transition (Day: 69.82%)
+Notice: Color temperature: 5066K
+erresc: unknown csi ESC[?2026$p
+erresc: unknown csi ESC[4:3m
+erresc: unknown csi ESC[>4;2m
+Notice: Period: Transition (Day: 69.68%)
+Notice: Color temperature: 5063K
+erresc: unknown csi ESC[>4;0m
+Notice: Period: Transition (Day: 69.54%)
+Notice: Color temperature: 5060K
+Notice: Period: Transition (Day: 69.41%)
+Notice: Color temperature: 5057K
+Notice: Period: Transition (Day: 69.27%)
+Notice: Color temperature: 5054K
+Notice: Period: Transition (Day: 69.13%)
+Notice: Color temperature: 5051K
+Notice: Period: Transition (Day: 68.99%)
+Notice: Color temperature: 5048K
+Notice: Period: Transition (Day: 68.86%)
+Notice: Color temperature: 5046K
+Notice: Period: Transition (Day: 68.72%)
+Notice: Color temperature: 5043K
+Notice: Period: Transition (Day: 68.58%)
+Notice: Color temperature: 5040K
+Notice: Period: Transition (Day: 68.45%)
+Notice: Color temperature: 5037K
+Notice: Period: Transition (Day: 68.31%)
+Notice: Color temperature: 5034K
+Notice: Period: Transition (Day: 68.17%)
+Notice: Color temperature: 5031K
+Notice: Period: Transition (Day: 68.04%)
+Notice: Color temperature: 5028K
+Notice: Period: Transition (Day: 67.90%)
+Notice: Color temperature: 5025K
+erresc: unknown csi ESC[?2026$p
+erresc: unknown csi ESC[4:3m
+erresc: unknown csi ESC[>4;2m
+Notice: Period: Transition (Day: 67.76%)
+Notice: Color temperature: 5022K
+erresc: unknown csi ESC[>4;0m
+Notice: Period: Transition (Day: 67.62%)
+Notice: Color temperature: 5020K
+Notice: Period: Transition (Day: 67.49%)
+Notice: Color temperature: 5017K
+Notice: Period: Transition (Day: 67.35%)
+Notice: Color temperature: 5014K
+Notice: Period: Transition (Day: 67.21%)
+Notice: Color temperature: 5011K
+Notice: Period: Transition (Day: 67.08%)
+Notice: Color temperature: 5008K
+Notice: Period: Transition (Day: 66.94%)
+Notice: Color temperature: 5005K
+Notice: Period: Transition (Day: 66.80%)
+Notice: Color temperature: 5002K
+Notice: Period: Transition (Day: 66.66%)
+Notice: Color temperature: 4999K
+Notice: Period: Transition (Day: 66.53%)
+Notice: Color temperature: 4997K
+Notice: Period: Transition (Day: 66.39%)
+Notice: Color temperature: 4994K
+Notice: Period: Transition (Day: 66.25%)
+Notice: Color temperature: 4991K
+Notice: Period: Transition (Day: 66.11%)
+Notice: Color temperature: 4988K
+Notice: Period: Transition (Day: 65.98%)
+Notice: Color temperature: 4985K
+Notice: Period: Transition (Day: 65.84%)
+Notice: Color temperature: 4982K
+Notice: Period: Transition (Day: 65.70%)
+Notice: Color temperature: 4979K
+Notice: Period: Transition (Day: 65.56%)
+Notice: Color temperature: 4976K
+Notice: Period: Transition (Day: 65.43%)
+Notice: Color temperature: 4973K
+Notice: Period: Transition (Day: 65.29%)
+Notice: Color temperature: 4971K
+Notice: Period: Transition (Day: 65.15%)
+Notice: Color temperature: 4968K
+Notice: Period: Transition (Day: 65.01%)
+Notice: Color temperature: 4965K
+erresc: unknown csi ESC[?2026$p
+erresc: unknown csi ESC[4:3m
+erresc: unknown csi ESC[>4;2m
+Notice: Period: Transition (Day: 64.88%)
+Notice: Color temperature: 4962K
+Notice: Period: Transition (Day: 64.74%)
+Notice: Color temperature: 4959K
+erresc: unknown csi ESC[>4;0m
+Notice: Period: Transition (Day: 64.60%)
+Notice: Color temperature: 4956K
+Notice: Period: Transition (Day: 64.46%)
+Notice: Color temperature: 4953K
+Notice: Period: Transition (Day: 64.32%)
+Notice: Color temperature: 4950K
+Notice: Period: Transition (Day: 64.19%)
+Notice: Color temperature: 4947K
+Notice: Period: Transition (Day: 64.05%)
+Notice: Color temperature: 4945K
+Notice: Period: Transition (Day: 63.91%)
+Notice: Color temperature: 4942K
+Notice: Period: Transition (Day: 63.77%)
+Notice: Color temperature: 4939K
+Notice: Period: Transition (Day: 63.64%)
+Notice: Color temperature: 4936K
+Notice: Period: Transition (Day: 63.50%)
+Notice: Color temperature: 4933K
+Notice: Period: Transition (Day: 63.36%)
+Notice: Color temperature: 4930K
+Notice: Period: Transition (Day: 63.22%)
+Notice: Color temperature: 4927K
+erresc: unknown csi ESC[?2026$p
+erresc: unknown csi ESC[4:3m
+erresc: unknown csi ESC[>4;2m
+Notice: Period: Transition (Day: 63.08%)
+Notice: Color temperature: 4924K
+erresc: unknown csi ESC[>4;0m
+Notice: Period: Transition (Day: 62.95%)
+Notice: Color temperature: 4921K
+Notice: Period: Transition (Day: 62.81%)
+Notice: Color temperature: 4918K
+erresc: unknown csi ESC[?2026$p
+erresc: unknown csi ESC[4:3m
+erresc: unknown csi ESC[>4;2m
+Notice: Period: Transition (Day: 62.67%)
+Notice: Color temperature: 4916K
+Notice: Period: Transition (Day: 62.53%)
+Notice: Color temperature: 4913K
+erresc: unknown csi ESC[>4;0m
+Notice: Period: Transition (Day: 62.39%)
+Notice: Color temperature: 4910K
+Notice: Period: Transition (Day: 62.26%)
+Notice: Color temperature: 4907K
+Notice: Period: Transition (Day: 62.12%)
+Notice: Color temperature: 4904K
+Notice: Period: Transition (Day: 61.98%)
+Notice: Color temperature: 4901K
+Notice: Period: Transition (Day: 61.84%)
+Notice: Color temperature: 4898K
+erresc: unknown csi ESC[?2026$p
+erresc: unknown csi ESC[4:3m
+erresc: unknown csi ESC[>4;2m
+Notice: Period: Transition (Day: 61.70%)
+Notice: Color temperature: 4895K
+Notice: Period: Transition (Day: 61.57%)
+Notice: Color temperature: 4892K
+Notice: Period: Transition (Day: 61.43%)
+Notice: Color temperature: 4889K
+Notice: Period: Transition (Day: 61.29%)
+Notice: Color temperature: 4887K
+Notice: Period: Transition (Day: 61.15%)
+Notice: Color temperature: 4884K
+erresc: unknown csi ESC[>4;0m
+Notice: Period: Transition (Day: 61.01%)
+Notice: Color temperature: 4881K
+Notice: Period: Transition (Day: 60.87%)
+Notice: Color temperature: 4878K
+erresc: unknown csi ESC[?2026$p
+erresc: unknown csi ESC[4:3m
+erresc: unknown csi ESC[>4;2m
+Notice: Period: Transition (Day: 60.74%)
+Notice: Color temperature: 4875K
+erresc: unknown csi ESC[>4;0m
+Notice: Period: Transition (Day: 60.60%)
+Notice: Color temperature: 4872K
+erresc: unknown csi ESC[?2026$p
+erresc: unknown csi ESC[4:3m
+erresc: unknown csi ESC[>4;2m
+Notice: Period: Transition (Day: 60.46%)
+Notice: Color temperature: 4869K
+Notice: Period: Transition (Day: 60.32%)
+Notice: Color temperature: 4866K
+Notice: Period: Transition (Day: 60.18%)
+Notice: Color temperature: 4863K
+Notice: Period: Transition (Day: 60.04%)
+Notice: Color temperature: 4860K
+Notice: Period: Transition (Day: 59.91%)
+Notice: Color temperature: 4858K
+Notice: Period: Transition (Day: 59.77%)
+Notice: Color temperature: 4855K
+Notice: Period: Transition (Day: 59.63%)
+Notice: Color temperature: 4852K
+Notice: Period: Transition (Day: 59.49%)
+Notice: Color temperature: 4849K
+erresc: unknown csi ESC[>4;0m
+Notice: Period: Transition (Day: 59.35%)
+Notice: Color temperature: 4846K
+Notice: Period: Transition (Day: 59.21%)
+Notice: Color temperature: 4843K
+erresc: unknown csi ESC[?2026$p
+erresc: unknown csi ESC[4:3m
+erresc: unknown csi ESC[>4;2m
+Notice: Period: Transition (Day: 59.08%)
+Notice: Color temperature: 4840K
+Notice: Period: Transition (Day: 58.94%)
+Notice: Color temperature: 4837K
+Notice: Period: Transition (Day: 58.80%)
+Notice: Color temperature: 4834K
+Notice: Period: Transition (Day: 58.66%)
+Notice: Color temperature: 4831K
+Notice: Period: Transition (Day: 58.52%)
+Notice: Color temperature: 4828K
+Notice: Period: Transition (Day: 58.38%)
+Notice: Color temperature: 4826K
+Notice: Period: Transition (Day: 58.24%)
+Notice: Color temperature: 4823K
+Notice: Period: Transition (Day: 58.10%)
+Notice: Color temperature: 4820K
+Notice: Period: Transition (Day: 57.97%)
+Notice: Color temperature: 4817K
+erresc: unknown csi ESC[>4;0m
+Notice: Period: Transition (Day: 57.83%)
+Notice: Color temperature: 4814K
+erresc: unknown csi ESC[?2026$p
+erresc: unknown csi ESC[4:3m
+erresc: unknown csi ESC[>4;2m
+Notice: Period: Transition (Day: 57.69%)
+Notice: Color temperature: 4811K
+Notice: Period: Transition (Day: 57.55%)
+Notice: Color temperature: 4808K
+Notice: Period: Transition (Day: 57.41%)
+Notice: Color temperature: 4805K
+Notice: Period: Transition (Day: 57.27%)
+Notice: Color temperature: 4802K
+Notice: Period: Transition (Day: 57.13%)
+Notice: Color temperature: 4799K
+Notice: Period: Transition (Day: 56.99%)
+Notice: Color temperature: 4796K
+Notice: Period: Transition (Day: 56.85%)
+Notice: Color temperature: 4793K
+Notice: Period: Transition (Day: 56.72%)
+Notice: Color temperature: 4791K
+erresc: unknown csi ESC[>4;0m
+Notice: Period: Transition (Day: 56.58%)
+Notice: Color temperature: 4788K
+Notice: Period: Transition (Day: 56.44%)
+Notice: Color temperature: 4785K
+Notice: Period: Transition (Day: 56.30%)
+Notice: Color temperature: 4782K
+Notice: Period: Transition (Day: 56.16%)
+Notice: Color temperature: 4779K
+Notice: Period: Transition (Day: 56.02%)
+Notice: Color temperature: 4776K
+Notice: Period: Transition (Day: 55.88%)
+Notice: Color temperature: 4773K
+Notice: Period: Transition (Day: 55.74%)
+Notice: Color temperature: 4770K
+erresc: unknown csi ESC[?2026$p
+erresc: unknown csi ESC[4:3m
+erresc: unknown csi ESC[>4;2m
+Notice: Period: Transition (Day: 55.60%)
+Notice: Color temperature: 4767K
+Notice: Period: Transition (Day: 55.46%)
+Notice: Color temperature: 4764K
+Notice: Period: Transition (Day: 55.33%)
+Notice: Color temperature: 4761K
+erresc: unknown csi ESC[>4;0m
+Notice: Period: Transition (Day: 55.19%)
+Notice: Color temperature: 4758K
+Notice: Period: Transition (Day: 55.05%)
+Notice: Color temperature: 4755K
+Notice: Period: Transition (Day: 54.91%)
+Notice: Color temperature: 4753K
+erresc: unknown csi ESC[>4;0m
+Notice: Period: Transition (Day: 54.77%)
+Notice: Color temperature: 4750K
+erresc: unknown str ESC]8
+erresc: unknown str ESC]8
+Notice: Period: Transition (Day: 54.63%)
+Notice: Color temperature: 4747K
+Notice: Period: Transition (Day: 54.49%)
+Notice: Color temperature: 4744K
+Notice: Period: Transition (Day: 54.35%)
+Notice: Color temperature: 4741K
+Notice: Period: Transition (Day: 54.21%)
+Notice: Color temperature: 4738K
+Notice: Period: Transition (Day: 54.07%)
+Notice: Color temperature: 4735K
+erresc: unknown csi ESC[?2026$p
+erresc: unknown csi ESC[4:3m
+erresc: unknown csi ESC[>4;2m
+Notice: Period: Transition (Day: 53.93%)
+Notice: Color temperature: 4732K
+erresc: unknown csi ESC[>4;0m
+Notice: Period: Transition (Day: 53.79%)
+Notice: Color temperature: 4729K
+erresc: unknown str ESC]8
+erresc: unknown str ESC]8
+Notice: Period: Transition (Day: 53.65%)
+Notice: Color temperature: 4726K
+Notice: Period: Transition (Day: 53.51%)
+Notice: Color temperature: 4723K
+Notice: Period: Transition (Day: 53.37%)
+Notice: Color temperature: 4720K
+Notice: Period: Transition (Day: 53.24%)
+Notice: Color temperature: 4717K
+Notice: Period: Transition (Day: 53.10%)
+Notice: Color temperature: 4715K
+Notice: Period: Transition (Day: 52.96%)
+Notice: Color temperature: 4712K
+erresc: unknown csi ESC[?2026$p
+erresc: unknown csi ESC[4:3m
+erresc: unknown csi ESC[>4;2m
+Notice: Period: Transition (Day: 52.82%)
+Notice: Color temperature: 4709K
+erresc: unknown csi ESC[>4;0m
+erresc: unknown str ESC]8
+erresc: unknown str ESC]8
+Notice: Period: Transition (Day: 52.68%)
+Notice: Color temperature: 4706K
+Notice: Period: Transition (Day: 52.54%)
+Notice: Color temperature: 4703K
+Notice: Period: Transition (Day: 52.40%)
+Notice: Color temperature: 4700K
+Notice: Period: Transition (Day: 52.26%)
+Notice: Color temperature: 4697K
+Notice: Period: Transition (Day: 52.12%)
+Notice: Color temperature: 4694K
+Notice: Period: Transition (Day: 51.98%)
+Notice: Color temperature: 4691K
+Notice: Period: Transition (Day: 51.84%)
+Notice: Color temperature: 4688K
+Notice: Period: Transition (Day: 51.70%)
+Notice: Color temperature: 4685K
+erresc: unknown csi ESC[?2026$p
+erresc: unknown csi ESC[4:3m
+erresc: unknown csi ESC[>4;2m
+Notice: Period: Transition (Day: 51.56%)
+Notice: Color temperature: 4682K
+Notice: Period: Transition (Day: 51.42%)
+Notice: Color temperature: 4679K
+Notice: Period: Transition (Day: 51.28%)
+Notice: Color temperature: 4676K
+Notice: Period: Transition (Day: 51.14%)
+Notice: Color temperature: 4673K
+erresc: unknown csi ESC[>4;0m
+Notice: Period: Transition (Day: 51.00%)
+Notice: Color temperature: 4671K
+Notice: Period: Transition (Day: 50.86%)
+Notice: Color temperature: 4668K
+Notice: Period: Transition (Day: 50.72%)
+Notice: Color temperature: 4665K
+Notice: Period: Transition (Day: 50.58%)
+Notice: Color temperature: 4662K
+erresc: unknown csi ESC[?2026$p
+erresc: unknown csi ESC[4:3m
+Notice: Period: Transition (Day: 50.44%)
+Notice: Color temperature: 4659K
+erresc: unknown csi ESC[>4;2m
+Notice: Period: Transition (Day: 50.30%)
+Notice: Color temperature: 4656K
+Notice: Period: Transition (Day: 50.16%)
+Notice: Color temperature: 4653K
+Notice: Period: Transition (Day: 50.02%)
+Notice: Color temperature: 4650K
+Notice: Period: Transition (Day: 49.88%)
+Notice: Color temperature: 4647K
+Notice: Period: Transition (Day: 49.74%)
+Notice: Color temperature: 4644K
+Notice: Period: Transition (Day: 49.60%)
+Notice: Color temperature: 4641K
+Notice: Period: Transition (Day: 49.46%)
+Notice: Color temperature: 4638K
+Notice: Period: Transition (Day: 49.32%)
+Notice: Color temperature: 4635K
+Notice: Period: Transition (Day: 49.18%)
+Notice: Color temperature: 4632K
+Notice: Period: Transition (Day: 49.04%)
+Notice: Color temperature: 4629K
+Notice: Period: Transition (Day: 48.90%)
+Notice: Color temperature: 4626K
+Notice: Period: Transition (Day: 48.76%)
+Notice: Color temperature: 4623K
+Notice: Period: Transition (Day: 48.62%)
+Notice: Color temperature: 4621K
+Notice: Period: Transition (Day: 48.48%)
+Notice: Color temperature: 4618K
+Notice: Period: Transition (Day: 48.34%)
+Notice: Color temperature: 4615K
+Notice: Period: Transition (Day: 48.20%)
+Notice: Color temperature: 4612K
+Notice: Period: Transition (Day: 48.06%)
+Notice: Color temperature: 4609K
+Notice: Period: Transition (Day: 47.92%)
+Notice: Color temperature: 4606K
+Notice: Period: Transition (Day: 47.78%)
+Notice: Color temperature: 4603K
+Notice: Period: Transition (Day: 47.64%)
+Notice: Color temperature: 4600K
+Notice: Period: Transition (Day: 47.50%)
+Notice: Color temperature: 4597K
+Notice: Period: Transition (Day: 47.36%)
+Notice: Color temperature: 4594K
+Notice: Period: Transition (Day: 47.22%)
+Notice: Color temperature: 4591K
+Notice: Period: Transition (Day: 47.08%)
+Notice: Color temperature: 4588K
+Notice: Period: Transition (Day: 46.94%)
+Notice: Color temperature: 4585K
+Notice: Period: Transition (Day: 46.80%)
+Notice: Color temperature: 4582K
+Notice: Period: Transition (Day: 46.65%)
+Notice: Color temperature: 4579K
+Notice: Period: Transition (Day: 46.51%)
+Notice: Color temperature: 4576K
+Notice: Period: Transition (Day: 46.37%)
+Notice: Color temperature: 4573K
+Notice: Period: Transition (Day: 46.23%)
+Notice: Color temperature: 4570K
+Notice: Period: Transition (Day: 46.09%)
+Notice: Color temperature: 4567K
+Notice: Period: Transition (Day: 45.95%)
+Notice: Color temperature: 4564K
+Notice: Period: Transition (Day: 45.81%)
+Notice: Color temperature: 4562K
+Notice: Period: Transition (Day: 45.67%)
+Notice: Color temperature: 4559K
+Notice: Period: Transition (Day: 45.53%)
+Notice: Color temperature: 4556K
+Notice: Period: Transition (Day: 45.39%)
+Notice: Color temperature: 4553K
+Notice: Period: Transition (Day: 45.25%)
+Notice: Color temperature: 4550K
+Notice: Period: Transition (Day: 45.11%)
+Notice: Color temperature: 4547K
+Notice: Period: Transition (Day: 44.97%)
+Notice: Color temperature: 4544K
+Notice: Period: Transition (Day: 44.83%)
+Notice: Color temperature: 4541K
+Notice: Period: Transition (Day: 44.69%)
+Notice: Color temperature: 4538K
+Notice: Period: Transition (Day: 44.54%)
+Notice: Color temperature: 4535K
+Notice: Period: Transition (Day: 44.40%)
+Notice: Color temperature: 4532K
+Notice: Period: Transition (Day: 44.26%)
+Notice: Color temperature: 4529K
+Notice: Period: Transition (Day: 44.12%)
+Notice: Color temperature: 4526K
+Notice: Period: Transition (Day: 43.98%)
+Notice: Color temperature: 4523K
+erresc: unknown csi ESC[>4;0m
+Notice: Period: Transition (Day: 43.84%)
+Notice: Color temperature: 4520K
+Notice: Period: Transition (Day: 43.70%)
+Notice: Color temperature: 4517K
+Notice: Period: Transition (Day: 43.56%)
+Notice: Color temperature: 4514K
+Notice: Period: Transition (Day: 43.42%)
+Notice: Color temperature: 4511K
+Notice: Period: Transition (Day: 43.28%)
+Notice: Color temperature: 4508K
+Notice: Period: Transition (Day: 43.14%)
+Notice: Color temperature: 4505K
+Notice: Period: Transition (Day: 42.99%)
+Notice: Color temperature: 4502K
+Notice: Period: Transition (Day: 42.85%)
+Notice: Color temperature: 4499K
+Notice: Period: Transition (Day: 42.71%)
+Notice: Color temperature: 4496K
+Notice: Period: Transition (Day: 42.57%)
+Notice: Color temperature: 4493K
+Notice: Period: Transition (Day: 42.43%)
+Notice: Color temperature: 4491K
+Notice: Period: Transition (Day: 42.29%)
+Notice: Color temperature: 4488K
+Notice: Period: Transition (Day: 42.15%)
+Notice: Color temperature: 4485K
+Notice: Period: Transition (Day: 42.01%)
+Notice: Color temperature: 4482K
+erresc: unknown csi ESC[?2026$p
+erresc: unknown csi ESC[4:3m
+erresc: unknown csi ESC[>4;2m
+Notice: Period: Transition (Day: 41.87%)
+Notice: Color temperature: 4479K
+erresc: unknown csi ESC[>4;0m
+Notice: Period: Transition (Day: 41.72%)
+Notice: Color temperature: 4476K
+erresc: unknown csi ESC[?2026$p
+erresc: unknown csi ESC[4:3m
+erresc: unknown csi ESC[>4;2m
+Notice: Period: Transition (Day: 41.58%)
+Notice: Color temperature: 4473K
+erresc: unknown csi ESC[>4;0m
+Notice: Period: Transition (Day: 41.44%)
+Notice: Color temperature: 4470K
+Notice: Period: Transition (Day: 41.30%)
+Notice: Color temperature: 4467K
+erresc: unknown csi ESC[?2026$p
+erresc: unknown csi ESC[4:3m
+erresc: unknown csi ESC[>4;2m
+Notice: Period: Transition (Day: 41.16%)
+Notice: Color temperature: 4464K
+Notice: Period: Transition (Day: 41.02%)
+Notice: Color temperature: 4461K
+Notice: Period: Transition (Day: 40.88%)
+Notice: Color temperature: 4458K
+Notice: Period: Transition (Day: 40.73%)
+Notice: Color temperature: 4455K
+Notice: Period: Transition (Day: 40.59%)
+Notice: Color temperature: 4452K
+erresc: unknown csi ESC[>4;0m
+Notice: Period: Transition (Day: 40.45%)
+Notice: Color temperature: 4449K
+Notice: Period: Transition (Day: 40.31%)
+Notice: Color temperature: 4446K
+erresc: unknown csi ESC[?2026$p
+erresc: unknown csi ESC[4:3m
+erresc: unknown csi ESC[>4;2m
+Notice: Period: Transition (Day: 40.17%)
+Notice: Color temperature: 4443K
+Notice: Period: Transition (Day: 40.03%)
+Notice: Color temperature: 4440K
+Notice: Period: Transition (Day: 39.89%)
+Notice: Color temperature: 4437K
+Notice: Period: Transition (Day: 39.74%)
+Notice: Color temperature: 4434K
+Notice: Period: Transition (Day: 39.60%)
+Notice: Color temperature: 4431K
+erresc: unknown csi ESC[>4;0m
+Notice: Period: Transition (Day: 39.46%)
+Notice: Color temperature: 4428K
+Notice: Period: Transition (Day: 39.32%)
+Notice: Color temperature: 4425K
+Notice: Period: Transition (Day: 39.18%)
+Notice: Color temperature: 4422K
+Notice: Period: Transition (Day: 39.04%)
+Notice: Color temperature: 4419K
+Notice: Period: Transition (Day: 38.89%)
+Notice: Color temperature: 4416K
+erresc: unknown csi ESC[?2026$p
+erresc: unknown csi ESC[4:3m
+erresc: unknown csi ESC[>4;2m
+Notice: Period: Transition (Day: 38.75%)
+Notice: Color temperature: 4413K
+Notice: Period: Transition (Day: 38.61%)
+Notice: Color temperature: 4410K
+Notice: Period: Transition (Day: 38.47%)
+Notice: Color temperature: 4407K
+erresc: unknown csi ESC[>4;0m
+Notice: Period: Transition (Day: 38.33%)
+Notice: Color temperature: 4404K
+erresc: unknown str ESC]8
+erresc: unknown str ESC]8
+Notice: Period: Transition (Day: 38.19%)
+Notice: Color temperature: 4401K
+Notice: Period: Transition (Day: 38.04%)
+Notice: Color temperature: 4398K
+Notice: Period: Transition (Day: 37.90%)
+Notice: Color temperature: 4395K
+Notice: Period: Transition (Day: 37.76%)
+Notice: Color temperature: 4392K
+Notice: Period: Transition (Day: 37.62%)
+Notice: Color temperature: 4389K
+Notice: Period: Transition (Day: 37.48%)
+Notice: Color temperature: 4387K
+erresc: unknown csi ESC[?2026$p
+erresc: unknown csi ESC[4:3m
+erresc: unknown csi ESC[>4;2m
+Notice: Period: Transition (Day: 37.34%)
+Notice: Color temperature: 4384K
+Notice: Period: Transition (Day: 37.19%)
+Notice: Color temperature: 4381K
+Notice: Period: Transition (Day: 37.05%)
+Notice: Color temperature: 4378K
+Notice: Period: Transition (Day: 36.91%)
+Notice: Color temperature: 4375K
+Notice: Period: Transition (Day: 36.77%)
+Notice: Color temperature: 4372K
+Notice: Period: Transition (Day: 36.63%)
+Notice: Color temperature: 4369K
+erresc: unknown csi ESC[>4;0m
+erresc: unknown str ESC]8
+erresc: unknown str ESC]8
+Notice: Period: Transition (Day: 36.48%)
+Notice: Color temperature: 4366K
+Notice: Period: Transition (Day: 36.34%)
+Notice: Color temperature: 4363K
+Notice: Period: Transition (Day: 36.20%)
+Notice: Color temperature: 4360K
+erresc: unknown csi ESC[?2026$p
+erresc: unknown csi ESC[4:3m
+erresc: unknown csi ESC[>4;2m
+Notice: Period: Transition (Day: 36.06%)
+Notice: Color temperature: 4357K
+erresc: unknown csi ESC[>4;0m
+erresc: unknown str ESC]8
+erresc: unknown str ESC]8
+Notice: Period: Transition (Day: 35.92%)
+Notice: Color temperature: 4354K
+erresc: unknown csi ESC[?2026$p
+erresc: unknown csi ESC[4:3m
+erresc: unknown csi ESC[>4;2m
+Notice: Period: Transition (Day: 35.77%)
+Notice: Color temperature: 4351K
+Notice: Period: Transition (Day: 35.63%)
+Notice: Color temperature: 4348K
+erresc: unknown csi ESC[>4;0m
+Notice: Period: Transition (Day: 35.49%)
+Notice: Color temperature: 4345K
+erresc: unknown str ESC]8
+erresc: unknown str ESC]8
+Notice: Period: Transition (Day: 35.35%)
+Notice: Color temperature: 4342K
+Notice: Period: Transition (Day: 35.20%)
+Notice: Color temperature: 4339K
+Notice: Period: Transition (Day: 35.06%)
+Notice: Color temperature: 4336K
+Notice: Period: Transition (Day: 34.92%)
+Notice: Color temperature: 4333K
+Notice: Period: Transition (Day: 34.78%)
+Notice: Color temperature: 4330K
+erresc: unknown csi ESC[?2026$p
+erresc: unknown csi ESC[4:3m
+erresc: unknown csi ESC[>4;2m
+Notice: Period: Transition (Day: 34.64%)
+Notice: Color temperature: 4327K
+Notice: Period: Transition (Day: 34.49%)
+Notice: Color temperature: 4324K
+Notice: Period: Transition (Day: 34.35%)
+Notice: Color temperature: 4321K
+Notice: Period: Transition (Day: 34.21%)
+Notice: Color temperature: 4318K
+Notice: Period: Transition (Day: 34.07%)
+Notice: Color temperature: 4315K
+Notice: Period: Transition (Day: 33.92%)
+Notice: Color temperature: 4312K
+Notice: Period: Transition (Day: 33.78%)
+Notice: Color temperature: 4309K
+Notice: Period: Transition (Day: 33.64%)
+Notice: Color temperature: 4306K
+Notice: Period: Transition (Day: 33.50%)
+Notice: Color temperature: 4303K
+Notice: Period: Transition (Day: 33.35%)
+Notice: Color temperature: 4300K
+Notice: Period: Transition (Day: 33.21%)
+Notice: Color temperature: 4297K
+Notice: Period: Transition (Day: 33.07%)
+Notice: Color temperature: 4294K
+erresc: unknown csi ESC[>4;0m
+erresc: unknown str ESC]8
+erresc: unknown str ESC]8
+Notice: Period: Transition (Day: 32.93%)
+Notice: Color temperature: 4291K
+Notice: Period: Transition (Day: 32.78%)
+Notice: Color temperature: 4288K
+Notice: Period: Transition (Day: 32.64%)
+Notice: Color temperature: 4285K
+erresc: unknown csi ESC[?2026$p
+erresc: unknown csi ESC[4:3m
+erresc: unknown csi ESC[>4;2m
+Notice: Period: Transition (Day: 32.50%)
+Notice: Color temperature: 4282K
+Notice: Period: Transition (Day: 32.36%)
+Notice: Color temperature: 4279K
+erresc: unknown csi ESC[>4;0m
+erresc: unknown str ESC]8
+erresc: unknown str ESC]8
+Notice: Period: Transition (Day: 32.21%)
+Notice: Color temperature: 4276K
+Notice: Period: Transition (Day: 32.07%)
+Notice: Color temperature: 4273K
+erresc: unknown csi ESC[?2026$p
+erresc: unknown csi ESC[4:3m
+erresc: unknown csi ESC[>4;2m
+erresc: unknown csi ESC[>4;0m
+Notice: Period: Transition (Day: 31.93%)
+Notice: Color temperature: 4270K
+erresc: unknown str ESC]8
+erresc: unknown str ESC]8
+Notice: Period: Transition (Day: 31.79%)
+Notice: Color temperature: 4267K
+Notice: Period: Transition (Day: 31.64%)
+Notice: Color temperature: 4264K
+Notice: Period: Transition (Day: 31.50%)
+Notice: Color temperature: 4261K
+Notice: Period: Transition (Day: 31.36%)
+Notice: Color temperature: 4258K
+erresc: unknown csi ESC[?2026$p
+erresc: unknown csi ESC[4:3m
+erresc: unknown csi ESC[>4;2m
+Notice: Period: Transition (Day: 31.22%)
+Notice: Color temperature: 4255K
+Notice: Period: Transition (Day: 31.07%)
+Notice: Color temperature: 4252K
+Notice: Period: Transition (Day: 30.93%)
+Notice: Color temperature: 4249K
+Notice: Period: Transition (Day: 30.79%)
+Notice: Color temperature: 4246K
+Notice: Period: Transition (Day: 30.64%)
+Notice: Color temperature: 4243K
+Notice: Period: Transition (Day: 30.50%)
+Notice: Color temperature: 4240K
+Notice: Period: Transition (Day: 30.36%)
+Notice: Color temperature: 4237K
+Notice: Period: Transition (Day: 30.22%)
+Notice: Color temperature: 4234K
+Notice: Period: Transition (Day: 30.07%)
+Notice: Color temperature: 4231K
+Notice: Period: Transition (Day: 29.93%)
+Notice: Color temperature: 4228K
+Notice: Period: Transition (Day: 29.79%)
+Notice: Color temperature: 4225K
+Notice: Period: Transition (Day: 29.64%)
+Notice: Color temperature: 4222K
+Notice: Period: Transition (Day: 29.50%)
+Notice: Color temperature: 4219K
+erresc: unknown csi ESC[>4;0m
+Notice: Period: Transition (Day: 29.36%)
+Notice: Color temperature: 4216K
+erresc: unknown csi ESC[?2026$p
+erresc: unknown csi ESC[4:3m
+erresc: unknown csi ESC[>4;2m
+Notice: Period: Transition (Day: 29.21%)
+Notice: Color temperature: 4213K
+Notice: Period: Transition (Day: 29.07%)
+Notice: Color temperature: 4210K
+Notice: Period: Transition (Day: 28.93%)
+Notice: Color temperature: 4207K
+Notice: Period: Transition (Day: 28.79%)
+Notice: Color temperature: 4204K
+Notice: Period: Transition (Day: 28.64%)
+Notice: Color temperature: 4201K
+Notice: Period: Transition (Day: 28.50%)
+Notice: Color temperature: 4198K
+Notice: Period: Transition (Day: 28.36%)
+Notice: Color temperature: 4195K
+Notice: Period: Transition (Day: 28.21%)
+Notice: Color temperature: 4192K
+Notice: Period: Transition (Day: 28.07%)
+Notice: Color temperature: 4189K
+Notice: Period: Transition (Day: 27.93%)
+Notice: Color temperature: 4186K
+Notice: Period: Transition (Day: 27.78%)
+Notice: Color temperature: 4183K
+Notice: Period: Transition (Day: 27.64%)
+Notice: Color temperature: 4180K
+Notice: Period: Transition (Day: 27.50%)
+Notice: Color temperature: 4177K
+Notice: Period: Transition (Day: 27.35%)
+Notice: Color temperature: 4174K
+Notice: Period: Transition (Day: 27.21%)
+Notice: Color temperature: 4171K
+Notice: Period: Transition (Day: 27.07%)
+Notice: Color temperature: 4168K
+Notice: Period: Transition (Day: 26.92%)
+Notice: Color temperature: 4165K
+Notice: Period: Transition (Day: 26.78%)
+Notice: Color temperature: 4162K
+Notice: Period: Transition (Day: 26.64%)
+Notice: Color temperature: 4159K
+Notice: Period: Transition (Day: 26.49%)
+Notice: Color temperature: 4156K
+Notice: Period: Transition (Day: 26.35%)
+Notice: Color temperature: 4153K
+Notice: Period: Transition (Day: 26.21%)
+Notice: Color temperature: 4150K
+Notice: Period: Transition (Day: 26.06%)
+Notice: Color temperature: 4147K
+Notice: Period: Transition (Day: 25.92%)
+Notice: Color temperature: 4144K
+Notice: Period: Transition (Day: 25.78%)
+Notice: Color temperature: 4141K
+Notice: Period: Transition (Day: 25.63%)
+Notice: Color temperature: 4138K
+Notice: Period: Transition (Day: 25.49%)
+Notice: Color temperature: 4135K
+Notice: Period: Transition (Day: 25.35%)
+Notice: Color temperature: 4132K
+Notice: Period: Transition (Day: 25.20%)
+Notice: Color temperature: 4129K
+Notice: Period: Transition (Day: 25.06%)
+Notice: Color temperature: 4126K
+Notice: Period: Transition (Day: 24.91%)
+Notice: Color temperature: 4123K
+Notice: Period: Transition (Day: 24.77%)
+Notice: Color temperature: 4120K
+Notice: Period: Transition (Day: 24.63%)
+Notice: Color temperature: 4117K
+erresc: unknown csi ESC[>4;0m
+Notice: Period: Transition (Day: 24.48%)
+Notice: Color temperature: 4114K
+Notice: Period: Transition (Day: 24.34%)
+Notice: Color temperature: 4111K
+Notice: Period: Transition (Day: 24.20%)
+Notice: Color temperature: 4108K
+Notice: Period: Transition (Day: 24.05%)
+Notice: Color temperature: 4105K
+Notice: Period: Transition (Day: 23.91%)
+Notice: Color temperature: 4102K
+Notice: Period: Transition (Day: 23.77%)
+Notice: Color temperature: 4099K
+Notice: Period: Transition (Day: 23.62%)
+Notice: Color temperature: 4096K
+Notice: Period: Transition (Day: 23.48%)
+Notice: Color temperature: 4093K
+Notice: Period: Transition (Day: 23.33%)
+Notice: Color temperature: 4090K
+Notice: Period: Transition (Day: 23.19%)
+Notice: Color temperature: 4086K
+Notice: Period: Transition (Day: 23.05%)
+Notice: Color temperature: 4083K
+Notice: Period: Transition (Day: 22.90%)
+Notice: Color temperature: 4080K
+Notice: Period: Transition (Day: 22.76%)
+Notice: Color temperature: 4077K
+Notice: Period: Transition (Day: 22.61%)
+Notice: Color temperature: 4074K
+Notice: Period: Transition (Day: 22.47%)
+Notice: Color temperature: 4071K
+erresc: unknown csi ESC[?2026$p
+erresc: unknown csi ESC[4:3m
+erresc: unknown csi ESC[>4;2m
+Notice: Period: Transition (Day: 22.33%)
+Notice: Color temperature: 4068K
+erresc: unknown csi ESC[>4;0m
+Notice: Period: Transition (Day: 22.18%)
+Notice: Color temperature: 4065K
+erresc: unknown csi ESC[?2026$p
+erresc: unknown csi ESC[4:3m
+erresc: unknown csi ESC[>4;2m
+Notice: Period: Transition (Day: 22.04%)
+Notice: Color temperature: 4062K
+Notice: Period: Transition (Day: 21.89%)
+Notice: Color temperature: 4059K
+Notice: Period: Transition (Day: 21.75%)
+Notice: Color temperature: 4056K
+Notice: Period: Transition (Day: 21.61%)
+Notice: Color temperature: 4053K
+Notice: Period: Transition (Day: 21.46%)
+Notice: Color temperature: 4050K
+Notice: Period: Transition (Day: 21.32%)
+Notice: Color temperature: 4047K
+erresc: unknown csi ESC[>4;0m
+Notice: Period: Transition (Day: 21.17%)
+Notice: Color temperature: 4044K
+Notice: Period: Transition (Day: 21.03%)
+Notice: Color temperature: 4041K
+Notice: Period: Transition (Day: 20.89%)
+Notice: Color temperature: 4038K
+Notice: Period: Transition (Day: 20.74%)
+Notice: Color temperature: 4035K
+Notice: Period: Transition (Day: 20.60%)
+Notice: Color temperature: 4032K
+Notice: Period: Transition (Day: 20.45%)
+Notice: Color temperature: 4029K
+Notice: Period: Transition (Day: 20.31%)
+Notice: Color temperature: 4026K
+Notice: Period: Transition (Day: 20.16%)
+Notice: Color temperature: 4023K
+Notice: Period: Transition (Day: 20.02%)
+Notice: Color temperature: 4020K
+Notice: Period: Transition (Day: 19.88%)
+Notice: Color temperature: 4017K
+Notice: Period: Transition (Day: 19.73%)
+Notice: Color temperature: 4014K
+Notice: Period: Transition (Day: 19.59%)
+Notice: Color temperature: 4011K
+Notice: Period: Transition (Day: 19.44%)
+Notice: Color temperature: 4008K
+Notice: Period: Transition (Day: 19.30%)
+Notice: Color temperature: 4005K
+Notice: Period: Transition (Day: 19.15%)
+Notice: Color temperature: 4002K
+erresc: unknown csi ESC[?2026$p
+erresc: unknown csi ESC[4:3m
+erresc: unknown csi ESC[>4;2m
+Notice: Period: Transition (Day: 19.01%)
+Notice: Color temperature: 3999K
+Notice: Period: Transition (Day: 18.87%)
+Notice: Color temperature: 3996K
+Notice: Period: Transition (Day: 18.72%)
+Notice: Color temperature: 3993K
+Notice: Period: Transition (Day: 18.58%)
+Notice: Color temperature: 3990K
+Notice: Period: Transition (Day: 18.43%)
+Notice: Color temperature: 3987K
+erresc: unknown csi ESC[>4;0m
+Notice: Period: Transition (Day: 18.29%)
+Notice: Color temperature: 3984K
+erresc: unknown csi ESC[?2026$p
+erresc: unknown csi ESC[4:3m
+erresc: unknown csi ESC[>4;2m
+Notice: Period: Transition (Day: 18.14%)
+Notice: Color temperature: 3981K
+Notice: Period: Transition (Day: 18.00%)
+Notice: Color temperature: 3977K
+Notice: Period: Transition (Day: 17.85%)
+Notice: Color temperature: 3974K
+Notice: Period: Transition (Day: 17.71%)
+Notice: Color temperature: 3971K
+Notice: Period: Transition (Day: 17.57%)
+Notice: Color temperature: 3968K
+Notice: Period: Transition (Day: 17.42%)
+Notice: Color temperature: 3965K
+Notice: Period: Transition (Day: 17.28%)
+Notice: Color temperature: 3962K
+Notice: Period: Transition (Day: 17.13%)
+Notice: Color temperature: 3959K
+Notice: Period: Transition (Day: 16.99%)
+Notice: Color temperature: 3956K
+Notice: Period: Transition (Day: 16.84%)
+Notice: Color temperature: 3953K
+Notice: Period: Transition (Day: 16.70%)
+Notice: Color temperature: 3950K
+Notice: Period: Transition (Day: 16.55%)
+Notice: Color temperature: 3947K
+Notice: Period: Transition (Day: 16.41%)
+Notice: Color temperature: 3944K
+Notice: Period: Transition (Day: 16.26%)
+Notice: Color temperature: 3941K
+Notice: Period: Transition (Day: 16.12%)
+Notice: Color temperature: 3938K
+Notice: Period: Transition (Day: 15.97%)
+Notice: Color temperature: 3935K
+Notice: Period: Transition (Day: 15.83%)
+Notice: Color temperature: 3932K
+Notice: Period: Transition (Day: 15.68%)
+Notice: Color temperature: 3929K
+Notice: Period: Transition (Day: 15.54%)
+Notice: Color temperature: 3926K
+Notice: Period: Transition (Day: 15.39%)
+Notice: Color temperature: 3923K
+Notice: Period: Transition (Day: 15.25%)
+Notice: Color temperature: 3920K
+Notice: Period: Transition (Day: 15.10%)
+Notice: Color temperature: 3917K
+Notice: Period: Transition (Day: 14.96%)
+Notice: Color temperature: 3914K
+Notice: Period: Transition (Day: 14.81%)
+Notice: Color temperature: 3911K
+Notice: Period: Transition (Day: 14.67%)
+Notice: Color temperature: 3908K
+Notice: Period: Transition (Day: 14.52%)
+Notice: Color temperature: 3905K
+Notice: Period: Transition (Day: 14.38%)
+Notice: Color temperature: 3901K
+Notice: Period: Transition (Day: 14.23%)
+Notice: Color temperature: 3898K
+Notice: Period: Transition (Day: 14.09%)
+Notice: Color temperature: 3895K
+Notice: Period: Transition (Day: 13.94%)
+Notice: Color temperature: 3892K
+erresc: unknown csi ESC[>4;0m
+Notice: Period: Transition (Day: 13.80%)
+Notice: Color temperature: 3889K
+Notice: Period: Transition (Day: 13.65%)
+Notice: Color temperature: 3886K
+Notice: Period: Transition (Day: 13.51%)
+Notice: Color temperature: 3883K
+Notice: Period: Transition (Day: 13.36%)
+Notice: Color temperature: 3880K
+erresc: unknown csi ESC[?2026$p
+erresc: unknown csi ESC[4:3m
+erresc: unknown csi ESC[>4;2m
+erresc: unknown csi ESC[>4;0m
+Notice: Period: Transition (Day: 13.22%)
+Notice: Color temperature: 3877K
+Notice: Period: Transition (Day: 13.07%)
+Notice: Color temperature: 3874K
+Notice: Period: Transition (Day: 12.93%)
+Notice: Color temperature: 3871K
+erresc: unknown csi ESC[?2026$p
+erresc: unknown csi ESC[4:3m
+erresc: unknown csi ESC[>4;2m
+Notice: Period: Transition (Day: 12.78%)
+Notice: Color temperature: 3868K
+erresc: unknown csi ESC[>4;0m
+Notice: Period: Transition (Day: 12.64%)
+Notice: Color temperature: 3865K
+Notice: Period: Transition (Day: 12.49%)
+Notice: Color temperature: 3862K
+Notice: Period: Transition (Day: 12.35%)
+Notice: Color temperature: 3859K
+Notice: Period: Transition (Day: 12.20%)
+Notice: Color temperature: 3856K
+erresc: unknown csi ESC[?2026$p
+erresc: unknown csi ESC[4:3m
+erresc: unknown csi ESC[>4;2m
+Notice: Period: Transition (Day: 12.06%)
+Notice: Color temperature: 3853K
+Notice: Period: Transition (Day: 11.91%)
+Notice: Color temperature: 3850K
+erresc: unknown csi ESC[>4;0m
+Notice: Period: Transition (Day: 11.77%)
+Notice: Color temperature: 3847K
+erresc: unknown str ESC]8
+erresc: unknown str ESC]8
+Notice: Period: Transition (Day: 11.62%)
+Notice: Color temperature: 3844K
+Notice: Period: Transition (Day: 11.48%)
+Notice: Color temperature: 3840K
+Notice: Period: Transition (Day: 11.33%)
+Notice: Color temperature: 3837K
+erresc: unknown csi ESC[?2026$p
+erresc: unknown csi ESC[4:3m
+erresc: unknown csi ESC[>4;2m
+Notice: Period: Transition (Day: 11.18%)
+Notice: Color temperature: 3834K
+erresc: unknown csi ESC[>4;0m
+Notice: Period: Transition (Day: 11.04%)
+Notice: Color temperature: 3831K
+erresc: unknown str ESC]8
+erresc: unknown str ESC]8
+Notice: Period: Transition (Day: 10.89%)
+Notice: Color temperature: 3828K
+Notice: Period: Transition (Day: 10.75%)
+Notice: Color temperature: 3825K
+Notice: Period: Transition (Day: 10.60%)
+Notice: Color temperature: 3822K
+erresc: unknown csi ESC[?2026$p
+erresc: unknown csi ESC[4:3m
+erresc: unknown csi ESC[>4;2m
+Notice: Period: Transition (Day: 10.46%)
+Notice: Color temperature: 3819K
+Notice: Period: Transition (Day: 10.31%)
+Notice: Color temperature: 3816K
+erresc: unknown csi ESC[>4;0m
+Notice: Period: Transition (Day: 10.17%)
+Notice: Color temperature: 3813K
+Notice: Period: Transition (Day: 10.02%)
+Notice: Color temperature: 3810K
+erresc: unknown csi ESC[?2026$p
+erresc: unknown csi ESC[4:3m
+erresc: unknown csi ESC[>4;2m
+Notice: Period: Transition (Day: 9.87%)
+Notice: Color temperature: 3807K
+Notice: Period: Transition (Day: 9.73%)
+Notice: Color temperature: 3804K
+Notice: Period: Transition (Day: 9.58%)
+Notice: Color temperature: 3801K
+Notice: Period: Transition (Day: 9.44%)
+Notice: Color temperature: 3798K
+Notice: Period: Transition (Day: 9.29%)
+Notice: Color temperature: 3795K
+Notice: Period: Transition (Day: 9.15%)
+Notice: Color temperature: 3792K
+Notice: Period: Transition (Day: 9.00%)
+Notice: Color temperature: 3789K
+Notice: Period: Transition (Day: 8.86%)
+Notice: Color temperature: 3785K
+Notice: Period: Transition (Day: 8.71%)
+Notice: Color temperature: 3782K
+Notice: Period: Transition (Day: 8.56%)
+Notice: Color temperature: 3779K
+Notice: Period: Transition (Day: 8.42%)
+Notice: Color temperature: 3776K
+Notice: Period: Transition (Day: 8.27%)
+Notice: Color temperature: 3773K
+Notice: Period: Transition (Day: 8.13%)
+Notice: Color temperature: 3770K
+Notice: Period: Transition (Day: 7.98%)
+Notice: Color temperature: 3767K
+Notice: Period: Transition (Day: 7.83%)
+Notice: Color temperature: 3764K
+erresc: unknown csi ESC[?2026$p
+erresc: unknown csi ESC[4:3m
+erresc: unknown csi ESC[>4;2m
+Notice: Period: Transition (Day: 7.69%)
+Notice: Color temperature: 3761K
+Notice: Period: Transition (Day: 7.54%)
+Notice: Color temperature: 3758K
+Notice: Period: Transition (Day: 7.40%)
+Notice: Color temperature: 3755K
+Notice: Period: Transition (Day: 7.25%)
+Notice: Color temperature: 3752K
+erresc: unknown csi ESC[>4;0m
+Notice: Period: Transition (Day: 7.11%)
+Notice: Color temperature: 3749K
+erresc: unknown str ESC]8
+erresc: unknown str ESC]8
+Notice: Period: Transition (Day: 6.96%)
+Notice: Color temperature: 3746K
+Notice: Period: Transition (Day: 6.81%)
+Notice: Color temperature: 3743K
+Notice: Period: Transition (Day: 6.67%)
+Notice: Color temperature: 3740K
+erresc: unknown csi ESC[?2026$p
+erresc: unknown csi ESC[4:3m
+erresc: unknown csi ESC[>4;2m
+Notice: Period: Transition (Day: 6.52%)
+Notice: Color temperature: 3736K
+erresc: unknown csi ESC[>4;0m
+Notice: Period: Transition (Day: 6.38%)
+Notice: Color temperature: 3733K
+Notice: Period: Transition (Day: 6.23%)
+Notice: Color temperature: 3730K
+Notice: Period: Transition (Day: 6.08%)
+Notice: Color temperature: 3727K
+Notice: Period: Transition (Day: 5.94%)
+Notice: Color temperature: 3724K
+Notice: Period: Transition (Day: 5.79%)
+Notice: Color temperature: 3721K
+Notice: Period: Transition (Day: 5.64%)
+Notice: Color temperature: 3718K
+Notice: Period: Transition (Day: 5.50%)
+Notice: Color temperature: 3715K
+Notice: Period: Transition (Day: 5.35%)
+Notice: Color temperature: 3712K
+Notice: Period: Transition (Day: 5.21%)
+Notice: Color temperature: 3709K
+Notice: Period: Transition (Day: 5.06%)
+Notice: Color temperature: 3706K
+Notice: Period: Transition (Day: 4.91%)
+Notice: Color temperature: 3703K
+erresc: unknown csi ESC[?2026$p
+erresc: unknown csi ESC[4:3m
+erresc: unknown csi ESC[>4;2m
+Notice: Period: Transition (Day: 4.77%)
+Notice: Color temperature: 3700K
+Notice: Period: Transition (Day: 4.62%)
+Notice: Color temperature: 3697K
+Notice: Period: Transition (Day: 4.48%)
+Notice: Color temperature: 3693K
+erresc: unknown csi ESC[?2026$p
+erresc: unknown csi ESC[4:3m
+erresc: unknown csi ESC[>4;2m
+Notice: Period: Transition (Day: 4.33%)
+Notice: Color temperature: 3690K
+Notice: Period: Transition (Day: 4.18%)
+Notice: Color temperature: 3687K
+Notice: Period: Transition (Day: 4.04%)
+Notice: Color temperature: 3684K
+Notice: Period: Transition (Day: 3.89%)
+Notice: Color temperature: 3681K
+erresc: unknown csi ESC[>4;0m
+Notice: Period: Transition (Day: 3.74%)
+Notice: Color temperature: 3678K
+Notice: Period: Transition (Day: 3.60%)
+Notice: Color temperature: 3675K
+Notice: Period: Transition (Day: 3.45%)
+Notice: Color temperature: 3672K
+Notice: Period: Transition (Day: 3.30%)
+Notice: Color temperature: 3669K
+Notice: Period: Transition (Day: 3.16%)
+Notice: Color temperature: 3666K
+Notice: Period: Transition (Day: 3.01%)
+Notice: Color temperature: 3663K
+erresc: unknown csi ESC[?2026$p
+erresc: unknown csi ESC[4:3m
+erresc: unknown csi ESC[>4;2m
+Notice: Period: Transition (Day: 2.87%)
+Notice: Color temperature: 3660K
+Notice: Period: Transition (Day: 2.72%)
+Notice: Color temperature: 3657K
+Notice: Period: Transition (Day: 2.57%)
+Notice: Color temperature: 3654K
+Notice: Period: Transition (Day: 2.43%)
+Notice: Color temperature: 3650K
+Notice: Period: Transition (Day: 2.28%)
+Notice: Color temperature: 3647K
+Notice: Period: Transition (Day: 2.13%)
+Notice: Color temperature: 3644K
+Notice: Period: Transition (Day: 1.99%)
+Notice: Color temperature: 3641K
+erresc: unknown csi ESC[>4;0m
+Notice: Period: Transition (Day: 1.84%)
+Notice: Color temperature: 3638K
+Notice: Period: Transition (Day: 1.69%)
+Notice: Color temperature: 3635K
+erresc: unknown csi ESC[>4;0m
+Notice: Period: Transition (Day: 1.55%)
+Notice: Color temperature: 3632K
+erresc: unknown str ESC]8
+erresc: unknown str ESC]8
+Notice: Period: Transition (Day: 1.40%)
+Notice: Color temperature: 3629K
+Notice: Period: Transition (Day: 1.25%)
+Notice: Color temperature: 3626K
+Notice: Period: Transition (Day: 1.11%)
+Notice: Color temperature: 3623K
+Notice: Period: Transition (Day: 0.96%)
+Notice: Color temperature: 3620K
+Notice: Period: Transition (Day: 0.81%)
+Notice: Color temperature: 3617K
+Notice: Period: Transition (Day: 0.67%)
+Notice: Color temperature: 3613K
+Notice: Period: Transition (Day: 0.52%)
+Notice: Color temperature: 3610K
+Notice: Period: Transition (Day: 0.37%)
+Notice: Color temperature: 3607K
+Notice: Period: Transition (Day: 0.23%)
+Notice: Color temperature: 3604K
+Notice: Period: Transition (Day: 0.08%)
+Notice: Color temperature: 3601K
+Notice: Period: Night
+Notice: Color temperature: 3600K
+erresc: unknown csi ESC[>4;0m
+erresc: unknown csi ESC[?2026$p
+erresc: unknown csi ESC[4:3m
+erresc: unknown csi ESC[>4;2m
+erresc: unknown csi ESC[>4;0m
+erresc: unknown csi ESC[?2026$p
+erresc: unknown csi ESC[4:3m
+erresc: unknown csi ESC[>4;2m
+erresc: unknown csi ESC[>4;0m
+erresc: unknown csi ESC[?2026$p
+erresc: unknown csi ESC[4:3m
+erresc: unknown csi ESC[>4;2m
+erresc: unknown csi ESC[>4;0m
+erresc: unknown csi ESC[?2026$p
+erresc: unknown csi ESC[4:3m
+erresc: unknown csi ESC[>4;2m
+erresc: unknown csi ESC[>4;0m
+erresc: unknown str ESC]8
+erresc: unknown str ESC]8
+erresc: unknown csi ESC[?2026$p
+erresc: unknown csi ESC[4:3m
+erresc: unknown csi ESC[>4;2m
+erresc: unknown csi ESC[>4;0m
+erresc: unknown str ESC]8
+erresc: unknown str ESC]8
+erresc: unknown csi ESC[?2026$p
+erresc: unknown csi ESC[4:3m
+erresc: unknown csi ESC[>4;2m
+erresc: unknown csi ESC[>4;0m
+erresc: unknown csi ESC[?2026$p
+erresc: unknown csi ESC[4:3m
+erresc: unknown csi ESC[>4;2m
+erresc: unknown csi ESC[?2026$p
+erresc: unknown csi ESC[4:3m
+erresc: unknown csi ESC[>4;2m
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+Killed
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown csi ESC[>4;0m
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+Killed
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown csi ESC[?2026$p
+erresc: unknown csi ESC[4:3m
+erresc: unknown csi ESC[>4;2m
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+[2:36:0106/165502.433664:ERROR:get_updates_processor.cc(267)] PostClientToServerMessage() failed during GetUpdates with error Network error (ERR_NAME_NOT_RESOLVED)
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+[2:37:0106/165503.314703:ERROR:get_updates_processor.cc(267)] PostClientToServerMessage() failed during GetUpdates with error Network error (ERR_NAME_NOT_RESOLVED)
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown csi ESC[>4;0m
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+Killed
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown csi ESC[?2026$p
+erresc: unknown csi ESC[4:3m
+erresc: unknown csi ESC[>4;2m
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown csi ESC[>4;0m
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+Killed
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+erresc: unknown private set/reset mode 2026
+[2:37:0106/165605.080705:ERROR:get_updates_processor.cc(267)] PostClientToServerMessage() failed during GetUpdates with error Network error (ERR_NAME_NOT_RESOLVED)
+erresc: unknown csi ESC[>4;0m
+erresc: unknown str ESC]8
+erresc: unknown str ESC]8
 erresc: unknown csi ESC[?2026$p
 erresc: unknown csi ESC[4:3m
 erresc: unknown csi ESC[>4;2m

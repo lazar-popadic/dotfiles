@@ -1,4 +1,4 @@
 #!/usr/bin/sh
-date=$(date '+%d %B %Y')
+date=$(date '+%A, %d %B %Y')
 icon_date='󰨳'
 printf "%s %s" "$icon_date" "$date"
