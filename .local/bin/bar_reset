@@ -1,0 +1,4 @@
+#!/bin/bash
+
+pkill bar_loop
+bar_loop

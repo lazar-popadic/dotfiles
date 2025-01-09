@@ -9,13 +9,13 @@ static const int showbar            = 1;        /* 0 means no bar */
 static const int topbar             = 1;        /* 0 means bottom bar */
 static const int vertpad            = 2;       /* vertical padding of bar */
 static const int sidepad            = 2;       /* horizontal padding of bar */
-static const int user_bh            = 8;        /* 2 is the default spacing around the bar's font */
-static const unsigned int systraypinning = 0;   /* 0: sloppy systray follows selected monitor, >0: pin systray to monitor X */
-static const unsigned int systrayspacing = 6;   /* systray spacing */
+static const int user_bh            = 4;        /* 2 is the default spacing around the bar's font */
+static const unsigned int systraypinning = 1;   /* 0: sloppy systray follows selected monitor, >0: pin systray to monitor X */
+static const unsigned int systrayspacing = 4;   /* systray spacing */
 static const int systraypinningfailfirst = 1;   /* 1: if pinning fails, display systray on the first monitor, False: display systray on the last monitor*/
 static const int showsystray             = 1;   /* 0 means no systray */
 static const char *fonts[]          = { "BitstromWera Nerd Font Propo:style=Oblique:size=9" };
-static const char dmenufont[]       = "BitstromWera Nerd Font Propo:size=9";
+static const char dmenufont[]       = "BitstromWera Nerd Font Propo:size=8";
 //static const char dmenu_w[]	= "480";
 //static const char dmenu_y[]	= "478";
 //static const char dmenu_x[]	= "720";
@@ -122,20 +122,22 @@ static const Key keys[] = {
 	{ MODKEY|ShiftMask,             XK_l,      spawn,     		SHCMD("slock") },
 	{ MODKEY,	                XK_space,  togglefloating, 	{0} },
 //	sledeca 4 su za multimonitor
-	{ MODKEY,                       XK_comma,  focusmon,       {.i = -1 } },
-	{ MODKEY,                       XK_period, focusmon,       {.i = +1 } },
-	{ MODKEY|ShiftMask,             XK_comma,  tagmon,         {.i = -1 } },
-	{ MODKEY|ShiftMask,             XK_period, tagmon,         {.i = +1 } },
-	{ ShiftMask,			XK_Alt_L, spawn,	   SHCMD("pkill -RTMIN+11 dwmblocks") },
-	{ MODKEY|ShiftMask,		XK_s,		spawn,	   SHCMD("flameshot gui") },
-	{ MODKEY,			XK_minus,   	spawn,	   SHCMD("pamixer -d 4 | pkill -RTMIN+10 dwmblocks") },
-	{ 0,				XF86XK_AudioLowerVolume,   	spawn,	   SHCMD("pamixer -d 4 | pkill -RTMIN+10 dwmblocks") },
-	{ MODKEY,			XK_equal,   	spawn,	   SHCMD("pamixer -i 4 | pkill -RTMIN+10 dwmblocks") },
-	{ 0,				XF86XK_AudioRaiseVolume,   	spawn,	   SHCMD("pamixer -i 4 | pkill -RTMIN+10 dwmblocks") },
-	{ MODKEY,			XK_0,   	spawn,	   SHCMD("pamixer -t | pkill -RTMIN+10 dwmblocks") },
-	{ 0,				XF86XK_AudioMute,   	spawn,	   SHCMD("pamixer -t | pkill -RTMIN+10 dwmblocks") },
-	{ 0,				XF86XK_MonBrightnessUp,   	spawn,	   SHCMD("inc_brightness.sh | pkill -RTMIN+12 dwmblocks") },
-	{ 0,				XF86XK_MonBrightnessDown,   	spawn,	   SHCMD("dec_brightness.sh | pkill -RTMIN+12 dwmblocks") },
+	{ MODKEY,                       XK_comma,  			focusmon,       {.i = -1 } },
+	{ MODKEY,                       XK_period, 			focusmon,       {.i = +1 } },
+	{ MODKEY|ShiftMask,             XK_comma, 			tagmon,         {.i = -1 } },
+	{ MODKEY|ShiftMask,             XK_period, 			tagmon,         {.i = +1 } },
+	{ ShiftMask,			XK_Alt_L, 			spawn,	   SHCMD("bar_reset") },
+	{ MODKEY|ShiftMask,		XK_s,				spawn,	   SHCMD("flameshot gui") },
+	{ MODKEY,			XK_minus,   			spawn,	   SHCMD("pamixer -d 4 | bar_reset") },
+	{ 0,				XF86XK_AudioLowerVolume,   	spawn,	   SHCMD("pamixer -d 4 | bar_reset") },
+	{ MODKEY,			XK_equal,   			spawn,	   SHCMD("pamixer -i 4 | bar_reset") },
+	{ 0,				XF86XK_AudioRaiseVolume,   	spawn,	   SHCMD("pamixer -i 4 | bar_reset") },
+	{ MODKEY,			XK_0,   			spawn,	   SHCMD("pamixer -t | bar_reset") },
+	{ 0,				XF86XK_AudioMute,   		spawn,	   SHCMD("pamixer -t | bar_reset") },
+	{ 0,				XF86XK_AudioPlay,   		spawn,	   SHCMD("toggle_music_state") },
+	{ MODKEY,			XK_bracketright,   		spawn,	   SHCMD("toggle_music_state") },
+	{ 0,				XF86XK_MonBrightnessUp,   	spawn,	   SHCMD("inc_brightness.sh | bar_reset") },
+	{ 0,				XF86XK_MonBrightnessDown,   	spawn,	   SHCMD("dec_brightness.sh | bar_reset") },
 	//{ MODKEY,                       XK_minus,  setgaps,        {.i = -1 } },
 	//{ MODKEY,                       XK_equal,  setgaps,        {.i = +1 } },
 	//{ MODKEY|ShiftMask,             XK_equal,  setgaps,        {.i = 0  } },

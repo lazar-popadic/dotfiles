@@ -1,0 +1,8 @@
+#!/bin/bash
+
+music_state=$(mpc status | grep -oP '\[(playing|paused)\]')
+if [[ $music_state == "[playing]" ]]; then
+	mpc pause
+else
+	mpc play
+fi

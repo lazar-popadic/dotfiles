@@ -6,7 +6,7 @@
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
 //static char *font = "NotoMono Nerd Font:size=11:antialias=true:autohint=true";
-static char *font = "BitstromWera Nerd Font:size=9";
+static char *font = "BitstromWera Nerd Font:size=8";
 static int borderpx = 1;
 
 /*

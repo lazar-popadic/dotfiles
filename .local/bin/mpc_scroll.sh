@@ -1,10 +1,10 @@
 #!/bin/bash
 
 # Store the current song info and time info
-song_info=$(mpc current -f "%artist% - %album% - %title%            ")
+song_info=$(mpc current -f "%artist% - %album% - %title%      ")
 
 # Set the maximum number of characters to display (e.g., 32)
-max_chars=36
+max_chars=40
 
 # Get the current counter value (this will be used to scroll the song info)
 counter_file="/tmp/mpc_counter.txt"
@@ -26,7 +26,7 @@ if [ "$song_length" -lt "$max_chars" ]; then
 fi
 
 # Start the scrolling loop
-while true; do
+#while true; do
     # Scroll the song info by using the counter to slice the string
     scrolling_song_info="${song_info:$counter:$max_chars}"
 
@@ -37,9 +37,7 @@ while true; do
 
     # Save the output for dwmblocks
     echo "󰝚 $scrolling_song_info" > /tmp/mpc_status_output
-
-    # Send a signal to dwmblocks to refresh the status
-    pkill -RTMIN+13 dwmblocks
+ #   echo "󰝚 $scrolling_song_info"
 
     # Increment the counter and reset if necessary (looping back to the start after the song length)
     counter=$(( (counter + 1) % song_length ))
@@ -48,5 +46,9 @@ while true; do
     echo $counter > "$counter_file"
 
     # Sleep for a short period to control the scrolling speed
-    sleep 0.25  # Adjust the sleep time for faster/slower scrolling
-done
+    #sleep 0.25  # Adjust the sleep time for faster/slower scrolling
+
+
+# ovaj budz sredi nekad, jer kad nema ovo ne apdejtuje se nista osim mpc_show.sh u dwmblocksu
+#	reset_blocks.sh
+#done

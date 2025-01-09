@@ -10,7 +10,7 @@ static const unsigned int invisible = 0x00;
 static const unsigned int opaque = 0xff;
 /* -fn option overrides fonts[0]; default X11 font or font set */
 static const char *fonts[] = {
-	"BitstromWera Nerd Font:size=9"
+	"BitstromWera Nerd Font:size=8"
 };
 static const char *prompt      = NULL;      /* -p  option; prompt to the left of input field */
 char black[8] = "#000000";

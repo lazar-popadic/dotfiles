@@ -4,4 +4,5 @@ setxkbmap -layout "us,rs,rs" -variant "basic,basic,latin" -option grp:alt_shift_
 ferdium &
 nm-applet &
 copyq &
-dwmblocks &
+#dwmblocks &
+bar_loop &

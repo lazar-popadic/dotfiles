@@ -1,0 +1,6 @@
+#!/bin/bash
+
+while true; do
+	bar_update
+	sleep 0.25
+done

@@ -3,8 +3,6 @@
 volume=$(pamixer --get-volume)
 is_muted=$(pamixer --get-volume-human)
 
-#if (( $is_muted == muted )); then
-
 if [ "$is_muted" == "muted" ]; then
 	icon="󰝟"
 else

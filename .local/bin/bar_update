@@ -1,0 +1,139 @@
+#!/bin/bash
+
+# MUSIC SCROLL
+song_info=$(mpc current -f "%artist% - %album% - %title%      ")
+max_chars=40
+counter_file="/tmp/mpc_counter.txt"
+if [ ! -f "$counter_file" ]; then
+    echo 0 > "$counter_file"
+fi
+counter=$(cat "$counter_file")
+song_length=${#song_info}
+if [ "$song_length" -lt "$max_chars" ]; then
+    max_chars=$song_length
+fi
+scrolling_song_info="${song_info:$counter:$max_chars}"
+if [ ${#scrolling_song_info} -lt $max_chars ]; then
+    scrolling_song_info="$scrolling_song_info${song_info:0:$((max_chars - ${#scrolling_song_info}))}"
+fi
+music_icon="󰝚"
+counter=$(( (counter + 1) % song_length ))
+echo $counter > "$counter_file"
+
+# MUSIC STATE
+music_state=$(mpc status | grep -oP '\[(playing|paused)\]')
+if [[ $music_state == "[playing]" ]]; then
+    music_state_icon="󰐊"
+elif [[ $music_state == "[paused]" ]]; then
+    music_state_icon="󰏤"
+else
+    music_state_icon="Unknown"
+fi
+
+# MUSIC TIME
+time_info=$(mpc status | grep -oP '(\d{1,2}:\d{2})/\d{1,2}:\d{2}' | head -n 1)
+formatted_time="[${time_info//\// \/ }]"  # Note the space after the slash
+
+# VOLUME
+volume=$(pamixer --get-volume)
+is_muted=$(pamixer --get-volume-human)
+if [ "$is_muted" == "muted" ]; then
+	volume_icon="󰝟"
+else
+if (( $volume > 59 )); then
+    volume_icon="󰕾"
+elif (( $volume > 19 )); then
+    volume_icon="󰖀"
+else (( $volume > 0 ));
+    volume_icon="󰕿"
+fi
+fi
+
+# BRIGHTNESS
+brightness=$(cat /sys/class/backlight/amdgpu_bl0/brightness)
+section=$(( (brightness * 7) / 255 ))
+if [ "$section" -lt 1 ]; then	
+ brightness_icon='󰃚'
+elif [ "$section" -lt 2 ]; then	
+ brightness_icon='󰃛'
+elif [ "$section" -lt 3 ]; then	
+ brightness_icon='󰃜'
+elif [ "$section" -lt 4 ]; then	
+ brightness_icon='󰃝'
+elif [ "$section" -lt 5 ]; then	
+ brightness_icon='󰃞'
+elif [ "$section" -lt 6 ]; then	
+ brightness_icon='󰃟'
+else
+ brightness_icon='󰃠'
+fi
+
+# BATTERY
+percentage=$(cat /sys/class/power_supply/BAT0/capacity)
+status=$(cat /sys/class/power_supply/BAT0/status)
+if [ "$status" = "Charging" ]; then
+	battery_icon='󰂄'
+elif [ "$percentage" -gt 95 ]; then	
+ battery_icon='󰁹'
+elif [ "$percentage" -gt 91 ]; then	
+ battery_icon='󰂂'
+elif [ "$percentage" -gt 81 ]; then	
+ battery_icon='󰂁'
+elif [ "$percentage" -gt 71 ]; then	
+ battery_icon='󰂀'
+elif [ "$percentage" -gt 61 ]; then	
+ battery_icon='󰁿'
+elif [ "$percentage" -gt 51 ]; then	
+ battery_icon='󰁾'
+elif [ "$percentage" -gt 41 ]; then	
+ battery_icon='󰁽'
+elif [ "$percentage" -gt 31 ]; then	
+ battery_icon='󰁼'
+elif [ "$percentage" -gt 21 ]; then	
+ battery_icon='󰁻'
+elif [ "$percentage" -gt 11 ]; then	
+ battery_icon='󰁻'
+elif [ "$percentage" -gt 5 ]; then	
+ battery_icon='󰁺'
+else
+ battery_icon='󰂃'
+fi
+
+# KEYBOARD LAYOUT
+layout=$(xkblayout-state print "%s(%e)")
+keyboard_icon="󰥻"
+case $layout in
+	"us(basic)")
+        	layout="eng"
+        ;;
+	"rs(basic)")
+		layout="срб"
+        ;;
+    	"rs(latin)")
+        	layout="srb"
+        ;;
+esac
+
+# TIME
+time=$(date '+%H:%M:%S')
+icon_time='󰥔'
+
+# DATE
+date=$(date '+%A, %d %B %Y')
+icon_date='󰨳'
+
+
+
+# PRINT ALL
+dwm_status=""
+dwm_status+="$music_icon $scrolling_song_info  "
+dwm_status+="$music_state_icon  "
+dwm_status+="$formatted_time   "
+dwm_status+="$volume_icon $is_muted   "
+dwm_status+="$brightness_icon $brightness   "
+dwm_status+="$battery_icon $percentage   "
+dwm_status+="$keyboard_icon $layout   "
+dwm_status+="$icon_time $time   "
+dwm_status+="$icon_date $date "
+
+xsetroot -name "$dwm_status"
