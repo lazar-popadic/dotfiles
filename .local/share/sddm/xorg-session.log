@@ -3,6 +3,12 @@ Notice: Temperatures: 5700K (Day), 3600K (Night)
 Notice: Brightness: 1.00:1.00
 Notice: Gamma (Day): 0.800, 0.800, 0.800
 Notice: Gamma (Night): 0.800, 0.800, 0.800
+Notice: Location: 45.20 N, 19.70 E
+Notice: Color temperature: 6500K
+Notice: Brightness: 1.00
+Notice: Status: Enabled
+Notice: Period: Daytime
+Notice: Color temperature: 5700K
 MPD error: Connection refused
 /home/lazar/.local/bin/bar_update: line 20: (counter + 1) % song_length : division by 0 (error token is "song_length ")
 MPD error: Connection refused
@@ -14,30 +20,26 @@ Connection error
 /home/lazar/.local/bin/bar_update: line 43: ((: > 59 : syntax error: operand expected (error token is "> 59 ")
 /home/lazar/.local/bin/bar_update: line 45: ((: > 19 : syntax error: operand expected (error token is "> 19 ")
 /home/lazar/.local/bin/bar_update: line 47: ((: > 0 : syntax error: operand expected (error token is "> 0 ")
-Notice: Location: 45.20 N, 19.70 E
-Notice: Color temperature: 6500K
-Notice: Brightness: 1.00
-Notice: Status: Enabled
-Notice: Period: Daytime
-Notice: Color temperature: 5700K
 WARNING: Could not find theme AdwaitaLegacy
-
-(nitrogen:2086): Gtk-WARNING **: 10:06:55.838: Unable to locate theme engine in module_path: "adwaita",
-
-(nitrogen:2086): Gtk-WARNING **: 10:06:55.839: Unable to locate theme engine in module_path: "adwaita",
 F: Can't get document portal: GDBus.Error:org.freedesktop.portal.Error.Failed: Can't mount path /run/user/1000/doc
 
-(copyq:2103): Gtk-WARNING **: 10:06:56.256: Unable to locate theme engine in module_path: "adwaita",
+(nitrogen:928): Gtk-WARNING **: 08:45:52.525: Unable to locate theme engine in module_path: "adwaita",
 
-(copyq:2103): Gtk-WARNING **: 10:06:56.257: Unable to locate theme engine in module_path: "adwaita",
+(nitrogen:928): Gtk-WARNING **: 08:45:52.525: Unable to locate theme engine in module_path: "adwaita",
 
-(nitrogen:2086): Gtk-WARNING **: 10:06:56.384: Unable to locate theme engine in module_path: "adwaita",
+(copyq:946): Gtk-WARNING **: 08:45:52.609: Unable to locate theme engine in module_path: "adwaita",
 
-(nitrogen:2086): Gtk-WARNING **: 10:06:56.384: Unable to locate theme engine in module_path: "adwaita",
+(copyq:946): Gtk-WARNING **: 08:45:52.609: Unable to locate theme engine in module_path: "adwaita",
 
-(nitrogen:2086): GLib-GObject-CRITICAL **: 10:06:56.393: Attempting to freeze the notification queue for object GtkSettings[0x5626770d8870]; Property notification does not work during instance finalization.
+(nitrogen:928): Gtk-WARNING **: 08:45:52.711: Unable to locate theme engine in module_path: "adwaita",
 
-(nitrogen:2086): GLib-GObject-CRITICAL **: 10:06:56.393: Attempting to thaw the notification queue for object GtkSettings[0x5626770d8870]; Property notification does not work during instance finalization.
+(nitrogen:928): Gtk-WARNING **: 08:45:52.712: Unable to locate theme engine in module_path: "adwaita",
+
+(nitrogen:928): GLib-GObject-CRITICAL **: 08:45:52.723: Attempting to freeze the notification queue for object GtkSettings[0x55d080db5750]; Property notification does not work during instance finalization.
+
+(nitrogen:928): GLib-GObject-CRITICAL **: 08:45:52.723: Attempting to thaw the notification queue for object GtkSettings[0x55d080db5750]; Property notification does not work during instance finalization.
+New PolkitAgentListener  0x55a42bdf0b50
+Adding new listener  PolkitQt1::Agent::Listener(0x7ffd40084630) for  0x55a42bdf0b50
 Connection error
 
 Connection error
@@ -45,8 +47,6 @@ Connection error
 /home/lazar/.local/bin/bar_update: line 43: ((: > 59 : syntax error: operand expected (error token is "> 59 ")
 /home/lazar/.local/bin/bar_update: line 45: ((: > 19 : syntax error: operand expected (error token is "> 19 ")
 /home/lazar/.local/bin/bar_update: line 47: ((: > 0 : syntax error: operand expected (error token is "> 0 ")
-New PolkitAgentListener  0x55649cab6990
-Adding new listener  PolkitQt1::Agent::Listener(0x7ffedd2b47d0) for  0x55649cab6990
 Warning: [default] QtWarning: QSystemTrayIcon::setVisible: No Icon set
 Warning: [qt.qpa.xcb] QtWarning: Unhandled client message:  "_NET_SYSTEM_TRAY_S0"
 Connection error
@@ -56,7 +56,7 @@ Connection error
 /home/lazar/.local/bin/bar_update: line 43: ((: > 59 : syntax error: operand expected (error token is "> 59 ")
 /home/lazar/.local/bin/bar_update: line 45: ((: > 19 : syntax error: operand expected (error token is "> 19 ")
 /home/lazar/.local/bin/bar_update: line 47: ((: > 0 : syntax error: operand expected (error token is "> 0 ")
-[2:0109/100656.930267:ERROR:bus.cc(407)] Failed to connect to the bus: Failed to connect to socket /run/dbus/system_bus_socket: No such file or directory
+[2:0111/084553.256937:ERROR:bus.cc(407)] Failed to connect to the bus: Failed to connect to socket /run/dbus/system_bus_socket: No such file or directory
 Connection error
 
 Connection error
@@ -71,7 +71,7 @@ Connection error
 /home/lazar/.local/bin/bar_update: line 43: ((: > 59 : syntax error: operand expected (error token is "> 59 ")
 /home/lazar/.local/bin/bar_update: line 45: ((: > 19 : syntax error: operand expected (error token is "> 19 ")
 /home/lazar/.local/bin/bar_update: line 47: ((: > 0 : syntax error: operand expected (error token is "> 0 ")
-N 10:06:57.736876 wp-internal-comp-l ../lib/wp/private/internal-comp-loader.c:945:wp_internal_comp_loader_load: Loading profile 'main'
+N 08:45:54.075136 wp-internal-comp-l ../lib/wp/private/internal-comp-loader.c:945:wp_internal_comp_loader_load: Loading profile 'main'
 Connection error
 
 Connection error
@@ -79,25 +79,25 @@ Connection error
 /home/lazar/.local/bin/bar_update: line 43: ((: > 59 : syntax error: operand expected (error token is "> 59 ")
 /home/lazar/.local/bin/bar_update: line 45: ((: > 19 : syntax error: operand expected (error token is "> 19 ")
 /home/lazar/.local/bin/bar_update: line 47: ((: > 0 : syntax error: operand expected (error token is "> 0 ")
-N 10:06:57.936860 wp-internal-comp-l ../lib/wp/private/internal-comp-loader.c:589:on_component_loaded: <WpCore:0x55c7c30bc0d0> optional component 'support.logind [module: libwireplumber-module-logind]' failed to load: Failed to locate module libwireplumber-module-logind
-N 10:06:57.936913 wp-internal-comp-l ../lib/wp/private/internal-comp-loader.c:641:wp_component_array_load_task_execute_step: <WpCore:0x55c7c30bc0d0> skipping component 'monitor.bluez.seat-monitoring [virtual]' because some of its dependencies were not loaded
-N 10:06:57.938747          wp-device ../lib/wp/device.c:630:wp_spa_device_new_from_spa_factory: SPA handle 'api.bluez5.enum.dbus' could not be loaded; is it installed?
-N 10:06:57.938800         s-monitors bluez.lua:386:createMonitor: PipeWire's BlueZ SPA plugin is missing or broken. Bluetooth devices will not be supported.
-N 10:06:57.940387          wp-device ../lib/wp/device.c:630:wp_spa_device_new_from_spa_factory: SPA handle 'api.bluez5.midi.enum' could not be loaded; is it installed?
-N 10:06:57.940431         s-monitors bluez-midi.lua:95:createMonitor: PipeWire's BlueZ MIDI SPA missing or broken. Bluetooth not supported.
-E 10:06:57.940563        pw.resource ../src/pipewire/resource.c:255:pw_resource_errorf_id: can't create node: No such file or directory
-W 10:06:57.940594            wp-node ../lib/wp/node.c:913:wp_impl_node_new_from_pw_factory: failed to create node from factory 'spa-node-factory'
-N 10:06:57.940603         s-monitors bluez-midi.lua:130:createServers: Failed to create BLE MIDI server.
+N 08:45:54.263502 wp-internal-comp-l ../lib/wp/private/internal-comp-loader.c:589:on_component_loaded: <WpCore:0x55865a25a0d0> optional component 'support.logind [module: libwireplumber-module-logind]' failed to load: Failed to locate module libwireplumber-module-logind
+N 08:45:54.263540 wp-internal-comp-l ../lib/wp/private/internal-comp-loader.c:641:wp_component_array_load_task_execute_step: <WpCore:0x55865a25a0d0> skipping component 'monitor.bluez.seat-monitoring [virtual]' because some of its dependencies were not loaded
+N 08:45:54.264639          wp-device ../lib/wp/device.c:630:wp_spa_device_new_from_spa_factory: SPA handle 'api.bluez5.enum.dbus' could not be loaded; is it installed?
+N 08:45:54.264668         s-monitors bluez.lua:386:createMonitor: PipeWire's BlueZ SPA plugin is missing or broken. Bluetooth devices will not be supported.
+N 08:45:54.265400          wp-device ../lib/wp/device.c:630:wp_spa_device_new_from_spa_factory: SPA handle 'api.bluez5.midi.enum' could not be loaded; is it installed?
+N 08:45:54.265425         s-monitors bluez-midi.lua:95:createMonitor: PipeWire's BlueZ MIDI SPA missing or broken. Bluetooth not supported.
+E 08:45:54.265508        pw.resource ../src/pipewire/resource.c:255:pw_resource_errorf_id: can't create node: No such file or directory
+W 08:45:54.265527            wp-node ../lib/wp/node.c:913:wp_impl_node_new_from_pw_factory: failed to create node from factory 'spa-node-factory'
+N 08:45:54.265534         s-monitors bluez-midi.lua:130:createServers: Failed to create BLE MIDI server.
+[2:0111/084554.344195:ERROR:bus.cc(407)] Failed to connect to the bus: Failed to connect to socket /run/dbus/system_bus_socket: No such file or directory
+[2:0111/084554.344282:ERROR:bus.cc(407)] Failed to connect to the bus: Failed to connect to socket /run/dbus/system_bus_socket: No such file or directory
 Connection error
 
-[0:01:38.102531893] [2486] [1;32m INFO [1;37mCamera [1;34mcamera_manager.cpp:325 [0mlibcamera v0.3.2
 Connection error
 
 /home/lazar/.local/bin/bar_update: line 43: ((: > 59 : syntax error: operand expected (error token is "> 59 ")
 /home/lazar/.local/bin/bar_update: line 45: ((: > 19 : syntax error: operand expected (error token is "> 19 ")
 /home/lazar/.local/bin/bar_update: line 47: ((: > 0 : syntax error: operand expected (error token is "> 0 ")
-[2:0109/100658.092949:ERROR:bus.cc(407)] Failed to connect to the bus: Failed to connect to socket /run/dbus/system_bus_socket: No such file or directory
-[2:0109/100658.093001:ERROR:bus.cc(407)] Failed to connect to the bus: Failed to connect to socket /run/dbus/system_bus_socket: No such file or directory
+[0:00:13.367628362] [1304] [1;32m INFO [1;37mCamera [1;34mcamera_manager.cpp:325 [0mlibcamera v0.3.2
 LaunchProcess: failed to execvp:
 xdg-settings
 Connection error
@@ -109,1195 +109,552 @@ Connection error
 /home/lazar/.local/bin/bar_update: line 47: ((: > 0 : syntax error: operand expected (error token is "> 0 ")
 Connection error
 
-Connection error
-
 /home/lazar/.local/bin/bar_update: line 43: ((: > 59 : syntax error: operand expected (error token is "> 59 ")
 /home/lazar/.local/bin/bar_update: line 45: ((: > 19 : syntax error: operand expected (error token is "> 19 ")
 /home/lazar/.local/bin/bar_update: line 47: ((: > 0 : syntax error: operand expected (error token is "> 0 ")
-[2:0109/100700.537722:ERROR:bus.cc(407)] Failed to connect to the bus: Failed to connect to socket /run/dbus/system_bus_socket: No such file or directory
-[2:0109/100700.537776:ERROR:bus.cc(407)] Failed to connect to the bus: Failed to connect to socket /run/dbus/system_bus_socket: No such file or directory
-[2:0109/100700.537796:ERROR:bus.cc(407)] Failed to connect to the bus: Failed to connect to socket /run/dbus/system_bus_socket: No such file or directory
+[2:0111/084556.846054:ERROR:bus.cc(407)] Failed to connect to the bus: Failed to connect to socket /run/dbus/system_bus_socket: No such file or directory
+[2:0111/084556.846123:ERROR:bus.cc(407)] Failed to connect to the bus: Failed to connect to socket /run/dbus/system_bus_socket: No such file or directory
+[2:0111/084556.846150:ERROR:bus.cc(407)] Failed to connect to the bus: Failed to connect to socket /run/dbus/system_bus_socket: No such file or directory
 [MobX] Since strict-mode is enabled, changing (observed) observable values without using an action is not allowed. Tried to modify: Settings@13.store
-(node:65) MaxListenersExceededWarning: Possible EventEmitter memory leak detected. 11 select-capture-device:ecdbc6e1-a5ad-4ee4-9d20-f142ef0b0b3a listeners added to [IpcRenderer]. MaxListeners is 10. Use emitter.setMaxListeners() to increase limit
-(Use `exe --trace-warnings ...` to show where the warning was created)
 
-(orca-slicer:13732): GLib-GObject-CRITICAL **: 10:09:23.278: invalid cast from 'wxPizza' to 'GtkCellLayout'
+(orca-slicer:3163): GLib-GObject-CRITICAL **: 08:46:19.234: invalid cast from 'wxPizza' to 'GtkCellLayout'
 
-(orca-slicer:13732): Gtk-CRITICAL **: 10:09:23.278: gtk_cell_layout_get_cells: assertion 'GTK_IS_CELL_LAYOUT (cell_layout)' failed
+(orca-slicer:3163): Gtk-CRITICAL **: 08:46:19.234: gtk_cell_layout_get_cells: assertion 'GTK_IS_CELL_LAYOUT (cell_layout)' failed
 
-(orca-slicer:13732): GLib-GObject-CRITICAL **: 10:09:23.279: invalid cast from 'wxPizza' to 'GtkCellLayout'
+(orca-slicer:3163): GLib-GObject-CRITICAL **: 08:46:19.236: invalid cast from 'wxPizza' to 'GtkCellLayout'
 
-(orca-slicer:13732): Gtk-CRITICAL **: 10:09:23.279: gtk_cell_layout_get_cells: assertion 'GTK_IS_CELL_LAYOUT (cell_layout)' failed
+(orca-slicer:3163): Gtk-CRITICAL **: 08:46:19.236: gtk_cell_layout_get_cells: assertion 'GTK_IS_CELL_LAYOUT (cell_layout)' failed
 
-(orca-slicer:13732): GLib-GObject-CRITICAL **: 10:09:23.280: invalid cast from 'wxPizza' to 'GtkCellLayout'
+(orca-slicer:3163): GLib-GObject-CRITICAL **: 08:46:19.237: invalid cast from 'wxPizza' to 'GtkCellLayout'
 
-(orca-slicer:13732): Gtk-CRITICAL **: 10:09:23.280: gtk_cell_layout_get_cells: assertion 'GTK_IS_CELL_LAYOUT (cell_layout)' failed
+(orca-slicer:3163): Gtk-CRITICAL **: 08:46:19.237: gtk_cell_layout_get_cells: assertion 'GTK_IS_CELL_LAYOUT (cell_layout)' failed
 
-(orca-slicer:13732): GLib-GObject-CRITICAL **: 10:09:23.280: invalid cast from 'wxPizza' to 'GtkCellLayout'
+(orca-slicer:3163): GLib-GObject-CRITICAL **: 08:46:19.237: invalid cast from 'wxPizza' to 'GtkCellLayout'
 
-(orca-slicer:13732): Gtk-CRITICAL **: 10:09:23.280: gtk_cell_layout_get_cells: assertion 'GTK_IS_CELL_LAYOUT (cell_layout)' failed
+(orca-slicer:3163): Gtk-CRITICAL **: 08:46:19.237: gtk_cell_layout_get_cells: assertion 'GTK_IS_CELL_LAYOUT (cell_layout)' failed
 
-(orca-slicer:13732): GLib-GObject-CRITICAL **: 10:09:23.282: invalid cast from 'wxPizza' to 'GtkCellLayout'
+(orca-slicer:3163): GLib-GObject-CRITICAL **: 08:46:19.239: invalid cast from 'wxPizza' to 'GtkCellLayout'
 
-(orca-slicer:13732): Gtk-CRITICAL **: 10:09:23.282: gtk_cell_layout_get_cells: assertion 'GTK_IS_CELL_LAYOUT (cell_layout)' failed
+(orca-slicer:3163): Gtk-CRITICAL **: 08:46:19.239: gtk_cell_layout_get_cells: assertion 'GTK_IS_CELL_LAYOUT (cell_layout)' failed
 
-(orca-slicer:13732): GLib-GObject-CRITICAL **: 10:09:23.282: invalid cast from 'wxPizza' to 'GtkCellLayout'
+(orca-slicer:3163): GLib-GObject-CRITICAL **: 08:46:19.239: invalid cast from 'wxPizza' to 'GtkCellLayout'
 
-(orca-slicer:13732): Gtk-CRITICAL **: 10:09:23.282: gtk_cell_layout_get_cells: assertion 'GTK_IS_CELL_LAYOUT (cell_layout)' failed
+(orca-slicer:3163): Gtk-CRITICAL **: 08:46:19.239: gtk_cell_layout_get_cells: assertion 'GTK_IS_CELL_LAYOUT (cell_layout)' failed
 
-(orca-slicer:13732): GLib-GObject-CRITICAL **: 10:09:23.284: invalid cast from 'wxPizza' to 'GtkCellLayout'
+(orca-slicer:3163): GLib-GObject-CRITICAL **: 08:46:19.240: invalid cast from 'wxPizza' to 'GtkCellLayout'
 
-(orca-slicer:13732): Gtk-CRITICAL **: 10:09:23.284: gtk_cell_layout_get_cells: assertion 'GTK_IS_CELL_LAYOUT (cell_layout)' failed
+(orca-slicer:3163): Gtk-CRITICAL **: 08:46:19.240: gtk_cell_layout_get_cells: assertion 'GTK_IS_CELL_LAYOUT (cell_layout)' failed
 
-(orca-slicer:13732): GLib-GObject-CRITICAL **: 10:09:23.284: invalid cast from 'wxPizza' to 'GtkCellLayout'
+(orca-slicer:3163): GLib-GObject-CRITICAL **: 08:46:19.241: invalid cast from 'wxPizza' to 'GtkCellLayout'
 
-(orca-slicer:13732): Gtk-CRITICAL **: 10:09:23.284: gtk_cell_layout_get_cells: assertion 'GTK_IS_CELL_LAYOUT (cell_layout)' failed
+(orca-slicer:3163): Gtk-CRITICAL **: 08:46:19.241: gtk_cell_layout_get_cells: assertion 'GTK_IS_CELL_LAYOUT (cell_layout)' failed
 
-(orca-slicer:13732): Gtk-CRITICAL **: 10:09:23.285: gtk_widget_set_size_request: assertion 'width >= -1' failed
+(orca-slicer:3163): Gtk-CRITICAL **: 08:46:19.242: gtk_widget_set_size_request: assertion 'width >= -1' failed
 
-(orca-slicer:13732): Gtk-CRITICAL **: 10:09:23.285: gtk_widget_set_size_request: assertion 'width >= -1' failed
+(orca-slicer:3163): Gtk-CRITICAL **: 08:46:19.242: gtk_widget_set_size_request: assertion 'width >= -1' failed
 
-(orca-slicer:13732): GLib-GObject-CRITICAL **: 10:09:23.285: invalid cast from 'wxPizza' to 'GtkCellLayout'
+(orca-slicer:3163): GLib-GObject-CRITICAL **: 08:46:19.242: invalid cast from 'wxPizza' to 'GtkCellLayout'
 
-(orca-slicer:13732): Gtk-CRITICAL **: 10:09:23.285: gtk_cell_layout_get_cells: assertion 'GTK_IS_CELL_LAYOUT (cell_layout)' failed
+(orca-slicer:3163): Gtk-CRITICAL **: 08:46:19.242: gtk_cell_layout_get_cells: assertion 'GTK_IS_CELL_LAYOUT (cell_layout)' failed
 
-(orca-slicer:13732): Gtk-CRITICAL **: 10:09:23.286: gtk_widget_set_size_request: assertion 'width >= -1' failed
+(orca-slicer:3163): Gtk-CRITICAL **: 08:46:19.243: gtk_widget_set_size_request: assertion 'width >= -1' failed
 
-(orca-slicer:13732): Gtk-CRITICAL **: 10:09:23.286: gtk_widget_set_size_request: assertion 'width >= -1' failed
+(orca-slicer:3163): Gtk-CRITICAL **: 08:46:19.243: gtk_widget_set_size_request: assertion 'width >= -1' failed
 
-(orca-slicer:13732): GLib-GObject-CRITICAL **: 10:09:23.286: invalid cast from 'wxPizza' to 'GtkCellLayout'
+(orca-slicer:3163): GLib-GObject-CRITICAL **: 08:46:19.243: invalid cast from 'wxPizza' to 'GtkCellLayout'
 
-(orca-slicer:13732): Gtk-CRITICAL **: 10:09:23.286: gtk_cell_layout_get_cells: assertion 'GTK_IS_CELL_LAYOUT (cell_layout)' failed
+(orca-slicer:3163): Gtk-CRITICAL **: 08:46:19.243: gtk_cell_layout_get_cells: assertion 'GTK_IS_CELL_LAYOUT (cell_layout)' failed
 
-(orca-slicer:13732): Gtk-CRITICAL **: 10:09:23.456: gtk_window_resize: assertion 'height > 0' failed
+(orca-slicer:3163): Gtk-CRITICAL **: 08:46:19.429: gtk_window_resize: assertion 'height > 0' failed
 
-(orca-slicer:13732): Gtk-CRITICAL **: 10:09:23.461: gtk_widget_set_size_request: assertion 'width >= -1' failed
+(orca-slicer:3163): Gtk-CRITICAL **: 08:46:19.435: gtk_widget_set_size_request: assertion 'width >= -1' failed
 
-(orca-slicer:13732): Gtk-CRITICAL **: 10:09:23.461: gtk_widget_set_size_request: assertion 'width >= -1' failed
+(orca-slicer:3163): Gtk-CRITICAL **: 08:46:19.435: gtk_widget_set_size_request: assertion 'width >= -1' failed
 
-(orca-slicer:13732): Gtk-CRITICAL **: 10:09:23.461: gtk_widget_set_size_request: assertion 'width >= -1' failed
+(orca-slicer:3163): Gtk-CRITICAL **: 08:46:19.435: gtk_widget_set_size_request: assertion 'width >= -1' failed
 
-(orca-slicer:13732): Gtk-CRITICAL **: 10:09:23.461: gtk_widget_set_size_request: assertion 'width >= -1' failed
+(orca-slicer:3163): Gtk-CRITICAL **: 08:46:19.435: gtk_widget_set_size_request: assertion 'width >= -1' failed
 
-(orca-slicer:13732): Gtk-CRITICAL **: 10:09:23.461: gtk_widget_set_size_request: assertion 'width >= -1' failed
+(orca-slicer:3163): Gtk-CRITICAL **: 08:46:19.436: gtk_widget_set_size_request: assertion 'width >= -1' failed
 
-(orca-slicer:13732): Gtk-CRITICAL **: 10:09:23.461: gtk_widget_set_size_request: assertion 'width >= -1' failed
+(orca-slicer:3163): Gtk-CRITICAL **: 08:46:19.436: gtk_widget_set_size_request: assertion 'width >= -1' failed
 
-(orca-slicer:13732): Gtk-CRITICAL **: 10:09:23.461: gtk_widget_set_size_request: assertion 'width >= -1' failed
+(orca-slicer:3163): Gtk-CRITICAL **: 08:46:19.436: gtk_widget_set_size_request: assertion 'width >= -1' failed
 
-(orca-slicer:13732): Gtk-CRITICAL **: 10:09:23.461: gtk_widget_set_size_request: assertion 'width >= -1' failed
+(orca-slicer:3163): Gtk-CRITICAL **: 08:46:19.436: gtk_widget_set_size_request: assertion 'width >= -1' failed
 
-(orca-slicer:13732): Gtk-CRITICAL **: 10:09:23.473: gtk_window_resize: assertion 'height > 0' failed
+(orca-slicer:3163): Gtk-CRITICAL **: 08:46:19.459: gtk_window_resize: assertion 'height > 0' failed
 
-(orca-slicer:13732): Gtk-CRITICAL **: 10:09:23.473: gtk_widget_set_size_request: assertion 'width >= -1' failed
+(orca-slicer:3163): Gtk-CRITICAL **: 08:46:19.460: gtk_widget_set_size_request: assertion 'width >= -1' failed
 
-(orca-slicer:13732): Gtk-CRITICAL **: 10:09:23.473: gtk_widget_set_size_request: assertion 'width >= -1' failed
+(orca-slicer:3163): Gtk-CRITICAL **: 08:46:19.460: gtk_widget_set_size_request: assertion 'width >= -1' failed
 
-(orca-slicer:13732): Gtk-CRITICAL **: 10:09:23.714: gtk_widget_set_size_request: assertion 'width >= -1' failed
+(orca-slicer:3163): Gtk-CRITICAL **: 08:46:19.720: gtk_widget_set_size_request: assertion 'width >= -1' failed
 
-(orca-slicer:13732): Gtk-CRITICAL **: 10:09:23.714: gtk_widget_set_size_request: assertion 'width >= -1' failed
+(orca-slicer:3163): Gtk-CRITICAL **: 08:46:19.720: gtk_widget_set_size_request: assertion 'width >= -1' failed
 
-(orca-slicer:13732): Gtk-CRITICAL **: 10:09:23.726: gtk_widget_set_size_request: assertion 'width >= -1' failed
+(orca-slicer:3163): Gtk-CRITICAL **: 08:46:19.735: gtk_widget_set_size_request: assertion 'width >= -1' failed
 
-(orca-slicer:13732): Gtk-CRITICAL **: 10:09:23.726: gtk_widget_set_size_request: assertion 'width >= -1' failed
+(orca-slicer:3163): Gtk-CRITICAL **: 08:46:19.735: gtk_widget_set_size_request: assertion 'width >= -1' failed
 
-(orca-slicer:13732): Gtk-CRITICAL **: 10:09:23.730: gtk_widget_set_size_request: assertion 'width >= -1' failed
+(orca-slicer:3163): Gtk-CRITICAL **: 08:46:19.739: gtk_widget_set_size_request: assertion 'width >= -1' failed
 
-(orca-slicer:13732): Gtk-CRITICAL **: 10:09:23.730: gtk_widget_set_size_request: assertion 'width >= -1' failed
+(orca-slicer:3163): Gtk-CRITICAL **: 08:46:19.739: gtk_widget_set_size_request: assertion 'width >= -1' failed
 
-(orca-slicer:13732): Gtk-CRITICAL **: 10:09:23.737: gtk_widget_set_size_request: assertion 'width >= -1' failed
+(orca-slicer:3163): Gtk-CRITICAL **: 08:46:19.747: gtk_widget_set_size_request: assertion 'width >= -1' failed
 
-(orca-slicer:13732): Gtk-CRITICAL **: 10:09:23.737: gtk_widget_set_size_request: assertion 'width >= -1' failed
+(orca-slicer:3163): Gtk-CRITICAL **: 08:46:19.747: gtk_widget_set_size_request: assertion 'width >= -1' failed
 
-(orca-slicer:13732): Gtk-CRITICAL **: 10:09:23.744: gtk_widget_set_size_request: assertion 'width >= -1' failed
+(orca-slicer:3163): Gtk-CRITICAL **: 08:46:19.754: gtk_widget_set_size_request: assertion 'width >= -1' failed
 
-(orca-slicer:13732): Gtk-CRITICAL **: 10:09:23.744: gtk_widget_set_size_request: assertion 'width >= -1' failed
+(orca-slicer:3163): Gtk-CRITICAL **: 08:46:19.754: gtk_widget_set_size_request: assertion 'width >= -1' failed
 
-(orca-slicer:13732): Gtk-CRITICAL **: 10:09:23.751: gtk_widget_set_size_request: assertion 'width >= -1' failed
+(orca-slicer:3163): Gtk-CRITICAL **: 08:46:19.761: gtk_widget_set_size_request: assertion 'width >= -1' failed
 
-(orca-slicer:13732): Gtk-CRITICAL **: 10:09:23.751: gtk_widget_set_size_request: assertion 'width >= -1' failed
+(orca-slicer:3163): Gtk-CRITICAL **: 08:46:19.761: gtk_widget_set_size_request: assertion 'width >= -1' failed
 
-(orca-slicer:13732): Gtk-CRITICAL **: 10:09:23.759: gtk_widget_set_size_request: assertion 'width >= -1' failed
+(orca-slicer:3163): Gtk-CRITICAL **: 08:46:19.770: gtk_widget_set_size_request: assertion 'width >= -1' failed
 
-(orca-slicer:13732): Gtk-CRITICAL **: 10:09:23.759: gtk_widget_set_size_request: assertion 'width >= -1' failed
+(orca-slicer:3163): Gtk-CRITICAL **: 08:46:19.770: gtk_widget_set_size_request: assertion 'width >= -1' failed
 
-(orca-slicer:13732): Gtk-CRITICAL **: 10:09:23.765: gtk_widget_set_size_request: assertion 'width >= -1' failed
+(orca-slicer:3163): Gtk-CRITICAL **: 08:46:19.777: gtk_widget_set_size_request: assertion 'width >= -1' failed
 
-(orca-slicer:13732): Gtk-CRITICAL **: 10:09:23.765: gtk_widget_set_size_request: assertion 'width >= -1' failed
+(orca-slicer:3163): Gtk-CRITICAL **: 08:46:19.777: gtk_widget_set_size_request: assertion 'width >= -1' failed
 
-** (orca-slicer:13732): CRITICAL **: 10:09:24.051: Cannot register URI scheme wxfs more than once
+** (orca-slicer:3163): CRITICAL **: 08:46:20.087: Cannot register URI scheme wxfs more than once
 
-** (orca-slicer:13732): CRITICAL **: 10:09:24.051: Cannot register URI scheme memory more than once
+** (orca-slicer:3163): CRITICAL **: 08:46:20.087: Cannot register URI scheme memory more than once
 
-** (orca-slicer:13732): CRITICAL **: 10:09:24.196: Cannot register URI scheme wxfs more than once
+** (orca-slicer:3163): CRITICAL **: 08:46:20.259: Cannot register URI scheme wxfs more than once
 
-** (orca-slicer:13732): CRITICAL **: 10:09:24.196: Cannot register URI scheme memory more than once
+** (orca-slicer:3163): CRITICAL **: 08:46:20.259: Cannot register URI scheme memory more than once
 
-** (orca-slicer:13732): CRITICAL **: 10:09:24.200: Cannot register URI scheme wxfs more than once
+** (orca-slicer:3163): CRITICAL **: 08:46:20.264: Cannot register URI scheme wxfs more than once
 
-** (orca-slicer:13732): CRITICAL **: 10:09:24.200: Cannot register URI scheme memory more than once
+** (orca-slicer:3163): CRITICAL **: 08:46:20.264: Cannot register URI scheme memory more than once
 
-(orca-slicer:13732): Gtk-CRITICAL **: 10:09:24.208: gtk_widget_set_size_request: assertion 'width >= -1' failed
+(orca-slicer:3163): Gtk-CRITICAL **: 08:46:20.273: gtk_widget_set_size_request: assertion 'width >= -1' failed
 
-(orca-slicer:13732): Gtk-CRITICAL **: 10:09:24.208: gtk_widget_set_size_request: assertion 'width >= -1' failed
+(orca-slicer:3163): Gtk-CRITICAL **: 08:46:20.273: gtk_widget_set_size_request: assertion 'width >= -1' failed
 
-(orca-slicer:13732): Gtk-CRITICAL **: 10:09:24.208: gtk_widget_set_size_request: assertion 'width >= -1' failed
+(orca-slicer:3163): Gtk-CRITICAL **: 08:46:20.273: gtk_widget_set_size_request: assertion 'width >= -1' failed
 
-(orca-slicer:13732): Gtk-CRITICAL **: 10:09:24.208: gtk_widget_set_size_request: assertion 'width >= -1' failed
+(orca-slicer:3163): Gtk-CRITICAL **: 08:46:20.273: gtk_widget_set_size_request: assertion 'width >= -1' failed
 
-(orca-slicer:13732): Gtk-CRITICAL **: 10:09:24.208: gtk_widget_set_size_request: assertion 'width >= -1' failed
+(orca-slicer:3163): Gtk-CRITICAL **: 08:46:20.273: gtk_widget_set_size_request: assertion 'width >= -1' failed
 
-(orca-slicer:13732): Gtk-CRITICAL **: 10:09:24.208: gtk_widget_set_size_request: assertion 'width >= -1' failed
+(orca-slicer:3163): Gtk-CRITICAL **: 08:46:20.273: gtk_widget_set_size_request: assertion 'width >= -1' failed
 
-(orca-slicer:13732): Gtk-CRITICAL **: 10:09:24.222: gtk_widget_set_size_request: assertion 'width >= -1' failed
+(orca-slicer:3163): Gtk-CRITICAL **: 08:46:20.289: gtk_widget_set_size_request: assertion 'width >= -1' failed
 
-(orca-slicer:13732): Gtk-CRITICAL **: 10:09:24.222: gtk_widget_set_size_request: assertion 'width >= -1' failed
+(orca-slicer:3163): Gtk-CRITICAL **: 08:46:20.289: gtk_widget_set_size_request: assertion 'width >= -1' failed
 
-(orca-slicer:13732): Gtk-CRITICAL **: 10:09:24.222: gtk_widget_set_size_request: assertion 'width >= -1' failed
+(orca-slicer:3163): Gtk-CRITICAL **: 08:46:20.289: gtk_widget_set_size_request: assertion 'width >= -1' failed
 
-(orca-slicer:13732): Gtk-CRITICAL **: 10:09:24.222: gtk_widget_set_size_request: assertion 'width >= -1' failed
+(orca-slicer:3163): Gtk-CRITICAL **: 08:46:20.289: gtk_widget_set_size_request: assertion 'width >= -1' failed
 
-(orca-slicer:13732): Gtk-CRITICAL **: 10:09:24.222: gtk_widget_set_size_request: assertion 'width >= -1' failed
+(orca-slicer:3163): Gtk-CRITICAL **: 08:46:20.289: gtk_widget_set_size_request: assertion 'width >= -1' failed
 
-(orca-slicer:13732): Gtk-CRITICAL **: 10:09:24.223: gtk_widget_set_size_request: assertion 'width >= -1' failed
+(orca-slicer:3163): Gtk-CRITICAL **: 08:46:20.289: gtk_widget_set_size_request: assertion 'width >= -1' failed
 
-(orca-slicer:13732): Gtk-CRITICAL **: 10:09:24.223: gtk_window_resize: assertion 'width > 0' failed
+(orca-slicer:3163): Gtk-CRITICAL **: 08:46:20.290: gtk_window_resize: assertion 'width > 0' failed
 
-(orca-slicer:13732): Gtk-CRITICAL **: 10:09:24.223: gtk_widget_set_size_request: assertion 'width >= -1' failed
+(orca-slicer:3163): Gtk-CRITICAL **: 08:46:20.290: gtk_widget_set_size_request: assertion 'width >= -1' failed
 
-(orca-slicer:13732): Gtk-CRITICAL **: 10:09:24.286: gtk_window_resize: assertion 'height > 0' failed
+(orca-slicer:3163): Gtk-CRITICAL **: 08:46:20.355: gtk_window_resize: assertion 'height > 0' failed
 
-(orca-slicer:13732): Gtk-CRITICAL **: 10:09:24.287: gtk_widget_set_size_request: assertion 'width >= -1' failed
+(orca-slicer:3163): Gtk-CRITICAL **: 08:46:20.355: gtk_widget_set_size_request: assertion 'width >= -1' failed
 
-(orca-slicer:13732): Gtk-CRITICAL **: 10:09:24.287: gtk_widget_set_size_request: assertion 'width >= -1' failed
+(orca-slicer:3163): Gtk-CRITICAL **: 08:46:20.355: gtk_widget_set_size_request: assertion 'width >= -1' failed
 
-(orca-slicer:13732): Gtk-CRITICAL **: 10:09:24.288: gtk_window_resize: assertion 'height > 0' failed
+(orca-slicer:3163): Gtk-CRITICAL **: 08:46:20.356: gtk_window_resize: assertion 'height > 0' failed
 
-(orca-slicer:13732): Gtk-CRITICAL **: 10:09:24.288: gtk_widget_set_size_request: assertion 'width >= -1' failed
+(orca-slicer:3163): Gtk-CRITICAL **: 08:46:20.357: gtk_widget_set_size_request: assertion 'width >= -1' failed
 
-(orca-slicer:13732): Gtk-CRITICAL **: 10:09:24.288: gtk_widget_set_size_request: assertion 'width >= -1' failed
+(orca-slicer:3163): Gtk-CRITICAL **: 08:46:20.357: gtk_widget_set_size_request: assertion 'width >= -1' failed
 
-(orca-slicer:13732): Gtk-CRITICAL **: 10:09:24.289: gtk_window_resize: assertion 'height > 0' failed
+(orca-slicer:3163): Gtk-CRITICAL **: 08:46:20.358: gtk_window_resize: assertion 'height > 0' failed
 
-(orca-slicer:13732): Gtk-CRITICAL **: 10:09:24.290: gtk_widget_set_size_request: assertion 'width >= -1' failed
+(orca-slicer:3163): Gtk-CRITICAL **: 08:46:20.358: gtk_widget_set_size_request: assertion 'width >= -1' failed
 
-(orca-slicer:13732): Gtk-CRITICAL **: 10:09:24.290: gtk_widget_set_size_request: assertion 'width >= -1' failed
+(orca-slicer:3163): Gtk-CRITICAL **: 08:46:20.358: gtk_widget_set_size_request: assertion 'width >= -1' failed
 
-(orca-slicer:13732): Gtk-CRITICAL **: 10:09:24.291: gtk_window_resize: assertion 'height > 0' failed
+(orca-slicer:3163): Gtk-CRITICAL **: 08:46:20.359: gtk_window_resize: assertion 'height > 0' failed
 
-(orca-slicer:13732): Gtk-CRITICAL **: 10:09:24.291: gtk_widget_set_size_request: assertion 'width >= -1' failed
+(orca-slicer:3163): Gtk-CRITICAL **: 08:46:20.359: gtk_widget_set_size_request: assertion 'width >= -1' failed
 
-(orca-slicer:13732): Gtk-CRITICAL **: 10:09:24.291: gtk_widget_set_size_request: assertion 'width >= -1' failed
+(orca-slicer:3163): Gtk-CRITICAL **: 08:46:20.359: gtk_widget_set_size_request: assertion 'width >= -1' failed
 
-(orca-slicer:13732): Gtk-CRITICAL **: 10:09:24.295: gtk_window_resize: assertion 'height > 0' failed
+(orca-slicer:3163): Gtk-CRITICAL **: 08:46:20.361: gtk_window_resize: assertion 'height > 0' failed
 
-(orca-slicer:13732): Gtk-CRITICAL **: 10:09:24.295: gtk_widget_set_size_request: assertion 'width >= -1' failed
+(orca-slicer:3163): Gtk-CRITICAL **: 08:46:20.362: gtk_widget_set_size_request: assertion 'width >= -1' failed
 
-(orca-slicer:13732): Gtk-CRITICAL **: 10:09:24.295: gtk_widget_set_size_request: assertion 'width >= -1' failed
+(orca-slicer:3163): Gtk-CRITICAL **: 08:46:20.362: gtk_widget_set_size_request: assertion 'width >= -1' failed
+Terminated
 
-(orca-slicer:13732): Gtk-CRITICAL **: 10:09:24.458: gtk_window_resize: assertion 'height > 0' failed
+(orca-slicer:3163): Gtk-CRITICAL **: 08:46:20.526: gtk_window_resize: assertion 'height > 0' failed
 
-(orca-slicer:13732): Gtk-CRITICAL **: 10:09:24.458: gtk_widget_set_size_request: assertion 'width >= -1' failed
+(orca-slicer:3163): Gtk-CRITICAL **: 08:46:20.526: gtk_widget_set_size_request: assertion 'width >= -1' failed
 
-(orca-slicer:13732): Gtk-CRITICAL **: 10:09:24.458: gtk_widget_set_size_request: assertion 'width >= -1' failed
+(orca-slicer:3163): Gtk-CRITICAL **: 08:46:20.526: gtk_widget_set_size_request: assertion 'width >= -1' failed
 
-(orca-slicer:13732): Gtk-CRITICAL **: 10:09:24.460: gtk_window_resize: assertion 'height > 0' failed
+(orca-slicer:3163): Gtk-CRITICAL **: 08:46:20.527: gtk_window_resize: assertion 'height > 0' failed
 
-(orca-slicer:13732): Gtk-CRITICAL **: 10:09:24.460: gtk_widget_set_size_request: assertion 'width >= -1' failed
+(orca-slicer:3163): Gtk-CRITICAL **: 08:46:20.527: gtk_widget_set_size_request: assertion 'width >= -1' failed
 
-(orca-slicer:13732): Gtk-CRITICAL **: 10:09:24.460: gtk_widget_set_size_request: assertion 'width >= -1' failed
+(orca-slicer:3163): Gtk-CRITICAL **: 08:46:20.527: gtk_widget_set_size_request: assertion 'width >= -1' failed
 
-(orca-slicer:13732): Gtk-CRITICAL **: 10:09:24.461: gtk_window_resize: assertion 'height > 0' failed
+(orca-slicer:3163): Gtk-CRITICAL **: 08:46:20.528: gtk_window_resize: assertion 'height > 0' failed
 
-(orca-slicer:13732): Gtk-CRITICAL **: 10:09:24.461: gtk_widget_set_size_request: assertion 'width >= -1' failed
+(orca-slicer:3163): Gtk-CRITICAL **: 08:46:20.528: gtk_widget_set_size_request: assertion 'width >= -1' failed
 
-(orca-slicer:13732): Gtk-CRITICAL **: 10:09:24.461: gtk_widget_set_size_request: assertion 'width >= -1' failed
+(orca-slicer:3163): Gtk-CRITICAL **: 08:46:20.528: gtk_widget_set_size_request: assertion 'width >= -1' failed
 
-(orca-slicer:13732): Gtk-CRITICAL **: 10:09:24.462: gtk_window_resize: assertion 'height > 0' failed
+(orca-slicer:3163): Gtk-CRITICAL **: 08:46:20.529: gtk_window_resize: assertion 'height > 0' failed
 
-(orca-slicer:13732): Gtk-CRITICAL **: 10:09:24.462: gtk_widget_set_size_request: assertion 'width >= -1' failed
+(orca-slicer:3163): Gtk-CRITICAL **: 08:46:20.529: gtk_widget_set_size_request: assertion 'width >= -1' failed
 
-(orca-slicer:13732): Gtk-CRITICAL **: 10:09:24.462: gtk_widget_set_size_request: assertion 'width >= -1' failed
+(orca-slicer:3163): Gtk-CRITICAL **: 08:46:20.529: gtk_widget_set_size_request: assertion 'width >= -1' failed
 
-(orca-slicer:13732): Gtk-CRITICAL **: 10:09:24.463: gtk_window_resize: assertion 'height > 0' failed
+(orca-slicer:3163): Gtk-CRITICAL **: 08:46:20.530: gtk_window_resize: assertion 'height > 0' failed
 
-(orca-slicer:13732): Gtk-CRITICAL **: 10:09:24.463: gtk_widget_set_size_request: assertion 'width >= -1' failed
+(orca-slicer:3163): Gtk-CRITICAL **: 08:46:20.530: gtk_widget_set_size_request: assertion 'width >= -1' failed
 
-(orca-slicer:13732): Gtk-CRITICAL **: 10:09:24.463: gtk_widget_set_size_request: assertion 'width >= -1' failed
+(orca-slicer:3163): Gtk-CRITICAL **: 08:46:20.530: gtk_widget_set_size_request: assertion 'width >= -1' failed
+Terminated
 
-(orca-slicer:13732): Gtk-CRITICAL **: 10:09:24.690: gtk_widget_set_size_request: assertion 'width >= -1' failed
+(orca-slicer:3163): Gtk-CRITICAL **: 08:46:20.758: gtk_widget_set_size_request: assertion 'width >= -1' failed
 
-(orca-slicer:13732): GLib-GObject-CRITICAL **: 10:09:24.691: invalid cast from 'wxPizza' to 'GtkCellLayout'
+(orca-slicer:3163): GLib-GObject-CRITICAL **: 08:46:20.759: invalid cast from 'wxPizza' to 'GtkCellLayout'
 
-(orca-slicer:13732): Gtk-CRITICAL **: 10:09:24.691: gtk_cell_layout_get_cells: assertion 'GTK_IS_CELL_LAYOUT (cell_layout)' failed
+(orca-slicer:3163): Gtk-CRITICAL **: 08:46:20.759: gtk_cell_layout_get_cells: assertion 'GTK_IS_CELL_LAYOUT (cell_layout)' failed
 
-(orca-slicer:13732): GLib-GObject-CRITICAL **: 10:09:24.691: invalid cast from 'wxPizza' to 'GtkCellLayout'
+(orca-slicer:3163): GLib-GObject-CRITICAL **: 08:46:20.759: invalid cast from 'wxPizza' to 'GtkCellLayout'
 
-(orca-slicer:13732): Gtk-CRITICAL **: 10:09:24.691: gtk_cell_layout_get_cells: assertion 'GTK_IS_CELL_LAYOUT (cell_layout)' failed
+(orca-slicer:3163): Gtk-CRITICAL **: 08:46:20.759: gtk_cell_layout_get_cells: assertion 'GTK_IS_CELL_LAYOUT (cell_layout)' failed
 
-(orca-slicer:13732): GLib-GObject-CRITICAL **: 10:09:24.693: invalid cast from 'wxPizza' to 'GtkCellLayout'
+(orca-slicer:3163): GLib-GObject-CRITICAL **: 08:46:20.761: invalid cast from 'wxPizza' to 'GtkCellLayout'
 
-(orca-slicer:13732): Gtk-CRITICAL **: 10:09:24.693: gtk_cell_layout_get_cells: assertion 'GTK_IS_CELL_LAYOUT (cell_layout)' failed
+(orca-slicer:3163): Gtk-CRITICAL **: 08:46:20.761: gtk_cell_layout_get_cells: assertion 'GTK_IS_CELL_LAYOUT (cell_layout)' failed
 
-(orca-slicer:13732): GLib-GObject-CRITICAL **: 10:09:24.693: invalid cast from 'wxPizza' to 'GtkCellLayout'
+(orca-slicer:3163): GLib-GObject-CRITICAL **: 08:46:20.761: invalid cast from 'wxPizza' to 'GtkCellLayout'
 
-(orca-slicer:13732): Gtk-CRITICAL **: 10:09:24.693: gtk_cell_layout_get_cells: assertion 'GTK_IS_CELL_LAYOUT (cell_layout)' failed
+(orca-slicer:3163): Gtk-CRITICAL **: 08:46:20.761: gtk_cell_layout_get_cells: assertion 'GTK_IS_CELL_LAYOUT (cell_layout)' failed
 
-(orca-slicer:13732): GLib-GObject-CRITICAL **: 10:09:24.695: invalid cast from 'wxPizza' to 'GtkCellLayout'
+(orca-slicer:3163): GLib-GObject-CRITICAL **: 08:46:20.762: invalid cast from 'wxPizza' to 'GtkCellLayout'
 
-(orca-slicer:13732): Gtk-CRITICAL **: 10:09:24.695: gtk_cell_layout_get_cells: assertion 'GTK_IS_CELL_LAYOUT (cell_layout)' failed
+(orca-slicer:3163): Gtk-CRITICAL **: 08:46:20.762: gtk_cell_layout_get_cells: assertion 'GTK_IS_CELL_LAYOUT (cell_layout)' failed
 
-(orca-slicer:13732): GLib-GObject-CRITICAL **: 10:09:24.696: invalid cast from 'wxPizza' to 'GtkCellLayout'
+(orca-slicer:3163): GLib-GObject-CRITICAL **: 08:46:20.764: invalid cast from 'wxPizza' to 'GtkCellLayout'
 
-(orca-slicer:13732): Gtk-CRITICAL **: 10:09:24.696: gtk_cell_layout_get_cells: assertion 'GTK_IS_CELL_LAYOUT (cell_layout)' failed
+(orca-slicer:3163): Gtk-CRITICAL **: 08:46:20.764: gtk_cell_layout_get_cells: assertion 'GTK_IS_CELL_LAYOUT (cell_layout)' failed
 
-(orca-slicer:13732): Gtk-CRITICAL **: 10:09:24.696: gtk_widget_set_size_request: assertion 'width >= -1' failed
+(orca-slicer:3163): Gtk-CRITICAL **: 08:46:20.764: gtk_widget_set_size_request: assertion 'width >= -1' failed
 
-(orca-slicer:13732): Gtk-CRITICAL **: 10:09:24.696: gtk_widget_set_size_request: assertion 'width >= -1' failed
+(orca-slicer:3163): Gtk-CRITICAL **: 08:46:20.764: gtk_widget_set_size_request: assertion 'width >= -1' failed
 
-(orca-slicer:13732): GLib-GObject-CRITICAL **: 10:09:24.696: invalid cast from 'wxPizza' to 'GtkCellLayout'
+(orca-slicer:3163): GLib-GObject-CRITICAL **: 08:46:20.764: invalid cast from 'wxPizza' to 'GtkCellLayout'
 
-(orca-slicer:13732): Gtk-CRITICAL **: 10:09:24.696: gtk_cell_layout_get_cells: assertion 'GTK_IS_CELL_LAYOUT (cell_layout)' failed
+(orca-slicer:3163): Gtk-CRITICAL **: 08:46:20.764: gtk_cell_layout_get_cells: assertion 'GTK_IS_CELL_LAYOUT (cell_layout)' failed
 
-(orca-slicer:13732): Gtk-CRITICAL **: 10:09:24.697: gtk_widget_set_size_request: assertion 'width >= -1' failed
+(orca-slicer:3163): Gtk-CRITICAL **: 08:46:20.765: gtk_widget_set_size_request: assertion 'width >= -1' failed
 
-(orca-slicer:13732): Gtk-CRITICAL **: 10:09:24.724: gtk_window_resize: assertion 'height > 0' failed
+(orca-slicer:3163): Gtk-CRITICAL **: 08:46:20.792: gtk_window_resize: assertion 'height > 0' failed
 
-(orca-slicer:13732): Gtk-CRITICAL **: 10:09:24.725: gtk_widget_set_size_request: assertion 'width >= -1' failed
+(orca-slicer:3163): Gtk-CRITICAL **: 08:46:20.793: gtk_widget_set_size_request: assertion 'width >= -1' failed
 
-(orca-slicer:13732): Gtk-CRITICAL **: 10:09:24.725: gtk_widget_set_size_request: assertion 'width >= -1' failed
+(orca-slicer:3163): Gtk-CRITICAL **: 08:46:20.793: gtk_widget_set_size_request: assertion 'width >= -1' failed
 
-(orca-slicer:13732): Gtk-CRITICAL **: 10:09:24.727: gtk_window_resize: assertion 'height > 0' failed
+(orca-slicer:3163): Gtk-CRITICAL **: 08:46:20.794: gtk_window_resize: assertion 'height > 0' failed
 
-(orca-slicer:13732): Gtk-CRITICAL **: 10:09:24.739: gtk_widget_set_size_request: assertion 'width >= -1' failed
+(orca-slicer:3163): Gtk-CRITICAL **: 08:46:20.808: gtk_widget_set_size_request: assertion 'width >= -1' failed
 
-(orca-slicer:13732): Gtk-CRITICAL **: 10:09:24.739: gtk_widget_set_size_request: assertion 'width >= -1' failed
+(orca-slicer:3163): Gtk-CRITICAL **: 08:46:20.808: gtk_widget_set_size_request: assertion 'width >= -1' failed
 
-(orca-slicer:13732): Gtk-CRITICAL **: 10:09:24.749: gtk_window_resize: assertion 'height > 0' failed
+(orca-slicer:3163): Gtk-CRITICAL **: 08:46:20.818: gtk_window_resize: assertion 'height > 0' failed
 
-(orca-slicer:13732): Gtk-CRITICAL **: 10:09:24.750: gtk_widget_set_size_request: assertion 'width >= -1' failed
+(orca-slicer:3163): Gtk-CRITICAL **: 08:46:20.818: gtk_widget_set_size_request: assertion 'width >= -1' failed
 
-(orca-slicer:13732): Gtk-CRITICAL **: 10:09:24.750: gtk_widget_set_size_request: assertion 'width >= -1' failed
+(orca-slicer:3163): Gtk-CRITICAL **: 08:46:20.818: gtk_widget_set_size_request: assertion 'width >= -1' failed
 
-(orca-slicer:13732): Gtk-CRITICAL **: 10:09:24.750: gtk_window_resize: assertion 'height > 0' failed
+(orca-slicer:3163): Gtk-CRITICAL **: 08:46:20.819: gtk_window_resize: assertion 'height > 0' failed
 
-(orca-slicer:13732): Gtk-CRITICAL **: 10:09:24.751: gtk_widget_set_size_request: assertion 'width >= -1' failed
+(orca-slicer:3163): Gtk-CRITICAL **: 08:46:20.820: gtk_widget_set_size_request: assertion 'width >= -1' failed
 
-(orca-slicer:13732): Gtk-CRITICAL **: 10:09:24.751: gtk_widget_set_size_request: assertion 'width >= -1' failed
+(orca-slicer:3163): Gtk-CRITICAL **: 08:46:20.820: gtk_widget_set_size_request: assertion 'width >= -1' failed
 
-(orca-slicer:13732): Gtk-CRITICAL **: 10:09:24.751: gtk_widget_set_size_request: assertion 'width >= -1' failed
+(orca-slicer:3163): Gtk-CRITICAL **: 08:46:20.820: gtk_widget_set_size_request: assertion 'width >= -1' failed
 
-(orca-slicer:13732): Gtk-CRITICAL **: 10:09:24.751: gtk_widget_set_size_request: assertion 'width >= -1' failed
+(orca-slicer:3163): Gtk-CRITICAL **: 08:46:20.820: gtk_widget_set_size_request: assertion 'width >= -1' failed
 
-(orca-slicer:13732): Gtk-CRITICAL **: 10:09:24.754: gtk_widget_set_size_request: assertion 'width >= -1' failed
+(orca-slicer:3163): Gtk-CRITICAL **: 08:46:20.822: gtk_widget_set_size_request: assertion 'width >= -1' failed
 
-(orca-slicer:13732): Gtk-CRITICAL **: 10:09:24.754: gtk_widget_set_size_request: assertion 'width >= -1' failed
+(orca-slicer:3163): Gtk-CRITICAL **: 08:46:20.822: gtk_widget_set_size_request: assertion 'width >= -1' failed
 
-(orca-slicer:13732): Gtk-CRITICAL **: 10:09:24.755: gtk_window_resize: assertion 'height > 0' failed
+(orca-slicer:3163): Gtk-CRITICAL **: 08:46:20.824: gtk_window_resize: assertion 'height > 0' failed
 
-(orca-slicer:13732): Gtk-CRITICAL **: 10:09:24.756: gtk_widget_set_size_request: assertion 'width >= -1' failed
+(orca-slicer:3163): Gtk-CRITICAL **: 08:46:20.824: gtk_widget_set_size_request: assertion 'width >= -1' failed
 
-(orca-slicer:13732): Gtk-CRITICAL **: 10:09:24.756: gtk_widget_set_size_request: assertion 'width >= -1' failed
+(orca-slicer:3163): Gtk-CRITICAL **: 08:46:20.824: gtk_widget_set_size_request: assertion 'width >= -1' failed
 
-(orca-slicer:13732): Gtk-CRITICAL **: 10:09:24.764: gtk_window_resize: assertion 'height > 0' failed
+(orca-slicer:3163): Gtk-CRITICAL **: 08:46:20.832: gtk_window_resize: assertion 'height > 0' failed
 
-(orca-slicer:13732): Gtk-CRITICAL **: 10:09:24.764: gtk_widget_set_size_request: assertion 'width >= -1' failed
+(orca-slicer:3163): Gtk-CRITICAL **: 08:46:20.832: gtk_widget_set_size_request: assertion 'width >= -1' failed
 
-(orca-slicer:13732): Gtk-CRITICAL **: 10:09:24.764: gtk_widget_set_size_request: assertion 'width >= -1' failed
+(orca-slicer:3163): Gtk-CRITICAL **: 08:46:20.832: gtk_widget_set_size_request: assertion 'width >= -1' failed
 
-(orca-slicer:13732): Gtk-CRITICAL **: 10:09:24.765: gtk_window_resize: assertion 'height > 0' failed
+(orca-slicer:3163): Gtk-CRITICAL **: 08:46:20.833: gtk_window_resize: assertion 'height > 0' failed
 
-(orca-slicer:13732): Gtk-CRITICAL **: 10:09:24.771: gtk_widget_set_size_request: assertion 'width >= -1' failed
+(orca-slicer:3163): Gtk-CRITICAL **: 08:46:20.840: gtk_widget_set_size_request: assertion 'width >= -1' failed
 
-(orca-slicer:13732): Gtk-CRITICAL **: 10:09:24.771: gtk_widget_set_size_request: assertion 'width >= -1' failed
+(orca-slicer:3163): Gtk-CRITICAL **: 08:46:20.840: gtk_widget_set_size_request: assertion 'width >= -1' failed
 
-(orca-slicer:13732): Gtk-CRITICAL **: 10:09:24.775: gtk_window_resize: assertion 'height > 0' failed
+(orca-slicer:3163): Gtk-CRITICAL **: 08:46:20.843: gtk_window_resize: assertion 'height > 0' failed
 
-(orca-slicer:13732): Gtk-CRITICAL **: 10:09:24.777: gtk_window_resize: assertion 'height > 0' failed
+(orca-slicer:3163): Gtk-CRITICAL **: 08:46:20.845: gtk_window_resize: assertion 'height > 0' failed
 
-(orca-slicer:13732): Gtk-CRITICAL **: 10:09:24.788: gtk_widget_set_size_request: assertion 'width >= -1' failed
-
-(orca-slicer:13732): Gtk-CRITICAL **: 10:09:25.119: gtk_widget_set_size_request: assertion 'width >= -1' failed
-
-(orca-slicer:13732): Gtk-CRITICAL **: 10:09:25.119: gtk_widget_set_size_request: assertion 'width >= -1' failed
-
-(orca-slicer:13732): GLib-GObject-CRITICAL **: 10:09:26.452: invalid cast from 'wxPizza' to 'GtkCellLayout'
-
-(orca-slicer:13732): Gtk-CRITICAL **: 10:09:26.452: gtk_cell_layout_get_cells: assertion 'GTK_IS_CELL_LAYOUT (cell_layout)' failed
-
-(orca-slicer:13732): GLib-GObject-CRITICAL **: 10:09:26.452: invalid cast from 'wxPizza' to 'GtkCellLayout'
-
-(orca-slicer:13732): Gtk-CRITICAL **: 10:09:26.452: gtk_cell_layout_get_cells: assertion 'GTK_IS_CELL_LAYOUT (cell_layout)' failed
-
-(orca-slicer:13732): GLib-GObject-CRITICAL **: 10:09:26.459: invalid cast from 'wxPizza' to 'GtkCellLayout'
-
-(orca-slicer:13732): Gtk-CRITICAL **: 10:09:26.459: gtk_cell_layout_get_cells: assertion 'GTK_IS_CELL_LAYOUT (cell_layout)' failed
-
-(orca-slicer:13732): GLib-GObject-CRITICAL **: 10:09:26.459: invalid cast from 'wxPizza' to 'GtkCellLayout'
-
-(orca-slicer:13732): Gtk-CRITICAL **: 10:09:26.459: gtk_cell_layout_get_cells: assertion 'GTK_IS_CELL_LAYOUT (cell_layout)' failed
-
-(orca-slicer:13732): GLib-GObject-CRITICAL **: 10:09:26.462: invalid cast from 'wxPizza' to 'GtkCellLayout'
-
-(orca-slicer:13732): Gtk-CRITICAL **: 10:09:26.462: gtk_cell_layout_get_cells: assertion 'GTK_IS_CELL_LAYOUT (cell_layout)' failed
-
-(orca-slicer:13732): GLib-GObject-CRITICAL **: 10:09:26.466: invalid cast from 'wxPizza' to 'GtkCellLayout'
-
-(orca-slicer:13732): Gtk-CRITICAL **: 10:09:26.466: gtk_cell_layout_get_cells: assertion 'GTK_IS_CELL_LAYOUT (cell_layout)' failed
-
-(orca-slicer:13732): GLib-GObject-CRITICAL **: 10:09:26.466: invalid cast from 'wxPizza' to 'GtkCellLayout'
-
-(orca-slicer:13732): Gtk-CRITICAL **: 10:09:26.466: gtk_cell_layout_get_cells: assertion 'GTK_IS_CELL_LAYOUT (cell_layout)' failed
-
-(orca-slicer:13732): Gtk-CRITICAL **: 10:11:09.831: gtk_window_resize: assertion 'height > 0' failed
-
-(orca-slicer:13732): Gtk-CRITICAL **: 10:11:09.832: gtk_widget_set_size_request: assertion 'width >= -1' failed
-
-(orca-slicer:13732): Gtk-CRITICAL **: 10:11:09.832: gtk_widget_set_size_request: assertion 'width >= -1' failed
-
-(orca-slicer:13732): Gtk-CRITICAL **: 10:11:09.833: gtk_window_resize: assertion 'height > 0' failed
-
-(orca-slicer:13732): Gtk-CRITICAL **: 10:11:09.834: gtk_widget_set_size_request: assertion 'width >= -1' failed
-
-(orca-slicer:13732): Gtk-CRITICAL **: 10:11:09.834: gtk_widget_set_size_request: assertion 'width >= -1' failed
-
-(orca-slicer:13732): Gtk-CRITICAL **: 10:11:09.835: gtk_window_resize: assertion 'height > 0' failed
-
-(orca-slicer:13732): Gtk-CRITICAL **: 10:11:09.836: gtk_window_resize: assertion 'height > 0' failed
-
-(orca-slicer:13732): Gtk-CRITICAL **: 10:11:09.837: gtk_widget_set_size_request: assertion 'width >= -1' failed
-
-(orca-slicer:13732): Gtk-CRITICAL **: 10:11:09.837: gtk_widget_set_size_request: assertion 'width >= -1' failed
-
-(orca-slicer:13732): Gtk-CRITICAL **: 10:11:12.528: gtk_widget_set_size_request: assertion 'width >= -1' failed
-
-(orca-slicer:13732): Gtk-CRITICAL **: 10:11:12.528: gtk_widget_set_size_request: assertion 'width >= -1' failed
-
-(orca-slicer:13732): Gtk-CRITICAL **: 10:11:27.318: gtk_window_resize: assertion 'height > 0' failed
-
-(orca-slicer:13732): Gtk-CRITICAL **: 10:11:27.318: gtk_widget_set_size_request: assertion 'width >= -1' failed
-
-(orca-slicer:13732): Gtk-CRITICAL **: 10:11:27.318: gtk_widget_set_size_request: assertion 'width >= -1' failed
-
-(orca-slicer:13732): Gtk-CRITICAL **: 10:11:27.320: gtk_window_resize: assertion 'height > 0' failed
-
-(orca-slicer:13732): Gtk-CRITICAL **: 10:11:27.320: gtk_widget_set_size_request: assertion 'width >= -1' failed
-
-(orca-slicer:13732): Gtk-CRITICAL **: 10:11:27.320: gtk_widget_set_size_request: assertion 'width >= -1' failed
-
-(orca-slicer:13732): Gtk-CRITICAL **: 10:11:27.322: gtk_window_resize: assertion 'height > 0' failed
-
-(orca-slicer:13732): Gtk-CRITICAL **: 10:11:27.323: gtk_window_resize: assertion 'height > 0' failed
-
-(orca-slicer:13732): Gtk-CRITICAL **: 10:11:27.324: gtk_widget_set_size_request: assertion 'width >= -1' failed
-
-(orca-slicer:13732): Gtk-CRITICAL **: 10:11:27.324: gtk_widget_set_size_request: assertion 'width >= -1' failed
-
-(orca-slicer:13732): Gtk-CRITICAL **: 10:11:27.324: gtk_widget_set_size_request: assertion 'width >= -1' failed
-
-(orca-slicer:13732): Gtk-CRITICAL **: 10:11:27.324: gtk_widget_set_size_request: assertion 'width >= -1' failed
-
-(orca-slicer:13732): Gtk-CRITICAL **: 10:11:46.093: gtk_window_resize: assertion 'height > 0' failed
-
-(orca-slicer:13732): Gtk-CRITICAL **: 10:11:46.093: gtk_widget_set_size_request: assertion 'width >= -1' failed
-
-(orca-slicer:13732): Gtk-CRITICAL **: 10:11:46.093: gtk_widget_set_size_request: assertion 'width >= -1' failed
-
-(orca-slicer:13732): Gtk-CRITICAL **: 10:11:46.095: gtk_window_resize: assertion 'height > 0' failed
-
-(orca-slicer:13732): Gtk-CRITICAL **: 10:11:46.096: gtk_widget_set_size_request: assertion 'width >= -1' failed
-
-(orca-slicer:13732): Gtk-CRITICAL **: 10:11:46.096: gtk_widget_set_size_request: assertion 'width >= -1' failed
-
-(orca-slicer:13732): Gtk-CRITICAL **: 10:11:46.097: gtk_window_resize: assertion 'height > 0' failed
-
-(orca-slicer:13732): Gtk-CRITICAL **: 10:11:46.098: gtk_window_resize: assertion 'height > 0' failed
-
-(orca-slicer:13732): Gtk-CRITICAL **: 10:11:46.099: gtk_widget_set_size_request: assertion 'width >= -1' failed
-
-(orca-slicer:13732): Gtk-CRITICAL **: 10:11:46.099: gtk_widget_set_size_request: assertion 'width >= -1' failed
-
-(orca-slicer:13732): Gtk-CRITICAL **: 10:11:46.099: gtk_widget_set_size_request: assertion 'width >= -1' failed
-
-(orca-slicer:13732): Gtk-CRITICAL **: 10:11:46.099: gtk_widget_set_size_request: assertion 'width >= -1' failed
-
-(orca-slicer:13732): Gtk-CRITICAL **: 10:11:50.687: gtk_window_resize: assertion 'height > 0' failed
-
-(orca-slicer:13732): Gtk-CRITICAL **: 10:11:50.688: gtk_widget_set_size_request: assertion 'width >= -1' failed
-
-(orca-slicer:13732): Gtk-CRITICAL **: 10:11:50.688: gtk_widget_set_size_request: assertion 'width >= -1' failed
-
-(orca-slicer:13732): Gtk-CRITICAL **: 10:11:50.689: gtk_window_resize: assertion 'height > 0' failed
-
-(orca-slicer:13732): Gtk-CRITICAL **: 10:11:50.689: gtk_widget_set_size_request: assertion 'width >= -1' failed
-
-(orca-slicer:13732): Gtk-CRITICAL **: 10:11:50.689: gtk_widget_set_size_request: assertion 'width >= -1' failed
-
-(orca-slicer:13732): Gtk-CRITICAL **: 10:11:50.691: gtk_window_resize: assertion 'height > 0' failed
-
-(orca-slicer:13732): Gtk-CRITICAL **: 10:11:50.692: gtk_window_resize: assertion 'height > 0' failed
-
-(orca-slicer:13732): Gtk-CRITICAL **: 10:11:50.692: gtk_widget_set_size_request: assertion 'width >= -1' failed
-
-(orca-slicer:13732): Gtk-CRITICAL **: 10:11:50.692: gtk_widget_set_size_request: assertion 'width >= -1' failed
-
-(orca-slicer:13732): Gtk-CRITICAL **: 10:11:50.693: gtk_widget_set_size_request: assertion 'width >= -1' failed
-
-(orca-slicer:13732): Gtk-CRITICAL **: 10:11:50.693: gtk_widget_set_size_request: assertion 'width >= -1' failed
-
-(orca-slicer:13732): Gtk-CRITICAL **: 10:11:56.771: gtk_widget_set_size_request: assertion 'width >= -1' failed
-
-(orca-slicer:13732): Gtk-CRITICAL **: 10:11:56.771: gtk_widget_set_size_request: assertion 'width >= -1' failed
-
-(orca-slicer:13732): Gtk-CRITICAL **: 10:11:56.772: gtk_widget_set_size_request: assertion 'width >= -1' failed
-
-(orca-slicer:13732): Gtk-CRITICAL **: 10:11:56.772: gtk_widget_set_size_request: assertion 'width >= -1' failed
-
-(orca-slicer:13732): Gtk-CRITICAL **: 10:11:56.773: gtk_widget_set_size_request: assertion 'width >= -1' failed
-
-(orca-slicer:13732): Gtk-CRITICAL **: 10:11:56.773: gtk_widget_set_size_request: assertion 'width >= -1' failed
-
-(orca-slicer:13732): Gtk-CRITICAL **: 10:11:56.794: gtk_widget_set_size_request: assertion 'width >= -1' failed
-
-(orca-slicer:13732): Gtk-CRITICAL **: 10:11:56.794: gtk_widget_set_size_request: assertion 'width >= -1' failed
-
-(orca-slicer:13732): Gtk-CRITICAL **: 10:12:17.316: gtk_widget_set_size_request: assertion 'width >= -1' failed
-
-(orca-slicer:13732): Gtk-CRITICAL **: 10:12:17.316: gtk_widget_set_size_request: assertion 'width >= -1' failed
-
-(orca-slicer:13732): Gtk-CRITICAL **: 10:12:22.375: gtk_widget_set_size_request: assertion 'width >= -1' failed
-
-(orca-slicer:13732): Gtk-CRITICAL **: 10:12:22.375: gtk_widget_set_size_request: assertion 'width >= -1' failed
-
-(orca-slicer:13732): Gtk-CRITICAL **: 10:12:23.446: gtk_window_resize: assertion 'height > 0' failed
-
-(orca-slicer:13732): Gtk-CRITICAL **: 10:12:23.447: gtk_widget_set_size_request: assertion 'width >= -1' failed
-
-(orca-slicer:13732): Gtk-CRITICAL **: 10:12:23.447: gtk_widget_set_size_request: assertion 'width >= -1' failed
-
-(orca-slicer:13732): Gtk-CRITICAL **: 10:12:23.448: gtk_window_resize: assertion 'height > 0' failed
-
-(orca-slicer:13732): Gtk-CRITICAL **: 10:12:23.449: gtk_widget_set_size_request: assertion 'width >= -1' failed
-
-(orca-slicer:13732): Gtk-CRITICAL **: 10:12:23.449: gtk_widget_set_size_request: assertion 'width >= -1' failed
-
-(orca-slicer:13732): Gtk-CRITICAL **: 10:12:23.450: gtk_window_resize: assertion 'height > 0' failed
-
-(orca-slicer:13732): Gtk-CRITICAL **: 10:12:23.452: gtk_window_resize: assertion 'height > 0' failed
-
-(orca-slicer:13732): Gtk-CRITICAL **: 10:12:23.452: gtk_widget_set_size_request: assertion 'width >= -1' failed
-
-(orca-slicer:13732): Gtk-CRITICAL **: 10:12:23.452: gtk_widget_set_size_request: assertion 'width >= -1' failed
-
-(orca-slicer:13732): Gtk-CRITICAL **: 10:12:31.586: gtk_window_resize: assertion 'height > 0' failed
-
-(orca-slicer:13732): Gtk-CRITICAL **: 10:12:31.587: gtk_widget_set_size_request: assertion 'width >= -1' failed
-
-(orca-slicer:13732): Gtk-CRITICAL **: 10:12:31.587: gtk_widget_set_size_request: assertion 'width >= -1' failed
-
-(orca-slicer:13732): Gtk-CRITICAL **: 10:12:31.589: gtk_window_resize: assertion 'height > 0' failed
-
-(orca-slicer:13732): Gtk-CRITICAL **: 10:12:31.589: gtk_widget_set_size_request: assertion 'width >= -1' failed
-
-(orca-slicer:13732): Gtk-CRITICAL **: 10:12:31.589: gtk_widget_set_size_request: assertion 'width >= -1' failed
-
-(orca-slicer:13732): Gtk-CRITICAL **: 10:12:31.590: gtk_window_resize: assertion 'height > 0' failed
-
-(orca-slicer:13732): Gtk-CRITICAL **: 10:12:31.591: gtk_window_resize: assertion 'height > 0' failed
-
-(orca-slicer:13732): Gtk-CRITICAL **: 10:12:31.592: gtk_widget_set_size_request: assertion 'width >= -1' failed
-
-(orca-slicer:13732): Gtk-CRITICAL **: 10:12:31.592: gtk_widget_set_size_request: assertion 'width >= -1' failed
-
-(orca-slicer:13732): Gtk-CRITICAL **: 10:12:34.904: gtk_widget_set_size_request: assertion 'width >= -1' failed
-
-(orca-slicer:13732): Gtk-CRITICAL **: 10:12:34.905: gtk_widget_set_size_request: assertion 'width >= -1' failed
-
-(orca-slicer:13732): Gtk-CRITICAL **: 10:12:40.155: gtk_widget_set_size_request: assertion 'width >= -1' failed
-
-(orca-slicer:13732): Gtk-CRITICAL **: 10:12:40.155: gtk_widget_set_size_request: assertion 'width >= -1' failed
-
-(orca-slicer:13732): Gtk-CRITICAL **: 10:13:46.690: gtk_window_resize: assertion 'height > 0' failed
-
-(orca-slicer:13732): Gtk-CRITICAL **: 10:13:46.691: gtk_widget_set_size_request: assertion 'width >= -1' failed
-
-(orca-slicer:13732): Gtk-CRITICAL **: 10:13:46.691: gtk_widget_set_size_request: assertion 'width >= -1' failed
-
-(orca-slicer:13732): Gtk-CRITICAL **: 10:13:46.693: gtk_window_resize: assertion 'height > 0' failed
-
-(orca-slicer:13732): Gtk-CRITICAL **: 10:13:46.705: gtk_widget_set_size_request: assertion 'width >= -1' failed
-
-(orca-slicer:13732): Gtk-CRITICAL **: 10:13:46.705: gtk_widget_set_size_request: assertion 'width >= -1' failed
-
-(orca-slicer:13732): Gtk-CRITICAL **: 10:13:46.715: gtk_window_resize: assertion 'height > 0' failed
-
-(orca-slicer:13732): Gtk-CRITICAL **: 10:13:46.715: gtk_widget_set_size_request: assertion 'width >= -1' failed
-
-(orca-slicer:13732): Gtk-CRITICAL **: 10:13:46.715: gtk_widget_set_size_request: assertion 'width >= -1' failed
-
-(orca-slicer:13732): Gtk-CRITICAL **: 10:13:46.716: gtk_window_resize: assertion 'height > 0' failed
-
-(orca-slicer:13732): Gtk-CRITICAL **: 10:13:46.716: gtk_widget_set_size_request: assertion 'width >= -1' failed
-
-(orca-slicer:13732): Gtk-CRITICAL **: 10:13:46.716: gtk_widget_set_size_request: assertion 'width >= -1' failed
-
-(orca-slicer:13732): Gtk-CRITICAL **: 10:13:46.716: gtk_widget_set_size_request: assertion 'width >= -1' failed
-
-(orca-slicer:13732): Gtk-CRITICAL **: 10:13:46.716: gtk_widget_set_size_request: assertion 'width >= -1' failed
-
-(orca-slicer:13732): Gtk-CRITICAL **: 10:13:46.719: gtk_widget_set_size_request: assertion 'width >= -1' failed
-
-(orca-slicer:13732): Gtk-CRITICAL **: 10:13:46.719: gtk_widget_set_size_request: assertion 'width >= -1' failed
-
-(orca-slicer:13732): Gtk-CRITICAL **: 10:13:46.720: gtk_window_resize: assertion 'height > 0' failed
-
-(orca-slicer:13732): Gtk-CRITICAL **: 10:13:46.721: gtk_widget_set_size_request: assertion 'width >= -1' failed
-
-(orca-slicer:13732): Gtk-CRITICAL **: 10:13:46.721: gtk_widget_set_size_request: assertion 'width >= -1' failed
-
-(orca-slicer:13732): Gtk-CRITICAL **: 10:13:46.728: gtk_window_resize: assertion 'height > 0' failed
-
-(orca-slicer:13732): Gtk-CRITICAL **: 10:13:46.728: gtk_widget_set_size_request: assertion 'width >= -1' failed
-
-(orca-slicer:13732): Gtk-CRITICAL **: 10:13:46.728: gtk_widget_set_size_request: assertion 'width >= -1' failed
-
-(orca-slicer:13732): Gtk-CRITICAL **: 10:13:46.729: gtk_window_resize: assertion 'height > 0' failed
-
-(orca-slicer:13732): Gtk-CRITICAL **: 10:13:46.738: gtk_widget_set_size_request: assertion 'width >= -1' failed
-
-(orca-slicer:13732): Gtk-CRITICAL **: 10:13:46.738: gtk_widget_set_size_request: assertion 'width >= -1' failed
-
-(orca-slicer:13732): Gtk-CRITICAL **: 10:13:46.741: gtk_window_resize: assertion 'height > 0' failed
-
-(orca-slicer:13732): Gtk-CRITICAL **: 10:13:46.743: gtk_window_resize: assertion 'height > 0' failed
-
-(orca-slicer:13732): Gtk-CRITICAL **: 10:13:47.952: gtk_window_resize: assertion 'height > 0' failed
-
-(orca-slicer:13732): Gtk-CRITICAL **: 10:13:47.956: gtk_window_resize: assertion 'height > 0' failed
-
-(orca-slicer:13732): Gtk-CRITICAL **: 10:13:47.959: gtk_widget_set_size_request: assertion 'width >= -1' failed
-
-(orca-slicer:13732): Gtk-CRITICAL **: 10:13:47.959: gtk_widget_set_size_request: assertion 'width >= -1' failed
-
-(orca-slicer:13732): Gtk-CRITICAL **: 10:13:47.960: gtk_widget_set_size_request: assertion 'width >= -1' failed
-
-(orca-slicer:13732): Gtk-CRITICAL **: 10:13:47.960: gtk_widget_set_size_request: assertion 'width >= -1' failed
-
-(orca-slicer:13732): Gtk-CRITICAL **: 10:13:47.960: gtk_widget_set_size_request: assertion 'width >= -1' failed
-
-(orca-slicer:13732): Gtk-CRITICAL **: 10:13:47.960: gtk_widget_set_size_request: assertion 'width >= -1' failed
-
-(orca-slicer:13732): Gtk-CRITICAL **: 10:13:47.960: gtk_widget_set_size_request: assertion 'width >= -1' failed
-
-(orca-slicer:13732): Gtk-CRITICAL **: 10:13:47.960: gtk_widget_set_size_request: assertion 'width >= -1' failed
-
-(orca-slicer:13732): Gtk-CRITICAL **: 10:13:47.962: gtk_window_resize: assertion 'height > 0' failed
-
-(orca-slicer:13732): Gtk-CRITICAL **: 10:13:47.967: gtk_window_resize: assertion 'height > 0' failed
-
-(orca-slicer:13732): Gtk-CRITICAL **: 10:13:47.968: gtk_window_resize: assertion 'height > 0' failed
-
-(orca-slicer:13732): Gtk-CRITICAL **: 10:13:47.969: gtk_window_resize: assertion 'height > 0' failed
-
-(orca-slicer:13732): Gtk-CRITICAL **: 10:13:47.970: gtk_window_resize: assertion 'height > 0' failed
-
-(orca-slicer:13732): Gtk-CRITICAL **: 10:13:47.970: gtk_widget_set_size_request: assertion 'width >= -1' failed
-
-(orca-slicer:13732): Gtk-CRITICAL **: 10:13:47.970: gtk_widget_set_size_request: assertion 'width >= -1' failed
-
-(orca-slicer:13732): Gtk-CRITICAL **: 10:13:47.972: gtk_widget_set_size_request: assertion 'width >= -1' failed
-
-(orca-slicer:13732): Gtk-CRITICAL **: 10:13:47.972: gtk_widget_set_size_request: assertion 'width >= -1' failed
-
-(orca-slicer:13732): Gtk-CRITICAL **: 10:13:47.972: gtk_widget_set_size_request: assertion 'width >= -1' failed
-
-(orca-slicer:13732): Gtk-CRITICAL **: 10:13:47.972: gtk_widget_set_size_request: assertion 'width >= -1' failed
-
-(orca-slicer:13732): Gtk-CRITICAL **: 10:13:47.972: gtk_widget_set_size_request: assertion 'width >= -1' failed
-
-(orca-slicer:13732): Gtk-CRITICAL **: 10:13:47.972: gtk_widget_set_size_request: assertion 'width >= -1' failed
-
-(orca-slicer:13732): Gtk-CRITICAL **: 10:13:47.973: gtk_widget_set_size_request: assertion 'width >= -1' failed
-
-(orca-slicer:13732): Gtk-CRITICAL **: 10:13:47.973: gtk_widget_set_size_request: assertion 'width >= -1' failed
-
-(orca-slicer:13732): Gtk-CRITICAL **: 10:13:47.973: gtk_widget_set_size_request: assertion 'width >= -1' failed
-
-(orca-slicer:13732): Gtk-CRITICAL **: 10:13:47.973: gtk_widget_set_size_request: assertion 'width >= -1' failed
-
-(orca-slicer:13732): Gtk-CRITICAL **: 10:13:47.978: gtk_window_resize: assertion 'height > 0' failed
-
-(orca-slicer:13732): Gtk-CRITICAL **: 10:13:47.980: gtk_widget_set_size_request: assertion 'width >= -1' failed
-
-(orca-slicer:13732): Gtk-CRITICAL **: 10:13:47.980: gtk_widget_set_size_request: assertion 'width >= -1' failed
-[W][00590.613660] mod.x11-bell | [module-x11-bell.:  122 play_sample()] can't play sample (bell-window-system): File or data not found
-[W][00590.635004] mod.x11-bell | [module-x11-bell.:  122 play_sample()] can't play sample (bell-window-system): File or data not found
-[W][00590.675823] mod.x11-bell | [module-x11-bell.:  122 play_sample()] can't play sample (bell-window-system): File or data not found
-
-(thunar:14728): thunar-WARNING **: 10:15:42.008: Failed to launch the volume manager (Failed to execute child process “thunar-volman” (No such file or directory)), make sure you have the "thunar-volman" package installed.
-
-(thunar:14728): thunar-WARNING **: 10:15:42.032: Failed to launch the volume manager (Failed to execute child process “thunar-volman” (No such file or directory)), make sure you have the "thunar-volman" package installed.
-
-(thunar:14728): thunar-WARNING **: 10:15:43.311: Failed to launch the volume manager (Failed to execute child process “thunar-volman” (No such file or directory)), make sure you have the "thunar-volman" package installed.
-
-(thunar:14728): thunar-WARNING **: 10:15:43.388: Failed to launch the volume manager (Failed to execute child process “thunar-volman” (No such file or directory)), make sure you have the "thunar-volman" package installed.
-
-(thunar:14728): thunar-WARNING **: 10:16:17.503: Failed to launch the volume manager (Failed to execute child process “thunar-volman” (No such file or directory)), make sure you have the "thunar-volman" package installed.
-
-(thunar:14728): thunar-WARNING **: 10:16:17.508: Failed to launch the volume manager (Failed to execute child process “thunar-volman” (No such file or directory)), make sure you have the "thunar-volman" package installed.
-
-(thunar:14728): thunar-WARNING **: 10:16:17.554: Failed to launch the volume manager (Failed to execute child process “thunar-volman” (No such file or directory)), make sure you have the "thunar-volman" package installed.
-
-(thunar:14728): thunar-WARNING **: 10:16:17.742: Failed to launch the volume manager (Failed to execute child process “thunar-volman” (No such file or directory)), make sure you have the "thunar-volman" package installed.
-
-(thunar:14728): thunar-WARNING **: 10:16:17.746: Failed to launch the volume manager (Failed to execute child process “thunar-volman” (No such file or directory)), make sure you have the "thunar-volman" package installed.
-
-(thunar:14728): thunar-WARNING **: 10:16:17.749: Failed to launch the volume manager (Failed to execute child process “thunar-volman” (No such file or directory)), make sure you have the "thunar-volman" package installed.
-
-(thunar:14728): thunar-WARNING **: 10:16:17.752: Failed to launch the volume manager (Failed to execute child process “thunar-volman” (No such file or directory)), make sure you have the "thunar-volman" package installed.
-
-(thunar:14728): thunar-WARNING **: 10:16:17.754: Failed to launch the volume manager (Failed to execute child process “thunar-volman” (No such file or directory)), make sure you have the "thunar-volman" package installed.
-
-(thunar:14728): thunar-WARNING **: 10:16:17.757: Failed to launch the volume manager (Failed to execute child process “thunar-volman” (No such file or directory)), make sure you have the "thunar-volman" package installed.
-
-(thunar:14728): thunar-WARNING **: 10:16:17.760: Failed to launch the volume manager (Failed to execute child process “thunar-volman” (No such file or directory)), make sure you have the "thunar-volman" package installed.
-
-(thunar:14728): thunar-WARNING **: 10:16:17.762: Failed to launch the volume manager (Failed to execute child process “thunar-volman” (No such file or directory)), make sure you have the "thunar-volman" package installed.
-
-(thunar:14728): thunar-WARNING **: 10:16:17.764: Failed to launch the volume manager (Failed to execute child process “thunar-volman” (No such file or directory)), make sure you have the "thunar-volman" package installed.
-
-(thunar:14728): thunar-WARNING **: 10:16:17.767: Failed to launch the volume manager (Failed to execute child process “thunar-volman” (No such file or directory)), make sure you have the "thunar-volman" package installed.
-
-(thunar:14728): thunar-WARNING **: 10:16:17.769: Failed to launch the volume manager (Failed to execute child process “thunar-volman” (No such file or directory)), make sure you have the "thunar-volman" package installed.
-
-(thunar:14728): thunar-WARNING **: 10:16:17.772: Failed to launch the volume manager (Failed to execute child process “thunar-volman” (No such file or directory)), make sure you have the "thunar-volman" package installed.
-
-(thunar:14728): thunar-WARNING **: 10:16:17.774: Failed to launch the volume manager (Failed to execute child process “thunar-volman” (No such file or directory)), make sure you have the "thunar-volman" package installed.
-
-(thunar:14728): thunar-WARNING **: 10:16:23.680: Failed to launch the volume manager (Failed to execute child process “thunar-volman” (No such file or directory)), make sure you have the "thunar-volman" package installed.
-
-(thunar:14728): thunar-WARNING **: 10:16:23.683: Failed to launch the volume manager (Failed to execute child process “thunar-volman” (No such file or directory)), make sure you have the "thunar-volman" package installed.
-
-(thunar:14728): thunar-WARNING **: 10:16:24.915: Failed to launch the volume manager (Failed to execute child process “thunar-volman” (No such file or directory)), make sure you have the "thunar-volman" package installed.
-
-(thunar:14728): thunar-WARNING **: 10:16:24.992: Failed to launch the volume manager (Failed to execute child process “thunar-volman” (No such file or directory)), make sure you have the "thunar-volman" package installed.
-
-(orca-slicer:13732): GLib-GObject-CRITICAL **: 10:20:22.449: invalid cast from 'wxPizza' to 'GtkCellLayout'
-
-(orca-slicer:13732): Gtk-CRITICAL **: 10:20:22.449: gtk_cell_layout_get_cells: assertion 'GTK_IS_CELL_LAYOUT (cell_layout)' failed
-
-(orca-slicer:13732): GLib-GObject-CRITICAL **: 10:20:22.449: invalid cast from 'wxPizza' to 'GtkCellLayout'
-
-(orca-slicer:13732): Gtk-CRITICAL **: 10:20:22.449: gtk_cell_layout_get_cells: assertion 'GTK_IS_CELL_LAYOUT (cell_layout)' failed
-
-(orca-slicer:13732): GLib-GObject-CRITICAL **: 10:20:22.463: invalid cast from 'wxPizza' to 'GtkCellLayout'
-
-(orca-slicer:13732): Gtk-CRITICAL **: 10:20:22.463: gtk_cell_layout_get_cells: assertion 'GTK_IS_CELL_LAYOUT (cell_layout)' failed
-
-(orca-slicer:13732): GLib-GObject-CRITICAL **: 10:20:22.463: invalid cast from 'wxPizza' to 'GtkCellLayout'
-
-(orca-slicer:13732): Gtk-CRITICAL **: 10:20:22.463: gtk_cell_layout_get_cells: assertion 'GTK_IS_CELL_LAYOUT (cell_layout)' failed
-
-(orca-slicer:13732): GLib-GObject-CRITICAL **: 10:20:22.471: invalid cast from 'wxPizza' to 'GtkCellLayout'
-
-(orca-slicer:13732): Gtk-CRITICAL **: 10:20:22.471: gtk_cell_layout_get_cells: assertion 'GTK_IS_CELL_LAYOUT (cell_layout)' failed
-
-(orca-slicer:13732): GLib-GObject-CRITICAL **: 10:20:22.480: invalid cast from 'wxPizza' to 'GtkCellLayout'
-
-(orca-slicer:13732): Gtk-CRITICAL **: 10:20:22.480: gtk_cell_layout_get_cells: assertion 'GTK_IS_CELL_LAYOUT (cell_layout)' failed
-
-(orca-slicer:13732): GLib-GObject-CRITICAL **: 10:20:22.480: invalid cast from 'wxPizza' to 'GtkCellLayout'
-
-(orca-slicer:13732): Gtk-CRITICAL **: 10:20:22.480: gtk_cell_layout_get_cells: assertion 'GTK_IS_CELL_LAYOUT (cell_layout)' failed
+(orca-slicer:3163): Gtk-CRITICAL **: 08:46:20.856: gtk_widget_set_size_request: assertion 'width >= -1' failed
 Terminated
 Terminated
-Terminated
-Terminated
-Terminated
-Terminated
-Terminated
+
+(orca-slicer:3163): Gtk-CRITICAL **: 08:46:21.222: gtk_widget_set_size_request: assertion 'width >= -1' failed
+
+(orca-slicer:3163): Gtk-CRITICAL **: 08:46:21.222: gtk_widget_set_size_request: assertion 'width >= -1' failed
 Terminated
 Terminated
 Terminated
 
-(orca-slicer:11257): GLib-GObject-CRITICAL **: 10:22:40.090: invalid cast from 'wxPizza' to 'GtkCellLayout'
+(orca-slicer:3163): GLib-GObject-CRITICAL **: 08:46:22.528: invalid cast from 'wxPizza' to 'GtkCellLayout'
 
-(orca-slicer:11257): Gtk-CRITICAL **: 10:22:40.090: gtk_cell_layout_get_cells: assertion 'GTK_IS_CELL_LAYOUT (cell_layout)' failed
+(orca-slicer:3163): Gtk-CRITICAL **: 08:46:22.528: gtk_cell_layout_get_cells: assertion 'GTK_IS_CELL_LAYOUT (cell_layout)' failed
 
-(orca-slicer:11257): GLib-GObject-CRITICAL **: 10:22:40.091: invalid cast from 'wxPizza' to 'GtkCellLayout'
+(orca-slicer:3163): GLib-GObject-CRITICAL **: 08:46:22.528: invalid cast from 'wxPizza' to 'GtkCellLayout'
 
-(orca-slicer:11257): Gtk-CRITICAL **: 10:22:40.091: gtk_cell_layout_get_cells: assertion 'GTK_IS_CELL_LAYOUT (cell_layout)' failed
+(orca-slicer:3163): Gtk-CRITICAL **: 08:46:22.528: gtk_cell_layout_get_cells: assertion 'GTK_IS_CELL_LAYOUT (cell_layout)' failed
 
-(orca-slicer:11257): GLib-GObject-CRITICAL **: 10:22:40.092: invalid cast from 'wxPizza' to 'GtkCellLayout'
+(orca-slicer:3163): GLib-GObject-CRITICAL **: 08:46:22.533: invalid cast from 'wxPizza' to 'GtkCellLayout'
 
-(orca-slicer:11257): Gtk-CRITICAL **: 10:22:40.092: gtk_cell_layout_get_cells: assertion 'GTK_IS_CELL_LAYOUT (cell_layout)' failed
+(orca-slicer:3163): Gtk-CRITICAL **: 08:46:22.533: gtk_cell_layout_get_cells: assertion 'GTK_IS_CELL_LAYOUT (cell_layout)' failed
 
-(orca-slicer:11257): GLib-GObject-CRITICAL **: 10:22:40.093: invalid cast from 'wxPizza' to 'GtkCellLayout'
+(orca-slicer:3163): GLib-GObject-CRITICAL **: 08:46:22.533: invalid cast from 'wxPizza' to 'GtkCellLayout'
 
-(orca-slicer:11257): Gtk-CRITICAL **: 10:22:40.093: gtk_cell_layout_get_cells: assertion 'GTK_IS_CELL_LAYOUT (cell_layout)' failed
+(orca-slicer:3163): Gtk-CRITICAL **: 08:46:22.533: gtk_cell_layout_get_cells: assertion 'GTK_IS_CELL_LAYOUT (cell_layout)' failed
 
-(orca-slicer:11257): GLib-GObject-CRITICAL **: 10:22:40.095: invalid cast from 'wxPizza' to 'GtkCellLayout'
+(orca-slicer:3163): GLib-GObject-CRITICAL **: 08:46:22.535: invalid cast from 'wxPizza' to 'GtkCellLayout'
 
-(orca-slicer:11257): Gtk-CRITICAL **: 10:22:40.095: gtk_cell_layout_get_cells: assertion 'GTK_IS_CELL_LAYOUT (cell_layout)' failed
+(orca-slicer:3163): Gtk-CRITICAL **: 08:46:22.536: gtk_cell_layout_get_cells: assertion 'GTK_IS_CELL_LAYOUT (cell_layout)' failed
 
-(orca-slicer:11257): GLib-GObject-CRITICAL **: 10:22:40.096: invalid cast from 'wxPizza' to 'GtkCellLayout'
+(orca-slicer:3163): GLib-GObject-CRITICAL **: 08:46:22.539: invalid cast from 'wxPizza' to 'GtkCellLayout'
 
-(orca-slicer:11257): Gtk-CRITICAL **: 10:22:40.096: gtk_cell_layout_get_cells: assertion 'GTK_IS_CELL_LAYOUT (cell_layout)' failed
+(orca-slicer:3163): Gtk-CRITICAL **: 08:46:22.539: gtk_cell_layout_get_cells: assertion 'GTK_IS_CELL_LAYOUT (cell_layout)' failed
 
-(orca-slicer:11257): GLib-GObject-CRITICAL **: 10:22:40.097: invalid cast from 'wxPizza' to 'GtkCellLayout'
+(orca-slicer:3163): GLib-GObject-CRITICAL **: 08:46:22.540: invalid cast from 'wxPizza' to 'GtkCellLayout'
 
-(orca-slicer:11257): Gtk-CRITICAL **: 10:22:40.097: gtk_cell_layout_get_cells: assertion 'GTK_IS_CELL_LAYOUT (cell_layout)' failed
-
-(orca-slicer:11257): GLib-GObject-CRITICAL **: 10:22:40.097: invalid cast from 'wxPizza' to 'GtkCellLayout'
-
-(orca-slicer:11257): Gtk-CRITICAL **: 10:22:40.097: gtk_cell_layout_get_cells: assertion 'GTK_IS_CELL_LAYOUT (cell_layout)' failed
-
-(orca-slicer:11257): Gtk-CRITICAL **: 10:22:40.098: gtk_widget_set_size_request: assertion 'width >= -1' failed
-
-(orca-slicer:11257): Gtk-CRITICAL **: 10:22:40.098: gtk_widget_set_size_request: assertion 'width >= -1' failed
-
-(orca-slicer:11257): GLib-GObject-CRITICAL **: 10:22:40.098: invalid cast from 'wxPizza' to 'GtkCellLayout'
-
-(orca-slicer:11257): Gtk-CRITICAL **: 10:22:40.098: gtk_cell_layout_get_cells: assertion 'GTK_IS_CELL_LAYOUT (cell_layout)' failed
-
-(orca-slicer:11257): Gtk-CRITICAL **: 10:22:40.099: gtk_widget_set_size_request: assertion 'width >= -1' failed
-
-(orca-slicer:11257): Gtk-CRITICAL **: 10:22:40.099: gtk_widget_set_size_request: assertion 'width >= -1' failed
-
-(orca-slicer:11257): GLib-GObject-CRITICAL **: 10:22:40.099: invalid cast from 'wxPizza' to 'GtkCellLayout'
-
-(orca-slicer:11257): Gtk-CRITICAL **: 10:22:40.099: gtk_cell_layout_get_cells: assertion 'GTK_IS_CELL_LAYOUT (cell_layout)' failed
-
-(orca-slicer:11257): Gtk-CRITICAL **: 10:22:40.221: gtk_window_resize: assertion 'height > 0' failed
-
-(orca-slicer:11257): Gtk-CRITICAL **: 10:22:40.226: gtk_widget_set_size_request: assertion 'width >= -1' failed
-
-(orca-slicer:11257): Gtk-CRITICAL **: 10:22:40.226: gtk_widget_set_size_request: assertion 'width >= -1' failed
-
-(orca-slicer:11257): Gtk-CRITICAL **: 10:22:40.227: gtk_widget_set_size_request: assertion 'width >= -1' failed
-
-(orca-slicer:11257): Gtk-CRITICAL **: 10:22:40.227: gtk_widget_set_size_request: assertion 'width >= -1' failed
-
-(orca-slicer:11257): Gtk-CRITICAL **: 10:22:40.227: gtk_widget_set_size_request: assertion 'width >= -1' failed
-
-(orca-slicer:11257): Gtk-CRITICAL **: 10:22:40.227: gtk_widget_set_size_request: assertion 'width >= -1' failed
-
-(orca-slicer:11257): Gtk-CRITICAL **: 10:22:40.227: gtk_widget_set_size_request: assertion 'width >= -1' failed
-
-(orca-slicer:11257): Gtk-CRITICAL **: 10:22:40.227: gtk_widget_set_size_request: assertion 'width >= -1' failed
-
-(orca-slicer:11257): Gtk-CRITICAL **: 10:22:40.237: gtk_window_resize: assertion 'height > 0' failed
-
-(orca-slicer:11257): Gtk-CRITICAL **: 10:22:40.238: gtk_widget_set_size_request: assertion 'width >= -1' failed
-
-(orca-slicer:11257): Gtk-CRITICAL **: 10:22:40.238: gtk_widget_set_size_request: assertion 'width >= -1' failed
-
-(orca-slicer:11257): Gtk-CRITICAL **: 10:22:40.370: gtk_widget_set_size_request: assertion 'width >= -1' failed
-
-(orca-slicer:11257): Gtk-CRITICAL **: 10:22:40.370: gtk_widget_set_size_request: assertion 'width >= -1' failed
-
-(orca-slicer:11257): Gtk-CRITICAL **: 10:22:40.383: gtk_widget_set_size_request: assertion 'width >= -1' failed
-
-(orca-slicer:11257): Gtk-CRITICAL **: 10:22:40.383: gtk_widget_set_size_request: assertion 'width >= -1' failed
-
-(orca-slicer:11257): Gtk-CRITICAL **: 10:22:40.387: gtk_widget_set_size_request: assertion 'width >= -1' failed
-
-(orca-slicer:11257): Gtk-CRITICAL **: 10:22:40.387: gtk_widget_set_size_request: assertion 'width >= -1' failed
-
-(orca-slicer:11257): Gtk-CRITICAL **: 10:22:40.395: gtk_widget_set_size_request: assertion 'width >= -1' failed
-
-(orca-slicer:11257): Gtk-CRITICAL **: 10:22:40.395: gtk_widget_set_size_request: assertion 'width >= -1' failed
-
-(orca-slicer:11257): Gtk-CRITICAL **: 10:22:40.401: gtk_widget_set_size_request: assertion 'width >= -1' failed
-
-(orca-slicer:11257): Gtk-CRITICAL **: 10:22:40.401: gtk_widget_set_size_request: assertion 'width >= -1' failed
-
-(orca-slicer:11257): Gtk-CRITICAL **: 10:22:40.408: gtk_widget_set_size_request: assertion 'width >= -1' failed
-
-(orca-slicer:11257): Gtk-CRITICAL **: 10:22:40.408: gtk_widget_set_size_request: assertion 'width >= -1' failed
-
-(orca-slicer:11257): Gtk-CRITICAL **: 10:22:40.417: gtk_widget_set_size_request: assertion 'width >= -1' failed
-
-(orca-slicer:11257): Gtk-CRITICAL **: 10:22:40.417: gtk_widget_set_size_request: assertion 'width >= -1' failed
-
-(orca-slicer:11257): Gtk-CRITICAL **: 10:22:40.422: gtk_widget_set_size_request: assertion 'width >= -1' failed
-
-(orca-slicer:11257): Gtk-CRITICAL **: 10:22:40.422: gtk_widget_set_size_request: assertion 'width >= -1' failed
-
-** (orca-slicer:11257): CRITICAL **: 10:22:40.466: Cannot register URI scheme wxfs more than once
-
-** (orca-slicer:11257): CRITICAL **: 10:22:40.466: Cannot register URI scheme memory more than once
-
-** (orca-slicer:11257): CRITICAL **: 10:22:40.612: Cannot register URI scheme wxfs more than once
-
-** (orca-slicer:11257): CRITICAL **: 10:22:40.612: Cannot register URI scheme memory more than once
-
-** (orca-slicer:11257): CRITICAL **: 10:22:40.615: Cannot register URI scheme wxfs more than once
-
-** (orca-slicer:11257): CRITICAL **: 10:22:40.615: Cannot register URI scheme memory more than once
-
-(orca-slicer:11257): Gtk-CRITICAL **: 10:22:40.623: gtk_widget_set_size_request: assertion 'width >= -1' failed
-
-(orca-slicer:11257): Gtk-CRITICAL **: 10:22:40.623: gtk_widget_set_size_request: assertion 'width >= -1' failed
-
-(orca-slicer:11257): Gtk-CRITICAL **: 10:22:40.623: gtk_widget_set_size_request: assertion 'width >= -1' failed
-
-(orca-slicer:11257): Gtk-CRITICAL **: 10:22:40.623: gtk_widget_set_size_request: assertion 'width >= -1' failed
-
-(orca-slicer:11257): Gtk-CRITICAL **: 10:22:40.623: gtk_widget_set_size_request: assertion 'width >= -1' failed
-
-(orca-slicer:11257): Gtk-CRITICAL **: 10:22:40.623: gtk_widget_set_size_request: assertion 'width >= -1' failed
-
-(orca-slicer:11257): Gtk-CRITICAL **: 10:22:40.639: gtk_widget_set_size_request: assertion 'width >= -1' failed
-
-(orca-slicer:11257): Gtk-CRITICAL **: 10:22:40.639: gtk_widget_set_size_request: assertion 'width >= -1' failed
-
-(orca-slicer:11257): Gtk-CRITICAL **: 10:22:40.639: gtk_widget_set_size_request: assertion 'width >= -1' failed
-
-(orca-slicer:11257): Gtk-CRITICAL **: 10:22:40.639: gtk_widget_set_size_request: assertion 'width >= -1' failed
-
-(orca-slicer:11257): Gtk-CRITICAL **: 10:22:40.639: gtk_widget_set_size_request: assertion 'width >= -1' failed
-
-(orca-slicer:11257): Gtk-CRITICAL **: 10:22:40.639: gtk_widget_set_size_request: assertion 'width >= -1' failed
-
-(orca-slicer:11257): Gtk-CRITICAL **: 10:22:40.639: gtk_window_resize: assertion 'width > 0' failed
-
-(orca-slicer:11257): Gtk-CRITICAL **: 10:22:40.639: gtk_widget_set_size_request: assertion 'width >= -1' failed
-
-(orca-slicer:11257): Gtk-CRITICAL **: 10:22:40.695: gtk_window_resize: assertion 'height > 0' failed
-
-(orca-slicer:11257): Gtk-CRITICAL **: 10:22:40.696: gtk_widget_set_size_request: assertion 'width >= -1' failed
-
-(orca-slicer:11257): Gtk-CRITICAL **: 10:22:40.696: gtk_widget_set_size_request: assertion 'width >= -1' failed
-
-(orca-slicer:11257): Gtk-CRITICAL **: 10:22:40.697: gtk_window_resize: assertion 'height > 0' failed
-
-(orca-slicer:11257): Gtk-CRITICAL **: 10:22:40.697: gtk_widget_set_size_request: assertion 'width >= -1' failed
-
-(orca-slicer:11257): Gtk-CRITICAL **: 10:22:40.697: gtk_widget_set_size_request: assertion 'width >= -1' failed
-
-(orca-slicer:11257): Gtk-CRITICAL **: 10:22:40.698: gtk_window_resize: assertion 'height > 0' failed
-
-(orca-slicer:11257): Gtk-CRITICAL **: 10:22:40.699: gtk_widget_set_size_request: assertion 'width >= -1' failed
-
-(orca-slicer:11257): Gtk-CRITICAL **: 10:22:40.699: gtk_widget_set_size_request: assertion 'width >= -1' failed
-
-(orca-slicer:11257): Gtk-CRITICAL **: 10:22:40.700: gtk_window_resize: assertion 'height > 0' failed
-
-(orca-slicer:11257): Gtk-CRITICAL **: 10:22:40.700: gtk_widget_set_size_request: assertion 'width >= -1' failed
-
-(orca-slicer:11257): Gtk-CRITICAL **: 10:22:40.700: gtk_widget_set_size_request: assertion 'width >= -1' failed
-
-(orca-slicer:11257): Gtk-CRITICAL **: 10:22:40.703: gtk_window_resize: assertion 'height > 0' failed
-
-(orca-slicer:11257): Gtk-CRITICAL **: 10:22:40.703: gtk_widget_set_size_request: assertion 'width >= -1' failed
-
-(orca-slicer:11257): Gtk-CRITICAL **: 10:22:40.703: gtk_widget_set_size_request: assertion 'width >= -1' failed
-
-(orca-slicer:11257): Gtk-CRITICAL **: 10:22:40.859: gtk_window_resize: assertion 'height > 0' failed
-
-(orca-slicer:11257): Gtk-CRITICAL **: 10:22:40.859: gtk_widget_set_size_request: assertion 'width >= -1' failed
-
-(orca-slicer:11257): Gtk-CRITICAL **: 10:22:40.859: gtk_widget_set_size_request: assertion 'width >= -1' failed
-
-(orca-slicer:11257): Gtk-CRITICAL **: 10:22:40.861: gtk_window_resize: assertion 'height > 0' failed
-
-(orca-slicer:11257): Gtk-CRITICAL **: 10:22:40.861: gtk_widget_set_size_request: assertion 'width >= -1' failed
-
-(orca-slicer:11257): Gtk-CRITICAL **: 10:22:40.861: gtk_widget_set_size_request: assertion 'width >= -1' failed
-
-(orca-slicer:11257): Gtk-CRITICAL **: 10:22:40.862: gtk_window_resize: assertion 'height > 0' failed
-
-(orca-slicer:11257): Gtk-CRITICAL **: 10:22:40.862: gtk_widget_set_size_request: assertion 'width >= -1' failed
-
-(orca-slicer:11257): Gtk-CRITICAL **: 10:22:40.862: gtk_widget_set_size_request: assertion 'width >= -1' failed
-
-(orca-slicer:11257): Gtk-CRITICAL **: 10:22:40.863: gtk_window_resize: assertion 'height > 0' failed
-
-(orca-slicer:11257): Gtk-CRITICAL **: 10:22:40.863: gtk_widget_set_size_request: assertion 'width >= -1' failed
-
-(orca-slicer:11257): Gtk-CRITICAL **: 10:22:40.863: gtk_widget_set_size_request: assertion 'width >= -1' failed
-
-(orca-slicer:11257): Gtk-CRITICAL **: 10:22:40.864: gtk_window_resize: assertion 'height > 0' failed
-
-(orca-slicer:11257): Gtk-CRITICAL **: 10:22:40.865: gtk_widget_set_size_request: assertion 'width >= -1' failed
-
-(orca-slicer:11257): Gtk-CRITICAL **: 10:22:40.865: gtk_widget_set_size_request: assertion 'width >= -1' failed
-
-(orca-slicer:11257): Gtk-CRITICAL **: 10:22:41.076: gtk_widget_set_size_request: assertion 'width >= -1' failed
-
-(orca-slicer:11257): GLib-GObject-CRITICAL **: 10:22:41.077: invalid cast from 'wxPizza' to 'GtkCellLayout'
-
-(orca-slicer:11257): Gtk-CRITICAL **: 10:22:41.077: gtk_cell_layout_get_cells: assertion 'GTK_IS_CELL_LAYOUT (cell_layout)' failed
-
-(orca-slicer:11257): GLib-GObject-CRITICAL **: 10:22:41.078: invalid cast from 'wxPizza' to 'GtkCellLayout'
-
-(orca-slicer:11257): Gtk-CRITICAL **: 10:22:41.078: gtk_cell_layout_get_cells: assertion 'GTK_IS_CELL_LAYOUT (cell_layout)' failed
-
-(orca-slicer:11257): GLib-GObject-CRITICAL **: 10:22:41.079: invalid cast from 'wxPizza' to 'GtkCellLayout'
-
-(orca-slicer:11257): Gtk-CRITICAL **: 10:22:41.079: gtk_cell_layout_get_cells: assertion 'GTK_IS_CELL_LAYOUT (cell_layout)' failed
-
-(orca-slicer:11257): GLib-GObject-CRITICAL **: 10:22:41.079: invalid cast from 'wxPizza' to 'GtkCellLayout'
-
-(orca-slicer:11257): Gtk-CRITICAL **: 10:22:41.079: gtk_cell_layout_get_cells: assertion 'GTK_IS_CELL_LAYOUT (cell_layout)' failed
-
-(orca-slicer:11257): GLib-GObject-CRITICAL **: 10:22:41.080: invalid cast from 'wxPizza' to 'GtkCellLayout'
-
-(orca-slicer:11257): Gtk-CRITICAL **: 10:22:41.080: gtk_cell_layout_get_cells: assertion 'GTK_IS_CELL_LAYOUT (cell_layout)' failed
-
-(orca-slicer:11257): GLib-GObject-CRITICAL **: 10:22:41.082: invalid cast from 'wxPizza' to 'GtkCellLayout'
-
-(orca-slicer:11257): Gtk-CRITICAL **: 10:22:41.082: gtk_cell_layout_get_cells: assertion 'GTK_IS_CELL_LAYOUT (cell_layout)' failed
-
-(orca-slicer:11257): Gtk-CRITICAL **: 10:22:41.082: gtk_widget_set_size_request: assertion 'width >= -1' failed
-
-(orca-slicer:11257): Gtk-CRITICAL **: 10:22:41.082: gtk_widget_set_size_request: assertion 'width >= -1' failed
-
-(orca-slicer:11257): GLib-GObject-CRITICAL **: 10:22:41.082: invalid cast from 'wxPizza' to 'GtkCellLayout'
-
-(orca-slicer:11257): Gtk-CRITICAL **: 10:22:41.082: gtk_cell_layout_get_cells: assertion 'GTK_IS_CELL_LAYOUT (cell_layout)' failed
-
-(orca-slicer:11257): Gtk-CRITICAL **: 10:22:41.083: gtk_widget_set_size_request: assertion 'width >= -1' failed
-
-(orca-slicer:11257): Gtk-CRITICAL **: 10:22:41.113: gtk_window_resize: assertion 'height > 0' failed
-
-(orca-slicer:11257): Gtk-CRITICAL **: 10:22:41.113: gtk_widget_set_size_request: assertion 'width >= -1' failed
-
-(orca-slicer:11257): Gtk-CRITICAL **: 10:22:41.113: gtk_widget_set_size_request: assertion 'width >= -1' failed
-
-(orca-slicer:11257): Gtk-CRITICAL **: 10:22:41.115: gtk_window_resize: assertion 'height > 0' failed
-
-(orca-slicer:11257): Gtk-CRITICAL **: 10:22:41.131: gtk_widget_set_size_request: assertion 'width >= -1' failed
-
-(orca-slicer:11257): Gtk-CRITICAL **: 10:22:41.131: gtk_widget_set_size_request: assertion 'width >= -1' failed
-
-(orca-slicer:11257): Gtk-CRITICAL **: 10:22:41.142: gtk_window_resize: assertion 'height > 0' failed
-
-(orca-slicer:11257): Gtk-CRITICAL **: 10:22:41.142: gtk_widget_set_size_request: assertion 'width >= -1' failed
-
-(orca-slicer:11257): Gtk-CRITICAL **: 10:22:41.142: gtk_widget_set_size_request: assertion 'width >= -1' failed
-
-(orca-slicer:11257): Gtk-CRITICAL **: 10:22:41.143: gtk_window_resize: assertion 'height > 0' failed
-
-(orca-slicer:11257): Gtk-CRITICAL **: 10:22:41.144: gtk_widget_set_size_request: assertion 'width >= -1' failed
-
-(orca-slicer:11257): Gtk-CRITICAL **: 10:22:41.144: gtk_widget_set_size_request: assertion 'width >= -1' failed
-
-(orca-slicer:11257): Gtk-CRITICAL **: 10:22:41.144: gtk_widget_set_size_request: assertion 'width >= -1' failed
-
-(orca-slicer:11257): Gtk-CRITICAL **: 10:22:41.144: gtk_widget_set_size_request: assertion 'width >= -1' failed
-
-(orca-slicer:11257): Gtk-CRITICAL **: 10:22:41.147: gtk_widget_set_size_request: assertion 'width >= -1' failed
-
-(orca-slicer:11257): Gtk-CRITICAL **: 10:22:41.147: gtk_widget_set_size_request: assertion 'width >= -1' failed
-
-(orca-slicer:11257): Gtk-CRITICAL **: 10:22:41.149: gtk_window_resize: assertion 'height > 0' failed
-
-(orca-slicer:11257): Gtk-CRITICAL **: 10:22:41.149: gtk_widget_set_size_request: assertion 'width >= -1' failed
-
-(orca-slicer:11257): Gtk-CRITICAL **: 10:22:41.149: gtk_widget_set_size_request: assertion 'width >= -1' failed
-
-(orca-slicer:11257): Gtk-CRITICAL **: 10:22:41.157: gtk_window_resize: assertion 'height > 0' failed
-
-(orca-slicer:11257): Gtk-CRITICAL **: 10:22:41.157: gtk_widget_set_size_request: assertion 'width >= -1' failed
-
-(orca-slicer:11257): Gtk-CRITICAL **: 10:22:41.157: gtk_widget_set_size_request: assertion 'width >= -1' failed
-
-(orca-slicer:11257): Gtk-CRITICAL **: 10:22:41.158: gtk_window_resize: assertion 'height > 0' failed
-
-(orca-slicer:11257): Gtk-CRITICAL **: 10:22:41.165: gtk_widget_set_size_request: assertion 'width >= -1' failed
-
-(orca-slicer:11257): Gtk-CRITICAL **: 10:22:41.165: gtk_widget_set_size_request: assertion 'width >= -1' failed
-
-(orca-slicer:11257): Gtk-CRITICAL **: 10:22:41.169: gtk_window_resize: assertion 'height > 0' failed
-
-(orca-slicer:11257): Gtk-CRITICAL **: 10:22:41.170: gtk_window_resize: assertion 'height > 0' failed
-
-(orca-slicer:11257): Gtk-CRITICAL **: 10:22:41.182: gtk_widget_set_size_request: assertion 'width >= -1' failed
-
-(orca-slicer:11257): Gtk-CRITICAL **: 10:22:41.435: gtk_widget_set_size_request: assertion 'width >= -1' failed
-
-(orca-slicer:11257): Gtk-CRITICAL **: 10:22:41.435: gtk_widget_set_size_request: assertion 'width >= -1' failed
-
-(orca-slicer:11257): GLib-GObject-CRITICAL **: 10:22:42.740: invalid cast from 'wxPizza' to 'GtkCellLayout'
-
-(orca-slicer:11257): Gtk-CRITICAL **: 10:22:42.740: gtk_cell_layout_get_cells: assertion 'GTK_IS_CELL_LAYOUT (cell_layout)' failed
-
-(orca-slicer:11257): GLib-GObject-CRITICAL **: 10:22:42.740: invalid cast from 'wxPizza' to 'GtkCellLayout'
-
-(orca-slicer:11257): Gtk-CRITICAL **: 10:22:42.740: gtk_cell_layout_get_cells: assertion 'GTK_IS_CELL_LAYOUT (cell_layout)' failed
-
-(orca-slicer:11257): GLib-GObject-CRITICAL **: 10:22:42.745: invalid cast from 'wxPizza' to 'GtkCellLayout'
-
-(orca-slicer:11257): Gtk-CRITICAL **: 10:22:42.745: gtk_cell_layout_get_cells: assertion 'GTK_IS_CELL_LAYOUT (cell_layout)' failed
-
-(orca-slicer:11257): GLib-GObject-CRITICAL **: 10:22:42.746: invalid cast from 'wxPizza' to 'GtkCellLayout'
-
-(orca-slicer:11257): Gtk-CRITICAL **: 10:22:42.746: gtk_cell_layout_get_cells: assertion 'GTK_IS_CELL_LAYOUT (cell_layout)' failed
-
-(orca-slicer:11257): GLib-GObject-CRITICAL **: 10:22:42.748: invalid cast from 'wxPizza' to 'GtkCellLayout'
-
-(orca-slicer:11257): Gtk-CRITICAL **: 10:22:42.748: gtk_cell_layout_get_cells: assertion 'GTK_IS_CELL_LAYOUT (cell_layout)' failed
-
-(orca-slicer:11257): GLib-GObject-CRITICAL **: 10:22:42.752: invalid cast from 'wxPizza' to 'GtkCellLayout'
-
-(orca-slicer:11257): Gtk-CRITICAL **: 10:22:42.752: gtk_cell_layout_get_cells: assertion 'GTK_IS_CELL_LAYOUT (cell_layout)' failed
-
-(orca-slicer:11257): GLib-GObject-CRITICAL **: 10:22:42.753: invalid cast from 'wxPizza' to 'GtkCellLayout'
-
-(orca-slicer:11257): Gtk-CRITICAL **: 10:22:42.753: gtk_cell_layout_get_cells: assertion 'GTK_IS_CELL_LAYOUT (cell_layout)' failed
-
-(orca-slicer:11257): Gtk-CRITICAL **: 10:22:46.444: gtk_window_resize: assertion 'height > 0' failed
-
-(orca-slicer:11257): GLib-GObject-CRITICAL **: 10:22:46.494: invalid cast from 'wxPizza' to 'GtkCellLayout'
-
-(orca-slicer:11257): Gtk-CRITICAL **: 10:22:46.494: gtk_cell_layout_get_cells: assertion 'GTK_IS_CELL_LAYOUT (cell_layout)' failed
-
-(orca-slicer:11257): GLib-GObject-CRITICAL **: 10:22:46.494: invalid cast from 'wxPizza' to 'GtkCellLayout'
-
-(orca-slicer:11257): Gtk-CRITICAL **: 10:22:46.494: gtk_cell_layout_get_cells: assertion 'GTK_IS_CELL_LAYOUT (cell_layout)' failed
-
-(orca-slicer:11257): Gtk-CRITICAL **: 10:22:51.381: gtk_widget_set_size_request: assertion 'width >= -1' failed
-
-(orca-slicer:11257): Gtk-CRITICAL **: 10:22:51.381: gtk_widget_set_size_request: assertion 'width >= -1' failed
-
-(orca-slicer:11257): GLib-GObject-CRITICAL **: 10:23:05.310: invalid cast from 'wxPizza' to 'GtkCellLayout'
-
-(orca-slicer:11257): Gtk-CRITICAL **: 10:23:05.310: gtk_cell_layout_get_cells: assertion 'GTK_IS_CELL_LAYOUT (cell_layout)' failed
-
-(orca-slicer:11257): GLib-GObject-CRITICAL **: 10:23:05.310: invalid cast from 'wxPizza' to 'GtkCellLayout'
-
-(orca-slicer:11257): Gtk-CRITICAL **: 10:23:05.310: gtk_cell_layout_get_cells: assertion 'GTK_IS_CELL_LAYOUT (cell_layout)' failed
-
-(orca-slicer:11257): GLib-GObject-CRITICAL **: 10:23:05.323: invalid cast from 'wxPizza' to 'GtkCellLayout'
-
-(orca-slicer:11257): Gtk-CRITICAL **: 10:23:05.323: gtk_cell_layout_get_cells: assertion 'GTK_IS_CELL_LAYOUT (cell_layout)' failed
-
-(orca-slicer:11257): GLib-GObject-CRITICAL **: 10:23:05.324: invalid cast from 'wxPizza' to 'GtkCellLayout'
-
-(orca-slicer:11257): Gtk-CRITICAL **: 10:23:05.324: gtk_cell_layout_get_cells: assertion 'GTK_IS_CELL_LAYOUT (cell_layout)' failed
-
-(orca-slicer:11257): GLib-GObject-CRITICAL **: 10:23:05.329: invalid cast from 'wxPizza' to 'GtkCellLayout'
-
-(orca-slicer:11257): Gtk-CRITICAL **: 10:23:05.329: gtk_cell_layout_get_cells: assertion 'GTK_IS_CELL_LAYOUT (cell_layout)' failed
-
-(orca-slicer:11257): GLib-GObject-CRITICAL **: 10:23:05.335: invalid cast from 'wxPizza' to 'GtkCellLayout'
-
-(orca-slicer:11257): Gtk-CRITICAL **: 10:23:05.335: gtk_cell_layout_get_cells: assertion 'GTK_IS_CELL_LAYOUT (cell_layout)' failed
-
-(orca-slicer:11257): GLib-GObject-CRITICAL **: 10:23:05.335: invalid cast from 'wxPizza' to 'GtkCellLayout'
-
-(orca-slicer:11257): Gtk-CRITICAL **: 10:23:05.335: gtk_cell_layout_get_cells: assertion 'GTK_IS_CELL_LAYOUT (cell_layout)' failed
+(orca-slicer:3163): Gtk-CRITICAL **: 08:46:22.540: gtk_cell_layout_get_cells: assertion 'GTK_IS_CELL_LAYOUT (cell_layout)' failed
 Terminated
-Terminated
-Terminated
-Terminated
-Terminated
-Terminated
+
+(orca-slicer:3163): GLib-GObject-CRITICAL **: 08:46:26.220: invalid cast from 'wxPizza' to 'GtkCellLayout'
+
+(orca-slicer:3163): Gtk-CRITICAL **: 08:46:26.221: gtk_cell_layout_get_cells: assertion 'GTK_IS_CELL_LAYOUT (cell_layout)' failed
+
+(orca-slicer:3163): GLib-GObject-CRITICAL **: 08:46:26.221: invalid cast from 'wxPizza' to 'GtkCellLayout'
+
+(orca-slicer:3163): Gtk-CRITICAL **: 08:46:26.221: gtk_cell_layout_get_cells: assertion 'GTK_IS_CELL_LAYOUT (cell_layout)' failed
+
+(orca-slicer:3163): GLib-GObject-CRITICAL **: 08:46:26.228: invalid cast from 'wxPizza' to 'GtkCellLayout'
+
+(orca-slicer:3163): Gtk-CRITICAL **: 08:46:26.228: gtk_cell_layout_get_cells: assertion 'GTK_IS_CELL_LAYOUT (cell_layout)' failed
+
+(orca-slicer:3163): GLib-GObject-CRITICAL **: 08:46:26.228: invalid cast from 'wxPizza' to 'GtkCellLayout'
+
+(orca-slicer:3163): Gtk-CRITICAL **: 08:46:26.228: gtk_cell_layout_get_cells: assertion 'GTK_IS_CELL_LAYOUT (cell_layout)' failed
+
+(orca-slicer:3163): GLib-GObject-CRITICAL **: 08:46:26.232: invalid cast from 'wxPizza' to 'GtkCellLayout'
+
+(orca-slicer:3163): Gtk-CRITICAL **: 08:46:26.232: gtk_cell_layout_get_cells: assertion 'GTK_IS_CELL_LAYOUT (cell_layout)' failed
+
+(orca-slicer:3163): GLib-GObject-CRITICAL **: 08:46:26.238: invalid cast from 'wxPizza' to 'GtkCellLayout'
+
+(orca-slicer:3163): Gtk-CRITICAL **: 08:46:26.239: gtk_cell_layout_get_cells: assertion 'GTK_IS_CELL_LAYOUT (cell_layout)' failed
+
+(orca-slicer:3163): GLib-GObject-CRITICAL **: 08:46:26.239: invalid cast from 'wxPizza' to 'GtkCellLayout'
+
+(orca-slicer:3163): Gtk-CRITICAL **: 08:46:26.239: gtk_cell_layout_get_cells: assertion 'GTK_IS_CELL_LAYOUT (cell_layout)' failed
+
+(orca-slicer:3163): GLib-GObject-CRITICAL **: 08:46:26.505: invalid cast from 'wxPizza' to 'GtkCellLayout'
+
+(orca-slicer:3163): Gtk-CRITICAL **: 08:46:26.505: gtk_cell_layout_get_cells: assertion 'GTK_IS_CELL_LAYOUT (cell_layout)' failed
+
+(orca-slicer:3163): GLib-GObject-CRITICAL **: 08:46:26.505: invalid cast from 'wxPizza' to 'GtkCellLayout'
+
+(orca-slicer:3163): Gtk-CRITICAL **: 08:46:26.505: gtk_cell_layout_get_cells: assertion 'GTK_IS_CELL_LAYOUT (cell_layout)' failed
+
+(orca-slicer:3163): GLib-GObject-CRITICAL **: 08:46:26.511: invalid cast from 'wxPizza' to 'GtkCellLayout'
+
+(orca-slicer:3163): Gtk-CRITICAL **: 08:46:26.511: gtk_cell_layout_get_cells: assertion 'GTK_IS_CELL_LAYOUT (cell_layout)' failed
+
+(orca-slicer:3163): GLib-GObject-CRITICAL **: 08:46:26.511: invalid cast from 'wxPizza' to 'GtkCellLayout'
+
+(orca-slicer:3163): Gtk-CRITICAL **: 08:46:26.511: gtk_cell_layout_get_cells: assertion 'GTK_IS_CELL_LAYOUT (cell_layout)' failed
+
+(orca-slicer:3163): GLib-GObject-CRITICAL **: 08:46:26.514: invalid cast from 'wxPizza' to 'GtkCellLayout'
+
+(orca-slicer:3163): Gtk-CRITICAL **: 08:46:26.514: gtk_cell_layout_get_cells: assertion 'GTK_IS_CELL_LAYOUT (cell_layout)' failed
+
+(orca-slicer:3163): GLib-GObject-CRITICAL **: 08:46:26.521: invalid cast from 'wxPizza' to 'GtkCellLayout'
+
+(orca-slicer:3163): Gtk-CRITICAL **: 08:46:26.521: gtk_cell_layout_get_cells: assertion 'GTK_IS_CELL_LAYOUT (cell_layout)' failed
+
+(orca-slicer:3163): GLib-GObject-CRITICAL **: 08:46:26.521: invalid cast from 'wxPizza' to 'GtkCellLayout'
+
+(orca-slicer:3163): Gtk-CRITICAL **: 08:46:26.521: gtk_cell_layout_get_cells: assertion 'GTK_IS_CELL_LAYOUT (cell_layout)' failed
+
+(orca-slicer:3163): Gtk-CRITICAL **: 08:46:40.250: gtk_widget_set_size_request: assertion 'width >= -1' failed
+
+(orca-slicer:3163): Gtk-CRITICAL **: 08:46:40.250: gtk_widget_set_size_request: assertion 'width >= -1' failed
+
+(orca-slicer:3163): Gtk-CRITICAL **: 08:46:40.252: gtk_widget_set_size_request: assertion 'width >= -1' failed
+
+(orca-slicer:3163): Gtk-CRITICAL **: 08:46:40.252: gtk_widget_set_size_request: assertion 'width >= -1' failed
+
+(orca-slicer:3163): Gtk-CRITICAL **: 08:46:44.195: gtk_widget_set_size_request: assertion 'width >= -1' failed
+
+(orca-slicer:3163): Gtk-CRITICAL **: 08:46:44.195: gtk_widget_set_size_request: assertion 'width >= -1' failed
+[56:0111/084651.872088:ERROR:simple_file_enumerator.cc(58)] Could not get file info for /home/lazar/.var/app/org.ferdium.Ferdium/config/Ferdium/Partitions/service-a7d3b955-5511-4441-8caa-92b32f0b5498/Cache/Cache_Data/a5da530c7bc846ec_0
+
+(orca-slicer:3163): GLib-GObject-CRITICAL **: 08:47:50.120: invalid cast from 'wxPizza' to 'GtkCellLayout'
+
+(orca-slicer:3163): Gtk-CRITICAL **: 08:47:50.120: gtk_cell_layout_get_cells: assertion 'GTK_IS_CELL_LAYOUT (cell_layout)' failed
+
+(orca-slicer:3163): GLib-GObject-CRITICAL **: 08:47:50.121: invalid cast from 'wxPizza' to 'GtkCellLayout'
+
+(orca-slicer:3163): Gtk-CRITICAL **: 08:47:50.121: gtk_cell_layout_get_cells: assertion 'GTK_IS_CELL_LAYOUT (cell_layout)' failed
+
+(orca-slicer:3163): GLib-GObject-CRITICAL **: 08:47:50.142: invalid cast from 'wxPizza' to 'GtkCellLayout'
+
+(orca-slicer:3163): Gtk-CRITICAL **: 08:47:50.142: gtk_cell_layout_get_cells: assertion 'GTK_IS_CELL_LAYOUT (cell_layout)' failed
+
+(orca-slicer:3163): GLib-GObject-CRITICAL **: 08:47:50.143: invalid cast from 'wxPizza' to 'GtkCellLayout'
+
+(orca-slicer:3163): Gtk-CRITICAL **: 08:47:50.143: gtk_cell_layout_get_cells: assertion 'GTK_IS_CELL_LAYOUT (cell_layout)' failed
+
+(orca-slicer:3163): GLib-GObject-CRITICAL **: 08:47:50.150: invalid cast from 'wxPizza' to 'GtkCellLayout'
+
+(orca-slicer:3163): Gtk-CRITICAL **: 08:47:50.150: gtk_cell_layout_get_cells: assertion 'GTK_IS_CELL_LAYOUT (cell_layout)' failed
+
+(orca-slicer:3163): GLib-GObject-CRITICAL **: 08:47:50.160: invalid cast from 'wxPizza' to 'GtkCellLayout'
+
+(orca-slicer:3163): Gtk-CRITICAL **: 08:47:50.160: gtk_cell_layout_get_cells: assertion 'GTK_IS_CELL_LAYOUT (cell_layout)' failed
+
+(orca-slicer:3163): GLib-GObject-CRITICAL **: 08:47:50.161: invalid cast from 'wxPizza' to 'GtkCellLayout'
+
+(orca-slicer:3163): Gtk-CRITICAL **: 08:47:50.161: gtk_cell_layout_get_cells: assertion 'GTK_IS_CELL_LAYOUT (cell_layout)' failed
+erresc: unknown csi ESC[?2026$p
+erresc: unknown csi ESC[4:3m
+erresc: unknown csi ESC[>4;2m
 F: Can't get document portal: GDBus.Error:org.freedesktop.DBus.Error.NoReply: Message recipient disconnected from message bus without replying
-Gtk-Message: 11:03:29.473: Failed to load module "gtk-dark-theme"
-Gtk-Message: 11:03:29.473: Failed to load module "gtk-dark-theme"
-Gtk-Message: 11:03:30.213: Failed to load module "gtk-dark-theme"
-Gtk-Message: 11:03:30.214: Failed to load module "gtk-dark-theme"
-[2:2:0109/110330.407378:ERROR:object_proxy.cc(576)] Failed to call method: org.kde.KWallet.isEnabled: object_path= /modules/kwalletd6: org.freedesktop.DBus.Error.ServiceUnknown: The name org.kde.kwalletd6 was not provided by any .service files
-[2:2:0109/110330.408679:ERROR:kwallet_dbus.cc(117)] Error contacting kwalletd6 (isEnabled)
-[2:2:0109/110330.409560:ERROR:object_proxy.cc(576)] Failed to call method: org.kde.KLauncher.start_service_by_desktop_name: object_path= /KLauncher: org.freedesktop.DBus.Error.ServiceUnknown: org.freedesktop.DBus.Error.ServiceUnknown
-[2:2:0109/110330.409635:ERROR:kwallet_dbus.cc(86)] Error contacting klauncher to start kwalletd6
-[2:2:0109/110330.410084:ERROR:object_proxy.cc(576)] Failed to call method: org.kde.KWallet.close: object_path= /modules/kwalletd6: org.freedesktop.DBus.Error.ServiceUnknown: The name org.kde.kwalletd6 was not provided by any .service files
-[2:2:0109/110330.410100:ERROR:kwallet_dbus.cc(412)] Error contacting kwalletd6 (close)
-[2:2:0109/110330.414546:ERROR:object_proxy.cc(576)] Failed to call method: org.kde.KWallet.isEnabled: object_path= /modules/kwalletd5: org.freedesktop.DBus.Error.ServiceUnknown: org.freedesktop.DBus.Error.ServiceUnknown
-[2:2:0109/110330.414594:ERROR:kwallet_dbus.cc(117)] Error contacting kwalletd5 (isEnabled)
-[2:2:0109/110330.415707:ERROR:object_proxy.cc(576)] Failed to call method: org.kde.KLauncher.start_service_by_desktop_name: object_path= /KLauncher: org.freedesktop.DBus.Error.ServiceUnknown: org.freedesktop.DBus.Error.ServiceUnknown
-[2:2:0109/110330.415769:ERROR:kwallet_dbus.cc(86)] Error contacting klauncher to start kwalletd5
-[2:2:0109/110330.416947:ERROR:object_proxy.cc(576)] Failed to call method: org.kde.KWallet.close: object_path= /modules/kwalletd5: org.freedesktop.DBus.Error.ServiceUnknown: org.freedesktop.DBus.Error.ServiceUnknown
-[2:2:0109/110330.417105:ERROR:kwallet_dbus.cc(412)] Error contacting kwalletd5 (close)
-[2:2:0109/110330.421561:ERROR:object_proxy.cc(576)] Failed to call method: org.kde.KWallet.isEnabled: object_path= /modules/kwalletd: org.freedesktop.DBus.Error.ServiceUnknown: org.freedesktop.DBus.Error.ServiceUnknown
-[2:2:0109/110330.421602:ERROR:kwallet_dbus.cc(117)] Error contacting kwalletd (isEnabled)
-[2:2:0109/110330.421795:ERROR:object_proxy.cc(576)] Failed to call method: org.kde.KLauncher.start_service_by_desktop_name: object_path= /KLauncher: org.freedesktop.DBus.Error.ServiceUnknown: org.freedesktop.DBus.Error.ServiceUnknown
-[2:2:0109/110330.421803:ERROR:kwallet_dbus.cc(86)] Error contacting klauncher to start kwalletd
-[2:2:0109/110330.421978:ERROR:object_proxy.cc(576)] Failed to call method: org.kde.KWallet.close: object_path= /modules/kwalletd: org.freedesktop.DBus.Error.ServiceUnknown: org.freedesktop.DBus.Error.ServiceUnknown
-[2:2:0109/110330.421985:ERROR:kwallet_dbus.cc(412)] Error contacting kwalletd (close)
-[2:167:0109/110330.983543:ERROR:object_proxy.cc(576)] Failed to call method: org.freedesktop.DBus.Properties.Get: object_path= /org/freedesktop/UPower: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.UPower was not provided by any .service files
-[2:167:0109/110330.983997:ERROR:object_proxy.cc(576)] Failed to call method: org.freedesktop.UPower.GetDisplayDevice: object_path= /org/freedesktop/UPower: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.UPower was not provided by any .service files
-[2:167:0109/110330.984547:ERROR:object_proxy.cc(576)] Failed to call method: org.freedesktop.UPower.EnumerateDevices: object_path= /org/freedesktop/UPower: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.UPower was not provided by any .service files
-[2:2:0109/110331.000408:ERROR:object_proxy.cc(576)] Failed to call method: org.freedesktop.portal.Secret.RetrieveSecret: object_path= /org/freedesktop/portal/desktop: org.freedesktop.DBus.Error.UnknownMethod: No such interface “org.freedesktop.portal.Secret” on object at path /org/freedesktop/portal/desktop
-[2:2:0109/110331.000469:ERROR:secret_portal_key_provider.cc(150)] Failed to retrieve secret: No response from portal.
-[2:2:0109/110331.599108:ERROR:sharing_service.cc(296)] Device registration failed with fatal error
-Terminated
-Terminated
-Terminated
-Terminated
-Terminated
-Terminated
-Terminated
-Terminated
-Terminated
-Terminated
-Terminated
-[2:2:0109/110807.585051:ERROR:interface_endpoint_client.cc(725)] Message 1 rejected by interface blink.mojom.WidgetHost
-erresc: unknown csi ESC[?1001r
-Terminated
-Terminated
-Terminated
-Terminated
-Terminated
-Terminated
-Terminated
-Terminated
-Terminated
-Terminated
-Terminated
-Terminated
-Terminated
-Terminated
-Terminated
-Terminated
-Terminated
-Terminated
-Terminated
-Terminated
-Terminated
-Terminated
-Terminated
-Terminated
-Terminated
-Terminated
-Terminated
-Terminated
-Terminated
-Terminated
-Terminated
-Terminated
-Terminated
-Terminated
-Terminated
-Terminated
-Terminated
-Terminated
-Terminated
-Terminated
-Terminated
-Terminated
-Terminated
-Terminated
-Terminated
-Terminated
-Terminated
-Terminated
-Terminated
-Terminated
-Terminated
-Terminated
-Terminated
-Terminated
-Terminated
-Terminated
-Terminated
-Terminated
-Terminated
-[0109/110955.944376:INFO:pipe.h(28)] Pipe destructor called
-[0109/110955.944632:INFO:pipe.cc(97)] Pipe close.
-[0109/110955.944647:INFO:pipe.cc(119)] Read handle closed.
-[0109/110955.944660:INFO:pipe.cc(126)] Write handle closed.
-[0109/110955.944673:INFO:pipe.cc(129)] Pipe closed.
+Gtk-Message: 08:51:49.294: Failed to load module "gtk-dark-theme"
+Gtk-Message: 08:51:49.294: Failed to load module "gtk-dark-theme"
+Gtk-Message: 08:51:50.020: Failed to load module "gtk-dark-theme"
+Gtk-Message: 08:51:50.020: Failed to load module "gtk-dark-theme"
+[2:2:0111/085150.189699:ERROR:object_proxy.cc(576)] Failed to call method: org.kde.KWallet.isEnabled: object_path= /modules/kwalletd6: org.freedesktop.DBus.Error.ServiceUnknown: The name org.kde.kwalletd6 was not provided by any .service files
+[2:2:0111/085150.190907:ERROR:kwallet_dbus.cc(117)] Error contacting kwalletd6 (isEnabled)
+[2:2:0111/085150.191474:ERROR:object_proxy.cc(576)] Failed to call method: org.kde.KLauncher.start_service_by_desktop_name: object_path= /KLauncher: org.freedesktop.DBus.Error.ServiceUnknown: org.freedesktop.DBus.Error.ServiceUnknown
+[2:2:0111/085150.191495:ERROR:kwallet_dbus.cc(86)] Error contacting klauncher to start kwalletd6
+[2:2:0111/085150.192179:ERROR:object_proxy.cc(576)] Failed to call method: org.kde.KWallet.close: object_path= /modules/kwalletd6: org.freedesktop.DBus.Error.ServiceUnknown: The name org.kde.kwalletd6 was not provided by any .service files
+[2:2:0111/085150.192210:ERROR:kwallet_dbus.cc(412)] Error contacting kwalletd6 (close)
+[2:2:0111/085150.197600:ERROR:object_proxy.cc(576)] Failed to call method: org.kde.KWallet.isEnabled: object_path= /modules/kwalletd5: org.freedesktop.DBus.Error.ServiceUnknown: org.freedesktop.DBus.Error.ServiceUnknown
+[2:2:0111/085150.197664:ERROR:kwallet_dbus.cc(117)] Error contacting kwalletd5 (isEnabled)
+[2:2:0111/085150.197888:ERROR:object_proxy.cc(576)] Failed to call method: org.kde.KLauncher.start_service_by_desktop_name: object_path= /KLauncher: org.freedesktop.DBus.Error.ServiceUnknown: org.freedesktop.DBus.Error.ServiceUnknown
+[2:2:0111/085150.197899:ERROR:kwallet_dbus.cc(86)] Error contacting klauncher to start kwalletd5
+[2:2:0111/085150.198149:ERROR:object_proxy.cc(576)] Failed to call method: org.kde.KWallet.close: object_path= /modules/kwalletd5: org.freedesktop.DBus.Error.ServiceUnknown: org.freedesktop.DBus.Error.ServiceUnknown
+[2:2:0111/085150.198163:ERROR:kwallet_dbus.cc(412)] Error contacting kwalletd5 (close)
+[2:2:0111/085150.202178:ERROR:object_proxy.cc(576)] Failed to call method: org.kde.KWallet.isEnabled: object_path= /modules/kwalletd: org.freedesktop.DBus.Error.ServiceUnknown: org.freedesktop.DBus.Error.ServiceUnknown
+[2:2:0111/085150.202274:ERROR:kwallet_dbus.cc(117)] Error contacting kwalletd (isEnabled)
+[2:2:0111/085150.202776:ERROR:object_proxy.cc(576)] Failed to call method: org.kde.KLauncher.start_service_by_desktop_name: object_path= /KLauncher: org.freedesktop.DBus.Error.ServiceUnknown: org.freedesktop.DBus.Error.ServiceUnknown
+[2:2:0111/085150.202827:ERROR:kwallet_dbus.cc(86)] Error contacting klauncher to start kwalletd
+[2:2:0111/085150.203301:ERROR:object_proxy.cc(576)] Failed to call method: org.kde.KWallet.close: object_path= /modules/kwalletd: org.freedesktop.DBus.Error.ServiceUnknown: org.freedesktop.DBus.Error.ServiceUnknown
+[2:2:0111/085150.203348:ERROR:kwallet_dbus.cc(412)] Error contacting kwalletd (close)
+[2:163:0111/085150.684926:ERROR:object_proxy.cc(576)] Failed to call method: org.freedesktop.DBus.Properties.Get: object_path= /org/freedesktop/UPower: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.UPower was not provided by any .service files
+[2:163:0111/085150.685260:ERROR:object_proxy.cc(576)] Failed to call method: org.freedesktop.UPower.GetDisplayDevice: object_path= /org/freedesktop/UPower: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.UPower was not provided by any .service files
+[2:163:0111/085150.685522:ERROR:object_proxy.cc(576)] Failed to call method: org.freedesktop.UPower.EnumerateDevices: object_path= /org/freedesktop/UPower: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.UPower was not provided by any .service files
+[2:2:0111/085150.691170:ERROR:object_proxy.cc(576)] Failed to call method: org.freedesktop.portal.Secret.RetrieveSecret: object_path= /org/freedesktop/portal/desktop: org.freedesktop.DBus.Error.UnknownMethod: No such interface “org.freedesktop.portal.Secret” on object at path /org/freedesktop/portal/desktop
+[2:2:0111/085150.691215:ERROR:secret_portal_key_provider.cc(150)] Failed to retrieve secret: No response from portal.
+[2:2:0111/085151.180299:ERROR:sharing_service.cc(296)] Device registration failed with fatal error
+WARNING: Could not find theme breeze
+WARNING: Could not find theme elementary
+WARNING: Could not find theme gnome
+WARNING: Could not find theme AdwaitaLegacy
+WARNING: Could not find theme AdwaitaLegacy
+WARNING: Could not find theme gnome
+WARNING: Could not find theme breeze
+WARNING: Could not find theme Moka
+WARNING: Could not find theme gnome
+WARNING: Could not find theme PiXflat
+WARNING: Could not find theme 
+WARNING: Could not find theme AdwaitaLegacy
+WARNING: Could not find theme gnome
+WARNING: Could not find theme breeze
+WARNING: Could not find theme Moka
+WARNING: Could not find theme gnome
+WARNING: Could not find theme PiXflat
+WARNING: Could not find theme 
+WARNING: Could not find theme adwaita
+WARNING: Could not find theme AdwaitaLegacy
+WARNING: Could not find theme gnome
+WARNING: Could not find theme breeze
+WARNING: Could not find theme Moka
+WARNING: Could not find theme gnome
+WARNING: Could not find theme PiXflat
+WARNING: Could not find theme 
+WARNING: Could not find theme adwaita
+[2:36:0111/085528.106408:ERROR:get_updates_processor.cc(267)] PostClientToServerMessage() failed during GetUpdates with error Network error (ERR_INTERNET_DISCONNECTED)
+
+(lxappearance:20153): GLib-CRITICAL **: 08:57:57.546: g_utf8_collate: assertion 'str1 != NULL' failed
+
+(lxappearance:20153): GLib-CRITICAL **: 08:57:57.547: g_utf8_collate: assertion 'str2 != NULL' failed
+
+(lxappearance:20153): GLib-CRITICAL **: 08:57:57.548: g_utf8_collate: assertion 'str2 != NULL' failed
+
+(lxappearance:20153): GLib-CRITICAL **: 08:57:57.549: g_utf8_collate: assertion 'str2 != NULL' failed
+WARNING: Could not find theme breeze
+WARNING: Could not find theme elementary
+WARNING: Could not find theme gnome
+WARNING: Could not find theme AdwaitaLegacy
+WARNING: Could not find theme gnome
+WARNING: Could not find theme breeze
+WARNING: Could not find theme Moka
+WARNING: Could not find theme gnome
+WARNING: Could not find theme PiXflat
+WARNING: Could not find theme 
+WARNING: Could not find theme adwaita
+erresc: unknown csi ESC[>4;0m
+F: Can't get document portal: GDBus.Error:org.freedesktop.portal.Error.Failed: Can't mount path /run/user/1000/doc
+Gtk-Message: 09:10:47.865: Failed to load module "gtk-dark-theme"
+Gtk-Message: 09:10:47.865: Failed to load module "gtk-dark-theme"
+Gtk-Message: 09:10:48.132: Failed to load module "gtk-dark-theme"
+Gtk-Message: 09:10:48.132: Failed to load module "gtk-dark-theme"
+[2:2:0111/091048.226580:ERROR:object_proxy.cc(576)] Failed to call method: org.kde.KWallet.isEnabled: object_path= /modules/kwalletd6: org.freedesktop.DBus.Error.ServiceUnknown: The name org.kde.kwalletd6 was not provided by any .service files
+[2:2:0111/091048.226643:ERROR:kwallet_dbus.cc(117)] Error contacting kwalletd6 (isEnabled)
+[2:2:0111/091048.226878:ERROR:object_proxy.cc(576)] Failed to call method: org.kde.KLauncher.start_service_by_desktop_name: object_path= /KLauncher: org.freedesktop.DBus.Error.ServiceUnknown: org.freedesktop.DBus.Error.ServiceUnknown
+[2:2:0111/091048.226891:ERROR:kwallet_dbus.cc(86)] Error contacting klauncher to start kwalletd6
+[2:2:0111/091048.227248:ERROR:object_proxy.cc(576)] Failed to call method: org.kde.KWallet.close: object_path= /modules/kwalletd6: org.freedesktop.DBus.Error.ServiceUnknown: The name org.kde.kwalletd6 was not provided by any .service files
+[2:2:0111/091048.227265:ERROR:kwallet_dbus.cc(412)] Error contacting kwalletd6 (close)
+[2:2:0111/091048.230586:ERROR:object_proxy.cc(576)] Failed to call method: org.kde.KWallet.isEnabled: object_path= /modules/kwalletd5: org.freedesktop.DBus.Error.ServiceUnknown: org.freedesktop.DBus.Error.ServiceUnknown
+[2:2:0111/091048.230638:ERROR:kwallet_dbus.cc(117)] Error contacting kwalletd5 (isEnabled)
+[2:2:0111/091048.231003:ERROR:object_proxy.cc(576)] Failed to call method: org.kde.KLauncher.start_service_by_desktop_name: object_path= /KLauncher: org.freedesktop.DBus.Error.ServiceUnknown: org.freedesktop.DBus.Error.ServiceUnknown
+[2:2:0111/091048.231071:ERROR:kwallet_dbus.cc(86)] Error contacting klauncher to start kwalletd5
+[2:2:0111/091048.231442:ERROR:object_proxy.cc(576)] Failed to call method: org.kde.KWallet.close: object_path= /modules/kwalletd5: org.freedesktop.DBus.Error.ServiceUnknown: org.freedesktop.DBus.Error.ServiceUnknown
+[2:2:0111/091048.231468:ERROR:kwallet_dbus.cc(412)] Error contacting kwalletd5 (close)
+[2:2:0111/091048.237146:ERROR:object_proxy.cc(576)] Failed to call method: org.kde.KWallet.isEnabled: object_path= /modules/kwalletd: org.freedesktop.DBus.Error.ServiceUnknown: org.freedesktop.DBus.Error.ServiceUnknown
+[2:2:0111/091048.237210:ERROR:kwallet_dbus.cc(117)] Error contacting kwalletd (isEnabled)
+[2:2:0111/091048.237581:ERROR:object_proxy.cc(576)] Failed to call method: org.kde.KLauncher.start_service_by_desktop_name: object_path= /KLauncher: org.freedesktop.DBus.Error.ServiceUnknown: org.freedesktop.DBus.Error.ServiceUnknown
+[2:2:0111/091048.237604:ERROR:kwallet_dbus.cc(86)] Error contacting klauncher to start kwalletd
+[2:2:0111/091048.237902:ERROR:object_proxy.cc(576)] Failed to call method: org.kde.KWallet.close: object_path= /modules/kwalletd: org.freedesktop.DBus.Error.ServiceUnknown: org.freedesktop.DBus.Error.ServiceUnknown
+[2:2:0111/091048.237921:ERROR:kwallet_dbus.cc(412)] Error contacting kwalletd (close)
+[2:166:0111/091048.575704:ERROR:object_proxy.cc(576)] Failed to call method: org.freedesktop.DBus.Properties.Get: object_path= /org/freedesktop/UPower: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.UPower was not provided by any .service files
+[2:166:0111/091048.576238:ERROR:object_proxy.cc(576)] Failed to call method: org.freedesktop.UPower.GetDisplayDevice: object_path= /org/freedesktop/UPower: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.UPower was not provided by any .service files
+[2:166:0111/091048.576614:ERROR:object_proxy.cc(576)] Failed to call method: org.freedesktop.UPower.EnumerateDevices: object_path= /org/freedesktop/UPower: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.UPower was not provided by any .service files
+[2:2:0111/091048.585385:ERROR:object_proxy.cc(576)] Failed to call method: org.freedesktop.portal.Secret.RetrieveSecret: object_path= /org/freedesktop/portal/desktop: org.freedesktop.DBus.Error.UnknownMethod: No such interface “org.freedesktop.portal.Secret” on object at path /org/freedesktop/portal/desktop
+[2:2:0111/091048.585420:ERROR:secret_portal_key_provider.cc(150)] Failed to retrieve secret: No response from portal.
+[2:2:0111/091049.006424:ERROR:sharing_service.cc(296)] Device registration failed with fatal error
