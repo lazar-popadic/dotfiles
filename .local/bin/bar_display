@@ -1,0 +1,26 @@
+#!/bin/bash
+
+mpd_scroll=$(cat /tmp/mpd_display.txt)
+mpd_state=$(bar_mpd_state)
+mpd_time=$(bar_mpd_time)
+volume=$(bar_volume)
+brightness=$(bar_brightness)
+battery=$(bar_battery)
+kbd_layout=$(bar_kbd_layout)
+time=$(bar_time)
+date=$(bar_date)
+
+dwm_status=""
+dwm_status+="$mpd_scroll  "
+dwm_status+="$mpd_state  "
+dwm_status+="$mpd_time   "
+dwm_status+="$volume   "
+dwm_status+="$brightness   "
+dwm_status+="$battery   "
+dwm_status+="$kbd_layout   "
+dwm_status+="$time   "
+dwm_status+="$date   "
+
+echo "$dwm_status"
+
+xsetroot -name "$dwm_status"

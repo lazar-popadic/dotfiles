@@ -1,20 +1,22 @@
-#!/usr/bin/sh
+#!/bin/bash
+
+# BRIGHTNESS
 brightness=$(cat /sys/class/backlight/amdgpu_bl0/brightness)
 section=$(( (brightness * 7) / 255 ))
 if [ "$section" -lt 1 ]; then	
- icon='󰃚'
+ brightness_icon='󰃚'
 elif [ "$section" -lt 2 ]; then	
- icon='󰃛'
+ brightness_icon='󰃛'
 elif [ "$section" -lt 3 ]; then	
- icon='󰃜'
+ brightness_icon='󰃜'
 elif [ "$section" -lt 4 ]; then	
- icon='󰃝'
+ brightness_icon='󰃝'
 elif [ "$section" -lt 5 ]; then	
- icon='󰃞'
+ brightness_icon='󰃞'
 elif [ "$section" -lt 6 ]; then	
- icon='󰃟'
+ brightness_icon='󰃟'
 else
- icon='󰃠'
+ brightness_icon='󰃠'
 fi
 
-printf "%s %s" "$icon" "$brightness"
+echo "$brightness_icon $brightness"

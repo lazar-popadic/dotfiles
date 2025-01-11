@@ -9,6 +9,1260 @@ Notice: Brightness: 1.00
 Notice: Status: Enabled
 Notice: Period: Daytime
 Notice: Color temperature: 5700K
+Connection error
+
+Connection error
+
+/home/lazar/.local/bin/bar_update: line 43: ((: > 59 : syntax error: operand expected (error token is "> 59 ")
+/home/lazar/.local/bin/bar_update: line 45: ((: > 19 : syntax error: operand expected (error token is "> 19 ")
+/home/lazar/.local/bin/bar_update: line 47: ((: > 0 : syntax error: operand expected (error token is "> 0 ")
+WARNING: Could not find theme breeze
+WARNING: Could not find theme elementary
+WARNING: Could not find theme gnome
+WARNING: Could not find theme AdwaitaLegacy
+WARNING: Could not find theme gnome
+WARNING: Could not find theme breeze
+WARNING: Could not find theme Moka
+WARNING: Could not find theme gnome
+WARNING: Could not find theme PiXflat
+WARNING: Could not find theme 
+WARNING: Could not find theme adwaita
+
+(nitrogen:21249): Gtk-WARNING **: 09:44:33.346: Unable to locate theme engine in module_path: "adwaita",
+
+(nitrogen:21249): Gtk-WARNING **: 09:44:33.346: Unable to locate theme engine in module_path: "adwaita",
+F: Can't get document portal: GDBus.Error:org.freedesktop.DBus.Error.NoReply: Message recipient disconnected from message bus without replying
+
+(copyq:21266): Gtk-WARNING **: 09:44:33.735: Unable to locate theme engine in module_path: "adwaita",
+
+(copyq:21266): Gtk-WARNING **: 09:44:33.735: Unable to locate theme engine in module_path: "adwaita",
+
+(nitrogen:21249): Gtk-WARNING **: 09:44:33.903: Unable to locate theme engine in module_path: "adwaita",
+
+(nitrogen:21249): Gtk-WARNING **: 09:44:33.904: Unable to locate theme engine in module_path: "adwaita",
+
+(nitrogen:21249): GLib-GObject-CRITICAL **: 09:44:33.914: Attempting to freeze the notification queue for object GtkSettings[0x56272ffbaf90]; Property notification does not work during instance finalization.
+
+(nitrogen:21249): GLib-GObject-CRITICAL **: 09:44:33.914: Attempting to thaw the notification queue for object GtkSettings[0x56272ffbaf90]; Property notification does not work during instance finalization.
+Warning: [default] QtWarning: QSystemTrayIcon::setVisible: No Icon set
+New PolkitAgentListener  0x55fd1be451f0
+Adding new listener  PolkitQt1::Agent::Listener(0x7ffc0c3f8d30) for  0x55fd1be451f0
+[2:0111/094434.050480:ERROR:bus.cc(407)] Failed to connect to the bus: Failed to connect to socket /run/dbus/system_bus_socket: No such file or directory
+Warning: [qt.qpa.xcb] QtWarning: Unhandled client message:  "_NET_SYSTEM_TRAY_S0"
+[2:0111/094434.879283:ERROR:bus.cc(407)] Failed to connect to the bus: Failed to connect to socket /run/dbus/system_bus_socket: No such file or directory
+[2:0111/094434.879413:ERROR:bus.cc(407)] Failed to connect to the bus: Failed to connect to socket /run/dbus/system_bus_socket: No such file or directory
+LaunchProcess: failed to execvp:
+xdg-settings
+N 09:44:35.429349 wp-internal-comp-l ../lib/wp/private/internal-comp-loader.c:945:wp_internal_comp_loader_load: Loading profile 'main'
+N 09:44:35.588873 wp-internal-comp-l ../lib/wp/private/internal-comp-loader.c:589:on_component_loaded: <WpCore:0x5604b48050d0> optional component 'support.logind [module: libwireplumber-module-logind]' failed to load: Failed to locate module libwireplumber-module-logind
+N 09:44:35.588913 wp-internal-comp-l ../lib/wp/private/internal-comp-loader.c:641:wp_component_array_load_task_execute_step: <WpCore:0x5604b48050d0> skipping component 'monitor.bluez.seat-monitoring [virtual]' because some of its dependencies were not loaded
+N 09:44:35.589753          wp-device ../lib/wp/device.c:630:wp_spa_device_new_from_spa_factory: SPA handle 'api.bluez5.enum.dbus' could not be loaded; is it installed?
+N 09:44:35.589791         s-monitors bluez.lua:386:createMonitor: PipeWire's BlueZ SPA plugin is missing or broken. Bluetooth devices will not be supported.
+N 09:44:35.590441          wp-device ../lib/wp/device.c:630:wp_spa_device_new_from_spa_factory: SPA handle 'api.bluez5.midi.enum' could not be loaded; is it installed?
+N 09:44:35.590471         s-monitors bluez-midi.lua:95:createMonitor: PipeWire's BlueZ MIDI SPA missing or broken. Bluetooth not supported.
+E 09:44:35.590554        pw.resource ../src/pipewire/resource.c:255:pw_resource_errorf_id: can't create node: No such file or directory
+W 09:44:35.590560            wp-node ../lib/wp/node.c:913:wp_impl_node_new_from_pw_factory: failed to create node from factory 'spa-node-factory'
+N 09:44:35.590566         s-monitors bluez-midi.lua:130:createServers: Failed to create BLE MIDI server.
+[0:58:54.677948980] [21689] [1;32m INFO [1;37mCamera [1;34mcamera_manager.cpp:325 [0mlibcamera v0.3.2
+[2:0111/094437.105886:ERROR:bus.cc(407)] Failed to connect to the bus: Failed to connect to socket /run/dbus/system_bus_socket: No such file or directory
+[2:0111/094437.105947:ERROR:bus.cc(407)] Failed to connect to the bus: Failed to connect to socket /run/dbus/system_bus_socket: No such file or directory
+[2:0111/094437.105969:ERROR:bus.cc(407)] Failed to connect to the bus: Failed to connect to socket /run/dbus/system_bus_socket: No such file or directory
+[MobX] Since strict-mode is enabled, changing (observed) observable values without using an action is not allowed. Tried to modify: Settings@13.store
+(node:93) MaxListenersExceededWarning: Possible EventEmitter memory leak detected. 11 select-capture-device:ecdbc6e1-a5ad-4ee4-9d20-f142ef0b0b3a listeners added to [IpcRenderer]. MaxListeners is 10. Use emitter.setMaxListeners() to increase limit
+(Use `exe --trace-warnings ...` to show where the warning was created)
+(node:2) electron: Failed to load URL: https://clients6.google.com/static/proxy.html?usegapi=1&jsh=m%3B%2F_%2Fscs%2Fabc-static%2F_%2Fjs%2Fk%3Dgapi.gapi.en.l2ZUC8FxqV8.O%2Fd%3D1%2Frs%3DAHpOoo9xAAkaXO7Lqf7-9uTpZLtrkpWaXQ%2Fm%3D__features__#parent=https%3A%2F%2Fkeep.google.com&rpctoken=382518874 with error: ERR_INTERNET_DISCONNECTED
+(Use `ferdium --trace-warnings ...` to show where the warning was created)
+Terminated
+Terminated
+Terminated
+Terminated
+Terminated
+Terminated
+Crashing due to FD ownership violation:
+#0 0x55c6bfcf166a <unknown>
+#1 0x55c6bfcea56c <unknown>
+#2 0x55c6bfcea527 close
+#3 0x7fb502358326 pa_close
+#4 0x7fb502358719 pa_close_allv
+#5 0x7fb502361201 pa_close_all
+#6 0x7fb5023c1ca8 <unknown>
+#7 0x7fb5023c2835 <unknown>
+#8 0x7fb5023c2ea8 pa_context_connect
+#9 0x7fb50212cd27 pulse_connect
+#10 0x7fb50212c5be _snd_pcm_pulse_open
+#11 0x7fb506c1e0ba <unknown>
+#12 0x7fb506c1e726 <unknown>
+#13 0x7fb506c217bf snd_pcm_open
+#14 0x55c6bcd94152 <unknown>
+#15 0x55c6bcd94ef9 <unknown>
+#16 0x55c6bcd90d42 <unknown>
+#17 0x55c6bcd9087b <unknown>
+#18 0x55c6bcd865e3 <unknown>
+#19 0x55c6bcd864c1 <unknown>
+#20 0x55c6bcd88304 <unknown>
+#21 0x55c6bcd87bcc <unknown>
+#22 0x55c6bf1388bb <unknown>
+#23 0x55c6bf13813c <unknown>
+#24 0x55c6bf124c68 <unknown>
+#25 0x55c6bf1247e4 <unknown>
+#26 0x55c6bf127647 <unknown>
+#27 0x55c6bf12cbcd <unknown>
+#28 0x55c6bf12c84b <unknown>
+#29 0x55c6bcd495c7 <unknown>
+#30 0x55c6bf12feab <unknown>
+#31 0x55c6c00008db <unknown>
+#32 0x55c6c00077d7 <unknown>
+#33 0x55c6c00020db <unknown>
+#34 0x55c6c001154f <unknown>
+#35 0x55c6c0010bf8 <unknown>
+#36 0x55c6c000780e <unknown>
+#37 0x55c6bfffe059 <unknown>
+#38 0x55c6bc0f4d8f <unknown>
+#39 0x55c6c002758c <unknown>
+#40 0x55c6bfc945ff <unknown>
+#41 0x55c6bfcb5062 <unknown>
+#42 0x55c6bfc4d127 <unknown>
+#43 0x55c6bfcb57e1 <unknown>
+#44 0x55c6bfc74f0e <unknown>
+#45 0x55c6bf5e96e8 <unknown>
+#46 0x55c6bc4127f0 <unknown>
+#47 0x55c6bc4138b6 <unknown>
+#48 0x55c6bc41154a <unknown>
+#49 0x55c6bc411630 <unknown>
+#50 0x55c6bc0be017 <unknown>
+#51 0x7fb5068b308a <unknown>
+#52 0x7fb5068b314b __libc_start_main
+#53 0x55c6bbc9a02a _start
+ALSA lib ../../pulse/pulse.c:242:(pulse_connect) PulseAudio: Unable to connect: Connection refused
+
+[293:0111/101836.688055:ERROR:alsa_util.cc(204)] PcmOpen: default,Connection refused
+Crashing due to FD ownership violation:
+
+(ferdium:2): libnotify-WARNING **: 10:18:36.691: Running in confined mode, using Portal notifications. Some features and hints won't be supported
+#0 0x55c6bfcf166a <unknown>
+#1 0x55c6bfcea56c <unknown>
+#2 0x55c6bfcea527 close
+#3 0x7fb502358326 pa_close
+#4 0x7fb502358719 pa_close_allv
+#5 0x7fb502361201 pa_close_all
+#6 0x7fb5023c1ca8 <unknown>
+#7 0x7fb5023c2835 <unknown>
+#8 0x7fb5023c2ea8 pa_context_connect
+#9 0x7fb50212cd27 pulse_connect
+#10 0x7fb50212c5be _snd_pcm_pulse_open
+#11 0x7fb506c1e0ba <unknown>
+#12 0x7fb506c1e726 <unknown>
+#13 0x7fb506c21cd4 <unknown>
+#14 0x7fb506c48327 _snd_pcm_plug_open
+#15 0x7fb506c1e0ba <unknown>
+#16 0x7fb506c1e726 <unknown>
+#17 0x7fb506c217bf snd_pcm_open
+#18 0x55c6bcd94152 <unknown>
+#19 0x55c6bcd94ef9 <unknown>
+#20 0x55c6bcd90e99 <unknown>
+#21 0x55c6bcd9087b <unknown>
+#22 0x55c6bcd865e3 <unknown>
+#23 0x55c6bcd864c1 <unknown>
+#24 0x55c6bcd88304 <unknown>
+#25 0x55c6bcd87bcc <unknown>
+#26 0x55c6bf1388bb <unknown>
+#27 0x55c6bf13813c <unknown>
+#28 0x55c6bf124c68 <unknown>
+#29 0x55c6bf1247e4 <unknown>
+#30 0x55c6bf127647 <unknown>
+#31 0x55c6bf12cbcd <unknown>
+#32 0x55c6bf12c84b <unknown>
+#33 0x55c6bcd495c7 <unknown>
+#34 0x55c6bf12feab <unknown>
+#35 0x55c6c00008db <unknown>
+#36 0x55c6c00077d7 <unknown>
+#37 0x55c6c00020db <unknown>
+#38 0x55c6c001154f <unknown>
+#39 0x55c6c0010bf8 <unknown>
+#40 0x55c6c000780e <unknown>
+#41 0x55c6bfffe059 <unknown>
+#42 0x55c6bc0f4d8f <unknown>
+#43 0x55c6c002758c <unknown>
+#44 0x55c6bfc945ff <unknown>
+#45 0x55c6bfcb5062 <unknown>
+#46 0x55c6bfc4d127 <unknown>
+#47 0x55c6bfcb57e1 <unknown>
+#48 0x55c6bfc74f0e <unknown>
+#49 0x55c6bf5e96e8 <unknown>
+#50 0x55c6bc4127f0 <unknown>
+#51 0x55c6bc4138b6 <unknown>
+#52 0x55c6bc41154a <unknown>
+#53 0x55c6bc411630 <unknown>
+#54 0x55c6bc0be017 <unknown>
+#55 0x7fb5068b308a <unknown>
+#56 0x7fb5068b314b __libc_start_main
+#57 0x55c6bbc9a02a _start
+ALSA lib ../../pulse/pulse.c:242:(pulse_connect) PulseAudio: Unable to connect: Connection refused
+
+[293:0111/101836.741892:ERROR:alsa_util.cc(204)] PcmOpen: plug:default,Connection refused
+Crashing due to FD ownership violation:
+#0 0x55c6bfcf166a <unknown>
+#1 0x55c6bfcea56c <unknown>
+#2 0x55c6bfcea527 close
+#3 0x7fb502358326 pa_close
+#4 0x7fb502358719 pa_close_allv
+#5 0x7fb502361201 pa_close_all
+#6 0x7fb5023c1ca8 <unknown>
+#7 0x7fb5023c2835 <unknown>
+#8 0x7fb5023c2ea8 pa_context_connect
+#9 0x7fb50212cd27 pulse_connect
+#10 0x7fb50212c5be _snd_pcm_pulse_open
+#11 0x7fb506c1e0ba <unknown>
+#12 0x7fb506c1e726 <unknown>
+#13 0x7fb506c217bf snd_pcm_open
+#14 0x55c6bcd94152 <unknown>
+#15 0x55c6bcd94ef9 <unknown>
+#16 0x55c6bcd90d42 <unknown>
+#17 0x55c6bcd9087b <unknown>
+#18 0x55c6bcd865e3 <unknown>
+#19 0x55c6bcd864c1 <unknown>
+#20 0x55c6bcd88304 <unknown>
+#21 0x55c6bcd87bcc <unknown>
+#22 0x55c6bf1388bb <unknown>
+#23 0x55c6bf13813c <unknown>
+#24 0x55c6bf124c68 <unknown>
+#25 0x55c6bf1247e4 <unknown>
+#26 0x55c6bf127647 <unknown>
+#27 0x55c6bf12cbcd <unknown>
+#28 0x55c6bf12c84b <unknown>
+#29 0x55c6bcd495c7 <unknown>
+#30 0x55c6bf12feab <unknown>
+#31 0x55c6c00008db <unknown>
+#32 0x55c6c00077d7 <unknown>
+#33 0x55c6c00020db <unknown>
+#34 0x55c6c001154f <unknown>
+#35 0x55c6c0010bf8 <unknown>
+#36 0x55c6c000780e <unknown>
+#37 0x55c6bfffe059 <unknown>
+#38 0x55c6bc0f4d8f <unknown>
+#39 0x55c6c002758c <unknown>
+#40 0x55c6bfc945ff <unknown>
+#41 0x55c6bfcb5062 <unknown>
+#42 0x55c6bfc4d127 <unknown>
+#43 0x55c6bfcb57e1 <unknown>
+#44 0x55c6bfc74f0e <unknown>
+#45 0x55c6bf5e96e8 <unknown>
+#46 0x55c6bc4127f0 <unknown>
+#47 0x55c6bc4138b6 <unknown>
+#48 0x55c6bc41154a <unknown>
+#49 0x55c6bc411630 <unknown>
+#50 0x55c6bc0be017 <unknown>
+#51 0x7fb5068b308a <unknown>
+#52 0x7fb5068b314b __libc_start_main
+#53 0x55c6bbc9a02a _start
+ALSA lib ../../pulse/pulse.c:242:(pulse_connect) PulseAudio: Unable to connect: Connection refused
+
+[293:0111/102014.447465:ERROR:alsa_util.cc(204)] PcmOpen: default,Connection refused
+Crashing due to FD ownership violation:
+#0 0x55c6bfcf166a <unknown>
+#1 0x55c6bfcea56c <unknown>
+#2 0x55c6bfcea527 close
+#3 0x7fb502358326 pa_close
+#4 0x7fb502358719 pa_close_allv
+#5 0x7fb502361201 pa_close_all
+#6 0x7fb5023c1ca8 <unknown>
+#7 0x7fb5023c2835 <unknown>
+#8 0x7fb5023c2ea8 pa_context_connect
+#9 0x7fb50212cd27 pulse_connect
+#10 0x7fb50212c5be _snd_pcm_pulse_open
+#11 0x7fb506c1e0ba <unknown>
+#12 0x7fb506c1e726 <unknown>
+#13 0x7fb506c21cd4 <unknown>
+#14 0x7fb506c48327 _snd_pcm_plug_open
+#15 0x7fb506c1e0ba <unknown>
+#16 0x7fb506c1e726 <unknown>
+#17 0x7fb506c217bf snd_pcm_open
+#18 0x55c6bcd94152 <unknown>
+#19 0x55c6bcd94ef9 <unknown>
+#20 0x55c6bcd90e99 <unknown>
+#21 0x55c6bcd9087b <unknown>
+#22 0x55c6bcd865e3 <unknown>
+#23 0x55c6bcd864c1 <unknown>
+#24 0x55c6bcd88304 <unknown>
+#25 0x55c6bcd87bcc <unknown>
+#26 0x55c6bf1388bb <unknown>
+#27 0x55c6bf13813c <unknown>
+#28 0x55c6bf124c68 <unknown>
+#29 0x55c6bf1247e4 <unknown>
+#30 0x55c6bf127647 <unknown>
+#31 0x55c6bf12cbcd <unknown>
+#32 0x55c6bf12c84b <unknown>
+#33 0x55c6bcd495c7 <unknown>
+#34 0x55c6bf12feab <unknown>
+#35 0x55c6c00008db <unknown>
+#36 0x55c6c00077d7 <unknown>
+#37 0x55c6c00020db <unknown>
+#38 0x55c6c001154f <unknown>
+#39 0x55c6c0010bf8 <unknown>
+#40 0x55c6c000780e <unknown>
+#41 0x55c6bfffe059 <unknown>
+#42 0x55c6bc0f4d8f <unknown>
+#43 0x55c6c002758c <unknown>
+#44 0x55c6bfc945ff <unknown>
+#45 0x55c6bfcb5062 <unknown>
+#46 0x55c6bfc4d127 <unknown>
+#47 0x55c6bfcb57e1 <unknown>
+#48 0x55c6bfc74f0e <unknown>
+#49 0x55c6bf5e96e8 <unknown>
+#50 0x55c6bc4127f0 <unknown>
+#51 0x55c6bc4138b6 <unknown>
+#52 0x55c6bc41154a <unknown>
+#53 0x55c6bc411630 <unknown>
+#54 0x55c6bc0be017 <unknown>
+#55 0x7fb5068b308a <unknown>
+#56 0x7fb5068b314b __libc_start_main
+#57 0x55c6bbc9a02a _start
+ALSA lib ../../pulse/pulse.c:242:(pulse_connect) PulseAudio: Unable to connect: Connection refused
+
+[293:0111/102014.501404:ERROR:alsa_util.cc(204)] PcmOpen: plug:default,Connection refused
+(node:93) MaxListenersExceededWarning: Possible EventEmitter memory leak detected. 11 select-capture-device:7a760611-009f-49d8-ad64-13fd13e04a37 listeners added to [IpcRenderer]. MaxListeners is 10. Use emitter.setMaxListeners() to increase limit
+Terminated
+Terminated
+Terminated
+Terminated
+Terminated
+Terminated
+[0111/102336.402803:INFO:pipe.h(28)] Pipe destructor called
+[0111/102336.403144:INFO:pipe.cc(97)] Pipe close.
+[0111/102336.403151:INFO:pipe.cc(119)] Read handle closed.
+[0111/102336.403156:INFO:pipe.cc(126)] Write handle closed.
+[0111/102336.403161:INFO:pipe.cc(129)] Pipe closed.
+F: Can't get document portal: GDBus.Error:org.freedesktop.DBus.Error.NoReply: Message recipient disconnected from message bus without replying
+Gtk-Message: 10:24:59.151: Failed to load module "gtk-dark-theme"
+Gtk-Message: 10:24:59.151: Failed to load module "gtk-dark-theme"
+Gtk-Message: 10:24:59.409: Failed to load module "gtk-dark-theme"
+Gtk-Message: 10:24:59.409: Failed to load module "gtk-dark-theme"
+[2:2:0111/102459.507667:ERROR:object_proxy.cc(576)] Failed to call method: org.kde.KWallet.isEnabled: object_path= /modules/kwalletd6: org.freedesktop.DBus.Error.ServiceUnknown: The name org.kde.kwalletd6 was not provided by any .service files
+[2:2:0111/102459.507753:ERROR:kwallet_dbus.cc(117)] Error contacting kwalletd6 (isEnabled)
+[2:2:0111/102459.508076:ERROR:object_proxy.cc(576)] Failed to call method: org.kde.KLauncher.start_service_by_desktop_name: object_path= /KLauncher: org.freedesktop.DBus.Error.ServiceUnknown: org.freedesktop.DBus.Error.ServiceUnknown
+[2:2:0111/102459.508102:ERROR:kwallet_dbus.cc(86)] Error contacting klauncher to start kwalletd6
+[2:2:0111/102459.508481:ERROR:object_proxy.cc(576)] Failed to call method: org.kde.KWallet.close: object_path= /modules/kwalletd6: org.freedesktop.DBus.Error.ServiceUnknown: The name org.kde.kwalletd6 was not provided by any .service files
+[2:2:0111/102459.508488:ERROR:kwallet_dbus.cc(412)] Error contacting kwalletd6 (close)
+[2:2:0111/102459.512068:ERROR:object_proxy.cc(576)] Failed to call method: org.kde.KWallet.isEnabled: object_path= /modules/kwalletd5: org.freedesktop.DBus.Error.ServiceUnknown: org.freedesktop.DBus.Error.ServiceUnknown
+[2:2:0111/102459.512132:ERROR:kwallet_dbus.cc(117)] Error contacting kwalletd5 (isEnabled)
+[2:2:0111/102459.512358:ERROR:object_proxy.cc(576)] Failed to call method: org.kde.KLauncher.start_service_by_desktop_name: object_path= /KLauncher: org.freedesktop.DBus.Error.ServiceUnknown: org.freedesktop.DBus.Error.ServiceUnknown
+[2:2:0111/102459.512388:ERROR:kwallet_dbus.cc(86)] Error contacting klauncher to start kwalletd5
+[2:2:0111/102459.512590:ERROR:object_proxy.cc(576)] Failed to call method: org.kde.KWallet.close: object_path= /modules/kwalletd5: org.freedesktop.DBus.Error.ServiceUnknown: org.freedesktop.DBus.Error.ServiceUnknown
+[2:2:0111/102459.512600:ERROR:kwallet_dbus.cc(412)] Error contacting kwalletd5 (close)
+[2:2:0111/102459.516057:ERROR:object_proxy.cc(576)] Failed to call method: org.kde.KWallet.isEnabled: object_path= /modules/kwalletd: org.freedesktop.DBus.Error.ServiceUnknown: org.freedesktop.DBus.Error.ServiceUnknown
+[2:2:0111/102459.516120:ERROR:kwallet_dbus.cc(117)] Error contacting kwalletd (isEnabled)
+[2:2:0111/102459.516343:ERROR:object_proxy.cc(576)] Failed to call method: org.kde.KLauncher.start_service_by_desktop_name: object_path= /KLauncher: org.freedesktop.DBus.Error.ServiceUnknown: org.freedesktop.DBus.Error.ServiceUnknown
+[2:2:0111/102459.516352:ERROR:kwallet_dbus.cc(86)] Error contacting klauncher to start kwalletd
+[2:2:0111/102459.516546:ERROR:object_proxy.cc(576)] Failed to call method: org.kde.KWallet.close: object_path= /modules/kwalletd: org.freedesktop.DBus.Error.ServiceUnknown: org.freedesktop.DBus.Error.ServiceUnknown
+[2:2:0111/102459.516554:ERROR:kwallet_dbus.cc(412)] Error contacting kwalletd (close)
+[2:165:0111/102459.904449:ERROR:object_proxy.cc(576)] Failed to call method: org.freedesktop.DBus.Properties.Get: object_path= /org/freedesktop/UPower: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.UPower was not provided by any .service files
+[2:165:0111/102459.904838:ERROR:object_proxy.cc(576)] Failed to call method: org.freedesktop.UPower.GetDisplayDevice: object_path= /org/freedesktop/UPower: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.UPower was not provided by any .service files
+[2:165:0111/102459.906771:ERROR:object_proxy.cc(576)] Failed to call method: org.freedesktop.UPower.EnumerateDevices: object_path= /org/freedesktop/UPower: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.UPower was not provided by any .service files
+[2:2:0111/102459.916295:ERROR:object_proxy.cc(576)] Failed to call method: org.freedesktop.portal.Secret.RetrieveSecret: object_path= /org/freedesktop/portal/desktop: org.freedesktop.DBus.Error.UnknownMethod: No such interface “org.freedesktop.portal.Secret” on object at path /org/freedesktop/portal/desktop
+[2:2:0111/102459.916339:ERROR:secret_portal_key_provider.cc(150)] Failed to retrieve secret: No response from portal.
+[2:2:0111/102500.466762:ERROR:sharing_service.cc(296)] Device registration failed with fatal error
+Terminated
+Terminated
+Terminated
+Terminated
+Terminated
+Terminated
+F: Can't get document portal: GDBus.Error:org.freedesktop.DBus.Error.NoReply: Message recipient disconnected from message bus without replying
+Gtk-Message: 10:26:40.956: Failed to load module "gtk-dark-theme"
+Gtk-Message: 10:26:40.956: Failed to load module "gtk-dark-theme"
+Gtk-Message: 10:26:41.219: Failed to load module "gtk-dark-theme"
+Gtk-Message: 10:26:41.219: Failed to load module "gtk-dark-theme"
+[2:2:0111/102641.311149:ERROR:object_proxy.cc(576)] Failed to call method: org.kde.KWallet.isEnabled: object_path= /modules/kwalletd6: org.freedesktop.DBus.Error.ServiceUnknown: The name org.kde.kwalletd6 was not provided by any .service files
+[2:2:0111/102641.311209:ERROR:kwallet_dbus.cc(117)] Error contacting kwalletd6 (isEnabled)
+[2:2:0111/102641.311794:ERROR:object_proxy.cc(576)] Failed to call method: org.kde.KLauncher.start_service_by_desktop_name: object_path= /KLauncher: org.freedesktop.DBus.Error.ServiceUnknown: org.freedesktop.DBus.Error.ServiceUnknown
+[2:2:0111/102641.311817:ERROR:kwallet_dbus.cc(86)] Error contacting klauncher to start kwalletd6
+[2:2:0111/102641.312411:ERROR:object_proxy.cc(576)] Failed to call method: org.kde.KWallet.close: object_path= /modules/kwalletd6: org.freedesktop.DBus.Error.ServiceUnknown: The name org.kde.kwalletd6 was not provided by any .service files
+[2:2:0111/102641.312457:ERROR:kwallet_dbus.cc(412)] Error contacting kwalletd6 (close)
+[2:2:0111/102641.315434:ERROR:object_proxy.cc(576)] Failed to call method: org.kde.KWallet.isEnabled: object_path= /modules/kwalletd5: org.freedesktop.DBus.Error.ServiceUnknown: org.freedesktop.DBus.Error.ServiceUnknown
+[2:2:0111/102641.315473:ERROR:kwallet_dbus.cc(117)] Error contacting kwalletd5 (isEnabled)
+[2:2:0111/102641.315697:ERROR:object_proxy.cc(576)] Failed to call method: org.kde.KLauncher.start_service_by_desktop_name: object_path= /KLauncher: org.freedesktop.DBus.Error.ServiceUnknown: org.freedesktop.DBus.Error.ServiceUnknown
+[2:2:0111/102641.315706:ERROR:kwallet_dbus.cc(86)] Error contacting klauncher to start kwalletd5
+[2:2:0111/102641.315909:ERROR:object_proxy.cc(576)] Failed to call method: org.kde.KWallet.close: object_path= /modules/kwalletd5: org.freedesktop.DBus.Error.ServiceUnknown: org.freedesktop.DBus.Error.ServiceUnknown
+[2:2:0111/102641.315918:ERROR:kwallet_dbus.cc(412)] Error contacting kwalletd5 (close)
+[2:2:0111/102641.319061:ERROR:object_proxy.cc(576)] Failed to call method: org.kde.KWallet.isEnabled: object_path= /modules/kwalletd: org.freedesktop.DBus.Error.ServiceUnknown: org.freedesktop.DBus.Error.ServiceUnknown
+[2:2:0111/102641.319096:ERROR:kwallet_dbus.cc(117)] Error contacting kwalletd (isEnabled)
+[2:2:0111/102641.319333:ERROR:object_proxy.cc(576)] Failed to call method: org.kde.KLauncher.start_service_by_desktop_name: object_path= /KLauncher: org.freedesktop.DBus.Error.ServiceUnknown: org.freedesktop.DBus.Error.ServiceUnknown
+[2:2:0111/102641.319354:ERROR:kwallet_dbus.cc(86)] Error contacting klauncher to start kwalletd
+[2:2:0111/102641.319619:ERROR:object_proxy.cc(576)] Failed to call method: org.kde.KWallet.close: object_path= /modules/kwalletd: org.freedesktop.DBus.Error.ServiceUnknown: org.freedesktop.DBus.Error.ServiceUnknown
+[2:2:0111/102641.319636:ERROR:kwallet_dbus.cc(412)] Error contacting kwalletd (close)
+[2:162:0111/102641.637539:ERROR:object_proxy.cc(576)] Failed to call method: org.freedesktop.DBus.Properties.Get: object_path= /org/freedesktop/UPower: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.UPower was not provided by any .service files
+[2:162:0111/102641.638665:ERROR:object_proxy.cc(576)] Failed to call method: org.freedesktop.UPower.GetDisplayDevice: object_path= /org/freedesktop/UPower: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.UPower was not provided by any .service files
+[2:162:0111/102641.639120:ERROR:object_proxy.cc(576)] Failed to call method: org.freedesktop.UPower.EnumerateDevices: object_path= /org/freedesktop/UPower: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.UPower was not provided by any .service files
+[2:2:0111/102641.647615:ERROR:object_proxy.cc(576)] Failed to call method: org.freedesktop.portal.Secret.RetrieveSecret: object_path= /org/freedesktop/portal/desktop: org.freedesktop.DBus.Error.UnknownMethod: No such interface “org.freedesktop.portal.Secret” on object at path /org/freedesktop/portal/desktop
+[2:2:0111/102641.647640:ERROR:secret_portal_key_provider.cc(150)] Failed to retrieve secret: No response from portal.
+[2:2:0111/102642.057952:ERROR:sharing_service.cc(296)] Device registration failed with fatal error
+Crashing due to FD ownership violation:
+#0 0x55c6bfcf166a <unknown>
+#1 0x55c6bfcea56c <unknown>
+#2 0x55c6bfcea527 close
+#3 0x7fb502358326 pa_close
+#4 0x7fb502358719 pa_close_allv
+#5 0x7fb502361201 pa_close_all
+#6 0x7fb5023c1ca8 <unknown>
+#7 0x7fb5023c2835 <unknown>
+#8 0x7fb5023c2ea8 pa_context_connect
+#9 0x7fb50212cd27 pulse_connect
+#10 0x7fb50212c5be _snd_pcm_pulse_open
+#11 0x7fb506c1e0ba <unknown>
+#12 0x7fb506c1e726 <unknown>
+#13 0x7fb506c217bf snd_pcm_open
+#14 0x55c6bcd94152 <unknown>
+#15 0x55c6bcd94ef9 <unknown>
+#16 0x55c6bcd90d42 <unknown>
+#17 0x55c6bcd9087b <unknown>
+#18 0x55c6bcd865e3 <unknown>
+#19 0x55c6bcd864c1 <unknown>
+#20 0x55c6bcd88304 <unknown>
+#21 0x55c6bcd87bcc <unknown>
+#22 0x55c6bf1388bb <unknown>
+#23 0x55c6bf13813c <unknown>
+#24 0x55c6bf124c68 <unknown>
+#25 0x55c6bf1247e4 <unknown>
+#26 0x55c6bf127647 <unknown>
+#27 0x55c6bf12cbcd <unknown>
+#28 0x55c6bf12c84b <unknown>
+#29 0x55c6bcd495c7 <unknown>
+#30 0x55c6bf12feab <unknown>
+#31 0x55c6c00008db <unknown>
+#32 0x55c6c00077d7 <unknown>
+#33 0x55c6c00020db <unknown>
+#34 0x55c6c001154f <unknown>
+#35 0x55c6c0010bf8 <unknown>
+#36 0x55c6c000780e <unknown>
+#37 0x55c6bfffe059 <unknown>
+#38 0x55c6bc0f4d8f <unknown>
+#39 0x55c6c002758c <unknown>
+#40 0x55c6bfc945ff <unknown>
+#41 0x55c6bfcb5062 <unknown>
+#42 0x55c6bfc4d127 <unknown>
+#43 0x55c6bfcb57e1 <unknown>
+#44 0x55c6bfc74f0e <unknown>
+#45 0x55c6bf5e96e8 <unknown>
+#46 0x55c6bc4127f0 <unknown>
+#47 0x55c6bc4138b6 <unknown>
+#48 0x55c6bc41154a <unknown>
+#49 0x55c6bc411630 <unknown>
+#50 0x55c6bc0be017 <unknown>
+#51 0x7fb5068b308a <unknown>
+#52 0x7fb5068b314b __libc_start_main
+#53 0x55c6bbc9a02a _start
+ALSA lib ../../pulse/pulse.c:242:(pulse_connect) PulseAudio: Unable to connect: Connection refused
+
+[293:0111/103045.053940:ERROR:alsa_util.cc(204)] PcmOpen: default,Connection refused
+Crashing due to FD ownership violation:
+#0 0x55c6bfcf166a <unknown>
+#1 0x55c6bfcea56c <unknown>
+#2 0x55c6bfcea527 close
+#3 0x7fb502358326 pa_close
+#4 0x7fb502358719 pa_close_allv
+#5 0x7fb502361201 pa_close_all
+#6 0x7fb5023c1ca8 <unknown>
+#7 0x7fb5023c2835 <unknown>
+#8 0x7fb5023c2ea8 pa_context_connect
+#9 0x7fb50212cd27 pulse_connect
+#10 0x7fb50212c5be _snd_pcm_pulse_open
+#11 0x7fb506c1e0ba <unknown>
+#12 0x7fb506c1e726 <unknown>
+#13 0x7fb506c21cd4 <unknown>
+#14 0x7fb506c48327 _snd_pcm_plug_open
+#15 0x7fb506c1e0ba <unknown>
+#16 0x7fb506c1e726 <unknown>
+#17 0x7fb506c217bf snd_pcm_open
+#18 0x55c6bcd94152 <unknown>
+#19 0x55c6bcd94ef9 <unknown>
+#20 0x55c6bcd90e99 <unknown>
+#21 0x55c6bcd9087b <unknown>
+#22 0x55c6bcd865e3 <unknown>
+#23 0x55c6bcd864c1 <unknown>
+#24 0x55c6bcd88304 <unknown>
+#25 0x55c6bcd87bcc <unknown>
+#26 0x55c6bf1388bb <unknown>
+#27 0x55c6bf13813c <unknown>
+#28 0x55c6bf124c68 <unknown>
+#29 0x55c6bf1247e4 <unknown>
+#30 0x55c6bf127647 <unknown>
+#31 0x55c6bf12cbcd <unknown>
+#32 0x55c6bf12c84b <unknown>
+#33 0x55c6bcd495c7 <unknown>
+#34 0x55c6bf12feab <unknown>
+#35 0x55c6c00008db <unknown>
+#36 0x55c6c00077d7 <unknown>
+#37 0x55c6c00020db <unknown>
+#38 0x55c6c001154f <unknown>
+#39 0x55c6c0010bf8 <unknown>
+#40 0x55c6c000780e <unknown>
+#41 0x55c6bfffe059 <unknown>
+#42 0x55c6bc0f4d8f <unknown>
+#43 0x55c6c002758c <unknown>
+#44 0x55c6bfc945ff <unknown>
+#45 0x55c6bfcb5062 <unknown>
+#46 0x55c6bfc4d127 <unknown>
+#47 0x55c6bfcb57e1 <unknown>
+#48 0x55c6bfc74f0e <unknown>
+#49 0x55c6bf5e96e8 <unknown>
+#50 0x55c6bc4127f0 <unknown>
+#51 0x55c6bc4138b6 <unknown>
+#52 0x55c6bc41154a <unknown>
+#53 0x55c6bc411630 <unknown>
+#54 0x55c6bc0be017 <unknown>
+#55 0x7fb5068b308a <unknown>
+#56 0x7fb5068b314b __libc_start_main
+#57 0x55c6bbc9a02a _start
+ALSA lib ../../pulse/pulse.c:242:(pulse_connect) PulseAudio: Unable to connect: Connection refused
+
+[293:0111/103045.107187:ERROR:alsa_util.cc(204)] PcmOpen: plug:default,Connection refused
+Crashing due to FD ownership violation:
+#0 0x55c6bfcf166a <unknown>
+#1 0x55c6bfcea56c <unknown>
+#2 0x55c6bfcea527 close
+#3 0x7fb502358326 pa_close
+#4 0x7fb502358719 pa_close_allv
+#5 0x7fb502361201 pa_close_all
+#6 0x7fb5023c1ca8 <unknown>
+#7 0x7fb5023c2835 <unknown>
+#8 0x7fb5023c2ea8 pa_context_connect
+#9 0x7fb50212cd27 pulse_connect
+#10 0x7fb50212c5be _snd_pcm_pulse_open
+#11 0x7fb506c1e0ba <unknown>
+#12 0x7fb506c1e726 <unknown>
+#13 0x7fb506c217bf snd_pcm_open
+#14 0x55c6bcd94152 <unknown>
+#15 0x55c6bcd94ef9 <unknown>
+#16 0x55c6bcd90d42 <unknown>
+#17 0x55c6bcd9087b <unknown>
+#18 0x55c6bcd865e3 <unknown>
+#19 0x55c6bcd864c1 <unknown>
+#20 0x55c6bcd88304 <unknown>
+#21 0x55c6bcd87bcc <unknown>
+#22 0x55c6bf1388bb <unknown>
+#23 0x55c6bf13813c <unknown>
+#24 0x55c6bf124c68 <unknown>
+#25 0x55c6bf1247e4 <unknown>
+#26 0x55c6bf127647 <unknown>
+#27 0x55c6bf12cbcd <unknown>
+#28 0x55c6bf12c84b <unknown>
+#29 0x55c6bcd495c7 <unknown>
+#30 0x55c6bf12feab <unknown>
+#31 0x55c6c00008db <unknown>
+#32 0x55c6c00077d7 <unknown>
+#33 0x55c6c00020db <unknown>
+#34 0x55c6c001154f <unknown>
+#35 0x55c6c0010bf8 <unknown>
+#36 0x55c6c000780e <unknown>
+#37 0x55c6bfffe059 <unknown>
+#38 0x55c6bc0f4d8f <unknown>
+#39 0x55c6c002758c <unknown>
+#40 0x55c6bfc945ff <unknown>
+#41 0x55c6bfcb5062 <unknown>
+#42 0x55c6bfc4d127 <unknown>
+#43 0x55c6bfcb57e1 <unknown>
+#44 0x55c6bfc74f0e <unknown>
+#45 0x55c6bf5e96e8 <unknown>
+#46 0x55c6bc4127f0 <unknown>
+#47 0x55c6bc4138b6 <unknown>
+#48 0x55c6bc41154a <unknown>
+#49 0x55c6bc411630 <unknown>
+#50 0x55c6bc0be017 <unknown>
+#51 0x7fb5068b308a <unknown>
+#52 0x7fb5068b314b __libc_start_main
+#53 0x55c6bbc9a02a _start
+ALSA lib ../../pulse/pulse.c:242:(pulse_connect) PulseAudio: Unable to connect: Connection refused
+
+[293:0111/103252.660391:ERROR:alsa_util.cc(204)] PcmOpen: default,Connection refused
+Crashing due to FD ownership violation:
+#0 0x55c6bfcf166a <unknown>
+#1 0x55c6bfcea56c <unknown>
+#2 0x55c6bfcea527 close
+#3 0x7fb502358326 pa_close
+#4 0x7fb502358719 pa_close_allv
+#5 0x7fb502361201 pa_close_all
+#6 0x7fb5023c1ca8 <unknown>
+#7 0x7fb5023c2835 <unknown>
+#8 0x7fb5023c2ea8 pa_context_connect
+#9 0x7fb50212cd27 pulse_connect
+#10 0x7fb50212c5be _snd_pcm_pulse_open
+#11 0x7fb506c1e0ba <unknown>
+#12 0x7fb506c1e726 <unknown>
+#13 0x7fb506c21cd4 <unknown>
+#14 0x7fb506c48327 _snd_pcm_plug_open
+#15 0x7fb506c1e0ba <unknown>
+#16 0x7fb506c1e726 <unknown>
+#17 0x7fb506c217bf snd_pcm_open
+#18 0x55c6bcd94152 <unknown>
+#19 0x55c6bcd94ef9 <unknown>
+#20 0x55c6bcd90e99 <unknown>
+#21 0x55c6bcd9087b <unknown>
+#22 0x55c6bcd865e3 <unknown>
+#23 0x55c6bcd864c1 <unknown>
+#24 0x55c6bcd88304 <unknown>
+#25 0x55c6bcd87bcc <unknown>
+#26 0x55c6bf1388bb <unknown>
+#27 0x55c6bf13813c <unknown>
+#28 0x55c6bf124c68 <unknown>
+#29 0x55c6bf1247e4 <unknown>
+#30 0x55c6bf127647 <unknown>
+#31 0x55c6bf12cbcd <unknown>
+#32 0x55c6bf12c84b <unknown>
+#33 0x55c6bcd495c7 <unknown>
+#34 0x55c6bf12feab <unknown>
+#35 0x55c6c00008db <unknown>
+#36 0x55c6c00077d7 <unknown>
+#37 0x55c6c00020db <unknown>
+#38 0x55c6c001154f <unknown>
+#39 0x55c6c0010bf8 <unknown>
+#40 0x55c6c000780e <unknown>
+#41 0x55c6bfffe059 <unknown>
+#42 0x55c6bc0f4d8f <unknown>
+#43 0x55c6c002758c <unknown>
+#44 0x55c6bfc945ff <unknown>
+#45 0x55c6bfcb5062 <unknown>
+#46 0x55c6bfc4d127 <unknown>
+#47 0x55c6bfcb57e1 <unknown>
+#48 0x55c6bfc74f0e <unknown>
+#49 0x55c6bf5e96e8 <unknown>
+#50 0x55c6bc4127f0 <unknown>
+#51 0x55c6bc4138b6 <unknown>
+#52 0x55c6bc41154a <unknown>
+#53 0x55c6bc411630 <unknown>
+#54 0x55c6bc0be017 <unknown>
+#55 0x7fb5068b308a <unknown>
+#56 0x7fb5068b314b __libc_start_main
+#57 0x55c6bbc9a02a _start
+ALSA lib ../../pulse/pulse.c:242:(pulse_connect) PulseAudio: Unable to connect: Connection refused
+
+[293:0111/103252.721945:ERROR:alsa_util.cc(204)] PcmOpen: plug:default,Connection refused
+(node:93) MaxListenersExceededWarning: Possible EventEmitter memory leak detected. 11 select-capture-device:8858d129-82e0-4cf6-a279-983cb5fec51b listeners added to [IpcRenderer]. MaxListeners is 10. Use emitter.setMaxListeners() to increase limit
+(node:93) MaxListenersExceededWarning: Possible EventEmitter memory leak detected. 11 select-capture-device:a7d3b955-5511-4441-8caa-92b32f0b5498 listeners added to [IpcRenderer]. MaxListeners is 10. Use emitter.setMaxListeners() to increase limit
+[2:36:0111/105202.003079:ERROR:get_updates_processor.cc(267)] PostClientToServerMessage() failed during GetUpdates with error Network error (ERR_INTERNET_DISCONNECTED)
+[2:37:0111/105219.382261:ERROR:get_updates_processor.cc(267)] PostClientToServerMessage() failed during GetUpdates with error Network error (ERR_NAME_NOT_RESOLVED)
+[2:36:0111/105526.531493:ERROR:get_updates_processor.cc(267)] PostClientToServerMessage() failed during GetUpdates with error Network error (ERR_INTERNET_DISCONNECTED)
+[2:46:0111/105531.468760:ERROR:get_updates_processor.cc(267)] PostClientToServerMessage() failed during GetUpdates with error Network error (ERR_NAME_NOT_RESOLVED)
+Terminated
+Terminated
+Terminated
+Terminated
+Terminated
+Terminated
+Terminated
+Terminated
+Terminated
+Terminated
+Terminated
+Terminated
+Terminated
+Terminated
+Terminated
+Terminated
+Terminated
+Terminated
+Terminated
+[0111/110120.271109:INFO:pipe.h(28)] Pipe destructor called
+[0111/110120.271281:INFO:pipe.cc(97)] Pipe close.
+[0111/110120.271286:INFO:pipe.cc(119)] Read handle closed.
+[0111/110120.271292:INFO:pipe.cc(126)] Write handle closed.
+[0111/110120.271296:INFO:pipe.cc(129)] Pipe closed.
+erresc: unknown csi ESC[?2026$p
+erresc: unknown csi ESC[4:3m
+erresc: unknown csi ESC[>4;2m
+erresc: unknown csi ESC[>4;0m
+erresc: unknown csi ESC[?2026$p
+erresc: unknown csi ESC[4:3m
+erresc: unknown csi ESC[>4;2m
+[2:36:0111/110643.378040:ERROR:get_updates_processor.cc(267)] PostClientToServerMessage() failed during GetUpdates with error Network error (ERR_INTERNET_DISCONNECTED)
+erresc: unknown csi ESC[?2026$p
+erresc: unknown csi ESC[4:3m
+erresc: unknown csi ESC[>4;2m
+erresc: unknown csi ESC[>4;0m
+[2:37:0111/110719.663995:ERROR:get_updates_processor.cc(267)] PostClientToServerMessage() failed during GetUpdates with error Network error (ERR_NAME_NOT_RESOLVED)
+erresc: unknown csi ESC[?2026$p
+erresc: unknown csi ESC[4:3m
+erresc: unknown csi ESC[>4;2m
+erresc: unknown csi ESC[>4;0m
+erresc: unknown csi ESC[?2026$p
+erresc: unknown csi ESC[4:3m
+erresc: unknown csi ESC[>4;2m
+erresc: unknown csi ESC[>4;0m
+erresc: unknown csi ESC[?2026$p
+erresc: unknown csi ESC[4:3m
+erresc: unknown csi ESC[>4;2m
+erresc: unknown csi ESC[>4;0m
+erresc: unknown csi ESC[?2026$p
+erresc: unknown csi ESC[4:3m
+erresc: unknown csi ESC[>4;2m
+erresc: unknown csi ESC[>4;0m
+[2:36:0111/110925.896460:ERROR:get_updates_processor.cc(267)] PostClientToServerMessage() failed during GetUpdates with error Network error (ERR_INTERNET_DISCONNECTED)
+erresc: unknown csi ESC[?2026$p
+erresc: unknown csi ESC[4:3m
+erresc: unknown csi ESC[>4;2m
+erresc: unknown csi ESC[>4;0m
+erresc: unknown csi ESC[?2026$p
+erresc: unknown csi ESC[4:3m
+erresc: unknown csi ESC[>4;2m
+erresc: unknown csi ESC[>4;0m
+[2:37:0111/111001.692434:ERROR:get_updates_processor.cc(267)] PostClientToServerMessage() failed during GetUpdates with error Network error (ERR_INTERNET_DISCONNECTED)
+/home/lazar/.local/bin/bar_loop: line 4: /home/lazar/.local/bin/bar_update: No such file or directory
+/home/lazar/.local/bin/bar_loop: line 4: /home/lazar/.local/bin/bar_update: No such file or directory
+/home/lazar/.local/bin/bar_loop: line 4: /home/lazar/.local/bin/bar_update: No such file or directory
+/home/lazar/.local/bin/bar_loop: line 4: /home/lazar/.local/bin/bar_update: No such file or directory
+/home/lazar/.local/bin/bar_loop: line 4: /home/lazar/.local/bin/bar_update: No such file or directory
+/home/lazar/.local/bin/bar_loop: line 4: /home/lazar/.local/bin/bar_update: No such file or directory
+/home/lazar/.local/bin/bar_loop: line 4: /home/lazar/.local/bin/bar_update: No such file or directory
+/home/lazar/.local/bin/bar_loop: line 4: /home/lazar/.local/bin/bar_update: No such file or directory
+/home/lazar/.local/bin/bar_loop: line 4: /home/lazar/.local/bin/bar_update: No such file or directory
+/home/lazar/.local/bin/bar_loop: line 4: /home/lazar/.local/bin/bar_update: No such file or directory
+/home/lazar/.local/bin/bar_loop: line 4: /home/lazar/.local/bin/bar_update: No such file or directory
+/home/lazar/.local/bin/bar_loop: line 4: /home/lazar/.local/bin/bar_update: No such file or directory
+/home/lazar/.local/bin/bar_loop: line 4: /home/lazar/.local/bin/bar_update: No such file or directory
+/home/lazar/.local/bin/bar_loop: line 4: /home/lazar/.local/bin/bar_update: No such file or directory
+/home/lazar/.local/bin/bar_loop: line 4: /home/lazar/.local/bin/bar_update: No such file or directory
+/home/lazar/.local/bin/bar_loop: line 4: /home/lazar/.local/bin/bar_update: No such file or directory
+/home/lazar/.local/bin/bar_loop: line 4: /home/lazar/.local/bin/bar_update: No such file or directory
+/home/lazar/.local/bin/bar_loop: line 4: /home/lazar/.local/bin/bar_update: No such file or directory
+/home/lazar/.local/bin/bar_loop: line 4: /home/lazar/.local/bin/bar_update: No such file or directory
+/home/lazar/.local/bin/bar_loop: line 4: /home/lazar/.local/bin/bar_update: No such file or directory
+/home/lazar/.local/bin/bar_loop: line 4: /home/lazar/.local/bin/bar_update: No such file or directory
+/home/lazar/.local/bin/bar_loop: line 4: /home/lazar/.local/bin/bar_update: No such file or directory
+/home/lazar/.local/bin/bar_loop: line 4: /home/lazar/.local/bin/bar_update: No such file or directory
+/home/lazar/.local/bin/bar_loop: line 4: /home/lazar/.local/bin/bar_update: No such file or directory
+/home/lazar/.local/bin/bar_loop: line 4: /home/lazar/.local/bin/bar_update: No such file or directory
+/home/lazar/.local/bin/bar_loop: line 4: /home/lazar/.local/bin/bar_update: No such file or directory
+/home/lazar/.local/bin/bar_loop: line 4: /home/lazar/.local/bin/bar_update: No such file or directory
+/home/lazar/.local/bin/bar_loop: line 4: /home/lazar/.local/bin/bar_update: No such file or directory
+/home/lazar/.local/bin/bar_loop: line 4: /home/lazar/.local/bin/bar_update: No such file or directory
+/home/lazar/.local/bin/bar_loop: line 4: /home/lazar/.local/bin/bar_update: No such file or directory
+/home/lazar/.local/bin/bar_loop: line 4: /home/lazar/.local/bin/bar_update: No such file or directory
+/home/lazar/.local/bin/bar_loop: line 4: /home/lazar/.local/bin/bar_update: No such file or directory
+/home/lazar/.local/bin/bar_loop: line 4: /home/lazar/.local/bin/bar_update: No such file or directory
+/home/lazar/.local/bin/bar_loop: line 4: /home/lazar/.local/bin/bar_update: No such file or directory
+/home/lazar/.local/bin/bar_loop: line 4: /home/lazar/.local/bin/bar_update: No such file or directory
+/home/lazar/.local/bin/bar_loop: line 4: /home/lazar/.local/bin/bar_update: No such file or directory
+/home/lazar/.local/bin/bar_loop: line 4: /home/lazar/.local/bin/bar_update: No such file or directory
+/home/lazar/.local/bin/bar_loop: line 4: /home/lazar/.local/bin/bar_update: No such file or directory
+/home/lazar/.local/bin/bar_loop: line 4: /home/lazar/.local/bin/bar_update: No such file or directory
+/home/lazar/.local/bin/bar_loop: line 4: /home/lazar/.local/bin/bar_update: No such file or directory
+/home/lazar/.local/bin/bar_loop: line 4: /home/lazar/.local/bin/bar_update: No such file or directory
+/home/lazar/.local/bin/bar_loop: line 4: /home/lazar/.local/bin/bar_update: No such file or directory
+/home/lazar/.local/bin/bar_loop: line 4: /home/lazar/.local/bin/bar_update: No such file or directory
+/home/lazar/.local/bin/bar_loop: line 4: /home/lazar/.local/bin/bar_update: No such file or directory
+/home/lazar/.local/bin/bar_loop: line 4: /home/lazar/.local/bin/bar_update: No such file or directory
+/home/lazar/.local/bin/bar_loop: line 4: /home/lazar/.local/bin/bar_update: No such file or directory
+/home/lazar/.local/bin/bar_loop: line 4: /home/lazar/.local/bin/bar_update: No such file or directory
+/home/lazar/.local/bin/bar_loop: line 4: /home/lazar/.local/bin/bar_update: No such file or directory
+/home/lazar/.local/bin/bar_loop: line 4: /home/lazar/.local/bin/bar_update: No such file or directory
+/home/lazar/.local/bin/bar_loop: line 4: /home/lazar/.local/bin/bar_update: No such file or directory
+/home/lazar/.local/bin/bar_loop: line 4: /home/lazar/.local/bin/bar_update: No such file or directory
+/home/lazar/.local/bin/bar_loop: line 4: /home/lazar/.local/bin/bar_update: No such file or directory
+/home/lazar/.local/bin/bar_loop: line 4: /home/lazar/.local/bin/bar_update: No such file or directory
+/home/lazar/.local/bin/bar_loop: line 4: /home/lazar/.local/bin/bar_update: No such file or directory
+/home/lazar/.local/bin/bar_loop: line 4: /home/lazar/.local/bin/bar_update: No such file or directory
+/home/lazar/.local/bin/bar_loop: line 4: /home/lazar/.local/bin/bar_update: No such file or directory
+/home/lazar/.local/bin/bar_loop: line 4: /home/lazar/.local/bin/bar_update: No such file or directory
+/home/lazar/.local/bin/bar_loop: line 4: /home/lazar/.local/bin/bar_update: No such file or directory
+/home/lazar/.local/bin/bar_loop: line 4: /home/lazar/.local/bin/bar_update: No such file or directory
+/home/lazar/.local/bin/bar_loop: line 4: /home/lazar/.local/bin/bar_update: No such file or directory
+/home/lazar/.local/bin/bar_loop: line 4: /home/lazar/.local/bin/bar_update: No such file or directory
+/home/lazar/.local/bin/bar_loop: line 4: /home/lazar/.local/bin/bar_update: No such file or directory
+/home/lazar/.local/bin/bar_loop: line 4: /home/lazar/.local/bin/bar_update: No such file or directory
+/home/lazar/.local/bin/bar_loop: line 4: /home/lazar/.local/bin/bar_update: No such file or directory
+/home/lazar/.local/bin/bar_loop: line 4: /home/lazar/.local/bin/bar_update: No such file or directory
+erresc: unknown csi ESC[?2026$p
+erresc: unknown csi ESC[4:3m
+/home/lazar/.local/bin/bar_loop: line 4: /home/lazar/.local/bin/bar_update: No such file or directory
+erresc: unknown csi ESC[>4;2m
+/home/lazar/.local/bin/bar_loop: line 4: /home/lazar/.local/bin/bar_update: No such file or directory
+/home/lazar/.local/bin/bar_loop: line 4: /home/lazar/.local/bin/bar_update: No such file or directory
+/home/lazar/.local/bin/bar_loop: line 4: /home/lazar/.local/bin/bar_update: No such file or directory
+/home/lazar/.local/bin/bar_loop: line 4: /home/lazar/.local/bin/bar_update: No such file or directory
+/home/lazar/.local/bin/bar_loop: line 4: /home/lazar/.local/bin/bar_update: No such file or directory
+/home/lazar/.local/bin/bar_loop: line 4: /home/lazar/.local/bin/bar_update: No such file or directory
+/home/lazar/.local/bin/bar_loop: line 4: /home/lazar/.local/bin/bar_update: No such file or directory
+/home/lazar/.local/bin/bar_loop: line 4: /home/lazar/.local/bin/bar_update: No such file or directory
+/home/lazar/.local/bin/bar_loop: line 4: /home/lazar/.local/bin/bar_update: No such file or directory
+/home/lazar/.local/bin/bar_loop: line 4: /home/lazar/.local/bin/bar_update: No such file or directory
+/home/lazar/.local/bin/bar_loop: line 4: /home/lazar/.local/bin/bar_update: No such file or directory
+/home/lazar/.local/bin/bar_loop: line 4: /home/lazar/.local/bin/bar_update: No such file or directory
+/home/lazar/.local/bin/bar_loop: line 4: /home/lazar/.local/bin/bar_update: No such file or directory
+/home/lazar/.local/bin/bar_loop: line 4: /home/lazar/.local/bin/bar_update: No such file or directory
+/home/lazar/.local/bin/bar_loop: line 4: /home/lazar/.local/bin/bar_update: No such file or directory
+/home/lazar/.local/bin/bar_loop: line 4: /home/lazar/.local/bin/bar_update: No such file or directory
+/home/lazar/.local/bin/bar_loop: line 4: /home/lazar/.local/bin/bar_update: No such file or directory
+/home/lazar/.local/bin/bar_loop: line 4: /home/lazar/.local/bin/bar_update: No such file or directory
+/home/lazar/.local/bin/bar_loop: line 4: /home/lazar/.local/bin/bar_update: No such file or directory
+/home/lazar/.local/bin/bar_loop: line 4: /home/lazar/.local/bin/bar_update: No such file or directory
+/home/lazar/.local/bin/bar_loop: line 4: /home/lazar/.local/bin/bar_update: No such file or directory
+/home/lazar/.local/bin/bar_loop: line 4: /home/lazar/.local/bin/bar_update: No such file or directory
+/home/lazar/.local/bin/bar_loop: line 4: /home/lazar/.local/bin/bar_update: No such file or directory
+/home/lazar/.local/bin/bar_loop: line 4: /home/lazar/.local/bin/bar_update: No such file or directory
+/home/lazar/.local/bin/bar_loop: line 4: /home/lazar/.local/bin/bar_update: No such file or directory
+/home/lazar/.local/bin/bar_loop: line 4: /home/lazar/.local/bin/bar_update: No such file or directory
+/home/lazar/.local/bin/bar_loop: line 4: /home/lazar/.local/bin/bar_update: No such file or directory
+/home/lazar/.local/bin/bar_loop: line 4: /home/lazar/.local/bin/bar_update: No such file or directory
+erresc: unknown csi ESC[>4;0m
+erresc: unknown csi ESC[?2026$p
+erresc: unknown csi ESC[4:3m
+erresc: unknown csi ESC[>4;2m
+[2:36:0111/111618.900578:ERROR:get_updates_processor.cc(267)] PostClientToServerMessage() failed during GetUpdates with error Network error (ERR_INTERNET_DISCONNECTED)
+[2:37:0111/111630.440019:ERROR:get_updates_processor.cc(267)] PostClientToServerMessage() failed during GetUpdates with error Network error (ERR_NAME_NOT_RESOLVED)
+[2:37:0111/111637.028246:ERROR:get_updates_processor.cc(267)] PostClientToServerMessage() failed during GetUpdates with error Network error (ERR_NAME_NOT_RESOLVED)
+[2:38:0111/111842.724165:ERROR:get_updates_processor.cc(267)] PostClientToServerMessage() failed during GetUpdates with error Network error (ERR_INTERNET_DISCONNECTED)
+[2:37:0111/111853.131159:ERROR:get_updates_processor.cc(267)] PostClientToServerMessage() failed during GetUpdates with error Network error (ERR_NAME_NOT_RESOLVED)
+[2:37:0111/111926.531240:ERROR:get_updates_processor.cc(267)] PostClientToServerMessage() failed during GetUpdates with error Network error (ERR_NAME_NOT_RESOLVED)
+erresc: unknown csi ESC[?2026$p
+erresc: unknown csi ESC[4:3m
+erresc: unknown csi ESC[>4;2m
+erresc: unknown csi ESC[>4;0m
+[2:36:0111/112019.535995:ERROR:get_updates_processor.cc(267)] PostClientToServerMessage() failed during GetUpdates with error Network error (ERR_INTERNET_DISCONNECTED)
+erresc: unknown csi ESC[?2026$p
+erresc: unknown csi ESC[4:3m
+erresc: unknown csi ESC[>4;2m
+[2:36:0111/112055.175162:ERROR:get_updates_processor.cc(267)] PostClientToServerMessage() failed during GetUpdates with error Network error (ERR_NETWORK_CHANGED)
+erresc: unknown csi ESC[>4;0m
+erresc: unknown csi ESC[?2026$p
+erresc: unknown csi ESC[4:3m
+erresc: unknown csi ESC[>4;2m
+[2:36:0111/112226.803980:ERROR:get_updates_processor.cc(267)] PostClientToServerMessage() failed during GetUpdates with error Network error (ERR_INTERNET_DISCONNECTED)
+[2:37:0111/112232.715343:ERROR:get_updates_processor.cc(267)] PostClientToServerMessage() failed during GetUpdates with error Network error (ERR_NAME_NOT_RESOLVED)
+erresc: unknown csi ESC[>4;0m
+erresc: unknown csi ESC[?2026$p
+erresc: unknown csi ESC[4:3m
+erresc: unknown csi ESC[>4;2m
+erresc: unknown csi ESC[>4;0m
+Terminated
+erresc: unknown csi ESC[?2026$p
+erresc: unknown csi ESC[4:3m
+erresc: unknown csi ESC[>4;2m
+erresc: unknown csi ESC[>4;0m
+erresc: unknown csi ESC[?2026$p
+erresc: unknown csi ESC[4:3m
+erresc: unknown csi ESC[>4;2m
+erresc: unknown csi ESC[>4;0m
+erresc: unknown csi ESC[?2026$p
+erresc: unknown csi ESC[4:3m
+erresc: unknown csi ESC[>4;2m
+erresc: unknown csi ESC[>4;0m
+[2:36:0111/112810.533164:ERROR:get_updates_processor.cc(267)] PostClientToServerMessage() failed during GetUpdates with error Network error (ERR_INTERNET_DISCONNECTED)
+[2:46:0111/112818.443992:ERROR:get_updates_processor.cc(267)] PostClientToServerMessage() failed during GetUpdates with error Network error (ERR_NAME_NOT_RESOLVED)
+erresc: unknown csi ESC[?2026$p
+erresc: unknown csi ESC[4:3m
+erresc: unknown csi ESC[>4;2m
+erresc: unknown csi ESC[>4;0m
+erresc: unknown csi ESC[?2026$p
+erresc: unknown csi ESC[4:3m
+erresc: unknown csi ESC[>4;2m
+erresc: unknown csi ESC[>4;0m
+erresc: unknown csi ESC[?2026$p
+erresc: unknown csi ESC[4:3m
+erresc: unknown csi ESC[>4;2m
+erresc: unknown csi ESC[>4;0m
+erresc: unknown csi ESC[?2026$p
+erresc: unknown csi ESC[4:3m
+erresc: unknown csi ESC[>4;2m
+erresc: unknown csi ESC[>4;0m
+erresc: unknown csi ESC[?2026$p
+erresc: unknown csi ESC[4:3m
+erresc: unknown csi ESC[>4;2m
+erresc: unknown csi ESC[>4;0m
+erresc: unknown csi ESC[?2026$p
+erresc: unknown csi ESC[4:3m
+erresc: unknown csi ESC[>4;2m
+erresc: unknown csi ESC[>4;0m
+erresc: unknown csi ESC[?2026$p
+erresc: unknown csi ESC[4:3m
+erresc: unknown csi ESC[>4;2m
+erresc: unknown csi ESC[>4;0m
+erresc: unknown csi ESC[?2026$p
+erresc: unknown csi ESC[4:3m
+erresc: unknown csi ESC[>4;2m
+erresc: unknown csi ESC[>4;0m
+erresc: unknown csi ESC[?2026$p
+erresc: unknown csi ESC[4:3m
+erresc: unknown csi ESC[>4;2m
+erresc: unknown csi ESC[>4;0m
+erresc: unknown csi ESC[?2026$p
+erresc: unknown csi ESC[4:3m
+erresc: unknown csi ESC[>4;2m
+erresc: unknown csi ESC[>4;0m
+erresc: unknown csi ESC[?2026$p
+erresc: unknown csi ESC[4:3m
+erresc: unknown csi ESC[>4;2m
+erresc: unknown csi ESC[>4;0m
+erresc: unknown csi ESC[?2026$p
+erresc: unknown csi ESC[4:3m
+erresc: unknown csi ESC[>4;2m
+erresc: unknown csi ESC[>4;0m
+erresc: unknown csi ESC[?2026$p
+erresc: unknown csi ESC[4:3m
+erresc: unknown csi ESC[>4;2m
+erresc: unknown csi ESC[?2026$p
+erresc: unknown csi ESC[4:3m
+erresc: unknown csi ESC[>4;2m
+erresc: unknown csi ESC[>4;0m
+erresc: unknown csi ESC[>4;0m
+erresc: unknown csi ESC[?2026$p
+erresc: unknown csi ESC[4:3m
+erresc: unknown csi ESC[>4;2m
+erresc: unknown csi ESC[>4;0m
+erresc: unknown csi ESC[?2026$p
+erresc: unknown csi ESC[4:3m
+erresc: unknown csi ESC[>4;2m
+erresc: unknown csi ESC[>4;0m
+erresc: unknown csi ESC[?2026$p
+erresc: unknown csi ESC[4:3m
+erresc: unknown csi ESC[>4;2m
+erresc: unknown csi ESC[>4;0m
+erresc: unknown csi ESC[?2026$p
+erresc: unknown csi ESC[4:3m
+erresc: unknown csi ESC[>4;2m
+erresc: unknown csi ESC[>4;0m
+erresc: unknown csi ESC[?2026$p
+erresc: unknown csi ESC[4:3m
+erresc: unknown csi ESC[>4;2m
+erresc: unknown csi ESC[>4;0m
+erresc: unknown csi ESC[?2026$p
+erresc: unknown csi ESC[4:3m
+erresc: unknown csi ESC[>4;2m
+erresc: unknown csi ESC[>4;0m
+erresc: unknown csi ESC[?2026$p
+erresc: unknown csi ESC[4:3m
+erresc: unknown csi ESC[>4;2m
+erresc: unknown csi ESC[>4;0m
+erresc: unknown csi ESC[?2026$p
+erresc: unknown csi ESC[4:3m
+erresc: unknown csi ESC[>4;2m
+erresc: unknown csi ESC[>4;0m
+Terminated
+Terminated
+Terminated
+Terminated
+Terminated
+Terminated
+Terminated
+Terminated
+Terminated
+Terminated
+Terminated
+Terminated
+Terminated
+Terminated
+Terminated
+Terminated
+Terminated
+Terminated
+Terminated
+Terminated
+Terminated
+Terminated
+Terminated
+Terminated
+Terminated
+Terminated
+Terminated
+Terminated
+erresc: unknown csi ESC[?2026$p
+erresc: unknown csi ESC[4:3m
+erresc: unknown csi ESC[>4;2m
+erresc: unknown csi ESC[>4;0m
+erresc: unknown csi ESC[?2026$p
+erresc: unknown csi ESC[4:3m
+erresc: unknown csi ESC[>4;2m
+erresc: unknown csi ESC[>4;0m
+[2:36:0111/114536.752964:ERROR:get_updates_processor.cc(267)] PostClientToServerMessage() failed during GetUpdates with error Network error (ERR_INTERNET_DISCONNECTED)
+erresc: unknown csi ESC[?2026$p
+erresc: unknown csi ESC[4:3m
+erresc: unknown csi ESC[>4;2m
+erresc: unknown csi ESC[>4;0m
+[2:36:0111/114621.762596:ERROR:get_updates_processor.cc(267)] PostClientToServerMessage() failed during GetUpdates with error Network error (ERR_INTERNET_DISCONNECTED)
+erresc: unknown csi ESC[?2026$p
+erresc: unknown csi ESC[4:3m
+erresc: unknown csi ESC[>4;2m
+erresc: unknown csi ESC[>4;0m
+[2:37:0111/114652.609088:ERROR:get_updates_processor.cc(267)] PostClientToServerMessage() failed during GetUpdates with error Network error (ERR_NAME_NOT_RESOLVED)
+[2:37:0111/114707.347758:ERROR:get_updates_processor.cc(267)] PostClientToServerMessage() failed during GetUpdates with error Network error (ERR_NAME_NOT_RESOLVED)
+erresc: unknown csi ESC[?2026$p
+erresc: unknown csi ESC[4:3m
+erresc: unknown csi ESC[>4;2m
+erresc: unknown csi ESC[>4;0m
+erresc: unknown csi ESC[?2026$p
+erresc: unknown csi ESC[4:3m
+erresc: unknown csi ESC[>4;2m
+erresc: unknown csi ESC[>4;0m
+erresc: unknown csi ESC[?2026$p
+erresc: unknown csi ESC[4:3m
+erresc: unknown csi ESC[>4;2m
+erresc: unknown csi ESC[>4;0m
+erresc: unknown csi ESC[?2026$p
+erresc: unknown csi ESC[4:3m
+erresc: unknown csi ESC[>4;2m
+[2:36:0111/114944.420768:ERROR:get_updates_processor.cc(267)] PostClientToServerMessage() failed during GetUpdates with error Network error (ERR_INTERNET_DISCONNECTED)
+[2:38:0111/114952.779129:ERROR:get_updates_processor.cc(267)] PostClientToServerMessage() failed during GetUpdates with error Network error (ERR_NAME_NOT_RESOLVED)
+erresc: unknown csi ESC[>4;0m
+erresc: unknown csi ESC[?2026$p
+erresc: unknown csi ESC[4:3m
+erresc: unknown csi ESC[>4;2m
+erresc: unknown csi ESC[>4;0m
+Terminated
+Terminated
+erresc: unknown csi ESC[?2026$p
+erresc: unknown csi ESC[4:3m
+erresc: unknown csi ESC[>4;2m
+erresc: unknown csi ESC[>4;0m
+Terminated
+erresc: unknown csi ESC[?2026$p
+erresc: unknown csi ESC[4:3m
+erresc: unknown csi ESC[>4;2m
+erresc: unknown csi ESC[>4;0m
+erresc: unknown csi ESC[?2026$p
+erresc: unknown csi ESC[4:3m
+erresc: unknown csi ESC[>4;2m
+erresc: unknown csi ESC[>4;0m
+erresc: unknown csi ESC[?2026$p
+erresc: unknown csi ESC[4:3m
+erresc: unknown csi ESC[>4;2m
+erresc: unknown csi ESC[>4;0m
+Terminated
+Terminated
+Terminated
+Terminated
+Terminated
+Terminated
+Terminated
+Terminated
+Terminated
+Terminated
+Terminated
+Terminated
+Terminated
+Terminated
+Terminated
+Terminated
+Terminated
+Terminated
+Terminated
+Terminated
+Terminated
+Terminated
+Terminated
+Terminated
+Terminated
+Terminated
+Terminated
+Terminated
+Terminated
+Terminated
+Terminated
+Terminated
+Terminated
+Terminated
+Terminated
+Terminated
+Terminated
+Terminated
+Terminated
+Terminated
+Terminated
+Terminated
+Terminated
+Terminated
+Terminated
+Terminated
+Terminated
+Terminated
+Terminated
+Terminated
+Terminated
+Terminated
+Terminated
+Terminated
+Terminated
+Terminated
+Terminated
+Terminated
+Terminated
+Terminated
+Terminated
+Terminated
+Terminated
+Terminated
+erresc: unknown csi ESC[?2026$p
+erresc: unknown csi ESC[4:3m
+erresc: unknown csi ESC[>4;2m
+erresc: unknown csi ESC[>4;0m
+erresc: unknown csi ESC[>4;0m
+erresc: unknown csi ESC[?2026$p
+erresc: unknown csi ESC[4:3m
+erresc: unknown csi ESC[>4;2m
+
+(lxappearance:29892): GLib-CRITICAL **: 11:57:27.309: g_utf8_collate: assertion 'str1 != NULL' failed
+
+(lxappearance:29892): GLib-CRITICAL **: 11:57:27.309: g_utf8_collate: assertion 'str2 != NULL' failed
+
+(lxappearance:29892): GLib-CRITICAL **: 11:57:27.309: g_utf8_collate: assertion 'str2 != NULL' failed
+
+(lxappearance:29892): GLib-CRITICAL **: 11:57:27.309: g_utf8_collate: assertion 'str2 != NULL' failed
+erresc: unknown csi ESC[>4;0m
+WARNING: Could not find theme breeze
+WARNING: Could not find theme breeze
+WARNING: Could not find theme elementary
+WARNING: Could not find theme gnome
+WARNING: Could not find theme AdwaitaLegacy
+WARNING: Could not find theme gnome
+WARNING: Could not find theme breeze
+WARNING: Could not find theme Moka
+WARNING: Could not find theme gnome
+WARNING: Could not find theme PiXflat
+WARNING: Could not find theme 
+WARNING: Could not find theme adwaita
+Crashing due to FD ownership violation:
+#0 0x55c6bfcf166a <unknown>
+#1 0x55c6bfcea56c <unknown>
+#2 0x55c6bfcea527 close
+#3 0x7fb502358326 pa_close
+#4 0x7fb502358719 pa_close_allv
+#5 0x7fb502361201 pa_close_all
+#6 0x7fb5023c1ca8 <unknown>
+#7 0x7fb5023c2835 <unknown>
+#8 0x7fb5023c2ea8 pa_context_connect
+#9 0x7fb50212cd27 pulse_connect
+#10 0x7fb50212c5be _snd_pcm_pulse_open
+#11 0x7fb506c1e0ba <unknown>
+#12 0x7fb506c1e726 <unknown>
+#13 0x7fb506c217bf snd_pcm_open
+#14 0x55c6bcd94152 <unknown>
+#15 0x55c6bcd94ef9 <unknown>
+#16 0x55c6bcd90d42 <unknown>
+#17 0x55c6bcd9087b <unknown>
+#18 0x55c6bcd865e3 <unknown>
+#19 0x55c6bcd864c1 <unknown>
+#20 0x55c6bcd88304 <unknown>
+#21 0x55c6bcd87bcc <unknown>
+#22 0x55c6bf1388bb <unknown>
+#23 0x55c6bf13813c <unknown>
+#24 0x55c6bf124c68 <unknown>
+#25 0x55c6bf1247e4 <unknown>
+#26 0x55c6bf127647 <unknown>
+#27 0x55c6bf12cbcd <unknown>
+#28 0x55c6bf12c84b <unknown>
+#29 0x55c6bcd495c7 <unknown>
+#30 0x55c6bf12feab <unknown>
+#31 0x55c6c00008db <unknown>
+#32 0x55c6c00077d7 <unknown>
+#33 0x55c6c00020db <unknown>
+#34 0x55c6c001154f <unknown>
+#35 0x55c6c0010bf8 <unknown>
+#36 0x55c6c000780e <unknown>
+#37 0x55c6bfffe059 <unknown>
+#38 0x55c6bc0f4d8f <unknown>
+#39 0x55c6c002758c <unknown>
+#40 0x55c6bfc945ff <unknown>
+#41 0x55c6bfcb5062 <unknown>
+#42 0x55c6bfc4d127 <unknown>
+#43 0x55c6bfcb57e1 <unknown>
+#44 0x55c6bfc74f0e <unknown>
+#45 0x55c6bf5e96e8 <unknown>
+#46 0x55c6bc4127f0 <unknown>
+#47 0x55c6bc4138b6 <unknown>
+#48 0x55c6bc41154a <unknown>
+#49 0x55c6bc411630 <unknown>
+#50 0x55c6bc0be017 <unknown>
+#51 0x7fb5068b308a <unknown>
+#52 0x7fb5068b314b __libc_start_main
+#53 0x55c6bbc9a02a _start
+ALSA lib ../../pulse/pulse.c:242:(pulse_connect) PulseAudio: Unable to connect: Connection refused
+
+[293:0111/115857.046546:ERROR:alsa_util.cc(204)] PcmOpen: default,Connection refused
+Crashing due to FD ownership violation:
+#0 0x55c6bfcf166a <unknown>
+#1 0x55c6bfcea56c <unknown>
+#2 0x55c6bfcea527 close
+#3 0x7fb502358326 pa_close
+#4 0x7fb502358719 pa_close_allv
+#5 0x7fb502361201 pa_close_all
+#6 0x7fb5023c1ca8 <unknown>
+#7 0x7fb5023c2835 <unknown>
+#8 0x7fb5023c2ea8 pa_context_connect
+#9 0x7fb50212cd27 pulse_connect
+#10 0x7fb50212c5be _snd_pcm_pulse_open
+#11 0x7fb506c1e0ba <unknown>
+#12 0x7fb506c1e726 <unknown>
+#13 0x7fb506c21cd4 <unknown>
+#14 0x7fb506c48327 _snd_pcm_plug_open
+#15 0x7fb506c1e0ba <unknown>
+#16 0x7fb506c1e726 <unknown>
+#17 0x7fb506c217bf snd_pcm_open
+#18 0x55c6bcd94152 <unknown>
+#19 0x55c6bcd94ef9 <unknown>
+#20 0x55c6bcd90e99 <unknown>
+#21 0x55c6bcd9087b <unknown>
+#22 0x55c6bcd865e3 <unknown>
+#23 0x55c6bcd864c1 <unknown>
+#24 0x55c6bcd88304 <unknown>
+#25 0x55c6bcd87bcc <unknown>
+#26 0x55c6bf1388bb <unknown>
+#27 0x55c6bf13813c <unknown>
+#28 0x55c6bf124c68 <unknown>
+#29 0x55c6bf1247e4 <unknown>
+#30 0x55c6bf127647 <unknown>
+#31 0x55c6bf12cbcd <unknown>
+#32 0x55c6bf12c84b <unknown>
+#33 0x55c6bcd495c7 <unknown>
+#34 0x55c6bf12feab <unknown>
+#35 0x55c6c00008db <unknown>
+#36 0x55c6c00077d7 <unknown>
+#37 0x55c6c00020db <unknown>
+#38 0x55c6c001154f <unknown>
+#39 0x55c6c0010bf8 <unknown>
+#40 0x55c6c000780e <unknown>
+#41 0x55c6bfffe059 <unknown>
+#42 0x55c6bc0f4d8f <unknown>
+#43 0x55c6c002758c <unknown>
+#44 0x55c6bfc945ff <unknown>
+#45 0x55c6bfcb5062 <unknown>
+#46 0x55c6bfc4d127 <unknown>
+#47 0x55c6bfcb57e1 <unknown>
+#48 0x55c6bfc74f0e <unknown>
+#49 0x55c6bf5e96e8 <unknown>
+#50 0x55c6bc4127f0 <unknown>
+#51 0x55c6bc4138b6 <unknown>
+#52 0x55c6bc41154a <unknown>
+#53 0x55c6bc411630 <unknown>
+#54 0x55c6bc0be017 <unknown>
+#55 0x7fb5068b308a <unknown>
+#56 0x7fb5068b314b __libc_start_main
+#57 0x55c6bbc9a02a _start
+ALSA lib ../../pulse/pulse.c:242:(pulse_connect) PulseAudio: Unable to connect: Connection refused
+
+[293:0111/115857.102764:ERROR:alsa_util.cc(204)] PcmOpen: plug:default,Connection refused
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   Connection error
+
+Connection error
+
+/home/lazar/.local/bin/bar_update: line 43: ((: > 59 : syntax error: operand expected (error token is "> 59 ")
+/home/lazar/.local/bin/bar_update: line 45: ((: > 19 : syntax error: operand expected (error token is "> 19 ")
+/home/lazar/.local/bin/bar_update: line 47: ((: > 0 : syntax error: operand expected (error token is "> 0 ")
+Authorization required, but no authorization protocol specified
+
+std::exception
+Authorization required, but no authorization protocol specified
+
+xsetroot:  unable to open display ':0'
+W 09:44:33.260604              wplua ../modules/module-lua-scripting/wplua/wplua.c:51:_wplua_errhandler: [string "alsa.lua"]:182: attempt to concatenate a nil value (local 'node_name')
+stack traceback:
+	[string "alsa.lua"]:182: in function <[string "alsa.lua"]:175>
+W 09:44:33.260794              wplua ../modules/module-lua-scripting/wplua/wplua.c:51:_wplua_errhandler: [string "alsa.lua"]:182: attempt to concatenate a nil value (local 'node_name')
+stack traceback:
+	[string "alsa.lua"]:182: in function <[string "alsa.lua"]:175>
+W 09:44:33.303488 m-default-nodes-ap ../modules/module-default-nodes-api.c:86:sync_changed_notification: <WpDefaultNodesApi:0x56350941f950> core sync error: core disconnected
+N 09:44:33.303604        wireplumber ../src/main.c:71:on_disconnected: disconnected from pipewire
+W 09:44:33.303829            pw.core ../src/pipewire/core.c:183:destroy_proxy: 0x56350944e7a0: leaked proxy 0x5635095e2ef0 id:3
+W 09:44:33.303835            pw.core ../src/pipewire/core.c:183:destroy_proxy: 0x56350944e7a0: leaked proxy 0x5635094eb960 id:4
+W 09:44:33.303840            pw.core ../src/pipewire/core.c:183:destroy_proxy: 0x56350944e7a0: leaked proxy 0x563509654f20 id:9
+W 09:44:33.303844            pw.core ../src/pipewire/core.c:183:destroy_proxy: 0x56350944e7a0: leaked proxy 0x5635094a8a90 id:10
+W 09:44:33.303851            pw.core ../src/pipewire/core.c:183:destroy_proxy: 0x56350944e7a0: leaked proxy 0x56350949e960 id:11
 MPD error: Connection refused
 /home/lazar/.local/bin/bar_update: line 20: (counter + 1) % song_length : division by 0 (error token is "song_length ")
 MPD error: Connection refused
@@ -20,641 +1274,10 @@ Connection error
 /home/lazar/.local/bin/bar_update: line 43: ((: > 59 : syntax error: operand expected (error token is "> 59 ")
 /home/lazar/.local/bin/bar_update: line 45: ((: > 19 : syntax error: operand expected (error token is "> 19 ")
 /home/lazar/.local/bin/bar_update: line 47: ((: > 0 : syntax error: operand expected (error token is "> 0 ")
-WARNING: Could not find theme AdwaitaLegacy
-F: Can't get document portal: GDBus.Error:org.freedesktop.portal.Error.Failed: Can't mount path /run/user/1000/doc
-
-(nitrogen:928): Gtk-WARNING **: 08:45:52.525: Unable to locate theme engine in module_path: "adwaita",
-
-(nitrogen:928): Gtk-WARNING **: 08:45:52.525: Unable to locate theme engine in module_path: "adwaita",
-
-(copyq:946): Gtk-WARNING **: 08:45:52.609: Unable to locate theme engine in module_path: "adwaita",
-
-(copyq:946): Gtk-WARNING **: 08:45:52.609: Unable to locate theme engine in module_path: "adwaita",
-
-(nitrogen:928): Gtk-WARNING **: 08:45:52.711: Unable to locate theme engine in module_path: "adwaita",
-
-(nitrogen:928): Gtk-WARNING **: 08:45:52.712: Unable to locate theme engine in module_path: "adwaita",
-
-(nitrogen:928): GLib-GObject-CRITICAL **: 08:45:52.723: Attempting to freeze the notification queue for object GtkSettings[0x55d080db5750]; Property notification does not work during instance finalization.
-
-(nitrogen:928): GLib-GObject-CRITICAL **: 08:45:52.723: Attempting to thaw the notification queue for object GtkSettings[0x55d080db5750]; Property notification does not work during instance finalization.
-New PolkitAgentListener  0x55a42bdf0b50
-Adding new listener  PolkitQt1::Agent::Listener(0x7ffd40084630) for  0x55a42bdf0b50
-Connection error
-
-Connection error
-
-/home/lazar/.local/bin/bar_update: line 43: ((: > 59 : syntax error: operand expected (error token is "> 59 ")
-/home/lazar/.local/bin/bar_update: line 45: ((: > 19 : syntax error: operand expected (error token is "> 19 ")
-/home/lazar/.local/bin/bar_update: line 47: ((: > 0 : syntax error: operand expected (error token is "> 0 ")
-Warning: [default] QtWarning: QSystemTrayIcon::setVisible: No Icon set
-Warning: [qt.qpa.xcb] QtWarning: Unhandled client message:  "_NET_SYSTEM_TRAY_S0"
-Connection error
-
-Connection error
-
-/home/lazar/.local/bin/bar_update: line 43: ((: > 59 : syntax error: operand expected (error token is "> 59 ")
-/home/lazar/.local/bin/bar_update: line 45: ((: > 19 : syntax error: operand expected (error token is "> 19 ")
-/home/lazar/.local/bin/bar_update: line 47: ((: > 0 : syntax error: operand expected (error token is "> 0 ")
-[2:0111/084553.256937:ERROR:bus.cc(407)] Failed to connect to the bus: Failed to connect to socket /run/dbus/system_bus_socket: No such file or directory
-Connection error
-
-Connection error
-
-/home/lazar/.local/bin/bar_update: line 43: ((: > 59 : syntax error: operand expected (error token is "> 59 ")
-/home/lazar/.local/bin/bar_update: line 45: ((: > 19 : syntax error: operand expected (error token is "> 19 ")
-/home/lazar/.local/bin/bar_update: line 47: ((: > 0 : syntax error: operand expected (error token is "> 0 ")
-Connection error
-
-Connection error
-
-/home/lazar/.local/bin/bar_update: line 43: ((: > 59 : syntax error: operand expected (error token is "> 59 ")
-/home/lazar/.local/bin/bar_update: line 45: ((: > 19 : syntax error: operand expected (error token is "> 19 ")
-/home/lazar/.local/bin/bar_update: line 47: ((: > 0 : syntax error: operand expected (error token is "> 0 ")
-N 08:45:54.075136 wp-internal-comp-l ../lib/wp/private/internal-comp-loader.c:945:wp_internal_comp_loader_load: Loading profile 'main'
-Connection error
-
-Connection error
-
-/home/lazar/.local/bin/bar_update: line 43: ((: > 59 : syntax error: operand expected (error token is "> 59 ")
-/home/lazar/.local/bin/bar_update: line 45: ((: > 19 : syntax error: operand expected (error token is "> 19 ")
-/home/lazar/.local/bin/bar_update: line 47: ((: > 0 : syntax error: operand expected (error token is "> 0 ")
-N 08:45:54.263502 wp-internal-comp-l ../lib/wp/private/internal-comp-loader.c:589:on_component_loaded: <WpCore:0x55865a25a0d0> optional component 'support.logind [module: libwireplumber-module-logind]' failed to load: Failed to locate module libwireplumber-module-logind
-N 08:45:54.263540 wp-internal-comp-l ../lib/wp/private/internal-comp-loader.c:641:wp_component_array_load_task_execute_step: <WpCore:0x55865a25a0d0> skipping component 'monitor.bluez.seat-monitoring [virtual]' because some of its dependencies were not loaded
-N 08:45:54.264639          wp-device ../lib/wp/device.c:630:wp_spa_device_new_from_spa_factory: SPA handle 'api.bluez5.enum.dbus' could not be loaded; is it installed?
-N 08:45:54.264668         s-monitors bluez.lua:386:createMonitor: PipeWire's BlueZ SPA plugin is missing or broken. Bluetooth devices will not be supported.
-N 08:45:54.265400          wp-device ../lib/wp/device.c:630:wp_spa_device_new_from_spa_factory: SPA handle 'api.bluez5.midi.enum' could not be loaded; is it installed?
-N 08:45:54.265425         s-monitors bluez-midi.lua:95:createMonitor: PipeWire's BlueZ MIDI SPA missing or broken. Bluetooth not supported.
-E 08:45:54.265508        pw.resource ../src/pipewire/resource.c:255:pw_resource_errorf_id: can't create node: No such file or directory
-W 08:45:54.265527            wp-node ../lib/wp/node.c:913:wp_impl_node_new_from_pw_factory: failed to create node from factory 'spa-node-factory'
-N 08:45:54.265534         s-monitors bluez-midi.lua:130:createServers: Failed to create BLE MIDI server.
-[2:0111/084554.344195:ERROR:bus.cc(407)] Failed to connect to the bus: Failed to connect to socket /run/dbus/system_bus_socket: No such file or directory
-[2:0111/084554.344282:ERROR:bus.cc(407)] Failed to connect to the bus: Failed to connect to socket /run/dbus/system_bus_socket: No such file or directory
-Connection error
-
-Connection error
-
-/home/lazar/.local/bin/bar_update: line 43: ((: > 59 : syntax error: operand expected (error token is "> 59 ")
-/home/lazar/.local/bin/bar_update: line 45: ((: > 19 : syntax error: operand expected (error token is "> 19 ")
-/home/lazar/.local/bin/bar_update: line 47: ((: > 0 : syntax error: operand expected (error token is "> 0 ")
-[0:00:13.367628362] [1304] [1;32m INFO [1;37mCamera [1;34mcamera_manager.cpp:325 [0mlibcamera v0.3.2
-LaunchProcess: failed to execvp:
-xdg-settings
-Connection error
-
-Connection error
-
-/home/lazar/.local/bin/bar_update: line 43: ((: > 59 : syntax error: operand expected (error token is "> 59 ")
-/home/lazar/.local/bin/bar_update: line 45: ((: > 19 : syntax error: operand expected (error token is "> 19 ")
-/home/lazar/.local/bin/bar_update: line 47: ((: > 0 : syntax error: operand expected (error token is "> 0 ")
-Connection error
-
-/home/lazar/.local/bin/bar_update: line 43: ((: > 59 : syntax error: operand expected (error token is "> 59 ")
-/home/lazar/.local/bin/bar_update: line 45: ((: > 19 : syntax error: operand expected (error token is "> 19 ")
-/home/lazar/.local/bin/bar_update: line 47: ((: > 0 : syntax error: operand expected (error token is "> 0 ")
-[2:0111/084556.846054:ERROR:bus.cc(407)] Failed to connect to the bus: Failed to connect to socket /run/dbus/system_bus_socket: No such file or directory
-[2:0111/084556.846123:ERROR:bus.cc(407)] Failed to connect to the bus: Failed to connect to socket /run/dbus/system_bus_socket: No such file or directory
-[2:0111/084556.846150:ERROR:bus.cc(407)] Failed to connect to the bus: Failed to connect to socket /run/dbus/system_bus_socket: No such file or directory
-[MobX] Since strict-mode is enabled, changing (observed) observable values without using an action is not allowed. Tried to modify: Settings@13.store
-
-(orca-slicer:3163): GLib-GObject-CRITICAL **: 08:46:19.234: invalid cast from 'wxPizza' to 'GtkCellLayout'
-
-(orca-slicer:3163): Gtk-CRITICAL **: 08:46:19.234: gtk_cell_layout_get_cells: assertion 'GTK_IS_CELL_LAYOUT (cell_layout)' failed
-
-(orca-slicer:3163): GLib-GObject-CRITICAL **: 08:46:19.236: invalid cast from 'wxPizza' to 'GtkCellLayout'
-
-(orca-slicer:3163): Gtk-CRITICAL **: 08:46:19.236: gtk_cell_layout_get_cells: assertion 'GTK_IS_CELL_LAYOUT (cell_layout)' failed
-
-(orca-slicer:3163): GLib-GObject-CRITICAL **: 08:46:19.237: invalid cast from 'wxPizza' to 'GtkCellLayout'
-
-(orca-slicer:3163): Gtk-CRITICAL **: 08:46:19.237: gtk_cell_layout_get_cells: assertion 'GTK_IS_CELL_LAYOUT (cell_layout)' failed
-
-(orca-slicer:3163): GLib-GObject-CRITICAL **: 08:46:19.237: invalid cast from 'wxPizza' to 'GtkCellLayout'
-
-(orca-slicer:3163): Gtk-CRITICAL **: 08:46:19.237: gtk_cell_layout_get_cells: assertion 'GTK_IS_CELL_LAYOUT (cell_layout)' failed
-
-(orca-slicer:3163): GLib-GObject-CRITICAL **: 08:46:19.239: invalid cast from 'wxPizza' to 'GtkCellLayout'
-
-(orca-slicer:3163): Gtk-CRITICAL **: 08:46:19.239: gtk_cell_layout_get_cells: assertion 'GTK_IS_CELL_LAYOUT (cell_layout)' failed
-
-(orca-slicer:3163): GLib-GObject-CRITICAL **: 08:46:19.239: invalid cast from 'wxPizza' to 'GtkCellLayout'
-
-(orca-slicer:3163): Gtk-CRITICAL **: 08:46:19.239: gtk_cell_layout_get_cells: assertion 'GTK_IS_CELL_LAYOUT (cell_layout)' failed
-
-(orca-slicer:3163): GLib-GObject-CRITICAL **: 08:46:19.240: invalid cast from 'wxPizza' to 'GtkCellLayout'
-
-(orca-slicer:3163): Gtk-CRITICAL **: 08:46:19.240: gtk_cell_layout_get_cells: assertion 'GTK_IS_CELL_LAYOUT (cell_layout)' failed
-
-(orca-slicer:3163): GLib-GObject-CRITICAL **: 08:46:19.241: invalid cast from 'wxPizza' to 'GtkCellLayout'
-
-(orca-slicer:3163): Gtk-CRITICAL **: 08:46:19.241: gtk_cell_layout_get_cells: assertion 'GTK_IS_CELL_LAYOUT (cell_layout)' failed
-
-(orca-slicer:3163): Gtk-CRITICAL **: 08:46:19.242: gtk_widget_set_size_request: assertion 'width >= -1' failed
-
-(orca-slicer:3163): Gtk-CRITICAL **: 08:46:19.242: gtk_widget_set_size_request: assertion 'width >= -1' failed
-
-(orca-slicer:3163): GLib-GObject-CRITICAL **: 08:46:19.242: invalid cast from 'wxPizza' to 'GtkCellLayout'
-
-(orca-slicer:3163): Gtk-CRITICAL **: 08:46:19.242: gtk_cell_layout_get_cells: assertion 'GTK_IS_CELL_LAYOUT (cell_layout)' failed
-
-(orca-slicer:3163): Gtk-CRITICAL **: 08:46:19.243: gtk_widget_set_size_request: assertion 'width >= -1' failed
-
-(orca-slicer:3163): Gtk-CRITICAL **: 08:46:19.243: gtk_widget_set_size_request: assertion 'width >= -1' failed
-
-(orca-slicer:3163): GLib-GObject-CRITICAL **: 08:46:19.243: invalid cast from 'wxPizza' to 'GtkCellLayout'
-
-(orca-slicer:3163): Gtk-CRITICAL **: 08:46:19.243: gtk_cell_layout_get_cells: assertion 'GTK_IS_CELL_LAYOUT (cell_layout)' failed
-
-(orca-slicer:3163): Gtk-CRITICAL **: 08:46:19.429: gtk_window_resize: assertion 'height > 0' failed
-
-(orca-slicer:3163): Gtk-CRITICAL **: 08:46:19.435: gtk_widget_set_size_request: assertion 'width >= -1' failed
-
-(orca-slicer:3163): Gtk-CRITICAL **: 08:46:19.435: gtk_widget_set_size_request: assertion 'width >= -1' failed
-
-(orca-slicer:3163): Gtk-CRITICAL **: 08:46:19.435: gtk_widget_set_size_request: assertion 'width >= -1' failed
-
-(orca-slicer:3163): Gtk-CRITICAL **: 08:46:19.435: gtk_widget_set_size_request: assertion 'width >= -1' failed
-
-(orca-slicer:3163): Gtk-CRITICAL **: 08:46:19.436: gtk_widget_set_size_request: assertion 'width >= -1' failed
-
-(orca-slicer:3163): Gtk-CRITICAL **: 08:46:19.436: gtk_widget_set_size_request: assertion 'width >= -1' failed
-
-(orca-slicer:3163): Gtk-CRITICAL **: 08:46:19.436: gtk_widget_set_size_request: assertion 'width >= -1' failed
-
-(orca-slicer:3163): Gtk-CRITICAL **: 08:46:19.436: gtk_widget_set_size_request: assertion 'width >= -1' failed
-
-(orca-slicer:3163): Gtk-CRITICAL **: 08:46:19.459: gtk_window_resize: assertion 'height > 0' failed
-
-(orca-slicer:3163): Gtk-CRITICAL **: 08:46:19.460: gtk_widget_set_size_request: assertion 'width >= -1' failed
-
-(orca-slicer:3163): Gtk-CRITICAL **: 08:46:19.460: gtk_widget_set_size_request: assertion 'width >= -1' failed
-
-(orca-slicer:3163): Gtk-CRITICAL **: 08:46:19.720: gtk_widget_set_size_request: assertion 'width >= -1' failed
-
-(orca-slicer:3163): Gtk-CRITICAL **: 08:46:19.720: gtk_widget_set_size_request: assertion 'width >= -1' failed
-
-(orca-slicer:3163): Gtk-CRITICAL **: 08:46:19.735: gtk_widget_set_size_request: assertion 'width >= -1' failed
-
-(orca-slicer:3163): Gtk-CRITICAL **: 08:46:19.735: gtk_widget_set_size_request: assertion 'width >= -1' failed
-
-(orca-slicer:3163): Gtk-CRITICAL **: 08:46:19.739: gtk_widget_set_size_request: assertion 'width >= -1' failed
-
-(orca-slicer:3163): Gtk-CRITICAL **: 08:46:19.739: gtk_widget_set_size_request: assertion 'width >= -1' failed
-
-(orca-slicer:3163): Gtk-CRITICAL **: 08:46:19.747: gtk_widget_set_size_request: assertion 'width >= -1' failed
-
-(orca-slicer:3163): Gtk-CRITICAL **: 08:46:19.747: gtk_widget_set_size_request: assertion 'width >= -1' failed
-
-(orca-slicer:3163): Gtk-CRITICAL **: 08:46:19.754: gtk_widget_set_size_request: assertion 'width >= -1' failed
-
-(orca-slicer:3163): Gtk-CRITICAL **: 08:46:19.754: gtk_widget_set_size_request: assertion 'width >= -1' failed
-
-(orca-slicer:3163): Gtk-CRITICAL **: 08:46:19.761: gtk_widget_set_size_request: assertion 'width >= -1' failed
-
-(orca-slicer:3163): Gtk-CRITICAL **: 08:46:19.761: gtk_widget_set_size_request: assertion 'width >= -1' failed
-
-(orca-slicer:3163): Gtk-CRITICAL **: 08:46:19.770: gtk_widget_set_size_request: assertion 'width >= -1' failed
-
-(orca-slicer:3163): Gtk-CRITICAL **: 08:46:19.770: gtk_widget_set_size_request: assertion 'width >= -1' failed
-
-(orca-slicer:3163): Gtk-CRITICAL **: 08:46:19.777: gtk_widget_set_size_request: assertion 'width >= -1' failed
-
-(orca-slicer:3163): Gtk-CRITICAL **: 08:46:19.777: gtk_widget_set_size_request: assertion 'width >= -1' failed
-
-** (orca-slicer:3163): CRITICAL **: 08:46:20.087: Cannot register URI scheme wxfs more than once
-
-** (orca-slicer:3163): CRITICAL **: 08:46:20.087: Cannot register URI scheme memory more than once
-
-** (orca-slicer:3163): CRITICAL **: 08:46:20.259: Cannot register URI scheme wxfs more than once
-
-** (orca-slicer:3163): CRITICAL **: 08:46:20.259: Cannot register URI scheme memory more than once
-
-** (orca-slicer:3163): CRITICAL **: 08:46:20.264: Cannot register URI scheme wxfs more than once
-
-** (orca-slicer:3163): CRITICAL **: 08:46:20.264: Cannot register URI scheme memory more than once
-
-(orca-slicer:3163): Gtk-CRITICAL **: 08:46:20.273: gtk_widget_set_size_request: assertion 'width >= -1' failed
-
-(orca-slicer:3163): Gtk-CRITICAL **: 08:46:20.273: gtk_widget_set_size_request: assertion 'width >= -1' failed
-
-(orca-slicer:3163): Gtk-CRITICAL **: 08:46:20.273: gtk_widget_set_size_request: assertion 'width >= -1' failed
-
-(orca-slicer:3163): Gtk-CRITICAL **: 08:46:20.273: gtk_widget_set_size_request: assertion 'width >= -1' failed
-
-(orca-slicer:3163): Gtk-CRITICAL **: 08:46:20.273: gtk_widget_set_size_request: assertion 'width >= -1' failed
-
-(orca-slicer:3163): Gtk-CRITICAL **: 08:46:20.273: gtk_widget_set_size_request: assertion 'width >= -1' failed
-
-(orca-slicer:3163): Gtk-CRITICAL **: 08:46:20.289: gtk_widget_set_size_request: assertion 'width >= -1' failed
-
-(orca-slicer:3163): Gtk-CRITICAL **: 08:46:20.289: gtk_widget_set_size_request: assertion 'width >= -1' failed
-
-(orca-slicer:3163): Gtk-CRITICAL **: 08:46:20.289: gtk_widget_set_size_request: assertion 'width >= -1' failed
-
-(orca-slicer:3163): Gtk-CRITICAL **: 08:46:20.289: gtk_widget_set_size_request: assertion 'width >= -1' failed
-
-(orca-slicer:3163): Gtk-CRITICAL **: 08:46:20.289: gtk_widget_set_size_request: assertion 'width >= -1' failed
-
-(orca-slicer:3163): Gtk-CRITICAL **: 08:46:20.289: gtk_widget_set_size_request: assertion 'width >= -1' failed
-
-(orca-slicer:3163): Gtk-CRITICAL **: 08:46:20.290: gtk_window_resize: assertion 'width > 0' failed
-
-(orca-slicer:3163): Gtk-CRITICAL **: 08:46:20.290: gtk_widget_set_size_request: assertion 'width >= -1' failed
-
-(orca-slicer:3163): Gtk-CRITICAL **: 08:46:20.355: gtk_window_resize: assertion 'height > 0' failed
-
-(orca-slicer:3163): Gtk-CRITICAL **: 08:46:20.355: gtk_widget_set_size_request: assertion 'width >= -1' failed
-
-(orca-slicer:3163): Gtk-CRITICAL **: 08:46:20.355: gtk_widget_set_size_request: assertion 'width >= -1' failed
-
-(orca-slicer:3163): Gtk-CRITICAL **: 08:46:20.356: gtk_window_resize: assertion 'height > 0' failed
-
-(orca-slicer:3163): Gtk-CRITICAL **: 08:46:20.357: gtk_widget_set_size_request: assertion 'width >= -1' failed
-
-(orca-slicer:3163): Gtk-CRITICAL **: 08:46:20.357: gtk_widget_set_size_request: assertion 'width >= -1' failed
-
-(orca-slicer:3163): Gtk-CRITICAL **: 08:46:20.358: gtk_window_resize: assertion 'height > 0' failed
-
-(orca-slicer:3163): Gtk-CRITICAL **: 08:46:20.358: gtk_widget_set_size_request: assertion 'width >= -1' failed
-
-(orca-slicer:3163): Gtk-CRITICAL **: 08:46:20.358: gtk_widget_set_size_request: assertion 'width >= -1' failed
-
-(orca-slicer:3163): Gtk-CRITICAL **: 08:46:20.359: gtk_window_resize: assertion 'height > 0' failed
-
-(orca-slicer:3163): Gtk-CRITICAL **: 08:46:20.359: gtk_widget_set_size_request: assertion 'width >= -1' failed
-
-(orca-slicer:3163): Gtk-CRITICAL **: 08:46:20.359: gtk_widget_set_size_request: assertion 'width >= -1' failed
-
-(orca-slicer:3163): Gtk-CRITICAL **: 08:46:20.361: gtk_window_resize: assertion 'height > 0' failed
-
-(orca-slicer:3163): Gtk-CRITICAL **: 08:46:20.362: gtk_widget_set_size_request: assertion 'width >= -1' failed
-
-(orca-slicer:3163): Gtk-CRITICAL **: 08:46:20.362: gtk_widget_set_size_request: assertion 'width >= -1' failed
 Terminated
+Authorization required, but no authorization protocol specified
 
-(orca-slicer:3163): Gtk-CRITICAL **: 08:46:20.526: gtk_window_resize: assertion 'height > 0' failed
+std::exception
+Authorization required, but no authorization protocol specified
 
-(orca-slicer:3163): Gtk-CRITICAL **: 08:46:20.526: gtk_widget_set_size_request: assertion 'width >= -1' failed
-
-(orca-slicer:3163): Gtk-CRITICAL **: 08:46:20.526: gtk_widget_set_size_request: assertion 'width >= -1' failed
-
-(orca-slicer:3163): Gtk-CRITICAL **: 08:46:20.527: gtk_window_resize: assertion 'height > 0' failed
-
-(orca-slicer:3163): Gtk-CRITICAL **: 08:46:20.527: gtk_widget_set_size_request: assertion 'width >= -1' failed
-
-(orca-slicer:3163): Gtk-CRITICAL **: 08:46:20.527: gtk_widget_set_size_request: assertion 'width >= -1' failed
-
-(orca-slicer:3163): Gtk-CRITICAL **: 08:46:20.528: gtk_window_resize: assertion 'height > 0' failed
-
-(orca-slicer:3163): Gtk-CRITICAL **: 08:46:20.528: gtk_widget_set_size_request: assertion 'width >= -1' failed
-
-(orca-slicer:3163): Gtk-CRITICAL **: 08:46:20.528: gtk_widget_set_size_request: assertion 'width >= -1' failed
-
-(orca-slicer:3163): Gtk-CRITICAL **: 08:46:20.529: gtk_window_resize: assertion 'height > 0' failed
-
-(orca-slicer:3163): Gtk-CRITICAL **: 08:46:20.529: gtk_widget_set_size_request: assertion 'width >= -1' failed
-
-(orca-slicer:3163): Gtk-CRITICAL **: 08:46:20.529: gtk_widget_set_size_request: assertion 'width >= -1' failed
-
-(orca-slicer:3163): Gtk-CRITICAL **: 08:46:20.530: gtk_window_resize: assertion 'height > 0' failed
-
-(orca-slicer:3163): Gtk-CRITICAL **: 08:46:20.530: gtk_widget_set_size_request: assertion 'width >= -1' failed
-
-(orca-slicer:3163): Gtk-CRITICAL **: 08:46:20.530: gtk_widget_set_size_request: assertion 'width >= -1' failed
-Terminated
-
-(orca-slicer:3163): Gtk-CRITICAL **: 08:46:20.758: gtk_widget_set_size_request: assertion 'width >= -1' failed
-
-(orca-slicer:3163): GLib-GObject-CRITICAL **: 08:46:20.759: invalid cast from 'wxPizza' to 'GtkCellLayout'
-
-(orca-slicer:3163): Gtk-CRITICAL **: 08:46:20.759: gtk_cell_layout_get_cells: assertion 'GTK_IS_CELL_LAYOUT (cell_layout)' failed
-
-(orca-slicer:3163): GLib-GObject-CRITICAL **: 08:46:20.759: invalid cast from 'wxPizza' to 'GtkCellLayout'
-
-(orca-slicer:3163): Gtk-CRITICAL **: 08:46:20.759: gtk_cell_layout_get_cells: assertion 'GTK_IS_CELL_LAYOUT (cell_layout)' failed
-
-(orca-slicer:3163): GLib-GObject-CRITICAL **: 08:46:20.761: invalid cast from 'wxPizza' to 'GtkCellLayout'
-
-(orca-slicer:3163): Gtk-CRITICAL **: 08:46:20.761: gtk_cell_layout_get_cells: assertion 'GTK_IS_CELL_LAYOUT (cell_layout)' failed
-
-(orca-slicer:3163): GLib-GObject-CRITICAL **: 08:46:20.761: invalid cast from 'wxPizza' to 'GtkCellLayout'
-
-(orca-slicer:3163): Gtk-CRITICAL **: 08:46:20.761: gtk_cell_layout_get_cells: assertion 'GTK_IS_CELL_LAYOUT (cell_layout)' failed
-
-(orca-slicer:3163): GLib-GObject-CRITICAL **: 08:46:20.762: invalid cast from 'wxPizza' to 'GtkCellLayout'
-
-(orca-slicer:3163): Gtk-CRITICAL **: 08:46:20.762: gtk_cell_layout_get_cells: assertion 'GTK_IS_CELL_LAYOUT (cell_layout)' failed
-
-(orca-slicer:3163): GLib-GObject-CRITICAL **: 08:46:20.764: invalid cast from 'wxPizza' to 'GtkCellLayout'
-
-(orca-slicer:3163): Gtk-CRITICAL **: 08:46:20.764: gtk_cell_layout_get_cells: assertion 'GTK_IS_CELL_LAYOUT (cell_layout)' failed
-
-(orca-slicer:3163): Gtk-CRITICAL **: 08:46:20.764: gtk_widget_set_size_request: assertion 'width >= -1' failed
-
-(orca-slicer:3163): Gtk-CRITICAL **: 08:46:20.764: gtk_widget_set_size_request: assertion 'width >= -1' failed
-
-(orca-slicer:3163): GLib-GObject-CRITICAL **: 08:46:20.764: invalid cast from 'wxPizza' to 'GtkCellLayout'
-
-(orca-slicer:3163): Gtk-CRITICAL **: 08:46:20.764: gtk_cell_layout_get_cells: assertion 'GTK_IS_CELL_LAYOUT (cell_layout)' failed
-
-(orca-slicer:3163): Gtk-CRITICAL **: 08:46:20.765: gtk_widget_set_size_request: assertion 'width >= -1' failed
-
-(orca-slicer:3163): Gtk-CRITICAL **: 08:46:20.792: gtk_window_resize: assertion 'height > 0' failed
-
-(orca-slicer:3163): Gtk-CRITICAL **: 08:46:20.793: gtk_widget_set_size_request: assertion 'width >= -1' failed
-
-(orca-slicer:3163): Gtk-CRITICAL **: 08:46:20.793: gtk_widget_set_size_request: assertion 'width >= -1' failed
-
-(orca-slicer:3163): Gtk-CRITICAL **: 08:46:20.794: gtk_window_resize: assertion 'height > 0' failed
-
-(orca-slicer:3163): Gtk-CRITICAL **: 08:46:20.808: gtk_widget_set_size_request: assertion 'width >= -1' failed
-
-(orca-slicer:3163): Gtk-CRITICAL **: 08:46:20.808: gtk_widget_set_size_request: assertion 'width >= -1' failed
-
-(orca-slicer:3163): Gtk-CRITICAL **: 08:46:20.818: gtk_window_resize: assertion 'height > 0' failed
-
-(orca-slicer:3163): Gtk-CRITICAL **: 08:46:20.818: gtk_widget_set_size_request: assertion 'width >= -1' failed
-
-(orca-slicer:3163): Gtk-CRITICAL **: 08:46:20.818: gtk_widget_set_size_request: assertion 'width >= -1' failed
-
-(orca-slicer:3163): Gtk-CRITICAL **: 08:46:20.819: gtk_window_resize: assertion 'height > 0' failed
-
-(orca-slicer:3163): Gtk-CRITICAL **: 08:46:20.820: gtk_widget_set_size_request: assertion 'width >= -1' failed
-
-(orca-slicer:3163): Gtk-CRITICAL **: 08:46:20.820: gtk_widget_set_size_request: assertion 'width >= -1' failed
-
-(orca-slicer:3163): Gtk-CRITICAL **: 08:46:20.820: gtk_widget_set_size_request: assertion 'width >= -1' failed
-
-(orca-slicer:3163): Gtk-CRITICAL **: 08:46:20.820: gtk_widget_set_size_request: assertion 'width >= -1' failed
-
-(orca-slicer:3163): Gtk-CRITICAL **: 08:46:20.822: gtk_widget_set_size_request: assertion 'width >= -1' failed
-
-(orca-slicer:3163): Gtk-CRITICAL **: 08:46:20.822: gtk_widget_set_size_request: assertion 'width >= -1' failed
-
-(orca-slicer:3163): Gtk-CRITICAL **: 08:46:20.824: gtk_window_resize: assertion 'height > 0' failed
-
-(orca-slicer:3163): Gtk-CRITICAL **: 08:46:20.824: gtk_widget_set_size_request: assertion 'width >= -1' failed
-
-(orca-slicer:3163): Gtk-CRITICAL **: 08:46:20.824: gtk_widget_set_size_request: assertion 'width >= -1' failed
-
-(orca-slicer:3163): Gtk-CRITICAL **: 08:46:20.832: gtk_window_resize: assertion 'height > 0' failed
-
-(orca-slicer:3163): Gtk-CRITICAL **: 08:46:20.832: gtk_widget_set_size_request: assertion 'width >= -1' failed
-
-(orca-slicer:3163): Gtk-CRITICAL **: 08:46:20.832: gtk_widget_set_size_request: assertion 'width >= -1' failed
-
-(orca-slicer:3163): Gtk-CRITICAL **: 08:46:20.833: gtk_window_resize: assertion 'height > 0' failed
-
-(orca-slicer:3163): Gtk-CRITICAL **: 08:46:20.840: gtk_widget_set_size_request: assertion 'width >= -1' failed
-
-(orca-slicer:3163): Gtk-CRITICAL **: 08:46:20.840: gtk_widget_set_size_request: assertion 'width >= -1' failed
-
-(orca-slicer:3163): Gtk-CRITICAL **: 08:46:20.843: gtk_window_resize: assertion 'height > 0' failed
-
-(orca-slicer:3163): Gtk-CRITICAL **: 08:46:20.845: gtk_window_resize: assertion 'height > 0' failed
-
-(orca-slicer:3163): Gtk-CRITICAL **: 08:46:20.856: gtk_widget_set_size_request: assertion 'width >= -1' failed
-Terminated
-Terminated
-
-(orca-slicer:3163): Gtk-CRITICAL **: 08:46:21.222: gtk_widget_set_size_request: assertion 'width >= -1' failed
-
-(orca-slicer:3163): Gtk-CRITICAL **: 08:46:21.222: gtk_widget_set_size_request: assertion 'width >= -1' failed
-Terminated
-Terminated
-Terminated
-
-(orca-slicer:3163): GLib-GObject-CRITICAL **: 08:46:22.528: invalid cast from 'wxPizza' to 'GtkCellLayout'
-
-(orca-slicer:3163): Gtk-CRITICAL **: 08:46:22.528: gtk_cell_layout_get_cells: assertion 'GTK_IS_CELL_LAYOUT (cell_layout)' failed
-
-(orca-slicer:3163): GLib-GObject-CRITICAL **: 08:46:22.528: invalid cast from 'wxPizza' to 'GtkCellLayout'
-
-(orca-slicer:3163): Gtk-CRITICAL **: 08:46:22.528: gtk_cell_layout_get_cells: assertion 'GTK_IS_CELL_LAYOUT (cell_layout)' failed
-
-(orca-slicer:3163): GLib-GObject-CRITICAL **: 08:46:22.533: invalid cast from 'wxPizza' to 'GtkCellLayout'
-
-(orca-slicer:3163): Gtk-CRITICAL **: 08:46:22.533: gtk_cell_layout_get_cells: assertion 'GTK_IS_CELL_LAYOUT (cell_layout)' failed
-
-(orca-slicer:3163): GLib-GObject-CRITICAL **: 08:46:22.533: invalid cast from 'wxPizza' to 'GtkCellLayout'
-
-(orca-slicer:3163): Gtk-CRITICAL **: 08:46:22.533: gtk_cell_layout_get_cells: assertion 'GTK_IS_CELL_LAYOUT (cell_layout)' failed
-
-(orca-slicer:3163): GLib-GObject-CRITICAL **: 08:46:22.535: invalid cast from 'wxPizza' to 'GtkCellLayout'
-
-(orca-slicer:3163): Gtk-CRITICAL **: 08:46:22.536: gtk_cell_layout_get_cells: assertion 'GTK_IS_CELL_LAYOUT (cell_layout)' failed
-
-(orca-slicer:3163): GLib-GObject-CRITICAL **: 08:46:22.539: invalid cast from 'wxPizza' to 'GtkCellLayout'
-
-(orca-slicer:3163): Gtk-CRITICAL **: 08:46:22.539: gtk_cell_layout_get_cells: assertion 'GTK_IS_CELL_LAYOUT (cell_layout)' failed
-
-(orca-slicer:3163): GLib-GObject-CRITICAL **: 08:46:22.540: invalid cast from 'wxPizza' to 'GtkCellLayout'
-
-(orca-slicer:3163): Gtk-CRITICAL **: 08:46:22.540: gtk_cell_layout_get_cells: assertion 'GTK_IS_CELL_LAYOUT (cell_layout)' failed
-Terminated
-
-(orca-slicer:3163): GLib-GObject-CRITICAL **: 08:46:26.220: invalid cast from 'wxPizza' to 'GtkCellLayout'
-
-(orca-slicer:3163): Gtk-CRITICAL **: 08:46:26.221: gtk_cell_layout_get_cells: assertion 'GTK_IS_CELL_LAYOUT (cell_layout)' failed
-
-(orca-slicer:3163): GLib-GObject-CRITICAL **: 08:46:26.221: invalid cast from 'wxPizza' to 'GtkCellLayout'
-
-(orca-slicer:3163): Gtk-CRITICAL **: 08:46:26.221: gtk_cell_layout_get_cells: assertion 'GTK_IS_CELL_LAYOUT (cell_layout)' failed
-
-(orca-slicer:3163): GLib-GObject-CRITICAL **: 08:46:26.228: invalid cast from 'wxPizza' to 'GtkCellLayout'
-
-(orca-slicer:3163): Gtk-CRITICAL **: 08:46:26.228: gtk_cell_layout_get_cells: assertion 'GTK_IS_CELL_LAYOUT (cell_layout)' failed
-
-(orca-slicer:3163): GLib-GObject-CRITICAL **: 08:46:26.228: invalid cast from 'wxPizza' to 'GtkCellLayout'
-
-(orca-slicer:3163): Gtk-CRITICAL **: 08:46:26.228: gtk_cell_layout_get_cells: assertion 'GTK_IS_CELL_LAYOUT (cell_layout)' failed
-
-(orca-slicer:3163): GLib-GObject-CRITICAL **: 08:46:26.232: invalid cast from 'wxPizza' to 'GtkCellLayout'
-
-(orca-slicer:3163): Gtk-CRITICAL **: 08:46:26.232: gtk_cell_layout_get_cells: assertion 'GTK_IS_CELL_LAYOUT (cell_layout)' failed
-
-(orca-slicer:3163): GLib-GObject-CRITICAL **: 08:46:26.238: invalid cast from 'wxPizza' to 'GtkCellLayout'
-
-(orca-slicer:3163): Gtk-CRITICAL **: 08:46:26.239: gtk_cell_layout_get_cells: assertion 'GTK_IS_CELL_LAYOUT (cell_layout)' failed
-
-(orca-slicer:3163): GLib-GObject-CRITICAL **: 08:46:26.239: invalid cast from 'wxPizza' to 'GtkCellLayout'
-
-(orca-slicer:3163): Gtk-CRITICAL **: 08:46:26.239: gtk_cell_layout_get_cells: assertion 'GTK_IS_CELL_LAYOUT (cell_layout)' failed
-
-(orca-slicer:3163): GLib-GObject-CRITICAL **: 08:46:26.505: invalid cast from 'wxPizza' to 'GtkCellLayout'
-
-(orca-slicer:3163): Gtk-CRITICAL **: 08:46:26.505: gtk_cell_layout_get_cells: assertion 'GTK_IS_CELL_LAYOUT (cell_layout)' failed
-
-(orca-slicer:3163): GLib-GObject-CRITICAL **: 08:46:26.505: invalid cast from 'wxPizza' to 'GtkCellLayout'
-
-(orca-slicer:3163): Gtk-CRITICAL **: 08:46:26.505: gtk_cell_layout_get_cells: assertion 'GTK_IS_CELL_LAYOUT (cell_layout)' failed
-
-(orca-slicer:3163): GLib-GObject-CRITICAL **: 08:46:26.511: invalid cast from 'wxPizza' to 'GtkCellLayout'
-
-(orca-slicer:3163): Gtk-CRITICAL **: 08:46:26.511: gtk_cell_layout_get_cells: assertion 'GTK_IS_CELL_LAYOUT (cell_layout)' failed
-
-(orca-slicer:3163): GLib-GObject-CRITICAL **: 08:46:26.511: invalid cast from 'wxPizza' to 'GtkCellLayout'
-
-(orca-slicer:3163): Gtk-CRITICAL **: 08:46:26.511: gtk_cell_layout_get_cells: assertion 'GTK_IS_CELL_LAYOUT (cell_layout)' failed
-
-(orca-slicer:3163): GLib-GObject-CRITICAL **: 08:46:26.514: invalid cast from 'wxPizza' to 'GtkCellLayout'
-
-(orca-slicer:3163): Gtk-CRITICAL **: 08:46:26.514: gtk_cell_layout_get_cells: assertion 'GTK_IS_CELL_LAYOUT (cell_layout)' failed
-
-(orca-slicer:3163): GLib-GObject-CRITICAL **: 08:46:26.521: invalid cast from 'wxPizza' to 'GtkCellLayout'
-
-(orca-slicer:3163): Gtk-CRITICAL **: 08:46:26.521: gtk_cell_layout_get_cells: assertion 'GTK_IS_CELL_LAYOUT (cell_layout)' failed
-
-(orca-slicer:3163): GLib-GObject-CRITICAL **: 08:46:26.521: invalid cast from 'wxPizza' to 'GtkCellLayout'
-
-(orca-slicer:3163): Gtk-CRITICAL **: 08:46:26.521: gtk_cell_layout_get_cells: assertion 'GTK_IS_CELL_LAYOUT (cell_layout)' failed
-
-(orca-slicer:3163): Gtk-CRITICAL **: 08:46:40.250: gtk_widget_set_size_request: assertion 'width >= -1' failed
-
-(orca-slicer:3163): Gtk-CRITICAL **: 08:46:40.250: gtk_widget_set_size_request: assertion 'width >= -1' failed
-
-(orca-slicer:3163): Gtk-CRITICAL **: 08:46:40.252: gtk_widget_set_size_request: assertion 'width >= -1' failed
-
-(orca-slicer:3163): Gtk-CRITICAL **: 08:46:40.252: gtk_widget_set_size_request: assertion 'width >= -1' failed
-
-(orca-slicer:3163): Gtk-CRITICAL **: 08:46:44.195: gtk_widget_set_size_request: assertion 'width >= -1' failed
-
-(orca-slicer:3163): Gtk-CRITICAL **: 08:46:44.195: gtk_widget_set_size_request: assertion 'width >= -1' failed
-[56:0111/084651.872088:ERROR:simple_file_enumerator.cc(58)] Could not get file info for /home/lazar/.var/app/org.ferdium.Ferdium/config/Ferdium/Partitions/service-a7d3b955-5511-4441-8caa-92b32f0b5498/Cache/Cache_Data/a5da530c7bc846ec_0
-
-(orca-slicer:3163): GLib-GObject-CRITICAL **: 08:47:50.120: invalid cast from 'wxPizza' to 'GtkCellLayout'
-
-(orca-slicer:3163): Gtk-CRITICAL **: 08:47:50.120: gtk_cell_layout_get_cells: assertion 'GTK_IS_CELL_LAYOUT (cell_layout)' failed
-
-(orca-slicer:3163): GLib-GObject-CRITICAL **: 08:47:50.121: invalid cast from 'wxPizza' to 'GtkCellLayout'
-
-(orca-slicer:3163): Gtk-CRITICAL **: 08:47:50.121: gtk_cell_layout_get_cells: assertion 'GTK_IS_CELL_LAYOUT (cell_layout)' failed
-
-(orca-slicer:3163): GLib-GObject-CRITICAL **: 08:47:50.142: invalid cast from 'wxPizza' to 'GtkCellLayout'
-
-(orca-slicer:3163): Gtk-CRITICAL **: 08:47:50.142: gtk_cell_layout_get_cells: assertion 'GTK_IS_CELL_LAYOUT (cell_layout)' failed
-
-(orca-slicer:3163): GLib-GObject-CRITICAL **: 08:47:50.143: invalid cast from 'wxPizza' to 'GtkCellLayout'
-
-(orca-slicer:3163): Gtk-CRITICAL **: 08:47:50.143: gtk_cell_layout_get_cells: assertion 'GTK_IS_CELL_LAYOUT (cell_layout)' failed
-
-(orca-slicer:3163): GLib-GObject-CRITICAL **: 08:47:50.150: invalid cast from 'wxPizza' to 'GtkCellLayout'
-
-(orca-slicer:3163): Gtk-CRITICAL **: 08:47:50.150: gtk_cell_layout_get_cells: assertion 'GTK_IS_CELL_LAYOUT (cell_layout)' failed
-
-(orca-slicer:3163): GLib-GObject-CRITICAL **: 08:47:50.160: invalid cast from 'wxPizza' to 'GtkCellLayout'
-
-(orca-slicer:3163): Gtk-CRITICAL **: 08:47:50.160: gtk_cell_layout_get_cells: assertion 'GTK_IS_CELL_LAYOUT (cell_layout)' failed
-
-(orca-slicer:3163): GLib-GObject-CRITICAL **: 08:47:50.161: invalid cast from 'wxPizza' to 'GtkCellLayout'
-
-(orca-slicer:3163): Gtk-CRITICAL **: 08:47:50.161: gtk_cell_layout_get_cells: assertion 'GTK_IS_CELL_LAYOUT (cell_layout)' failed
-erresc: unknown csi ESC[?2026$p
-erresc: unknown csi ESC[4:3m
-erresc: unknown csi ESC[>4;2m
-F: Can't get document portal: GDBus.Error:org.freedesktop.DBus.Error.NoReply: Message recipient disconnected from message bus without replying
-Gtk-Message: 08:51:49.294: Failed to load module "gtk-dark-theme"
-Gtk-Message: 08:51:49.294: Failed to load module "gtk-dark-theme"
-Gtk-Message: 08:51:50.020: Failed to load module "gtk-dark-theme"
-Gtk-Message: 08:51:50.020: Failed to load module "gtk-dark-theme"
-[2:2:0111/085150.189699:ERROR:object_proxy.cc(576)] Failed to call method: org.kde.KWallet.isEnabled: object_path= /modules/kwalletd6: org.freedesktop.DBus.Error.ServiceUnknown: The name org.kde.kwalletd6 was not provided by any .service files
-[2:2:0111/085150.190907:ERROR:kwallet_dbus.cc(117)] Error contacting kwalletd6 (isEnabled)
-[2:2:0111/085150.191474:ERROR:object_proxy.cc(576)] Failed to call method: org.kde.KLauncher.start_service_by_desktop_name: object_path= /KLauncher: org.freedesktop.DBus.Error.ServiceUnknown: org.freedesktop.DBus.Error.ServiceUnknown
-[2:2:0111/085150.191495:ERROR:kwallet_dbus.cc(86)] Error contacting klauncher to start kwalletd6
-[2:2:0111/085150.192179:ERROR:object_proxy.cc(576)] Failed to call method: org.kde.KWallet.close: object_path= /modules/kwalletd6: org.freedesktop.DBus.Error.ServiceUnknown: The name org.kde.kwalletd6 was not provided by any .service files
-[2:2:0111/085150.192210:ERROR:kwallet_dbus.cc(412)] Error contacting kwalletd6 (close)
-[2:2:0111/085150.197600:ERROR:object_proxy.cc(576)] Failed to call method: org.kde.KWallet.isEnabled: object_path= /modules/kwalletd5: org.freedesktop.DBus.Error.ServiceUnknown: org.freedesktop.DBus.Error.ServiceUnknown
-[2:2:0111/085150.197664:ERROR:kwallet_dbus.cc(117)] Error contacting kwalletd5 (isEnabled)
-[2:2:0111/085150.197888:ERROR:object_proxy.cc(576)] Failed to call method: org.kde.KLauncher.start_service_by_desktop_name: object_path= /KLauncher: org.freedesktop.DBus.Error.ServiceUnknown: org.freedesktop.DBus.Error.ServiceUnknown
-[2:2:0111/085150.197899:ERROR:kwallet_dbus.cc(86)] Error contacting klauncher to start kwalletd5
-[2:2:0111/085150.198149:ERROR:object_proxy.cc(576)] Failed to call method: org.kde.KWallet.close: object_path= /modules/kwalletd5: org.freedesktop.DBus.Error.ServiceUnknown: org.freedesktop.DBus.Error.ServiceUnknown
-[2:2:0111/085150.198163:ERROR:kwallet_dbus.cc(412)] Error contacting kwalletd5 (close)
-[2:2:0111/085150.202178:ERROR:object_proxy.cc(576)] Failed to call method: org.kde.KWallet.isEnabled: object_path= /modules/kwalletd: org.freedesktop.DBus.Error.ServiceUnknown: org.freedesktop.DBus.Error.ServiceUnknown
-[2:2:0111/085150.202274:ERROR:kwallet_dbus.cc(117)] Error contacting kwalletd (isEnabled)
-[2:2:0111/085150.202776:ERROR:object_proxy.cc(576)] Failed to call method: org.kde.KLauncher.start_service_by_desktop_name: object_path= /KLauncher: org.freedesktop.DBus.Error.ServiceUnknown: org.freedesktop.DBus.Error.ServiceUnknown
-[2:2:0111/085150.202827:ERROR:kwallet_dbus.cc(86)] Error contacting klauncher to start kwalletd
-[2:2:0111/085150.203301:ERROR:object_proxy.cc(576)] Failed to call method: org.kde.KWallet.close: object_path= /modules/kwalletd: org.freedesktop.DBus.Error.ServiceUnknown: org.freedesktop.DBus.Error.ServiceUnknown
-[2:2:0111/085150.203348:ERROR:kwallet_dbus.cc(412)] Error contacting kwalletd (close)
-[2:163:0111/085150.684926:ERROR:object_proxy.cc(576)] Failed to call method: org.freedesktop.DBus.Properties.Get: object_path= /org/freedesktop/UPower: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.UPower was not provided by any .service files
-[2:163:0111/085150.685260:ERROR:object_proxy.cc(576)] Failed to call method: org.freedesktop.UPower.GetDisplayDevice: object_path= /org/freedesktop/UPower: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.UPower was not provided by any .service files
-[2:163:0111/085150.685522:ERROR:object_proxy.cc(576)] Failed to call method: org.freedesktop.UPower.EnumerateDevices: object_path= /org/freedesktop/UPower: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.UPower was not provided by any .service files
-[2:2:0111/085150.691170:ERROR:object_proxy.cc(576)] Failed to call method: org.freedesktop.portal.Secret.RetrieveSecret: object_path= /org/freedesktop/portal/desktop: org.freedesktop.DBus.Error.UnknownMethod: No such interface “org.freedesktop.portal.Secret” on object at path /org/freedesktop/portal/desktop
-[2:2:0111/085150.691215:ERROR:secret_portal_key_provider.cc(150)] Failed to retrieve secret: No response from portal.
-[2:2:0111/085151.180299:ERROR:sharing_service.cc(296)] Device registration failed with fatal error
-WARNING: Could not find theme breeze
-WARNING: Could not find theme elementary
-WARNING: Could not find theme gnome
-WARNING: Could not find theme AdwaitaLegacy
-WARNING: Could not find theme AdwaitaLegacy
-WARNING: Could not find theme gnome
-WARNING: Could not find theme breeze
-WARNING: Could not find theme Moka
-WARNING: Could not find theme gnome
-WARNING: Could not find theme PiXflat
-WARNING: Could not find theme 
-WARNING: Could not find theme AdwaitaLegacy
-WARNING: Could not find theme gnome
-WARNING: Could not find theme breeze
-WARNING: Could not find theme Moka
-WARNING: Could not find theme gnome
-WARNING: Could not find theme PiXflat
-WARNING: Could not find theme 
-WARNING: Could not find theme adwaita
-WARNING: Could not find theme AdwaitaLegacy
-WARNING: Could not find theme gnome
-WARNING: Could not find theme breeze
-WARNING: Could not find theme Moka
-WARNING: Could not find theme gnome
-WARNING: Could not find theme PiXflat
-WARNING: Could not find theme 
-WARNING: Could not find theme adwaita
-[2:36:0111/085528.106408:ERROR:get_updates_processor.cc(267)] PostClientToServerMessage() failed during GetUpdates with error Network error (ERR_INTERNET_DISCONNECTED)
-
-(lxappearance:20153): GLib-CRITICAL **: 08:57:57.546: g_utf8_collate: assertion 'str1 != NULL' failed
-
-(lxappearance:20153): GLib-CRITICAL **: 08:57:57.547: g_utf8_collate: assertion 'str2 != NULL' failed
-
-(lxappearance:20153): GLib-CRITICAL **: 08:57:57.548: g_utf8_collate: assertion 'str2 != NULL' failed
-
-(lxappearance:20153): GLib-CRITICAL **: 08:57:57.549: g_utf8_collate: assertion 'str2 != NULL' failed
-WARNING: Could not find theme breeze
-WARNING: Could not find theme elementary
-WARNING: Could not find theme gnome
-WARNING: Could not find theme AdwaitaLegacy
-WARNING: Could not find theme gnome
-WARNING: Could not find theme breeze
-WARNING: Could not find theme Moka
-WARNING: Could not find theme gnome
-WARNING: Could not find theme PiXflat
-WARNING: Could not find theme 
-WARNING: Could not find theme adwaita
-erresc: unknown csi ESC[>4;0m
-F: Can't get document portal: GDBus.Error:org.freedesktop.portal.Error.Failed: Can't mount path /run/user/1000/doc
-Gtk-Message: 09:10:47.865: Failed to load module "gtk-dark-theme"
-Gtk-Message: 09:10:47.865: Failed to load module "gtk-dark-theme"
-Gtk-Message: 09:10:48.132: Failed to load module "gtk-dark-theme"
-Gtk-Message: 09:10:48.132: Failed to load module "gtk-dark-theme"
-[2:2:0111/091048.226580:ERROR:object_proxy.cc(576)] Failed to call method: org.kde.KWallet.isEnabled: object_path= /modules/kwalletd6: org.freedesktop.DBus.Error.ServiceUnknown: The name org.kde.kwalletd6 was not provided by any .service files
-[2:2:0111/091048.226643:ERROR:kwallet_dbus.cc(117)] Error contacting kwalletd6 (isEnabled)
-[2:2:0111/091048.226878:ERROR:object_proxy.cc(576)] Failed to call method: org.kde.KLauncher.start_service_by_desktop_name: object_path= /KLauncher: org.freedesktop.DBus.Error.ServiceUnknown: org.freedesktop.DBus.Error.ServiceUnknown
-[2:2:0111/091048.226891:ERROR:kwallet_dbus.cc(86)] Error contacting klauncher to start kwalletd6
-[2:2:0111/091048.227248:ERROR:object_proxy.cc(576)] Failed to call method: org.kde.KWallet.close: object_path= /modules/kwalletd6: org.freedesktop.DBus.Error.ServiceUnknown: The name org.kde.kwalletd6 was not provided by any .service files
-[2:2:0111/091048.227265:ERROR:kwallet_dbus.cc(412)] Error contacting kwalletd6 (close)
-[2:2:0111/091048.230586:ERROR:object_proxy.cc(576)] Failed to call method: org.kde.KWallet.isEnabled: object_path= /modules/kwalletd5: org.freedesktop.DBus.Error.ServiceUnknown: org.freedesktop.DBus.Error.ServiceUnknown
-[2:2:0111/091048.230638:ERROR:kwallet_dbus.cc(117)] Error contacting kwalletd5 (isEnabled)
-[2:2:0111/091048.231003:ERROR:object_proxy.cc(576)] Failed to call method: org.kde.KLauncher.start_service_by_desktop_name: object_path= /KLauncher: org.freedesktop.DBus.Error.ServiceUnknown: org.freedesktop.DBus.Error.ServiceUnknown
-[2:2:0111/091048.231071:ERROR:kwallet_dbus.cc(86)] Error contacting klauncher to start kwalletd5
-[2:2:0111/091048.231442:ERROR:object_proxy.cc(576)] Failed to call method: org.kde.KWallet.close: object_path= /modules/kwalletd5: org.freedesktop.DBus.Error.ServiceUnknown: org.freedesktop.DBus.Error.ServiceUnknown
-[2:2:0111/091048.231468:ERROR:kwallet_dbus.cc(412)] Error contacting kwalletd5 (close)
-[2:2:0111/091048.237146:ERROR:object_proxy.cc(576)] Failed to call method: org.kde.KWallet.isEnabled: object_path= /modules/kwalletd: org.freedesktop.DBus.Error.ServiceUnknown: org.freedesktop.DBus.Error.ServiceUnknown
-[2:2:0111/091048.237210:ERROR:kwallet_dbus.cc(117)] Error contacting kwalletd (isEnabled)
-[2:2:0111/091048.237581:ERROR:object_proxy.cc(576)] Failed to call method: org.kde.KLauncher.start_service_by_desktop_name: object_path= /KLauncher: org.freedesktop.DBus.Error.ServiceUnknown: org.freedesktop.DBus.Error.ServiceUnknown
-[2:2:0111/091048.237604:ERROR:kwallet_dbus.cc(86)] Error contacting klauncher to start kwalletd
-[2:2:0111/091048.237902:ERROR:object_proxy.cc(576)] Failed to call method: org.kde.KWallet.close: object_path= /modules/kwalletd: org.freedesktop.DBus.Error.ServiceUnknown: org.freedesktop.DBus.Error.ServiceUnknown
-[2:2:0111/091048.237921:ERROR:kwallet_dbus.cc(412)] Error contacting kwalletd (close)
-[2:166:0111/091048.575704:ERROR:object_proxy.cc(576)] Failed to call method: org.freedesktop.DBus.Properties.Get: object_path= /org/freedesktop/UPower: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.UPower was not provided by any .service files
-[2:166:0111/091048.576238:ERROR:object_proxy.cc(576)] Failed to call method: org.freedesktop.UPower.GetDisplayDevice: object_path= /org/freedesktop/UPower: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.UPower was not provided by any .service files
-[2:166:0111/091048.576614:ERROR:object_proxy.cc(576)] Failed to call method: org.freedesktop.UPower.EnumerateDevices: object_path= /org/freedesktop/UPower: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.UPower was not provided by any .service files
-[2:2:0111/091048.585385:ERROR:object_proxy.cc(576)] Failed to call method: org.freedesktop.portal.Secret.RetrieveSecret: object_path= /org/freedesktop/portal/desktop: org.freedesktop.DBus.Error.UnknownMethod: No such interface “org.freedesktop.portal.Secret” on object at path /org/freedesktop/portal/desktop
-[2:2:0111/091048.585420:ERROR:secret_portal_key_provider.cc(150)] Failed to retrieve secret: No response from portal.
-[2:2:0111/091049.006424:ERROR:sharing_service.cc(296)] Device registration failed with fatal error
+xsetroot:  unable to open display ':0'

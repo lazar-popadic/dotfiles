@@ -1,0 +1,7 @@
+#!/bin/bash
+
+# DATE
+date=$(date '+%A, %d %B %Y')
+icon_date='󰨳'
+
+echo "$icon_date $date"

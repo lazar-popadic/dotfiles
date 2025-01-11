@@ -9,6 +9,7 @@ if pgrep -x "pipewire" ; then
     pkill wireplumber
     pkill pipewirepulse
     pkill mpd
+    pkill bar_loop
 fi
 sleep 1
 dbus-run-session pipewire &
@@ -21,4 +22,6 @@ echo "Starting PipeWire-pulse..."
 pipewire-pulse &
 sleep 1
 echo "Starting Music player daemon..."
-mpd &
+mpd &sleep 1
+echo "Starting Bar loop..."
+bar_loop &

@@ -1,0 +1,18 @@
+#!/bin/bash
+
+# KEYBOARD LAYOUT
+layout=$(xkblayout-state print "%s(%e)")
+keyboard_icon="󰥻"
+case $layout in
+	"us(basic)")
+        	layout="eng"
+        ;;
+	"rs(basic)")
+		layout="срб"
+        ;;
+    	"rs(latin)")
+        	layout="srb"
+        ;;
+esac
+
+echo "$keyboard_icon $layout"

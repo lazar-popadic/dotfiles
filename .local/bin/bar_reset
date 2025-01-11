@@ -1,4 +1,4 @@
 #!/bin/bash
 
-pkill bar_loop
-bar_loop
+pkill bar_display
+bar_display

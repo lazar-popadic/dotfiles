@@ -1,4 +1,6 @@
-#!/usr/bin/sh
+#!/bin/bash
+
+# BATTERY
 percentage=$(cat /sys/class/power_supply/BAT0/capacity)
 status=$(cat /sys/class/power_supply/BAT0/status)
 if [ "$status" = "Charging" ]; then
@@ -29,4 +31,4 @@ else
  battery_icon='󰂃'
 fi
 
-printf "%s %s" "$battery_icon" "$percentage"
+echo "$battery_icon $percentage"

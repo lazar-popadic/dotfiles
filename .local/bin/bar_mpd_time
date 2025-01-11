@@ -1,0 +1,22 @@
+#!/bin/bash
+
+# MUSIC TIME
+time_info=$(mpc status | grep -oP '(\d{1,2}:\d{2})/\d{1,2}:\d{2}' | head -n 1)
+formatted_time="[${time_info//\// \/ }]"  # Note the space after the slash
+
+# VOLUME
+volume=$(pamixer --get-volume)
+is_muted=$(pamixer --get-volume-human)
+if [ "$is_muted" == "muted" ]; then
+	volume_icon="󰝟"
+else
+if (( $volume > 59 )); then
+    volume_icon="󰕾"
+elif (( $volume > 19 )); then
+    volume_icon="󰖀"
+else (( $volume > 0 ));
+    volume_icon="󰕿"
+fi
+fi
+
+echo "$formatted_time"

@@ -1,0 +1,12 @@
+#!/bin/bash
+
+music_state=$(mpc status | grep -oP '\[(playing|paused)\]')
+if [[ $music_state == "[playing]" ]]; then
+    music_state_icon="󰐊"
+elif [[ $music_state == "[paused]" ]]; then
+    music_state_icon="󰏤"
+else
+    music_state_icon="Unknown"
+fi
+
+echo "$music_state_icon"
