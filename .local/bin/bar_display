@@ -10,17 +10,9 @@ kbd_layout=$(bar_kbd_layout)
 time=$(bar_time)
 date=$(bar_date)
 
-dwm_status=""
-dwm_status+="$mpd_scroll  "
-dwm_status+="$mpd_state  "
-dwm_status+="$mpd_time   "
-dwm_status+="$volume   "
-dwm_status+="$brightness   "
-dwm_status+="$battery   "
-dwm_status+="$kbd_layout   "
-dwm_status+="$time   "
-dwm_status+="$date   "
+echo "$(printf '\x01 %s %s %s \x01\x02 %s \x02\x03 %s \x03\x04 %s \x04\x05 %s \x05\x06 %s \x06\x07 %s \x07\x08 %s \x08' "$mpd_scroll" "$mpd_state" "$mpd_time" "$volume" "$brightness" "$battery" "$kbd_layout" "$time" "$date")"
 
-echo "$dwm_status"
 
-xsetroot -name "$dwm_status"
+xsetroot -name "$(printf '\x01 %s %s %s \x01\x02 %s \x02\x03 %s \x03\x04 %s \x04\x05 %s \x05\x06 %s \x06\x07 %s \x07' "$mpd_scroll" "$mpd_state" "$mpd_time" "$volume" "$brightness" "$battery" "$kbd_layout" "$time" "$date")"
+#xsetroot -name "$mpd_scroll  $mpd_state  $mpd_time   $volume   $brightness   $battery   $kbd_layout   $time   $date "
+#xsetroot -name "$(printf '\x01 Volume \x01|\x02 CPU \x02|\x03 Battery\x03')"

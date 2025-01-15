@@ -96,10 +96,11 @@ static const Rule rules[] = {
   { "STM32CubeIDE", NULL, NULL, 1 << 1, 0, -1 },
   { "Stm32cubeide", NULL, NULL, 1 << 1, 0, -1 },
   { "Qalculate", NULL, NULL, NULL, 1, -1 },
-  { "Ferdium", NULL, NULL, NULL, 0, -1 },
+  { "Ferdium", NULL, NULL, 1 << 5, 0, -1 },
   { "file-roller", NULL, NULL, NULL, 1, -1 },
   { "copyq", NULL, NULL, NULL, 1, -1 },
   { "Nitrogen", NULL, NULL, NULL, 1, -1 },
+  { "pavucontrol", NULL, NULL, NULL, 1, -1 },
   { "steam", NULL, NULL, 1 << 6, 0, -1 },
   { NULL, NULL, "Figure 1", NULL, 1, -1 },
   { NULL, NULL, "Figure 2", NULL, 1, -1 },
@@ -144,6 +145,19 @@ static char dmenumon[2]
     = "0"; /* component of dmenucmd, manipulated in spawn() */
 static const char *dmenucmd[] = { "dmenu_run", "-c", "-m", dmenumon, NULL };
 static const char *termcmd[] = { "st", NULL };
+
+/* commands spawned when clicking statusbar, the mouse button pressed is
+ * exported as BUTTON */
+static const StatusCmd statuscmds[] = {
+  { "st -e ncmpcpp", 1 },
+  { "pavucontrol", 2 },
+  { "", 3 }, // notify-send Mouse$BUTTON
+  { "", 4 },
+  { "toggle_kbd | bar_reset", 5 },
+  { "gsimplecal", 6 },
+  { "gsimplecal", 7 },
+};
+static const char *statuscmd[] = { "/bin/sh", "-c", NULL, NULL };
 
 static const Key keys[] = {
   /* modifier, key, function, argument */
@@ -198,4 +212,7 @@ static const Button buttons[] = {
   { ClkClientWin, MODKEY, Button3, resizemouse, { 0 } },
   { ClkTagBar, 0, Button1, view, { 0 } },
   { ClkTagBar, 0, Button3, toggleview, { 0 } },
+  { ClkStatusText, 0, Button1, spawn, { .v = statuscmd } },
+  { ClkStatusText, 0, Button2, spawn, { .v = statuscmd } },
+  { ClkStatusText, 0, Button3, spawn, { .v = statuscmd } },
 };
