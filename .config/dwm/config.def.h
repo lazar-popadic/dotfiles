@@ -149,8 +149,8 @@ static const char *termcmd[] = { "st", NULL };
 /* commands spawned when clicking statusbar, the mouse button pressed is
  * exported as BUTTON */
 static const StatusCmd statuscmds[] = {
-  { "st -e ncmpcpp", 1 },
-  { "pavucontrol", 2 },
+  { "toggle_prog_tui ncmpcpp", 1 },
+  { "toggle_prog pavucontrol", 2 },
   { "", 3 }, // notify-send Mouse$BUTTON
   { "", 4 },
   { "toggle_kbd | bar_reset", 5 },
