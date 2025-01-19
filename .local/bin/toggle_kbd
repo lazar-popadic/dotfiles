@@ -1,16 +1,17 @@
+#!/bin/bash
 # KEYBOARD LAYOUT
-layout=$(xkblayout-state print "%s(%e)")
+layout_in=$(xkblayout-state print "%c")
 keyboard_icon="󰥻"
-case $layout in
-	"us(basic)")
+case $layout_in in
+	"0")
         	xkb-switch -s "rs(basic)"
 		layout="срб"
         ;;
-	"rs(basic)")
+	"1")
 		xkb-switch -s "rs(latin)"
         	layout="srb"
         ;;
-    	"rs(latin)")
+    	"2")
         	xkb-switch -s "us(basic)"
 		layout="eng"
         ;;

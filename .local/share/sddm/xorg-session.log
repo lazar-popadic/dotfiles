@@ -6,13 +6,13 @@ Notice: Gamma (Night): 0.800, 0.800, 0.800
 MPD error: Connection refused
 /home/lazar/.local/bin/bar_mpd_scroll: line 24: (counter + 1) % song_length : division by 0 (error token is "song_length ")
 MPD error: Connection refused
-MPD error: Connection refused
 Notice: Location: 45.20 N, 19.70 E
 Notice: Color temperature: 6500K
 Notice: Brightness: 1.00
 Notice: Status: Enabled
 Notice: Period: Daytime
 Notice: Color temperature: 5700K
+MPD error: Connection refused
 Connection error
 
 Connection error
@@ -39,21 +39,21 @@ WARNING: Could not find theme gnome
 WARNING: Could not find theme PiXflat
 WARNING: Could not find theme 
 WARNING: Could not find theme adwaita
-F: Can't get document portal: GDBus.Error:org.freedesktop.DBus.Error.NoReply: Message recipient disconnected from message bus without replying
+F: Can't get document portal: GDBus.Error:org.freedesktop.portal.Error.Failed: Can't mount path /run/user/1000/doc
 
-(nitrogen:1292): Gtk-WARNING **: 12:57:16.970: Unable to locate theme engine in module_path: "adwaita",
+(nitrogen:3202): Gtk-WARNING **: 10:23:47.757: Unable to locate theme engine in module_path: "adwaita",
 
-(nitrogen:1292): Gtk-WARNING **: 12:57:16.970: Unable to locate theme engine in module_path: "adwaita",
+(nitrogen:3202): Gtk-WARNING **: 10:23:47.758: Unable to locate theme engine in module_path: "adwaita",
 
-(copyq:1306): Gtk-WARNING **: 12:57:17.040: Unable to locate theme engine in module_path: "adwaita",
+(copyq:3217): Gtk-WARNING **: 10:23:47.847: Unable to locate theme engine in module_path: "adwaita",
 
-(copyq:1306): Gtk-WARNING **: 12:57:17.040: Unable to locate theme engine in module_path: "adwaita",
-Warning: [default] QtWarning: QSystemTrayIcon::setVisible: No Icon set
+(copyq:3217): Gtk-WARNING **: 10:23:47.848: Unable to locate theme engine in module_path: "adwaita",
 MPD error: Connection refused
 /home/lazar/.local/bin/bar_mpd_scroll: line 24: (counter + 1) % song_length : division by 0 (error token is "song_length ")
+New PolkitAgentListener  0x5611ccda3db0
+Adding new listener  PolkitQt1::Agent::Listener(0x7ffca0553210) for  0x5611ccda3db0
 MPD error: Connection refused
-New PolkitAgentListener  0x55d7cee48460
-Adding new listener  PolkitQt1::Agent::Listener(0x7fffcc4be160) for  0x55d7cee48460
+Warning: [default] QtWarning: QSystemTrayIcon::setVisible: No Icon set
 MPD error: Connection refused
 Connection error
 
@@ -71,32 +71,13 @@ Connection error
 /home/lazar/.local/bin/bar_volume: line 13: ((: > 0 : syntax error: operand expected (error token is "> 0 ")
 Warning: [qt.qpa.xcb] QtWarning: Unhandled client message:  "_NET_SYSTEM_TRAY_S0"
 
-(nitrogen:1292): Gtk-WARNING **: 12:57:17.432: Unable to locate theme engine in module_path: "adwaita",
+(nitrogen:3202): Gtk-WARNING **: 10:23:48.266: Unable to locate theme engine in module_path: "adwaita",
 
-(nitrogen:1292): Gtk-WARNING **: 12:57:17.433: Unable to locate theme engine in module_path: "adwaita",
+(nitrogen:3202): Gtk-WARNING **: 10:23:48.266: Unable to locate theme engine in module_path: "adwaita",
 
-(nitrogen:1292): GLib-GObject-CRITICAL **: 12:57:17.441: Attempting to freeze the notification queue for object GtkSettings[0x555a72df39f0]; Property notification does not work during instance finalization.
+(nitrogen:3202): GLib-GObject-CRITICAL **: 10:23:48.278: Attempting to freeze the notification queue for object GtkSettings[0x561faa01e9d0]; Property notification does not work during instance finalization.
 
-(nitrogen:1292): GLib-GObject-CRITICAL **: 12:57:17.441: Attempting to thaw the notification queue for object GtkSettings[0x555a72df39f0]; Property notification does not work during instance finalization.
-MPD error: Connection refused
-/home/lazar/.local/bin/bar_mpd_scroll: line 24: (counter + 1) % song_length : division by 0 (error token is "song_length ")
-MPD error: Connection refused
-MPD error: Connection refused
-Connection error
-
-Connection error
-
-/home/lazar/.local/bin/bar_mpd_time: line 13: ((: > 59 : syntax error: operand expected (error token is "> 59 ")
-/home/lazar/.local/bin/bar_mpd_time: line 15: ((: > 19 : syntax error: operand expected (error token is "> 19 ")
-/home/lazar/.local/bin/bar_mpd_time: line 17: ((: > 0 : syntax error: operand expected (error token is "> 0 ")
-[2:0115/125717.647581:ERROR:bus.cc(407)] Failed to connect to the bus: Failed to connect to socket /run/dbus/system_bus_socket: No such file or directory
-Connection error
-
-Connection error
-
-/home/lazar/.local/bin/bar_volume: line 9: ((: > 59 : syntax error: operand expected (error token is "> 59 ")
-/home/lazar/.local/bin/bar_volume: line 11: ((: > 19 : syntax error: operand expected (error token is "> 19 ")
-/home/lazar/.local/bin/bar_volume: line 13: ((: > 0 : syntax error: operand expected (error token is "> 0 ")
+(nitrogen:3202): GLib-GObject-CRITICAL **: 10:23:48.278: Attempting to thaw the notification queue for object GtkSettings[0x561faa01e9d0]; Property notification does not work during instance finalization.
 MPD error: Connection refused
 /home/lazar/.local/bin/bar_mpd_scroll: line 24: (counter + 1) % song_length : division by 0 (error token is "song_length ")
 MPD error: Connection refused
@@ -115,6 +96,7 @@ Connection error
 /home/lazar/.local/bin/bar_volume: line 9: ((: > 59 : syntax error: operand expected (error token is "> 59 ")
 /home/lazar/.local/bin/bar_volume: line 11: ((: > 19 : syntax error: operand expected (error token is "> 19 ")
 /home/lazar/.local/bin/bar_volume: line 13: ((: > 0 : syntax error: operand expected (error token is "> 0 ")
+[2:0119/102348.512189:ERROR:bus.cc(407)] Failed to connect to the bus: Failed to connect to socket /run/dbus/system_bus_socket: No such file or directory
 MPD error: Connection refused
 /home/lazar/.local/bin/bar_mpd_scroll: line 24: (counter + 1) % song_length : division by 0 (error token is "song_length ")
 MPD error: Connection refused
@@ -133,9 +115,6 @@ Connection error
 /home/lazar/.local/bin/bar_volume: line 9: ((: > 59 : syntax error: operand expected (error token is "> 59 ")
 /home/lazar/.local/bin/bar_volume: line 11: ((: > 19 : syntax error: operand expected (error token is "> 19 ")
 /home/lazar/.local/bin/bar_volume: line 13: ((: > 0 : syntax error: operand expected (error token is "> 0 ")
-N 12:57:18.537513 wp-internal-comp-l ../lib/wp/private/internal-comp-loader.c:945:wp_internal_comp_loader_load: Loading profile 'main'
-[2:0115/125718.674631:ERROR:bus.cc(407)] Failed to connect to the bus: Failed to connect to socket /run/dbus/system_bus_socket: No such file or directory
-[2:0115/125718.674716:ERROR:bus.cc(407)] Failed to connect to the bus: Failed to connect to socket /run/dbus/system_bus_socket: No such file or directory
 MPD error: Connection refused
 /home/lazar/.local/bin/bar_mpd_scroll: line 24: (counter + 1) % song_length : division by 0 (error token is "song_length ")
 MPD error: Connection refused
@@ -147,15 +126,6 @@ Connection error
 /home/lazar/.local/bin/bar_mpd_time: line 13: ((: > 59 : syntax error: operand expected (error token is "> 59 ")
 /home/lazar/.local/bin/bar_mpd_time: line 15: ((: > 19 : syntax error: operand expected (error token is "> 19 ")
 /home/lazar/.local/bin/bar_mpd_time: line 17: ((: > 0 : syntax error: operand expected (error token is "> 0 ")
-N 12:57:18.724719 wp-internal-comp-l ../lib/wp/private/internal-comp-loader.c:589:on_component_loaded: <WpCore:0x563e35c670d0> optional component 'support.logind [module: libwireplumber-module-logind]' failed to load: Failed to locate module libwireplumber-module-logind
-N 12:57:18.724746 wp-internal-comp-l ../lib/wp/private/internal-comp-loader.c:641:wp_component_array_load_task_execute_step: <WpCore:0x563e35c670d0> skipping component 'monitor.bluez.seat-monitoring [virtual]' because some of its dependencies were not loaded
-N 12:57:18.726026          wp-device ../lib/wp/device.c:630:wp_spa_device_new_from_spa_factory: SPA handle 'api.bluez5.enum.dbus' could not be loaded; is it installed?
-N 12:57:18.726067         s-monitors bluez.lua:386:createMonitor: PipeWire's BlueZ SPA plugin is missing or broken. Bluetooth devices will not be supported.
-N 12:57:18.726870          wp-device ../lib/wp/device.c:630:wp_spa_device_new_from_spa_factory: SPA handle 'api.bluez5.midi.enum' could not be loaded; is it installed?
-N 12:57:18.726892         s-monitors bluez-midi.lua:95:createMonitor: PipeWire's BlueZ MIDI SPA missing or broken. Bluetooth not supported.
-E 12:57:18.726972        pw.resource ../src/pipewire/resource.c:255:pw_resource_errorf_id: can't create node: No such file or directory
-W 12:57:18.726979            wp-node ../lib/wp/node.c:913:wp_impl_node_new_from_pw_factory: failed to create node from factory 'spa-node-factory'
-N 12:57:18.726985         s-monitors bluez-midi.lua:130:createServers: Failed to create BLE MIDI server.
 Connection error
 
 Connection error
@@ -163,9 +133,39 @@ Connection error
 /home/lazar/.local/bin/bar_volume: line 9: ((: > 59 : syntax error: operand expected (error token is "> 59 ")
 /home/lazar/.local/bin/bar_volume: line 11: ((: > 19 : syntax error: operand expected (error token is "> 19 ")
 /home/lazar/.local/bin/bar_volume: line 13: ((: > 0 : syntax error: operand expected (error token is "> 0 ")
+N 10:23:49.317879 wp-internal-comp-l ../lib/wp/private/internal-comp-loader.c:945:wp_internal_comp_loader_load: Loading profile 'main'
+N 10:23:49.509954 wp-internal-comp-l ../lib/wp/private/internal-comp-loader.c:589:on_component_loaded: <WpCore:0x5558215380d0> optional component 'support.logind [module: libwireplumber-module-logind]' failed to load: Failed to locate module libwireplumber-module-logind
+N 10:23:49.510007 wp-internal-comp-l ../lib/wp/private/internal-comp-loader.c:641:wp_component_array_load_task_execute_step: <WpCore:0x5558215380d0> skipping component 'monitor.bluez.seat-monitoring [virtual]' because some of its dependencies were not loaded
+N 10:23:49.511402          wp-device ../lib/wp/device.c:630:wp_spa_device_new_from_spa_factory: SPA handle 'api.bluez5.enum.dbus' could not be loaded; is it installed?
+N 10:23:49.511455         s-monitors bluez.lua:386:createMonitor: PipeWire's BlueZ SPA plugin is missing or broken. Bluetooth devices will not be supported.
+N 10:23:49.512657          wp-device ../lib/wp/device.c:630:wp_spa_device_new_from_spa_factory: SPA handle 'api.bluez5.midi.enum' could not be loaded; is it installed?
+N 10:23:49.512700         s-monitors bluez-midi.lua:95:createMonitor: PipeWire's BlueZ MIDI SPA missing or broken. Bluetooth not supported.
+E 10:23:49.512802        pw.resource ../src/pipewire/resource.c:255:pw_resource_errorf_id: can't create node: No such file or directory
+W 10:23:49.512809            wp-node ../lib/wp/node.c:913:wp_impl_node_new_from_pw_factory: failed to create node from factory 'spa-node-factory'
+N 10:23:49.512815         s-monitors bluez-midi.lua:130:createServers: Failed to create BLE MIDI server.
+MPD error: Connection refused
+/home/lazar/.local/bin/bar_mpd_scroll: line 24: (counter + 1) % song_length : division by 0 (error token is "song_length ")
+MPD error: Connection refused
+MPD error: Connection refused
+Connection error
+
+Connection error
+
+/home/lazar/.local/bin/bar_mpd_time: line 13: ((: > 59 : syntax error: operand expected (error token is "> 59 ")
+/home/lazar/.local/bin/bar_mpd_time: line 15: ((: > 19 : syntax error: operand expected (error token is "> 19 ")
+/home/lazar/.local/bin/bar_mpd_time: line 17: ((: > 0 : syntax error: operand expected (error token is "> 0 ")
+Connection error
+
+Connection error
+
+/home/lazar/.local/bin/bar_volume: line 9: ((: > 59 : syntax error: operand expected (error token is "> 59 ")
+/home/lazar/.local/bin/bar_volume: line 11: ((: > 19 : syntax error: operand expected (error token is "> 19 ")
+/home/lazar/.local/bin/bar_volume: line 13: ((: > 0 : syntax error: operand expected (error token is "> 0 ")
+[0:03:22.612787259] [3667] [1;32m INFO [1;37mCamera [1;34mcamera_manager.cpp:325 [0mlibcamera v0.3.2
+[2:0119/102349.700464:ERROR:bus.cc(407)] Failed to connect to the bus: Failed to connect to socket /run/dbus/system_bus_socket: No such file or directory
+[2:0119/102349.700596:ERROR:bus.cc(407)] Failed to connect to the bus: Failed to connect to socket /run/dbus/system_bus_socket: No such file or directory
 LaunchProcess: failed to execvp:
 xdg-settings
-[0:00:31.817665678] [1764] [1;32m INFO [1;37mCamera [1;34mcamera_manager.cpp:325 [0mlibcamera v0.3.2
 MPD error: Connection refused
 /home/lazar/.local/bin/bar_mpd_scroll: line 24: (counter + 1) % song_length : division by 0 (error token is "song_length ")
 MPD error: Connection refused
@@ -190,18 +190,9 @@ MPD error: Connection refused
 MPD error: Connection refused
 Connection error
 
-Connection error
-
 /home/lazar/.local/bin/bar_mpd_time: line 13: ((: > 59 : syntax error: operand expected (error token is "> 59 ")
 /home/lazar/.local/bin/bar_mpd_time: line 15: ((: > 19 : syntax error: operand expected (error token is "> 19 ")
 /home/lazar/.local/bin/bar_mpd_time: line 17: ((: > 0 : syntax error: operand expected (error token is "> 0 ")
-Connection error
-
-Connection error
-
-/home/lazar/.local/bin/bar_volume: line 9: ((: > 59 : syntax error: operand expected (error token is "> 59 ")
-/home/lazar/.local/bin/bar_volume: line 11: ((: > 19 : syntax error: operand expected (error token is "> 19 ")
-/home/lazar/.local/bin/bar_volume: line 13: ((: > 0 : syntax error: operand expected (error token is "> 0 ")
 MPD error: Connection refused
 /home/lazar/.local/bin/bar_mpd_scroll: line 24: (counter + 1) % song_length : division by 0 (error token is "song_length ")
 MPD error: Connection refused
@@ -210,1087 +201,380 @@ MPD error: Connection refused
 /home/lazar/.local/bin/bar_mpd_scroll: line 24: (counter + 1) % song_length : division by 0 (error token is "song_length ")
 MPD error: Connection refused
 MPD error: Connection refused
-MPD error: Connection refused
-/home/lazar/.local/bin/bar_mpd_scroll: line 24: (counter + 1) % song_length : division by 0 (error token is "song_length ")
-MPD error: Connection refused
-MPD error: Connection refused
-[2:0115/125720.872533:ERROR:bus.cc(407)] Failed to connect to the bus: Failed to connect to socket /run/dbus/system_bus_socket: No such file or directory
-[2:0115/125720.872592:ERROR:bus.cc(407)] Failed to connect to the bus: Failed to connect to socket /run/dbus/system_bus_socket: No such file or directory
-[2:0115/125720.872615:ERROR:bus.cc(407)] Failed to connect to the bus: Failed to connect to socket /run/dbus/system_bus_socket: No such file or directory
+[2:0119/102351.913472:ERROR:bus.cc(407)] Failed to connect to the bus: Failed to connect to socket /run/dbus/system_bus_socket: No such file or directory
+[2:0119/102351.913531:ERROR:bus.cc(407)] Failed to connect to the bus: Failed to connect to socket /run/dbus/system_bus_socket: No such file or directory
+[2:0119/102351.913565:ERROR:bus.cc(407)] Failed to connect to the bus: Failed to connect to socket /run/dbus/system_bus_socket: No such file or directory
 [MobX] Since strict-mode is enabled, changing (observed) observable values without using an action is not allowed. Tried to modify: Settings@13.store
-
-(orca-slicer:3407): GLib-GObject-CRITICAL **: 11:57:32.658: invalid cast from 'wxPizza' to 'GtkCellLayout'
-
-(orca-slicer:3407): Gtk-CRITICAL **: 11:57:32.658: gtk_cell_layout_get_cells: assertion 'GTK_IS_CELL_LAYOUT (cell_layout)' failed
-
-(orca-slicer:3407): GLib-GObject-CRITICAL **: 11:57:32.659: invalid cast from 'wxPizza' to 'GtkCellLayout'
-
-(orca-slicer:3407): Gtk-CRITICAL **: 11:57:32.659: gtk_cell_layout_get_cells: assertion 'GTK_IS_CELL_LAYOUT (cell_layout)' failed
-
-(orca-slicer:3407): GLib-GObject-CRITICAL **: 11:57:32.661: invalid cast from 'wxPizza' to 'GtkCellLayout'
-
-(orca-slicer:3407): Gtk-CRITICAL **: 11:57:32.661: gtk_cell_layout_get_cells: assertion 'GTK_IS_CELL_LAYOUT (cell_layout)' failed
-
-(orca-slicer:3407): GLib-GObject-CRITICAL **: 11:57:32.662: invalid cast from 'wxPizza' to 'GtkCellLayout'
-
-(orca-slicer:3407): Gtk-CRITICAL **: 11:57:32.662: gtk_cell_layout_get_cells: assertion 'GTK_IS_CELL_LAYOUT (cell_layout)' failed
-
-(orca-slicer:3407): GLib-GObject-CRITICAL **: 11:57:32.665: invalid cast from 'wxPizza' to 'GtkCellLayout'
-
-(orca-slicer:3407): Gtk-CRITICAL **: 11:57:32.665: gtk_cell_layout_get_cells: assertion 'GTK_IS_CELL_LAYOUT (cell_layout)' failed
-
-(orca-slicer:3407): GLib-GObject-CRITICAL **: 11:57:32.668: invalid cast from 'wxPizza' to 'GtkCellLayout'
-
-(orca-slicer:3407): Gtk-CRITICAL **: 11:57:32.668: gtk_cell_layout_get_cells: assertion 'GTK_IS_CELL_LAYOUT (cell_layout)' failed
-
-(orca-slicer:3407): GLib-GObject-CRITICAL **: 11:57:32.669: invalid cast from 'wxPizza' to 'GtkCellLayout'
-
-(orca-slicer:3407): Gtk-CRITICAL **: 11:57:32.670: gtk_cell_layout_get_cells: assertion 'GTK_IS_CELL_LAYOUT (cell_layout)' failed
-
-(orca-slicer:3407): GLib-GObject-CRITICAL **: 11:57:32.671: invalid cast from 'wxPizza' to 'GtkCellLayout'
-
-(orca-slicer:3407): Gtk-CRITICAL **: 11:57:32.671: gtk_cell_layout_get_cells: assertion 'GTK_IS_CELL_LAYOUT (cell_layout)' failed
-
-(orca-slicer:3407): Gtk-CRITICAL **: 11:57:32.672: gtk_widget_set_size_request: assertion 'width >= -1' failed
-
-(orca-slicer:3407): Gtk-CRITICAL **: 11:57:32.672: gtk_widget_set_size_request: assertion 'width >= -1' failed
-
-(orca-slicer:3407): GLib-GObject-CRITICAL **: 11:57:32.672: invalid cast from 'wxPizza' to 'GtkCellLayout'
-
-(orca-slicer:3407): Gtk-CRITICAL **: 11:57:32.672: gtk_cell_layout_get_cells: assertion 'GTK_IS_CELL_LAYOUT (cell_layout)' failed
-
-(orca-slicer:3407): Gtk-CRITICAL **: 11:57:32.673: gtk_widget_set_size_request: assertion 'width >= -1' failed
-
-(orca-slicer:3407): Gtk-CRITICAL **: 11:57:32.673: gtk_widget_set_size_request: assertion 'width >= -1' failed
-
-(orca-slicer:3407): GLib-GObject-CRITICAL **: 11:57:32.673: invalid cast from 'wxPizza' to 'GtkCellLayout'
-
-(orca-slicer:3407): Gtk-CRITICAL **: 11:57:32.673: gtk_cell_layout_get_cells: assertion 'GTK_IS_CELL_LAYOUT (cell_layout)' failed
-
-(orca-slicer:3407): Gtk-CRITICAL **: 11:57:32.861: gtk_window_resize: assertion 'height > 0' failed
-
-(orca-slicer:3407): Gtk-CRITICAL **: 11:57:32.869: gtk_widget_set_size_request: assertion 'width >= -1' failed
-
-(orca-slicer:3407): Gtk-CRITICAL **: 11:57:32.869: gtk_widget_set_size_request: assertion 'width >= -1' failed
-
-(orca-slicer:3407): Gtk-CRITICAL **: 11:57:32.869: gtk_widget_set_size_request: assertion 'width >= -1' failed
-
-(orca-slicer:3407): Gtk-CRITICAL **: 11:57:32.869: gtk_widget_set_size_request: assertion 'width >= -1' failed
-
-(orca-slicer:3407): Gtk-CRITICAL **: 11:57:32.870: gtk_widget_set_size_request: assertion 'width >= -1' failed
-
-(orca-slicer:3407): Gtk-CRITICAL **: 11:57:32.870: gtk_widget_set_size_request: assertion 'width >= -1' failed
-
-(orca-slicer:3407): Gtk-CRITICAL **: 11:57:32.870: gtk_widget_set_size_request: assertion 'width >= -1' failed
-
-(orca-slicer:3407): Gtk-CRITICAL **: 11:57:32.870: gtk_widget_set_size_request: assertion 'width >= -1' failed
-
-(orca-slicer:3407): Gtk-CRITICAL **: 11:57:32.884: gtk_window_resize: assertion 'height > 0' failed
-
-(orca-slicer:3407): Gtk-CRITICAL **: 11:57:32.885: gtk_widget_set_size_request: assertion 'width >= -1' failed
-
-(orca-slicer:3407): Gtk-CRITICAL **: 11:57:32.885: gtk_widget_set_size_request: assertion 'width >= -1' failed
-
-(orca-slicer:3407): Gtk-CRITICAL **: 11:57:33.479: gtk_widget_set_size_request: assertion 'width >= -1' failed
-
-(orca-slicer:3407): Gtk-CRITICAL **: 11:57:33.479: gtk_widget_set_size_request: assertion 'width >= -1' failed
-
-(orca-slicer:3407): Gtk-CRITICAL **: 11:57:33.496: gtk_widget_set_size_request: assertion 'width >= -1' failed
-
-(orca-slicer:3407): Gtk-CRITICAL **: 11:57:33.496: gtk_widget_set_size_request: assertion 'width >= -1' failed
-
-(orca-slicer:3407): Gtk-CRITICAL **: 11:57:33.504: gtk_widget_set_size_request: assertion 'width >= -1' failed
-
-(orca-slicer:3407): Gtk-CRITICAL **: 11:57:33.504: gtk_widget_set_size_request: assertion 'width >= -1' failed
-
-(orca-slicer:3407): Gtk-CRITICAL **: 11:57:33.516: gtk_widget_set_size_request: assertion 'width >= -1' failed
-
-(orca-slicer:3407): Gtk-CRITICAL **: 11:57:33.516: gtk_widget_set_size_request: assertion 'width >= -1' failed
-
-(orca-slicer:3407): Gtk-CRITICAL **: 11:57:33.527: gtk_widget_set_size_request: assertion 'width >= -1' failed
-
-(orca-slicer:3407): Gtk-CRITICAL **: 11:57:33.527: gtk_widget_set_size_request: assertion 'width >= -1' failed
-
-(orca-slicer:3407): Gtk-CRITICAL **: 11:57:33.538: gtk_widget_set_size_request: assertion 'width >= -1' failed
-
-(orca-slicer:3407): Gtk-CRITICAL **: 11:57:33.538: gtk_widget_set_size_request: assertion 'width >= -1' failed
-
-(orca-slicer:3407): Gtk-CRITICAL **: 11:57:33.551: gtk_widget_set_size_request: assertion 'width >= -1' failed
-
-(orca-slicer:3407): Gtk-CRITICAL **: 11:57:33.551: gtk_widget_set_size_request: assertion 'width >= -1' failed
-
-(orca-slicer:3407): Gtk-CRITICAL **: 11:57:33.560: gtk_widget_set_size_request: assertion 'width >= -1' failed
-
-(orca-slicer:3407): Gtk-CRITICAL **: 11:57:33.560: gtk_widget_set_size_request: assertion 'width >= -1' failed
-
-** (orca-slicer:3407): CRITICAL **: 11:57:33.895: Cannot register URI scheme wxfs more than once
-
-** (orca-slicer:3407): CRITICAL **: 11:57:33.895: Cannot register URI scheme memory more than once
-
-** (orca-slicer:3407): CRITICAL **: 11:57:34.053: Cannot register URI scheme wxfs more than once
-
-** (orca-slicer:3407): CRITICAL **: 11:57:34.053: Cannot register URI scheme memory more than once
-
-** (orca-slicer:3407): CRITICAL **: 11:57:34.056: Cannot register URI scheme wxfs more than once
-
-** (orca-slicer:3407): CRITICAL **: 11:57:34.057: Cannot register URI scheme memory more than once
-
-(orca-slicer:3407): Gtk-CRITICAL **: 11:57:34.065: gtk_widget_set_size_request: assertion 'width >= -1' failed
-
-(orca-slicer:3407): Gtk-CRITICAL **: 11:57:34.065: gtk_widget_set_size_request: assertion 'width >= -1' failed
-
-(orca-slicer:3407): Gtk-CRITICAL **: 11:57:34.065: gtk_widget_set_size_request: assertion 'width >= -1' failed
-
-(orca-slicer:3407): Gtk-CRITICAL **: 11:57:34.065: gtk_widget_set_size_request: assertion 'width >= -1' failed
-
-(orca-slicer:3407): Gtk-CRITICAL **: 11:57:34.065: gtk_widget_set_size_request: assertion 'width >= -1' failed
-
-(orca-slicer:3407): Gtk-CRITICAL **: 11:57:34.065: gtk_widget_set_size_request: assertion 'width >= -1' failed
-
-(orca-slicer:3407): Gtk-CRITICAL **: 11:57:34.079: gtk_widget_set_size_request: assertion 'width >= -1' failed
-
-(orca-slicer:3407): Gtk-CRITICAL **: 11:57:34.079: gtk_widget_set_size_request: assertion 'width >= -1' failed
-
-(orca-slicer:3407): Gtk-CRITICAL **: 11:57:34.079: gtk_widget_set_size_request: assertion 'width >= -1' failed
-
-(orca-slicer:3407): Gtk-CRITICAL **: 11:57:34.079: gtk_widget_set_size_request: assertion 'width >= -1' failed
-
-(orca-slicer:3407): Gtk-CRITICAL **: 11:57:34.079: gtk_widget_set_size_request: assertion 'width >= -1' failed
-
-(orca-slicer:3407): Gtk-CRITICAL **: 11:57:34.079: gtk_widget_set_size_request: assertion 'width >= -1' failed
-
-(orca-slicer:3407): Gtk-CRITICAL **: 11:57:34.079: gtk_window_resize: assertion 'width > 0' failed
-
-(orca-slicer:3407): Gtk-CRITICAL **: 11:57:34.079: gtk_widget_set_size_request: assertion 'width >= -1' failed
-
-(orca-slicer:3407): Gtk-CRITICAL **: 11:57:34.145: gtk_window_resize: assertion 'height > 0' failed
-
-(orca-slicer:3407): Gtk-CRITICAL **: 11:57:34.146: gtk_widget_set_size_request: assertion 'width >= -1' failed
-
-(orca-slicer:3407): Gtk-CRITICAL **: 11:57:34.146: gtk_widget_set_size_request: assertion 'width >= -1' failed
-
-(orca-slicer:3407): Gtk-CRITICAL **: 11:57:34.148: gtk_window_resize: assertion 'height > 0' failed
-
-(orca-slicer:3407): Gtk-CRITICAL **: 11:57:34.148: gtk_widget_set_size_request: assertion 'width >= -1' failed
-
-(orca-slicer:3407): Gtk-CRITICAL **: 11:57:34.148: gtk_widget_set_size_request: assertion 'width >= -1' failed
-
-(orca-slicer:3407): Gtk-CRITICAL **: 11:57:34.149: gtk_window_resize: assertion 'height > 0' failed
-
-(orca-slicer:3407): Gtk-CRITICAL **: 11:57:34.149: gtk_widget_set_size_request: assertion 'width >= -1' failed
-
-(orca-slicer:3407): Gtk-CRITICAL **: 11:57:34.149: gtk_widget_set_size_request: assertion 'width >= -1' failed
-
-(orca-slicer:3407): Gtk-CRITICAL **: 11:57:34.150: gtk_window_resize: assertion 'height > 0' failed
-
-(orca-slicer:3407): Gtk-CRITICAL **: 11:57:34.150: gtk_widget_set_size_request: assertion 'width >= -1' failed
-
-(orca-slicer:3407): Gtk-CRITICAL **: 11:57:34.151: gtk_widget_set_size_request: assertion 'width >= -1' failed
-
-(orca-slicer:3407): Gtk-CRITICAL **: 11:57:34.153: gtk_window_resize: assertion 'height > 0' failed
-
-(orca-slicer:3407): Gtk-CRITICAL **: 11:57:34.153: gtk_widget_set_size_request: assertion 'width >= -1' failed
-
-(orca-slicer:3407): Gtk-CRITICAL **: 11:57:34.153: gtk_widget_set_size_request: assertion 'width >= -1' failed
-
-(orca-slicer:3407): Gtk-CRITICAL **: 11:57:34.329: gtk_window_resize: assertion 'height > 0' failed
-
-(orca-slicer:3407): Gtk-CRITICAL **: 11:57:34.329: gtk_widget_set_size_request: assertion 'width >= -1' failed
-
-(orca-slicer:3407): Gtk-CRITICAL **: 11:57:34.329: gtk_widget_set_size_request: assertion 'width >= -1' failed
-
-(orca-slicer:3407): Gtk-CRITICAL **: 11:57:34.330: gtk_window_resize: assertion 'height > 0' failed
-
-(orca-slicer:3407): Gtk-CRITICAL **: 11:57:34.331: gtk_widget_set_size_request: assertion 'width >= -1' failed
-
-(orca-slicer:3407): Gtk-CRITICAL **: 11:57:34.331: gtk_widget_set_size_request: assertion 'width >= -1' failed
-
-(orca-slicer:3407): Gtk-CRITICAL **: 11:57:34.332: gtk_window_resize: assertion 'height > 0' failed
-
-(orca-slicer:3407): Gtk-CRITICAL **: 11:57:34.332: gtk_widget_set_size_request: assertion 'width >= -1' failed
-
-(orca-slicer:3407): Gtk-CRITICAL **: 11:57:34.332: gtk_widget_set_size_request: assertion 'width >= -1' failed
-
-(orca-slicer:3407): Gtk-CRITICAL **: 11:57:34.333: gtk_window_resize: assertion 'height > 0' failed
-
-(orca-slicer:3407): Gtk-CRITICAL **: 11:57:34.333: gtk_widget_set_size_request: assertion 'width >= -1' failed
-
-(orca-slicer:3407): Gtk-CRITICAL **: 11:57:34.333: gtk_widget_set_size_request: assertion 'width >= -1' failed
-
-(orca-slicer:3407): Gtk-CRITICAL **: 11:57:34.334: gtk_window_resize: assertion 'height > 0' failed
-
-(orca-slicer:3407): Gtk-CRITICAL **: 11:57:34.335: gtk_widget_set_size_request: assertion 'width >= -1' failed
-
-(orca-slicer:3407): Gtk-CRITICAL **: 11:57:34.335: gtk_widget_set_size_request: assertion 'width >= -1' failed
-
-(orca-slicer:3407): Gtk-CRITICAL **: 11:57:34.564: gtk_widget_set_size_request: assertion 'width >= -1' failed
-
-(orca-slicer:3407): GLib-GObject-CRITICAL **: 11:57:34.564: invalid cast from 'wxPizza' to 'GtkCellLayout'
-
-(orca-slicer:3407): Gtk-CRITICAL **: 11:57:34.564: gtk_cell_layout_get_cells: assertion 'GTK_IS_CELL_LAYOUT (cell_layout)' failed
-
-(orca-slicer:3407): GLib-GObject-CRITICAL **: 11:57:34.565: invalid cast from 'wxPizza' to 'GtkCellLayout'
-
-(orca-slicer:3407): Gtk-CRITICAL **: 11:57:34.565: gtk_cell_layout_get_cells: assertion 'GTK_IS_CELL_LAYOUT (cell_layout)' failed
-
-(orca-slicer:3407): GLib-GObject-CRITICAL **: 11:57:34.566: invalid cast from 'wxPizza' to 'GtkCellLayout'
-
-(orca-slicer:3407): Gtk-CRITICAL **: 11:57:34.566: gtk_cell_layout_get_cells: assertion 'GTK_IS_CELL_LAYOUT (cell_layout)' failed
-
-(orca-slicer:3407): GLib-GObject-CRITICAL **: 11:57:34.566: invalid cast from 'wxPizza' to 'GtkCellLayout'
-
-(orca-slicer:3407): Gtk-CRITICAL **: 11:57:34.566: gtk_cell_layout_get_cells: assertion 'GTK_IS_CELL_LAYOUT (cell_layout)' failed
-
-(orca-slicer:3407): GLib-GObject-CRITICAL **: 11:57:34.567: invalid cast from 'wxPizza' to 'GtkCellLayout'
-
-(orca-slicer:3407): Gtk-CRITICAL **: 11:57:34.568: gtk_cell_layout_get_cells: assertion 'GTK_IS_CELL_LAYOUT (cell_layout)' failed
-
-(orca-slicer:3407): GLib-GObject-CRITICAL **: 11:57:34.570: invalid cast from 'wxPizza' to 'GtkCellLayout'
-
-(orca-slicer:3407): Gtk-CRITICAL **: 11:57:34.570: gtk_cell_layout_get_cells: assertion 'GTK_IS_CELL_LAYOUT (cell_layout)' failed
-
-(orca-slicer:3407): Gtk-CRITICAL **: 11:57:34.570: gtk_widget_set_size_request: assertion 'width >= -1' failed
-
-(orca-slicer:3407): Gtk-CRITICAL **: 11:57:34.570: gtk_widget_set_size_request: assertion 'width >= -1' failed
-
-(orca-slicer:3407): GLib-GObject-CRITICAL **: 11:57:34.570: invalid cast from 'wxPizza' to 'GtkCellLayout'
-
-(orca-slicer:3407): Gtk-CRITICAL **: 11:57:34.570: gtk_cell_layout_get_cells: assertion 'GTK_IS_CELL_LAYOUT (cell_layout)' failed
-
-(orca-slicer:3407): Gtk-CRITICAL **: 11:57:34.571: gtk_widget_set_size_request: assertion 'width >= -1' failed
-
-(orca-slicer:3407): Gtk-CRITICAL **: 11:57:34.599: gtk_window_resize: assertion 'height > 0' failed
-
-(orca-slicer:3407): Gtk-CRITICAL **: 11:57:34.600: gtk_widget_set_size_request: assertion 'width >= -1' failed
-
-(orca-slicer:3407): Gtk-CRITICAL **: 11:57:34.600: gtk_widget_set_size_request: assertion 'width >= -1' failed
-
-(orca-slicer:3407): Gtk-CRITICAL **: 11:57:34.601: gtk_window_resize: assertion 'height > 0' failed
-
-(orca-slicer:3407): Gtk-CRITICAL **: 11:57:34.619: gtk_widget_set_size_request: assertion 'width >= -1' failed
-
-(orca-slicer:3407): Gtk-CRITICAL **: 11:57:34.619: gtk_widget_set_size_request: assertion 'width >= -1' failed
-
-(orca-slicer:3407): Gtk-CRITICAL **: 11:57:34.639: gtk_window_resize: assertion 'height > 0' failed
-
-(orca-slicer:3407): Gtk-CRITICAL **: 11:57:34.639: gtk_widget_set_size_request: assertion 'width >= -1' failed
-
-(orca-slicer:3407): Gtk-CRITICAL **: 11:57:34.639: gtk_widget_set_size_request: assertion 'width >= -1' failed
-
-(orca-slicer:3407): Gtk-CRITICAL **: 11:57:34.641: gtk_window_resize: assertion 'height > 0' failed
-
-(orca-slicer:3407): Gtk-CRITICAL **: 11:57:34.642: gtk_widget_set_size_request: assertion 'width >= -1' failed
-
-(orca-slicer:3407): Gtk-CRITICAL **: 11:57:34.642: gtk_widget_set_size_request: assertion 'width >= -1' failed
-
-(orca-slicer:3407): Gtk-CRITICAL **: 11:57:34.642: gtk_widget_set_size_request: assertion 'width >= -1' failed
-
-(orca-slicer:3407): Gtk-CRITICAL **: 11:57:34.642: gtk_widget_set_size_request: assertion 'width >= -1' failed
-
-(orca-slicer:3407): Gtk-CRITICAL **: 11:57:34.649: gtk_widget_set_size_request: assertion 'width >= -1' failed
-
-(orca-slicer:3407): Gtk-CRITICAL **: 11:57:34.649: gtk_widget_set_size_request: assertion 'width >= -1' failed
-
-(orca-slicer:3407): Gtk-CRITICAL **: 11:57:34.652: gtk_window_resize: assertion 'height > 0' failed
-
-(orca-slicer:3407): Gtk-CRITICAL **: 11:57:34.653: gtk_widget_set_size_request: assertion 'width >= -1' failed
-
-(orca-slicer:3407): Gtk-CRITICAL **: 11:57:34.653: gtk_widget_set_size_request: assertion 'width >= -1' failed
-
-(orca-slicer:3407): Gtk-CRITICAL **: 11:57:34.667: gtk_window_resize: assertion 'height > 0' failed
-
-(orca-slicer:3407): Gtk-CRITICAL **: 11:57:34.668: gtk_widget_set_size_request: assertion 'width >= -1' failed
-
-(orca-slicer:3407): Gtk-CRITICAL **: 11:57:34.668: gtk_widget_set_size_request: assertion 'width >= -1' failed
-
-(orca-slicer:3407): Gtk-CRITICAL **: 11:57:34.670: gtk_window_resize: assertion 'height > 0' failed
-
-(orca-slicer:3407): Gtk-CRITICAL **: 11:57:34.682: gtk_widget_set_size_request: assertion 'width >= -1' failed
-
-(orca-slicer:3407): Gtk-CRITICAL **: 11:57:34.682: gtk_widget_set_size_request: assertion 'width >= -1' failed
-
-(orca-slicer:3407): Gtk-CRITICAL **: 11:57:34.687: gtk_window_resize: assertion 'height > 0' failed
-
-(orca-slicer:3407): Gtk-CRITICAL **: 11:57:34.688: gtk_window_resize: assertion 'height > 0' failed
-
-(orca-slicer:3407): Gtk-CRITICAL **: 11:57:34.703: gtk_widget_set_size_request: assertion 'width >= -1' failed
-
-(orca-slicer:3407): Gtk-CRITICAL **: 11:57:35.065: gtk_widget_set_size_request: assertion 'width >= -1' failed
-
-(orca-slicer:3407): Gtk-CRITICAL **: 11:57:35.065: gtk_widget_set_size_request: assertion 'width >= -1' failed
-
-(orca-slicer:3407): GLib-GObject-CRITICAL **: 11:57:36.421: invalid cast from 'wxPizza' to 'GtkCellLayout'
-
-(orca-slicer:3407): Gtk-CRITICAL **: 11:57:36.421: gtk_cell_layout_get_cells: assertion 'GTK_IS_CELL_LAYOUT (cell_layout)' failed
-
-(orca-slicer:3407): GLib-GObject-CRITICAL **: 11:57:36.421: invalid cast from 'wxPizza' to 'GtkCellLayout'
-
-(orca-slicer:3407): Gtk-CRITICAL **: 11:57:36.421: gtk_cell_layout_get_cells: assertion 'GTK_IS_CELL_LAYOUT (cell_layout)' failed
-
-(orca-slicer:3407): GLib-GObject-CRITICAL **: 11:57:36.429: invalid cast from 'wxPizza' to 'GtkCellLayout'
-
-(orca-slicer:3407): Gtk-CRITICAL **: 11:57:36.429: gtk_cell_layout_get_cells: assertion 'GTK_IS_CELL_LAYOUT (cell_layout)' failed
-
-(orca-slicer:3407): GLib-GObject-CRITICAL **: 11:57:36.429: invalid cast from 'wxPizza' to 'GtkCellLayout'
-
-(orca-slicer:3407): Gtk-CRITICAL **: 11:57:36.429: gtk_cell_layout_get_cells: assertion 'GTK_IS_CELL_LAYOUT (cell_layout)' failed
-
-(orca-slicer:3407): GLib-GObject-CRITICAL **: 11:57:36.433: invalid cast from 'wxPizza' to 'GtkCellLayout'
-
-(orca-slicer:3407): Gtk-CRITICAL **: 11:57:36.433: gtk_cell_layout_get_cells: assertion 'GTK_IS_CELL_LAYOUT (cell_layout)' failed
-
-(orca-slicer:3407): GLib-GObject-CRITICAL **: 11:57:36.439: invalid cast from 'wxPizza' to 'GtkCellLayout'
-
-(orca-slicer:3407): Gtk-CRITICAL **: 11:57:36.439: gtk_cell_layout_get_cells: assertion 'GTK_IS_CELL_LAYOUT (cell_layout)' failed
-
-(orca-slicer:3407): GLib-GObject-CRITICAL **: 11:57:36.440: invalid cast from 'wxPizza' to 'GtkCellLayout'
-
-(orca-slicer:3407): Gtk-CRITICAL **: 11:57:36.440: gtk_cell_layout_get_cells: assertion 'GTK_IS_CELL_LAYOUT (cell_layout)' failed
-(node:65) MaxListenersExceededWarning: Possible EventEmitter memory leak detected. 11 select-capture-device:ecdbc6e1-a5ad-4ee4-9d20-f142ef0b0b3a listeners added to [IpcRenderer]. MaxListeners is 10. Use emitter.setMaxListeners() to increase limit
-(Use `exe --trace-warnings ...` to show where the warning was created)
-
-(orca-slicer:3407): Gtk-CRITICAL **: 12:00:39.936: gtk_window_resize: assertion 'height > 0' failed
-
-(orca-slicer:3407): Gtk-CRITICAL **: 12:00:39.937: gtk_widget_set_size_request: assertion 'width >= -1' failed
-
-(orca-slicer:3407): Gtk-CRITICAL **: 12:00:39.937: gtk_widget_set_size_request: assertion 'width >= -1' failed
-
-(orca-slicer:3407): Gtk-CRITICAL **: 12:00:39.939: gtk_window_resize: assertion 'height > 0' failed
-
-(orca-slicer:3407): Gtk-CRITICAL **: 12:00:39.939: gtk_widget_set_size_request: assertion 'width >= -1' failed
-
-(orca-slicer:3407): Gtk-CRITICAL **: 12:00:39.939: gtk_widget_set_size_request: assertion 'width >= -1' failed
-
-(orca-slicer:3407): Gtk-CRITICAL **: 12:00:39.941: gtk_window_resize: assertion 'height > 0' failed
-
-(orca-slicer:3407): Gtk-CRITICAL **: 12:00:39.942: gtk_window_resize: assertion 'height > 0' failed
-
-(orca-slicer:3407): Gtk-CRITICAL **: 12:00:39.943: gtk_widget_set_size_request: assertion 'width >= -1' failed
-
-(orca-slicer:3407): Gtk-CRITICAL **: 12:00:39.943: gtk_widget_set_size_request: assertion 'width >= -1' failed
-
-(orca-slicer:3407): Gtk-CRITICAL **: 12:00:44.197: gtk_window_resize: assertion 'height > 0' failed
-
-(orca-slicer:3407): Gtk-CRITICAL **: 12:00:44.198: gtk_widget_set_size_request: assertion 'width >= -1' failed
-
-(orca-slicer:3407): Gtk-CRITICAL **: 12:00:44.198: gtk_widget_set_size_request: assertion 'width >= -1' failed
-
-(orca-slicer:3407): Gtk-CRITICAL **: 12:00:44.199: gtk_window_resize: assertion 'height > 0' failed
-
-(orca-slicer:3407): Gtk-CRITICAL **: 12:00:44.200: gtk_widget_set_size_request: assertion 'width >= -1' failed
-
-(orca-slicer:3407): Gtk-CRITICAL **: 12:00:44.200: gtk_widget_set_size_request: assertion 'width >= -1' failed
-
-(orca-slicer:3407): Gtk-CRITICAL **: 12:00:44.201: gtk_window_resize: assertion 'height > 0' failed
-
-(orca-slicer:3407): Gtk-CRITICAL **: 12:00:44.202: gtk_window_resize: assertion 'height > 0' failed
-
-(orca-slicer:3407): Gtk-CRITICAL **: 12:00:44.202: gtk_widget_set_size_request: assertion 'width >= -1' failed
-
-(orca-slicer:3407): Gtk-CRITICAL **: 12:00:44.202: gtk_widget_set_size_request: assertion 'width >= -1' failed
-
-(orca-slicer:3407): Gtk-CRITICAL **: 12:00:46.745: gtk_window_resize: assertion 'height > 0' failed
-
-(orca-slicer:3407): Gtk-CRITICAL **: 12:00:46.746: gtk_widget_set_size_request: assertion 'width >= -1' failed
-
-(orca-slicer:3407): Gtk-CRITICAL **: 12:00:46.746: gtk_widget_set_size_request: assertion 'width >= -1' failed
-
-(orca-slicer:3407): Gtk-CRITICAL **: 12:00:46.748: gtk_window_resize: assertion 'height > 0' failed
-
-(orca-slicer:3407): Gtk-CRITICAL **: 12:00:46.748: gtk_widget_set_size_request: assertion 'width >= -1' failed
-
-(orca-slicer:3407): Gtk-CRITICAL **: 12:00:46.748: gtk_widget_set_size_request: assertion 'width >= -1' failed
-
-(orca-slicer:3407): Gtk-CRITICAL **: 12:00:46.750: gtk_window_resize: assertion 'height > 0' failed
-
-(orca-slicer:3407): Gtk-CRITICAL **: 12:00:46.750: gtk_window_resize: assertion 'height > 0' failed
-
-(orca-slicer:3407): Gtk-CRITICAL **: 12:00:46.751: gtk_widget_set_size_request: assertion 'width >= -1' failed
-
-(orca-slicer:3407): Gtk-CRITICAL **: 12:00:46.751: gtk_widget_set_size_request: assertion 'width >= -1' failed
-
-(orca-slicer:3407): Gtk-CRITICAL **: 12:01:00.904: gtk_window_resize: assertion 'height > 0' failed
-
-(orca-slicer:3407): Gtk-CRITICAL **: 12:01:00.905: gtk_widget_set_size_request: assertion 'width >= -1' failed
-
-(orca-slicer:3407): Gtk-CRITICAL **: 12:01:00.905: gtk_widget_set_size_request: assertion 'width >= -1' failed
-
-(orca-slicer:3407): Gtk-CRITICAL **: 12:01:00.906: gtk_window_resize: assertion 'height > 0' failed
-
-(orca-slicer:3407): Gtk-CRITICAL **: 12:01:00.907: gtk_widget_set_size_request: assertion 'width >= -1' failed
-
-(orca-slicer:3407): Gtk-CRITICAL **: 12:01:00.907: gtk_widget_set_size_request: assertion 'width >= -1' failed
-
-(orca-slicer:3407): Gtk-CRITICAL **: 12:01:00.909: gtk_window_resize: assertion 'height > 0' failed
-
-(orca-slicer:3407): Gtk-CRITICAL **: 12:01:00.910: gtk_window_resize: assertion 'height > 0' failed
-
-(orca-slicer:3407): Gtk-CRITICAL **: 12:01:00.911: gtk_widget_set_size_request: assertion 'width >= -1' failed
-
-(orca-slicer:3407): Gtk-CRITICAL **: 12:01:00.911: gtk_widget_set_size_request: assertion 'width >= -1' failed
-
-(orca-slicer:3407): Gtk-CRITICAL **: 12:01:04.171: gtk_window_resize: assertion 'height > 0' failed
-
-(orca-slicer:3407): Gtk-CRITICAL **: 12:01:04.172: gtk_widget_set_size_request: assertion 'width >= -1' failed
-
-(orca-slicer:3407): Gtk-CRITICAL **: 12:01:04.172: gtk_widget_set_size_request: assertion 'width >= -1' failed
-
-(orca-slicer:3407): Gtk-CRITICAL **: 12:01:04.173: gtk_window_resize: assertion 'height > 0' failed
-
-(orca-slicer:3407): Gtk-CRITICAL **: 12:01:04.174: gtk_widget_set_size_request: assertion 'width >= -1' failed
-
-(orca-slicer:3407): Gtk-CRITICAL **: 12:01:04.174: gtk_widget_set_size_request: assertion 'width >= -1' failed
-
-(orca-slicer:3407): Gtk-CRITICAL **: 12:01:04.175: gtk_window_resize: assertion 'height > 0' failed
-
-(orca-slicer:3407): Gtk-CRITICAL **: 12:01:04.176: gtk_window_resize: assertion 'height > 0' failed
-
-(orca-slicer:3407): Gtk-CRITICAL **: 12:01:04.176: gtk_widget_set_size_request: assertion 'width >= -1' failed
-
-(orca-slicer:3407): Gtk-CRITICAL **: 12:01:04.176: gtk_widget_set_size_request: assertion 'width >= -1' failed
-
-(orca-slicer:3407): Gtk-CRITICAL **: 12:01:05.543: gtk_widget_set_size_request: assertion 'width >= -1' failed
-
-(orca-slicer:3407): Gtk-CRITICAL **: 12:01:05.543: gtk_widget_set_size_request: assertion 'width >= -1' failed
-
-(orca-slicer:3407): Gtk-CRITICAL **: 12:01:18.344: gtk_window_resize: assertion 'height > 0' failed
-
-(orca-slicer:3407): Gtk-CRITICAL **: 12:01:18.344: gtk_widget_set_size_request: assertion 'width >= -1' failed
-
-(orca-slicer:3407): Gtk-CRITICAL **: 12:01:18.344: gtk_widget_set_size_request: assertion 'width >= -1' failed
-
-(orca-slicer:3407): Gtk-CRITICAL **: 12:01:18.346: gtk_window_resize: assertion 'height > 0' failed
-
-(orca-slicer:3407): Gtk-CRITICAL **: 12:01:18.346: gtk_widget_set_size_request: assertion 'width >= -1' failed
-
-(orca-slicer:3407): Gtk-CRITICAL **: 12:01:18.346: gtk_widget_set_size_request: assertion 'width >= -1' failed
-
-(orca-slicer:3407): Gtk-CRITICAL **: 12:01:18.348: gtk_window_resize: assertion 'height > 0' failed
-
-(orca-slicer:3407): Gtk-CRITICAL **: 12:01:18.349: gtk_window_resize: assertion 'height > 0' failed
-
-(orca-slicer:3407): Gtk-CRITICAL **: 12:01:18.350: gtk_widget_set_size_request: assertion 'width >= -1' failed
-
-(orca-slicer:3407): Gtk-CRITICAL **: 12:01:18.350: gtk_widget_set_size_request: assertion 'width >= -1' failed
-
-(orca-slicer:3407): Gtk-CRITICAL **: 12:01:18.350: gtk_widget_set_size_request: assertion 'width >= -1' failed
-
-(orca-slicer:3407): Gtk-CRITICAL **: 12:01:18.350: gtk_widget_set_size_request: assertion 'width >= -1' failed
-
-(orca-slicer:3407): Gtk-CRITICAL **: 12:01:22.514: gtk_window_resize: assertion 'height > 0' failed
-
-(orca-slicer:3407): Gtk-CRITICAL **: 12:01:22.514: gtk_widget_set_size_request: assertion 'width >= -1' failed
-
-(orca-slicer:3407): Gtk-CRITICAL **: 12:01:22.514: gtk_widget_set_size_request: assertion 'width >= -1' failed
-
-(orca-slicer:3407): Gtk-CRITICAL **: 12:01:22.516: gtk_window_resize: assertion 'height > 0' failed
-
-(orca-slicer:3407): Gtk-CRITICAL **: 12:01:22.516: gtk_widget_set_size_request: assertion 'width >= -1' failed
-
-(orca-slicer:3407): Gtk-CRITICAL **: 12:01:22.516: gtk_widget_set_size_request: assertion 'width >= -1' failed
-
-(orca-slicer:3407): Gtk-CRITICAL **: 12:01:22.517: gtk_window_resize: assertion 'height > 0' failed
-
-(orca-slicer:3407): Gtk-CRITICAL **: 12:01:22.519: gtk_window_resize: assertion 'height > 0' failed
-
-(orca-slicer:3407): Gtk-CRITICAL **: 12:01:22.519: gtk_widget_set_size_request: assertion 'width >= -1' failed
-
-(orca-slicer:3407): Gtk-CRITICAL **: 12:01:22.519: gtk_widget_set_size_request: assertion 'width >= -1' failed
-
-(orca-slicer:3407): Gtk-CRITICAL **: 12:01:22.519: gtk_widget_set_size_request: assertion 'width >= -1' failed
-
-(orca-slicer:3407): Gtk-CRITICAL **: 12:01:22.519: gtk_widget_set_size_request: assertion 'width >= -1' failed
-
-(orca-slicer:3407): Gtk-CRITICAL **: 12:01:24.994: gtk_window_resize: assertion 'height > 0' failed
-
-(orca-slicer:3407): Gtk-CRITICAL **: 12:01:24.995: gtk_widget_set_size_request: assertion 'width >= -1' failed
-
-(orca-slicer:3407): Gtk-CRITICAL **: 12:01:24.995: gtk_widget_set_size_request: assertion 'width >= -1' failed
-
-(orca-slicer:3407): Gtk-CRITICAL **: 12:01:24.997: gtk_window_resize: assertion 'height > 0' failed
-
-(orca-slicer:3407): Gtk-CRITICAL **: 12:01:25.007: gtk_widget_set_size_request: assertion 'width >= -1' failed
-
-(orca-slicer:3407): Gtk-CRITICAL **: 12:01:25.007: gtk_widget_set_size_request: assertion 'width >= -1' failed
-
-(orca-slicer:3407): Gtk-CRITICAL **: 12:01:25.017: gtk_window_resize: assertion 'height > 0' failed
-
-(orca-slicer:3407): Gtk-CRITICAL **: 12:01:25.017: gtk_widget_set_size_request: assertion 'width >= -1' failed
-
-(orca-slicer:3407): Gtk-CRITICAL **: 12:01:25.017: gtk_widget_set_size_request: assertion 'width >= -1' failed
-
-(orca-slicer:3407): Gtk-CRITICAL **: 12:01:25.018: gtk_window_resize: assertion 'height > 0' failed
-
-(orca-slicer:3407): Gtk-CRITICAL **: 12:01:25.018: gtk_widget_set_size_request: assertion 'width >= -1' failed
-
-(orca-slicer:3407): Gtk-CRITICAL **: 12:01:25.018: gtk_widget_set_size_request: assertion 'width >= -1' failed
-
-(orca-slicer:3407): Gtk-CRITICAL **: 12:01:25.018: gtk_widget_set_size_request: assertion 'width >= -1' failed
-
-(orca-slicer:3407): Gtk-CRITICAL **: 12:01:25.018: gtk_widget_set_size_request: assertion 'width >= -1' failed
-
-(orca-slicer:3407): Gtk-CRITICAL **: 12:01:25.021: gtk_widget_set_size_request: assertion 'width >= -1' failed
-
-(orca-slicer:3407): Gtk-CRITICAL **: 12:01:25.021: gtk_widget_set_size_request: assertion 'width >= -1' failed
-
-(orca-slicer:3407): Gtk-CRITICAL **: 12:01:25.022: gtk_window_resize: assertion 'height > 0' failed
-
-(orca-slicer:3407): Gtk-CRITICAL **: 12:01:25.022: gtk_widget_set_size_request: assertion 'width >= -1' failed
-
-(orca-slicer:3407): Gtk-CRITICAL **: 12:01:25.022: gtk_widget_set_size_request: assertion 'width >= -1' failed
-
-(orca-slicer:3407): Gtk-CRITICAL **: 12:01:25.029: gtk_window_resize: assertion 'height > 0' failed
-
-(orca-slicer:3407): Gtk-CRITICAL **: 12:01:25.030: gtk_widget_set_size_request: assertion 'width >= -1' failed
-
-(orca-slicer:3407): Gtk-CRITICAL **: 12:01:25.030: gtk_widget_set_size_request: assertion 'width >= -1' failed
-
-(orca-slicer:3407): Gtk-CRITICAL **: 12:01:25.031: gtk_window_resize: assertion 'height > 0' failed
-
-(orca-slicer:3407): Gtk-CRITICAL **: 12:01:25.039: gtk_widget_set_size_request: assertion 'width >= -1' failed
-
-(orca-slicer:3407): Gtk-CRITICAL **: 12:01:25.039: gtk_widget_set_size_request: assertion 'width >= -1' failed
-
-(orca-slicer:3407): Gtk-CRITICAL **: 12:01:25.042: gtk_window_resize: assertion 'height > 0' failed
-
-(orca-slicer:3407): Gtk-CRITICAL **: 12:01:25.043: gtk_window_resize: assertion 'height > 0' failed
-
-(orca-slicer:3407): GLib-GObject-CRITICAL **: 12:01:27.418: invalid cast from 'wxPizza' to 'GtkCellLayout'
-
-(orca-slicer:3407): Gtk-CRITICAL **: 12:01:27.418: gtk_cell_layout_get_cells: assertion 'GTK_IS_CELL_LAYOUT (cell_layout)' failed
-
-(orca-slicer:3407): GLib-GObject-CRITICAL **: 12:01:27.418: invalid cast from 'wxPizza' to 'GtkCellLayout'
-
-(orca-slicer:3407): Gtk-CRITICAL **: 12:01:27.418: gtk_cell_layout_get_cells: assertion 'GTK_IS_CELL_LAYOUT (cell_layout)' failed
-
-(orca-slicer:3407): GLib-GObject-CRITICAL **: 12:01:27.418: invalid cast from 'wxPizza' to 'GtkCellLayout'
-
-(orca-slicer:3407): Gtk-CRITICAL **: 12:01:27.418: gtk_cell_layout_get_cells: assertion 'GTK_IS_CELL_LAYOUT (cell_layout)' failed
-
-(orca-slicer:3407): GLib-GObject-CRITICAL **: 12:01:27.419: invalid cast from 'wxPizza' to 'GtkCellLayout'
-
-(orca-slicer:3407): Gtk-CRITICAL **: 12:01:27.419: gtk_cell_layout_get_cells: assertion 'GTK_IS_CELL_LAYOUT (cell_layout)' failed
-
-(orca-slicer:3407): Gtk-CRITICAL **: 12:02:17.234: gtk_window_resize: assertion 'height > 0' failed
-
-(orca-slicer:3407): Gtk-CRITICAL **: 12:02:17.235: gtk_widget_set_size_request: assertion 'width >= -1' failed
-
-(orca-slicer:3407): Gtk-CRITICAL **: 12:02:17.235: gtk_widget_set_size_request: assertion 'width >= -1' failed
-
-(orca-slicer:3407): Gtk-CRITICAL **: 12:02:17.236: gtk_window_resize: assertion 'height > 0' failed
-
-(orca-slicer:3407): Gtk-CRITICAL **: 12:02:17.236: gtk_widget_set_size_request: assertion 'width >= -1' failed
-
-(orca-slicer:3407): Gtk-CRITICAL **: 12:02:17.236: gtk_widget_set_size_request: assertion 'width >= -1' failed
-
-(orca-slicer:3407): Gtk-CRITICAL **: 12:02:17.246: gtk_window_resize: assertion 'height > 0' failed
-
-(orca-slicer:3407): Gtk-CRITICAL **: 12:02:17.247: gtk_window_resize: assertion 'height > 0' failed
-
-(orca-slicer:3407): Gtk-CRITICAL **: 12:02:17.247: gtk_widget_set_size_request: assertion 'width >= -1' failed
-
-(orca-slicer:3407): Gtk-CRITICAL **: 12:02:17.247: gtk_widget_set_size_request: assertion 'width >= -1' failed
-
-(orca-slicer:3407): Gtk-CRITICAL **: 12:02:17.247: gtk_widget_set_size_request: assertion 'width >= -1' failed
-
-(orca-slicer:3407): Gtk-CRITICAL **: 12:02:17.247: gtk_widget_set_size_request: assertion 'width >= -1' failed
-
-(orca-slicer:3407): Gtk-CRITICAL **: 12:02:17.250: gtk_window_resize: assertion 'height > 0' failed
-
-(orca-slicer:3407): Gtk-CRITICAL **: 12:02:17.252: gtk_widget_set_size_request: assertion 'width >= -1' failed
-
-(orca-slicer:3407): Gtk-CRITICAL **: 12:02:17.252: gtk_widget_set_size_request: assertion 'width >= -1' failed
-
-(orca-slicer:3407): Gtk-CRITICAL **: 12:02:17.254: gtk_window_resize: assertion 'height > 0' failed
-
-(orca-slicer:3407): Gtk-CRITICAL **: 12:02:17.255: gtk_window_resize: assertion 'height > 0' failed
-
-(orca-slicer:3407): Gtk-CRITICAL **: 12:02:17.256: gtk_window_resize: assertion 'height > 0' failed
-
-(orca-slicer:3407): Gtk-CRITICAL **: 12:02:17.257: gtk_widget_set_size_request: assertion 'width >= -1' failed
-
-(orca-slicer:3407): Gtk-CRITICAL **: 12:02:17.257: gtk_widget_set_size_request: assertion 'width >= -1' failed
-
-(orca-slicer:3407): GLib-GObject-CRITICAL **: 12:02:18.110: invalid cast from 'wxPizza' to 'GtkCellLayout'
-
-(orca-slicer:3407): Gtk-CRITICAL **: 12:02:18.110: gtk_cell_layout_get_cells: assertion 'GTK_IS_CELL_LAYOUT (cell_layout)' failed
-
-(orca-slicer:3407): GLib-GObject-CRITICAL **: 12:06:57.073: invalid cast from 'wxPizza' to 'GtkCellLayout'
-
-(orca-slicer:3407): Gtk-CRITICAL **: 12:06:57.073: gtk_cell_layout_get_cells: assertion 'GTK_IS_CELL_LAYOUT (cell_layout)' failed
-
-(orca-slicer:3407): GLib-GObject-CRITICAL **: 12:06:57.073: invalid cast from 'wxPizza' to 'GtkCellLayout'
-
-(orca-slicer:3407): Gtk-CRITICAL **: 12:06:57.073: gtk_cell_layout_get_cells: assertion 'GTK_IS_CELL_LAYOUT (cell_layout)' failed
-
-(orca-slicer:3407): GLib-GObject-CRITICAL **: 12:06:57.088: invalid cast from 'wxPizza' to 'GtkCellLayout'
-
-(orca-slicer:3407): Gtk-CRITICAL **: 12:06:57.088: gtk_cell_layout_get_cells: assertion 'GTK_IS_CELL_LAYOUT (cell_layout)' failed
-
-(orca-slicer:3407): GLib-GObject-CRITICAL **: 12:06:57.088: invalid cast from 'wxPizza' to 'GtkCellLayout'
-
-(orca-slicer:3407): Gtk-CRITICAL **: 12:06:57.088: gtk_cell_layout_get_cells: assertion 'GTK_IS_CELL_LAYOUT (cell_layout)' failed
-
-(orca-slicer:3407): GLib-GObject-CRITICAL **: 12:06:57.094: invalid cast from 'wxPizza' to 'GtkCellLayout'
-
-(orca-slicer:3407): Gtk-CRITICAL **: 12:06:57.094: gtk_cell_layout_get_cells: assertion 'GTK_IS_CELL_LAYOUT (cell_layout)' failed
-
-(orca-slicer:3407): GLib-GObject-CRITICAL **: 12:06:57.108: invalid cast from 'wxPizza' to 'GtkCellLayout'
-
-(orca-slicer:3407): Gtk-CRITICAL **: 12:06:57.108: gtk_cell_layout_get_cells: assertion 'GTK_IS_CELL_LAYOUT (cell_layout)' failed
-
-(orca-slicer:3407): GLib-GObject-CRITICAL **: 12:06:57.108: invalid cast from 'wxPizza' to 'GtkCellLayout'
-
-(orca-slicer:3407): Gtk-CRITICAL **: 12:06:57.108: gtk_cell_layout_get_cells: assertion 'GTK_IS_CELL_LAYOUT (cell_layout)' failed
 F: Can't get document portal: GDBus.Error:org.freedesktop.DBus.Error.NoReply: Message recipient disconnected from message bus without replying
-Gtk-Message: 12:06:58.659: Failed to load module "gtk-dark-theme"
-Gtk-Message: 12:06:58.659: Failed to load module "gtk-dark-theme"
-Gtk-Message: 12:06:59.286: Failed to load module "gtk-dark-theme"
-Gtk-Message: 12:06:59.286: Failed to load module "gtk-dark-theme"
-[2:2:0115/120659.437005:ERROR:object_proxy.cc(576)] Failed to call method: org.kde.KWallet.isEnabled: object_path= /modules/kwalletd6: org.freedesktop.DBus.Error.ServiceUnknown: The name org.kde.kwalletd6 was not provided by any .service files
-[2:2:0115/120659.438334:ERROR:kwallet_dbus.cc(117)] Error contacting kwalletd6 (isEnabled)
-[2:2:0115/120659.438816:ERROR:object_proxy.cc(576)] Failed to call method: org.kde.KLauncher.start_service_by_desktop_name: object_path= /KLauncher: org.freedesktop.DBus.Error.ServiceUnknown: org.freedesktop.DBus.Error.ServiceUnknown
-[2:2:0115/120659.438856:ERROR:kwallet_dbus.cc(86)] Error contacting klauncher to start kwalletd6
-[2:2:0115/120659.439276:ERROR:object_proxy.cc(576)] Failed to call method: org.kde.KWallet.close: object_path= /modules/kwalletd6: org.freedesktop.DBus.Error.ServiceUnknown: The name org.kde.kwalletd6 was not provided by any .service files
-[2:2:0115/120659.439294:ERROR:kwallet_dbus.cc(412)] Error contacting kwalletd6 (close)
-[2:2:0115/120659.443174:ERROR:object_proxy.cc(576)] Failed to call method: org.kde.KWallet.isEnabled: object_path= /modules/kwalletd5: org.freedesktop.DBus.Error.ServiceUnknown: org.freedesktop.DBus.Error.ServiceUnknown
-[2:2:0115/120659.443213:ERROR:kwallet_dbus.cc(117)] Error contacting kwalletd5 (isEnabled)
-[2:2:0115/120659.443453:ERROR:object_proxy.cc(576)] Failed to call method: org.kde.KLauncher.start_service_by_desktop_name: object_path= /KLauncher: org.freedesktop.DBus.Error.ServiceUnknown: org.freedesktop.DBus.Error.ServiceUnknown
-[2:2:0115/120659.443463:ERROR:kwallet_dbus.cc(86)] Error contacting klauncher to start kwalletd5
-[2:2:0115/120659.443639:ERROR:object_proxy.cc(576)] Failed to call method: org.kde.KWallet.close: object_path= /modules/kwalletd5: org.freedesktop.DBus.Error.ServiceUnknown: org.freedesktop.DBus.Error.ServiceUnknown
-[2:2:0115/120659.443646:ERROR:kwallet_dbus.cc(412)] Error contacting kwalletd5 (close)
-[2:2:0115/120659.446459:ERROR:object_proxy.cc(576)] Failed to call method: org.kde.KWallet.isEnabled: object_path= /modules/kwalletd: org.freedesktop.DBus.Error.ServiceUnknown: org.freedesktop.DBus.Error.ServiceUnknown
-[2:2:0115/120659.446497:ERROR:kwallet_dbus.cc(117)] Error contacting kwalletd (isEnabled)
-[2:2:0115/120659.446682:ERROR:object_proxy.cc(576)] Failed to call method: org.kde.KLauncher.start_service_by_desktop_name: object_path= /KLauncher: org.freedesktop.DBus.Error.ServiceUnknown: org.freedesktop.DBus.Error.ServiceUnknown
-[2:2:0115/120659.446689:ERROR:kwallet_dbus.cc(86)] Error contacting klauncher to start kwalletd
-[2:2:0115/120659.446882:ERROR:object_proxy.cc(576)] Failed to call method: org.kde.KWallet.close: object_path= /modules/kwalletd: org.freedesktop.DBus.Error.ServiceUnknown: org.freedesktop.DBus.Error.ServiceUnknown
-[2:2:0115/120659.446895:ERROR:kwallet_dbus.cc(412)] Error contacting kwalletd (close)
-[2:165:0115/120659.823407:ERROR:object_proxy.cc(576)] Failed to call method: org.freedesktop.DBus.Properties.Get: object_path= /org/freedesktop/UPower: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.UPower was not provided by any .service files
-[2:165:0115/120659.823714:ERROR:object_proxy.cc(576)] Failed to call method: org.freedesktop.UPower.GetDisplayDevice: object_path= /org/freedesktop/UPower: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.UPower was not provided by any .service files
-[2:165:0115/120659.823995:ERROR:object_proxy.cc(576)] Failed to call method: org.freedesktop.UPower.EnumerateDevices: object_path= /org/freedesktop/UPower: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.UPower was not provided by any .service files
-[2:2:0115/120659.831273:ERROR:object_proxy.cc(576)] Failed to call method: org.freedesktop.portal.Secret.RetrieveSecret: object_path= /org/freedesktop/portal/desktop: org.freedesktop.DBus.Error.UnknownMethod: No such interface “org.freedesktop.portal.Secret” on object at path /org/freedesktop/portal/desktop
-[2:2:0115/120659.831299:ERROR:secret_portal_key_provider.cc(150)] Failed to retrieve secret: No response from portal.
-[2:2:0115/120700.235512:ERROR:sharing_service.cc(296)] Device registration failed with fatal error
+Gtk-Message: 10:24:16.163: Failed to load module "gtk-dark-theme"
+Gtk-Message: 10:24:16.163: Failed to load module "gtk-dark-theme"
+Gtk-Message: 10:24:16.859: Failed to load module "gtk-dark-theme"
+Gtk-Message: 10:24:16.859: Failed to load module "gtk-dark-theme"
+[2:2:0119/102417.030406:ERROR:object_proxy.cc(576)] Failed to call method: org.kde.KWallet.isEnabled: object_path= /modules/kwalletd6: org.freedesktop.DBus.Error.ServiceUnknown: The name org.kde.kwalletd6 was not provided by any .service files
+[2:2:0119/102417.031484:ERROR:kwallet_dbus.cc(117)] Error contacting kwalletd6 (isEnabled)
+[2:2:0119/102417.031891:ERROR:object_proxy.cc(576)] Failed to call method: org.kde.KLauncher.start_service_by_desktop_name: object_path= /KLauncher: org.freedesktop.DBus.Error.ServiceUnknown: org.freedesktop.DBus.Error.ServiceUnknown
+[2:2:0119/102417.031911:ERROR:kwallet_dbus.cc(86)] Error contacting klauncher to start kwalletd6
+[2:2:0119/102417.032486:ERROR:object_proxy.cc(576)] Failed to call method: org.kde.KWallet.close: object_path= /modules/kwalletd6: org.freedesktop.DBus.Error.ServiceUnknown: The name org.kde.kwalletd6 was not provided by any .service files
+[2:2:0119/102417.032504:ERROR:kwallet_dbus.cc(412)] Error contacting kwalletd6 (close)
+[2:2:0119/102417.036878:ERROR:object_proxy.cc(576)] Failed to call method: org.kde.KWallet.isEnabled: object_path= /modules/kwalletd5: org.freedesktop.DBus.Error.ServiceUnknown: org.freedesktop.DBus.Error.ServiceUnknown
+[2:2:0119/102417.036936:ERROR:kwallet_dbus.cc(117)] Error contacting kwalletd5 (isEnabled)
+[2:2:0119/102417.037201:ERROR:object_proxy.cc(576)] Failed to call method: org.kde.KLauncher.start_service_by_desktop_name: object_path= /KLauncher: org.freedesktop.DBus.Error.ServiceUnknown: org.freedesktop.DBus.Error.ServiceUnknown
+[2:2:0119/102417.037210:ERROR:kwallet_dbus.cc(86)] Error contacting klauncher to start kwalletd5
+[2:2:0119/102417.037401:ERROR:object_proxy.cc(576)] Failed to call method: org.kde.KWallet.close: object_path= /modules/kwalletd5: org.freedesktop.DBus.Error.ServiceUnknown: org.freedesktop.DBus.Error.ServiceUnknown
+[2:2:0119/102417.037408:ERROR:kwallet_dbus.cc(412)] Error contacting kwalletd5 (close)
+[2:2:0119/102417.040670:ERROR:object_proxy.cc(576)] Failed to call method: org.kde.KWallet.isEnabled: object_path= /modules/kwalletd: org.freedesktop.DBus.Error.ServiceUnknown: org.freedesktop.DBus.Error.ServiceUnknown
+[2:2:0119/102417.040730:ERROR:kwallet_dbus.cc(117)] Error contacting kwalletd (isEnabled)
+[2:2:0119/102417.040945:ERROR:object_proxy.cc(576)] Failed to call method: org.kde.KLauncher.start_service_by_desktop_name: object_path= /KLauncher: org.freedesktop.DBus.Error.ServiceUnknown: org.freedesktop.DBus.Error.ServiceUnknown
+[2:2:0119/102417.040954:ERROR:kwallet_dbus.cc(86)] Error contacting klauncher to start kwalletd
+[2:2:0119/102417.041138:ERROR:object_proxy.cc(576)] Failed to call method: org.kde.KWallet.close: object_path= /modules/kwalletd: org.freedesktop.DBus.Error.ServiceUnknown: org.freedesktop.DBus.Error.ServiceUnknown
+[2:2:0119/102417.041146:ERROR:kwallet_dbus.cc(412)] Error contacting kwalletd (close)
+[2:167:0119/102417.537341:ERROR:object_proxy.cc(576)] Failed to call method: org.freedesktop.DBus.Properties.Get: object_path= /org/freedesktop/UPower: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.UPower was not provided by any .service files
+[2:167:0119/102417.537724:ERROR:object_proxy.cc(576)] Failed to call method: org.freedesktop.UPower.GetDisplayDevice: object_path= /org/freedesktop/UPower: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.UPower was not provided by any .service files
+[2:167:0119/102417.538153:ERROR:object_proxy.cc(576)] Failed to call method: org.freedesktop.UPower.EnumerateDevices: object_path= /org/freedesktop/UPower: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.UPower was not provided by any .service files
+[2:2:0119/102417.544689:ERROR:object_proxy.cc(576)] Failed to call method: org.freedesktop.portal.Secret.RetrieveSecret: object_path= /org/freedesktop/portal/desktop: org.freedesktop.DBus.Error.UnknownMethod: No such interface “org.freedesktop.portal.Secret” on object at path /org/freedesktop/portal/desktop
+[2:2:0119/102417.544733:ERROR:secret_portal_key_provider.cc(150)] Failed to retrieve secret: No response from portal.
+[2:2:0119/102418.045914:ERROR:sharing_service.cc(296)] Device registration failed with fatal error
+[2:46:0119/102418.050321:ERROR:get_updates_processor.cc(267)] PostClientToServerMessage() failed during GetUpdates with error Network error (ERR_INTERNET_DISCONNECTED)
+nm-applet-Message: 10:24:49.713: No keyring secrets found for CGA2121_6MkyFpP/802-11-wireless-security; asking user.
+nm-applet-Message: 10:25:01.956: No keyring secrets found for CGA2121_6MkyFpP/802-11-wireless-security; asking user.
+[2:36:0119/102503.550516:ERROR:get_updates_processor.cc(267)] PostClientToServerMessage() failed during GetUpdates with error Network error (ERR_INTERNET_DISCONNECTED)
+nm-applet-Message: 10:25:20.549: No keyring secrets found for CGA2121_6MkyFpP/802-11-wireless-security; asking user.
+[2:36:0119/102611.056783:ERROR:get_updates_processor.cc(267)] PostClientToServerMessage() failed during GetUpdates with error Network error (ERR_INTERNET_DISCONNECTED)
+[2:37:0119/102650.420788:ERROR:get_updates_processor.cc(267)] PostClientToServerMessage() failed during GetUpdates with error Network error (ERR_NAME_NOT_RESOLVED)
+(node:65) MaxListenersExceededWarning: Possible EventEmitter memory leak detected. 11 select-capture-device:7a760611-009f-49d8-ad64-13fd13e04a37 listeners added to [IpcRenderer]. MaxListeners is 10. Use emitter.setMaxListeners() to increase limit
+(Use `exe --trace-warnings ...` to show where the warning was created)
+[2:36:0119/092945.753771:ERROR:get_updates_processor.cc(267)] PostClientToServerMessage() failed during GetUpdates with error Network error (ERR_NETWORK_CHANGED)
+[2:38:0119/093001.370495:ERROR:get_updates_processor.cc(267)] PostClientToServerMessage() failed during GetUpdates with error Network error (ERR_NETWORK_CHANGED)
+[2:37:0119/093005.793413:ERROR:get_updates_processor.cc(267)] PostClientToServerMessage() failed during GetUpdates with error Network error (ERR_NETWORK_CHANGED)
 Terminated
-Terminated
-Terminated
-Terminated
-Terminated
-Terminated
-Terminated
-Terminated
-Terminated
-Terminated
-[59:68:0115/122438.611108:ERROR:socket_manager.cc(147)] Failed to resolve address for global.stun.twilio.com., errorcode: -105
-[59:68:0115/122438.611173:ERROR:socket_manager.cc(147)] Failed to resolve address for global.stun.twilio.com., errorcode: -105
-[59:68:0115/122438.611215:ERROR:socket_manager.cc(147)] Failed to resolve address for global.stun.twilio.com., errorcode: -105
-[59:68:0115/122438.611235:ERROR:socket_manager.cc(147)] Failed to resolve address for global.stun.twilio.com., errorcode: -105
-[59:68:0115/122438.611253:ERROR:socket_manager.cc(147)] Failed to resolve address for global.stun.twilio.com., errorcode: -105
-[2:2:0115/122810.839119:ERROR:interface_endpoint_client.cc(725)] Message 1 rejected by interface blink.mojom.WidgetHost
-(node:65) MaxListenersExceededWarning: Possible EventEmitter memory leak detected. 11 select-capture-device:a7d3b955-5511-4441-8caa-92b32f0b5498 listeners added to [IpcRenderer]. MaxListeners is 10. Use emitter.setMaxListeners() to increase limit
-Terminated
-Terminated
-Terminated
-Terminated
-Crashing due to FD ownership violation:
-#0 0x5592f142c66a <unknown>
-#1 0x5592f142556c <unknown>
-#2 0x5592f1425527 close
-#3 0x7fcd6c3fd326 pa_close
-#4 0x7fcd6c3fd719 pa_close_allv
-#5 0x7fcd6c406201 pa_close_all
-#6 0x7fcd6c466ca8 <unknown>
-#7 0x7fcd6c467835 <unknown>
-#8 0x7fcd6c467ea8 pa_context_connect
-#9 0x7fcd6c3d1d27 pulse_connect
-#10 0x7fcd6c3d15be _snd_pcm_pulse_open
-#11 0x7fcd6e7050ba <unknown>
-#12 0x7fcd6e705726 <unknown>
-#13 0x7fcd6e7087bf snd_pcm_open
-#14 0x5592ee4cf152 <unknown>
-#15 0x5592ee4cfef9 <unknown>
-#16 0x5592ee4cbd42 <unknown>
-#17 0x5592ee4cb87b <unknown>
-#18 0x5592ee4c15e3 <unknown>
-#19 0x5592ee4c14c1 <unknown>
-#20 0x5592ee4c3304 <unknown>
-#21 0x5592ee4c2bcc <unknown>
-#22 0x5592f08738bb <unknown>
-#23 0x5592f087313c <unknown>
-#24 0x5592f085fc68 <unknown>
-#25 0x5592f085f7e4 <unknown>
-#26 0x5592f0862647 <unknown>
-#27 0x5592f0867bcd <unknown>
-#28 0x5592f086784b <unknown>
-#29 0x5592ee4845c7 <unknown>
-#30 0x5592f086aeab <unknown>
-#31 0x5592f173b8db <unknown>
-#32 0x5592f17427d7 <unknown>
-#33 0x5592f173d0db <unknown>
-#34 0x5592f174c54f <unknown>
-#35 0x5592f174bbf8 <unknown>
-#36 0x5592f174280e <unknown>
-#37 0x5592f1739059 <unknown>
-#38 0x5592ed82fd8f <unknown>
-#39 0x5592f176258c <unknown>
-#40 0x5592f13cf5ff <unknown>
-#41 0x5592f13f0062 <unknown>
-#42 0x5592f1388127 <unknown>
-#43 0x5592f13f07e1 <unknown>
-#44 0x5592f13aff0e <unknown>
-#45 0x5592f0d246e8 <unknown>
-#46 0x5592edb4d7f0 <unknown>
-#47 0x5592edb4e8b6 <unknown>
-#48 0x5592edb4c54a <unknown>
-#49 0x5592edb4c630 <unknown>
-#50 0x5592ed7f9017 <unknown>
-#51 0x7fcd6e39a08a <unknown>
-#52 0x7fcd6e39a14b __libc_start_main
-#53 0x5592ed3d502a _start
-ALSA lib ../../pulse/pulse.c:242:(pulse_connect) PulseAudio: Unable to connect: Connection refused
-
-[300:0115/133548.258864:ERROR:alsa_util.cc(204)] PcmOpen: default,Connection refused
-Crashing due to FD ownership violation:
-#0 0x5592f142c66a <unknown>
-#1 0x5592f142556c <unknown>
-#2 0x5592f1425527 close
-#3 0x7fcd6c3fd326 pa_close
-#4 0x7fcd6c3fd719 pa_close_allv
-#5 0x7fcd6c406201 pa_close_all
-#6 0x7fcd6c466ca8 <unknown>
-#7 0x7fcd6c467835 <unknown>
-#8 0x7fcd6c467ea8 pa_context_connect
-#9 0x7fcd6c3d1d27 pulse_connect
-#10 0x7fcd6c3d15be _snd_pcm_pulse_open
-#11 0x7fcd6e7050ba <unknown>
-#12 0x7fcd6e705726 <unknown>
-#13 0x7fcd6e708cd4 <unknown>
-#14 0x7fcd6e72f327 _snd_pcm_plug_open
-#15 0x7fcd6e7050ba <unknown>
-#16 0x7fcd6e705726 <unknown>
-#17 0x7fcd6e7087bf snd_pcm_open
-#18 0x5592ee4cf152 <unknown>
-#19 0x5592ee4cfef9 <unknown>
-#20 0x5592ee4cbe99 <unknown>
-#21 0x5592ee4cb87b <unknown>
-#22 0x5592ee4c15e3 <unknown>
-#23 0x5592ee4c14c1 <unknown>
-#24 0x5592ee4c3304 <unknown>
-#25 0x5592ee4c2bcc <unknown>
-#26 0x5592f08738bb <unknown>
-#27 0x5592f087313c <unknown>
-#28 0x5592f085fc68 <unknown>
-#29 0x5592f085f7e4 <unknown>
-#30 0x5592f0862647 <unknown>
-#31 0x5592f0867bcd <unknown>
-#32 0x5592f086784b <unknown>
-#33 0x5592ee4845c7 <unknown>
-#34 0x5592f086aeab <unknown>
-#35 0x5592f173b8db <unknown>
-#36 0x5592f17427d7 <unknown>
-#37 0x5592f173d0db 
-(ferdium:2): libnotify-WARNING **: 13:35:48.306: Running in confined mode, using Portal notifications. Some features and hints won't be supported
-<unknown>
-#38 0x5592f174c54f <unknown>
-#39 0x5592f174bbf8 <unknown>
-#40 0x5592f174280e <unknown>
-#41 0x5592f1739059 <unknown>
-#42 0x5592ed82fd8f <unknown>
-#43 0x5592f176258c <unknown>
-#44 0x5592f13cf5ff <unknown>
-#45 0x5592f13f0062 <unknown>
-#46 0x5592f1388127 <unknown>
-#47 0x5592f13f07e1 <unknown>
-#48 0x5592f13aff0e <unknown>
-#49 0x5592f0d246e8 <unknown>
-#50 0x5592edb4d7f0 <unknown>
-#51 0x5592edb4e8b6 <unknown>
-#52 0x5592edb4c54a <unknown>
-#53 0x5592edb4c630 <unknown>
-#54 0x5592ed7f9017 <unknown>
-#55 0x7fcd6e39a08a <unknown>
-#56 0x7fcd6e39a14b __libc_start_main
-#57 0x5592ed3d502a _start
-ALSA lib ../../pulse/pulse.c:242:(pulse_connect) PulseAudio: Unable to connect: Connection refused
-
-[300:0115/133548.320217:ERROR:alsa_util.cc(204)] PcmOpen: plug:default,Connection refused
-Crashing due to FD ownership violation:
-#0 0x5592f142c66a <unknown>
-#1 0x5592f142556c <unknown>
-#2 0x5592f1425527 close
-#3 0x7fcd6c3fd326 pa_close
-#4 0x7fcd6c3fd719 pa_close_allv
-#5 0x7fcd6c406201 pa_close_all
-#6 0x7fcd6c466ca8 <unknown>
-#7 0x7fcd6c467835 <unknown>
-#8 0x7fcd6c467ea8 pa_context_connect
-#9 0x7fcd6c3d1d27 pulse_connect
-#10 0x7fcd6c3d15be _snd_pcm_pulse_open
-#11 0x7fcd6e7050ba <unknown>
-#12 0x7fcd6e705726 <unknown>
-#13 0x7fcd6e7087bf snd_pcm_open
-#14 0x5592ee4cf152 <unknown>
-#15 0x5592ee4cfef9 <unknown>
-#16 0x5592ee4cbd42 <unknown>
-#17 0x5592ee4cb87b <unknown>
-#18 0x5592ee4c15e3 <unknown>
-#19 0x5592ee4c14c1 <unknown>
-#20 0x5592ee4c3304 <unknown>
-#21 0x5592ee4c2bcc <unknown>
-#22 0x5592f08738bb <unknown>
-#23 0x5592f087313c <unknown>
-#24 0x5592f085fc68 <unknown>
-#25 0x5592f085f7e4 <unknown>
-#26 0x5592f0862647 <unknown>
-#27 0x5592f0867bcd <unknown>
-#28 0x5592f086784b <unknown>
-#29 0x5592ee4845c7 <unknown>
-#30 0x5592f086aeab <unknown>
-#31 0x5592f173b8db <unknown>
-#32 0x5592f17427d7 <unknown>
-#33 0x5592f173d0db <unknown>
-#34 0x5592f174c54f <unknown>
-#35 0x5592f174bbf8 <unknown>
-#36 0x5592f174280e <unknown>
-#37 0x5592f1739059 <unknown>
-#38 0x5592ed82fd8f <unknown>
-#39 0x5592f176258c <unknown>
-#40 0x5592f13cf5ff <unknown>
-#41 0x5592f13f0062 <unknown>
-#42 0x5592f1388127 <unknown>
-#43 0x5592f13f07e1 <unknown>
-#44 0x5592f13aff0e <unknown>
-#45 0x5592f0d246e8 <unknown>
-#46 0x5592edb4d7f0 <unknown>
-#47 0x5592edb4e8b6 <unknown>
-#48 0x5592edb4c54a <unknown>
-#49 0x5592edb4c630 <unknown>
-#50 0x5592ed7f9017 <unknown>
-#51 0x7fcd6e39a08a <unknown>
-#52 0x7fcd6e39a14b __libc_start_main
-#53 0x5592ed3d502a _start
-ALSA lib ../../pulse/pulse.c:242:(pulse_connect) PulseAudio: Unable to connect: Connection refused
-
-[300:0115/134935.566505:ERROR:alsa_util.cc(204)] PcmOpen: default,Connection refused
-Crashing due to FD ownership violation:
-#0 0x5592f142c66a <unknown>
-#1 0x5592f142556c <unknown>
-#2 0x5592f1425527 close
-#3 0x7fcd6c3fd326 pa_close
-#4 0x7fcd6c3fd719 pa_close_allv
-#5 0x7fcd6c406201 pa_close_all
-#6 0x7fcd6c466ca8 <unknown>
-#7 0x7fcd6c467835 <unknown>
-#8 0x7fcd6c467ea8 pa_context_connect
-#9 0x7fcd6c3d1d27 pulse_connect
-#10 0x7fcd6c3d15be _snd_pcm_pulse_open
-#11 0x7fcd6e7050ba <unknown>
-#12 0x7fcd6e705726 <unknown>
-#13 0x7fcd6e708cd4 <unknown>
-#14 0x7fcd6e72f327 _snd_pcm_plug_open
-#15 0x7fcd6e7050ba <unknown>
-#16 0x7fcd6e705726 <unknown>
-#17 0x7fcd6e7087bf snd_pcm_open
-#18 0x5592ee4cf152 <unknown>
-#19 0x5592ee4cfef9 <unknown>
-#20 0x5592ee4cbe99 <unknown>
-#21 0x5592ee4cb87b <unknown>
-#22 0x5592ee4c15e3 <unknown>
-#23 0x5592ee4c14c1 <unknown>
-#24 0x5592ee4c3304 <unknown>
-#25 0x5592ee4c2bcc <unknown>
-#26 0x5592f08738bb <unknown>
-#27 0x5592f087313c <unknown>
-#28 0x5592f085fc68 <unknown>
-#29 0x5592f085f7e4 <unknown>
-#30 0x5592f0862647 <unknown>
-#31 0x5592f0867bcd <unknown>
-#32 0x5592f086784b <unknown>
-#33 0x5592ee4845c7 <unknown>
-#34 0x5592f086aeab <unknown>
-#35 0x5592f173b8db <unknown>
-#36 0x5592f17427d7 <unknown>
-#37 0x5592f173d0db <unknown>
-#38 0x5592f174c54f <unknown>
-#39 0x5592f174bbf8 <unknown>
-#40 0x5592f174280e <unknown>
-#41 0x5592f1739059 <unknown>
-#42 0x5592ed82fd8f <unknown>
-#43 0x5592f176258c <unknown>
-#44 0x5592f13cf5ff <unknown>
-#45 0x5592f13f0062 <unknown>
-#46 0x5592f1388127 <unknown>
-#47 0x5592f13f07e1 <unknown>
-#48 0x5592f13aff0e <unknown>
-#49 0x5592f0d246e8 <unknown>
-#50 0x5592edb4d7f0 <unknown>
-#51 0x5592edb4e8b6 <unknown>
-#52 0x5592edb4c54a <unknown>
-#53 0x5592edb4c630 <unknown>
-#54 0x5592ed7f9017 <unknown>
-#55 0x7fcd6e39a08a <unknown>
-#56 0x7fcd6e39a14b __libc_start_main
-#57 0x5592ed3d502a _start
-ALSA lib ../../pulse/pulse.c:242:(pulse_connect) PulseAudio: Unable to connect: Connection refused
-
-[300:0115/134935.621564:ERROR:alsa_util.cc(204)] PcmOpen: plug:default,Connection refused
-Crashing due to FD ownership violation:
-#0 0x5592f142c66a <unknown>
-#1 0x5592f142556c <unknown>
-#2 0x5592f1425527 close
-#3 0x7fcd6c3fd326 pa_close
-#4 0x7fcd6c3fd719 pa_close_allv
-#5 0x7fcd6c406201 pa_close_all
-#6 0x7fcd6c466ca8 <unknown>
-#7 0x7fcd6c467835 <unknown>
-#8 0x7fcd6c467ea8 pa_context_connect
-#9 0x7fcd6c3d1d27 pulse_connect
-#10 0x7fcd6c3d15be _snd_pcm_pulse_open
-#11 0x7fcd6e7050ba <unknown>
-#12 0x7fcd6e705726 <unknown>
-#13 0x7fcd6e7087bf snd_pcm_open
-#14 0x5592ee4cf152 <unknown>
-#15 0x5592ee4cfef9 <unknown>
-#16 0x5592ee4cbd42 <unknown>
-#17 0x5592ee4cb87b <unknown>
-#18 0x5592ee4c15e3 <unknown>
-#19 0x5592ee4c14c1 <unknown>
-#20 0x5592ee4c3304 <unknown>
-#21 0x5592ee4c2bcc <unknown>
-#22 0x5592f08738bb <unknown>
-#23 0x5592f087313c <unknown>
-#24 0x5592f085fc68 <unknown>
-#25 0x5592f085f7e4 <unknown>
-#26 0x5592f0862647 <unknown>
-#27 0x5592f0867bcd <unknown>
-#28 0x5592f086784b <unknown>
-#29 0x5592ee4845c7 <unknown>
-#30 0x5592f086aeab <unknown>
-#31 0x5592f173b8db <unknown>
-#32 0x5592f17427d7 <unknown>
-#33 0x5592f173d0db <unknown>
-#34 0x5592f174c54f <unknown>
-#35 0x5592f174bbf8 <unknown>
-#36 0x5592f174280e <unknown>
-#37 0x5592f1739059 <unknown>
-#38 0x5592ed82fd8f <unknown>
-#39 0x5592f176258c <unknown>
-#40 0x5592f13cf5ff <unknown>
-#41 0x5592f13f0062 <unknown>
-#42 0x5592f1388127 <unknown>
-#43 0x5592f13f07e1 <unknown>
-#44 0x5592f13aff0e <unknown>
-#45 0x5592f0d246e8 <unknown>
-#46 0x5592edb4d7f0 <unknown>
-#47 0x5592edb4e8b6 <unknown>
-#48 0x5592edb4c54a <unknown>
-#49 0x5592edb4c630 <unknown>
-#50 0x5592ed7f9017 <unknown>
-#51 0x7fcd6e39a08a <unknown>
-#52 0x7fcd6e39a14b __libc_start_main
-#53 0x5592ed3d502a _start
-ALSA lib ../../pulse/pulse.c:242:(pulse_connect) PulseAudio: Unable to connect: Connection refused
-
-[300:0115/135136.005474:ERROR:alsa_util.cc(204)] PcmOpen: default,Connection refused
-Crashing due to FD ownership violation:
-#0 0x5592f142c66a <unknown>
-#1 0x5592f142556c <unknown>
-#2 0x5592f1425527 close
-#3 0x7fcd6c3fd326 pa_close
-#4 0x7fcd6c3fd719 pa_close_allv
-#5 0x7fcd6c406201 pa_close_all
-#6 0x7fcd6c466ca8 <unknown>
-#7 0x7fcd6c467835 <unknown>
-#8 0x7fcd6c467ea8 pa_context_connect
-#9 0x7fcd6c3d1d27 pulse_connect
-#10 0x7fcd6c3d15be _snd_pcm_pulse_open
-#11 0x7fcd6e7050ba <unknown>
-#12 0x7fcd6e705726 <unknown>
-#13 0x7fcd6e708cd4 <unknown>
-#14 0x7fcd6e72f327 _snd_pcm_plug_open
-#15 0x7fcd6e7050ba <unknown>
-#16 0x7fcd6e705726 <unknown>
-#17 0x7fcd6e7087bf snd_pcm_open
-#18 0x5592ee4cf152 <unknown>
-#19 0x5592ee4cfef9 <unknown>
-#20 0x5592ee4cbe99 <unknown>
-#21 0x5592ee4cb87b <unknown>
-#22 0x5592ee4c15e3 <unknown>
-#23 0x5592ee4c14c1 <unknown>
-#24 0x5592ee4c3304 <unknown>
-#25 0x5592ee4c2bcc <unknown>
-#26 0x5592f08738bb <unknown>
-#27 0x5592f087313c <unknown>
-#28 0x5592f085fc68 <unknown>
-#29 0x5592f085f7e4 <unknown>
-#30 0x5592f0862647 <unknown>
-#31 0x5592f0867bcd <unknown>
-#32 0x5592f086784b <unknown>
-#33 0x5592ee4845c7 <unknown>
-#34 0x5592f086aeab <unknown>
-#35 0x5592f173b8db <unknown>
-#36 0x5592f17427d7 <unknown>
-#37 0x5592f173d0db <unknown>
-#38 0x5592f174c54f <unknown>
-#39 0x5592f174bbf8 <unknown>
-#40 0x5592f174280e <unknown>
-#41 0x5592f1739059 <unknown>
-#42 0x5592ed82fd8f <unknown>
-#43 0x5592f176258c <unknown>
-#44 0x5592f13cf5ff <unknown>
-#45 0x5592f13f0062 <unknown>
-#46 0x5592f1388127 <unknown>
-#47 0x5592f13f07e1 <unknown>
-#48 0x5592f13aff0e <unknown>
-#49 0x5592f0d246e8 <unknown>
-#50 0x5592edb4d7f0 <unknown>
-#51 0x5592edb4e8b6 <unknown>
-#52 0x5592edb4c54a <unknown>
-#53 0x5592edb4c630 <unknown>
-#54 0x5592ed7f9017 <unknown>
-#55 0x7fcd6e39a08a <unknown>
-#56 0x7fcd6e39a14b __libc_start_main
-#57 0x5592ed3d502a _start
-ALSA lib ../../pulse/pulse.c:242:(pulse_connect) PulseAudio: Unable to connect: Connection refused
-
-[300:0115/135136.062568:ERROR:alsa_util.cc(204)] PcmOpen: plug:default,Connection refused
+[2:36:0119/093305.193436:ERROR:get_updates_processor.cc(267)] PostClientToServerMessage() failed during GetUpdates with error Network error (ERR_NETWORK_CHANGED)
 erresc: unknown csi ESC[?2026$p
 erresc: unknown csi ESC[4:3m
 erresc: unknown csi ESC[>4;2m
 erresc: unknown csi ESC[>4;0m
-erresc: unknown csi ESC[?1001r
-[W][07219.199935] pw.node      | [     impl-node.c: 1367 debug_xrun_graph()] (alsa_input.pci-0000_04_00.6.analog-stereo-51) graph xrun not-triggered (0 suppressed)
-[W][07219.200025] pw.node      | [     impl-node.c: 1377 debug_xrun_graph()] (alsa_input.pci-0000_04_00.6.analog-stereo-51) xrun state:0x7f206150b008 pending:1/1 s:7219332799737 a:7219332856518 f:7219332859312 waiting:56781 process:2794 status:triggered
+[2:46:0119/093323.969556:ERROR:get_updates_processor.cc(267)] PostClientToServerMessage() failed during GetUpdates with error Network error (ERR_NETWORK_CHANGED)
 erresc: unknown csi ESC[?2026$p
 erresc: unknown csi ESC[4:3m
 erresc: unknown csi ESC[>4;2m
-erresc: unknown csi ESC[?2026$p
-erresc: unknown csi ESC[4:3m
-erresc: unknown csi ESC[>4;2m
+[2:46:0119/093329.955181:ERROR:get_updates_processor.cc(267)] PostClientToServerMessage() failed during GetUpdates with error Network error (ERR_NETWORK_CHANGED)
+[2:46:0119/093330.116058:ERROR:get_updates_processor.cc(267)] PostClientToServerMessage() failed during GetUpdates with error Network error (ERR_NETWORK_CHANGED)
+[2:46:0119/093331.555237:ERROR:get_updates_processor.cc(267)] PostClientToServerMessage() failed during GetUpdates with error Network error (ERR_NETWORK_CHANGED)
+[2:85:0119/093340.421784:ERROR:get_updates_processor.cc(267)] PostClientToServerMessage() failed during GetUpdates with error Network error (ERR_NETWORK_CHANGED)
+[2:85:0119/093344.568145:ERROR:get_updates_processor.cc(267)] PostClientToServerMessage() failed during GetUpdates with error Network error (ERR_NETWORK_CHANGED)
+[2:85:0119/093349.775757:ERROR:get_updates_processor.cc(267)] PostClientToServerMessage() failed during GetUpdates with error Network error (ERR_NETWORK_CHANGED)
+[2:85:0119/093351.651096:ERROR:get_updates_processor.cc(267)] PostClientToServerMessage() failed during GetUpdates with error Network error (ERR_NETWORK_CHANGED)
+[2:85:0119/093359.467135:ERROR:get_updates_processor.cc(267)] PostClientToServerMessage() failed during GetUpdates with error Network error (ERR_NETWORK_CHANGED)
+[2:85:0119/093419.482832:ERROR:get_updates_processor.cc(267)] PostClientToServerMessage() failed during GetUpdates with error Network error (ERR_NAME_NOT_RESOLVED)
+[2:85:0119/093433.677831:ERROR:get_updates_processor.cc(267)] PostClientToServerMessage() failed during GetUpdates with error Network error (ERR_NETWORK_CHANGED)
+[2:85:0119/093443.748903:ERROR:get_updates_processor.cc(267)] PostClientToServerMessage() failed during GetUpdates with error Network error (ERR_NAME_NOT_RESOLVED)
+[2:85:0119/093453.009819:ERROR:get_updates_processor.cc(267)] PostClientToServerMessage() failed during GetUpdates with error Network error (ERR_NETWORK_CHANGED)
+[2:85:0119/093512.333965:ERROR:get_updates_processor.cc(267)] PostClientToServerMessage() failed during GetUpdates with error Network error (ERR_NETWORK_CHANGED)
+[2:85:0119/093512.353258:ERROR:get_updates_processor.cc(267)] PostClientToServerMessage() failed during GetUpdates with error Network error (ERR_NETWORK_CHANGED)
+[2:85:0119/093513.487452:ERROR:get_updates_processor.cc(267)] PostClientToServerMessage() failed during GetUpdates with error Network error (ERR_NETWORK_CHANGED)
+[2:85:0119/093520.972043:ERROR:get_updates_processor.cc(267)] PostClientToServerMessage() failed during GetUpdates with error Network error (ERR_NETWORK_CHANGED)
+Terminated
+Terminated
+Terminated
+Terminated
+Terminated
+Terminated
+Terminated
+Terminated
+Terminated
+[2:85:0119/093528.568141:ERROR:get_updates_processor.cc(267)] PostClientToServerMessage() failed during GetUpdates with error Network error (ERR_NETWORK_CHANGED)
+[2:85:0119/093529.423197:ERROR:get_updates_processor.cc(267)] PostClientToServerMessage() failed during GetUpdates with error Network error (ERR_NETWORK_CHANGED)
+[2:85:0119/093540.255396:ERROR:get_updates_processor.cc(267)] PostClientToServerMessage() failed during GetUpdates with error Network error (ERR_NETWORK_CHANGED)
+[2:85:0119/093556.338357:ERROR:get_updates_processor.cc(267)] PostClientToServerMessage() failed during GetUpdates with error Network error (ERR_NETWORK_CHANGED)
+[2:85:0119/093556.559448:ERROR:get_updates_processor.cc(267)] PostClientToServerMessage() failed during GetUpdates with error Network error (ERR_NETWORK_CHANGED)
+[2:49:0119/093605.795425:ERROR:get_updates_processor.cc(267)] PostClientToServerMessage() failed during GetUpdates with error Network error (ERR_NETWORK_CHANGED)
+[2:49:0119/093612.379001:ERROR:get_updates_processor.cc(267)] PostClientToServerMessage() failed during GetUpdates with error Network error (ERR_NETWORK_CHANGED)
+[51:51:0119/093707.591485:ERROR:shared_image_manager.cc(250)] SharedImageManager::ProduceSkia: Trying to Produce a Skia representation from a non-existent mailbox.
+nm-applet-Message: 09:40:52.920: No keyring secrets found for popadic_5GHz/802-11-wireless-security; asking user.
+[2:38:0119/094056.281991:ERROR:get_updates_processor.cc(267)] PostClientToServerMessage() failed during GetUpdates with error Network error (ERR_INTERNET_DISCONNECTED)
+[2:38:0119/094102.583329:ERROR:get_updates_processor.cc(267)] PostClientToServerMessage() failed during GetUpdates with error Network error (ERR_NAME_NOT_RESOLVED)
+Crashing due to FD ownership violation:
+#0 0x5556e14e566a <unknown>
+#1 0x5556e14de56c <unknown>
+#2 0x5556e14de527 close
+#3 0x7f4104dfd326 pa_close
+#4 0x7f4104dfd719 pa_close_allv
+#5 0x7f4104e06201 pa_close_all
+#6 0x7f4104e66ca8 <unknown>
+#7 0x7f4104e67835 <unknown>
+#8 0x7f4104e67ea8 pa_context_connect
+#9 0x7f4104dc7d27 pulse_connect
+#10 0x7f4104dc75be _snd_pcm_pulse_open
+#11 0x7f41070fd0ba <unknown>
+#12 0x7f41070fd726 <unknown>
+#13 0x7f41071007bf snd_pcm_open
+#14 0x5556de588152 <unknown>
+#15 0x5556de588ef9 <unknown>
+#16 0x5556de584d42 <unknown>
+#17 0x5556de58487b <unknown>
+#18 0x5556de57a5e3 <unknown>
+#19 0x5556de57a4c1 <unknown>
+#20 0x5556de57c304 <unknown>
+#21 0x5556de57bbcc <unknown>
+#22 0x5556e092c8bb <unknown>
+#23 0x5556e092c13c <unknown>
+#24 0x5556e0918c68 <unknown>
+#25 0x5556e09187e4 <unknown>
+#26 0x5556e091b647 <unknown>
+#27 0x5556e0920bcd <unknown>
+#28 0x5556e092084b <unknown>
+#29 0x5556de53d5c7 <unknown>
+#30 0x5556e0923eab <unknown>
+#31 0x5556e17f48db <unknown>
+#32 0x5556e17fb7d7 <unknown>
+#33 0x5556e17f60db <unknown>
+#34 0x5556e180554f <unknown>
+#35 0x5556e1804bf8 <unknown>
+#36 0x5556e17fb80e <unknown>
+#37 0x5556e17f2059 <unknown>
+#38 0x5556dd8e8d8f <unknown>
+#39 0x5556e181b58c <unknown>
+#40 0x5556e14885ff <unknown>
+#41 0x5556e14a9062 <unknown>
+#42 0x5556e1441127 <unknown>
+#43 0x5556e14a97e1 <unknown>
+#44 0x5556e1468f0e <unknown>
+#45 0x5556e0ddd6e8 <unknown>
+#46 0x5556ddc067f0 <unknown>
+#47 0x5556ddc078b6 <unknown>
+#48 0x5556ddc0554a <unknown>
+#49 0x5556ddc05630 <unknown>
+#50 0x5556dd8b2017 <unknown>
+#51 0x7f4106d9208a <unknown>
+#52 0x7f4106d9214b __libc_start_main
+#53 0x5556dd48e02a _start
+ALSA lib ../../pulse/pulse.c:242:(pulse_connect) PulseAudio: Unable to connect: Connection refused
+
+[297:0119/094134.117743:ERROR:alsa_util.cc(204)] PcmOpen: default,Connection refused
+Crashing due to FD ownership violation:
+#0 0x5556e14e566a <unknown>
+#1 0x5556e14de56c <unknown>
+#2 0x5556e14de527 close
+#3 0x7f4104dfd326 pa_close
+#4 0x7f4104dfd719 pa_close_allv
+#5 0x7f4104e06201 pa_close_all
+#6 0x7f4104e66ca8 <unknown>
+#7 0x7f4104e67835 <unknown>
+#8 0x7f4104e67ea8 pa_context_connect
+#9 0x7f4104dc7d27 pulse_connect
+#10 0x7f4104dc75be _snd_pcm_pulse_open
+#11 0x7f41070fd0ba <unknown>
+#12 0x7f41070fd726 <unknown>
+#13 0x7f4107100cd4 <unknown>
+#14 0x7f4107127327 _snd_pcm_plug_open
+#15 0x7f41070fd0ba <unknown>
+#16 0x7f41070fd726 <unknown>
+#17 0x7f41071007bf snd_pcm_open
+#18 0x5556de588152 <unknown>
+#19 0x5556de588ef9 <unknown>
+#20 0x5556de584e99 <unknown>
+#21 0x5556de58487b <unknown>
+#22 0x5556de57a5e3 <unknown>
+#23 0x5556de57a4c1 <unknown>
+#24 0x5556de57c304 <unknown>
+#25 0x5556de57bbcc <unknown>
+#26 0x5556e092c8bb <unknown>
+#27 0x5556e092c13c <unknown>
+#28 0x5556e0918c68 <unknown>
+#29 0x5556e09187e4 <unknown>
+#30 0x5556e091b647 <unknown>
+#31 0x5556e0920bcd <unknown>
+#32 0x5556e092084b <unknown>
+#33 0x5556de53d5c7 <unknown>
+#34 0x5556e0923eab <unknown>
+#35 0x5556e17f48db <unknown>
+#36 0x5556e17fb7d7 <unknown>
+#37 0x5556e17f60db <unknown>
+#38 0x5556e180554f <unknown>
+#39 0x5556e1804bf8 <unknown>
+#40 0x5556e17fb80e <unknown>
+#41 0x5556e17f2059 <unknown>
+#42 0x5556dd8e8d8f <unknown>
+#43 0x5556e181b58c <unknown>
+#44 0x5556e14885ff <unknown>
+#45 0x5556e14a9062 <unknown>
+#46 0x5556e1441127 <unknown>
+#47 0x5556e14a97e1 <unknown>
+#48 0x5556e1468f0e <unknown>
+#49 0x5556e0ddd6e8 <unknown>
+#50 0x5556ddc067f0 <unknown>
+#51 0x5556ddc078b6 <unknown>
+#52 0x5556ddc0554a <unknown>
+#53 0x5556ddc05630 <unknown>
+#54 0x5556dd8b2017 <unknown>
+#55 0x7f4106d9208a <unknown>
+#56 0x7f4106d9214b __libc_start_main
+#57 0x5556dd48e02a _start
+ALSA lib ../../pulse/pulse.c:242:(pulse_connect) PulseAudio: Unable to connect: Connection refused
+
+[297:0119/094134.176253:ERROR:alsa_util.cc(204)] PcmOpen: plug:default,Connection refused
+
+(ferdium:2): libnotify-WARNING **: 09:41:34.462: Running in confined mode, using Portal notifications. Some features and hints won't be supported
 erresc: unknown csi ESC[?2026$p
 erresc: unknown csi ESC[4:3m
 erresc: unknown csi ESC[>4;2m
 erresc: unknown csi ESC[>4;0m
+erresc: unknown csi ESC[?2026$p
+erresc: unknown csi ESC[4:3m
+erresc: unknown csi ESC[>4;2m
 erresc: unknown csi ESC[>4;0m
-erresc: unknown str ESC]8
-erresc: unknown str ESC]8
-erresc: unknown str ESC]8
-erresc: unknown str ESC]8
-erresc: unknown str ESC]8
-erresc: unknown str ESC]8
-erresc: unknown str ESC]8
-erresc: unknown str ESC]8
-erresc: unknown str ESC]8
-erresc: unknown str ESC]8
-erresc: unknown str ESC]8
-erresc: unknown str ESC]8
-erresc: unknown str ESC]8
-erresc: unknown str ESC]8
-erresc: unknown str ESC]8
-erresc: unknown str ESC]8
-erresc: unknown str ESC]8
-erresc: unknown str ESC]8
-erresc: unknown str ESC]8
-erresc: unknown str ESC]8
-erresc: unknown str ESC]8
-erresc: unknown str ESC]8
+erresc: unknown csi ESC[?2026$p
+erresc: unknown csi ESC[4:3m
+erresc: unknown csi ESC[>4;2m
+erresc: unknown csi ESC[>4;0m
+erresc: unknown csi ESC[?2026$p
+erresc: unknown csi ESC[4:3m
+erresc: unknown csi ESC[>4;2m
+erresc: unknown csi ESC[>4;0m
+Terminated
+Terminated
+erresc: unknown csi ESC[?2026$p
+erresc: unknown csi ESC[4:3m
+erresc: unknown csi ESC[>4;2m
+Terminated
+Terminated
+erresc: unknown csi ESC[>4;0m
+Terminated
+Terminated
+Terminated
+Terminated
+Terminated
+Terminated
+Crashing due to FD ownership violation:
+#0 0x5556e14e566a <unknown>
+#1 0x5556e14de56c <unknown>
+#2 0x5556e14de527 close
+#3 0x7f4104dfd326 pa_close
+#4 0x7f4104dfd719 pa_close_allv
+#5 0x7f4104e06201 pa_close_all
+#6 0x7f4104e66ca8 <unknown>
+#7 0x7f4104e67835 <unknown>
+#8 0x7f4104e67ea8 pa_context_connect
+#9 0x7f4104dc7d27 pulse_connect
+#10 0x7f4104dc75be _snd_pcm_pulse_open
+#11 0x7f41070fd0ba <unknown>
+#12 0x7f41070fd726 <unknown>
+#13 0x7f41071007bf snd_pcm_open
+#14 0x5556de588152 <unknown>
+#15 0x5556de588ef9 <unknown>
+#16 0x5556de584d42 <unknown>
+#17 0x5556de58487b <unknown>
+#18 0x5556de57a5e3 <unknown>
+#19 0x5556de57a4c1 <unknown>
+#20 0x5556de57c304 <unknown>
+#21 0x5556de57bbcc <unknown>
+#22 0x5556e092c8bb <unknown>
+#23 0x5556e092c13c <unknown>
+#24 0x5556e0918c68 <unknown>
+#25 0x5556e09187e4 <unknown>
+#26 0x5556e091b647 <unknown>
+#27 0x5556e0920bcd <unknown>
+#28 0x5556e092084b <unknown>
+#29 0x5556de53d5c7 <unknown>
+#30 0x5556e0923eab <unknown>
+#31 0x5556e17f48db <unknown>
+#32 0x5556e17fb7d7 <unknown>
+#33 0x5556e17f60db <unknown>
+#34 0x5556e180554f <unknown>
+#35 0x5556e1804bf8 <unknown>
+#36 0x5556e17fb80e <unknown>
+#37 0x5556e17f2059 <unknown>
+#38 0x5556dd8e8d8f <unknown>
+#39 0x5556e181b58c <unknown>
+#40 0x5556e14885ff <unknown>
+#41 0x5556e14a9062 <unknown>
+#42 0x5556e1441127 <unknown>
+#43 0x5556e14a97e1 <unknown>
+#44 0x5556e1468f0e <unknown>
+#45 0x5556e0ddd6e8 <unknown>
+#46 0x5556ddc067f0 <unknown>
+#47 0x5556ddc078b6 <unknown>
+#48 0x5556ddc0554a <unknown>
+#49 0x5556ddc05630 <unknown>
+#50 0x5556dd8b2017 <unknown>
+#51 0x7f4106d9208a <unknown>
+#52 0x7f4106d9214b __libc_start_main
+#53 0x5556dd48e02a _start
+ALSA lib ../../pulse/pulse.c:242:(pulse_connect) PulseAudio: Unable to connect: Connection refused
+
+[297:0119/101124.209128:ERROR:alsa_util.cc(204)] PcmOpen: default,Connection refused
+Crashing due to FD ownership violation:
+#0 0x5556e14e566a <unknown>
+#1 0x5556e14de56c <unknown>
+#2 0x5556e14de527 close
+#3 0x7f4104dfd326 pa_close
+#4 0x7f4104dfd719 pa_close_allv
+#5 0x7f4104e06201 pa_close_all
+#6 0x7f4104e66ca8 <unknown>
+#7 0x7f4104e67835 <unknown>
+#8 0x7f4104e67ea8 pa_context_connect
+#9 0x7f4104dc7d27 pulse_connect
+#10 0x7f4104dc75be _snd_pcm_pulse_open
+#11 0x7f41070fd0ba <unknown>
+#12 0x7f41070fd726 <unknown>
+#13 0x7f4107100cd4 <unknown>
+#14 0x7f4107127327 _snd_pcm_plug_open
+#15 0x7f41070fd0ba <unknown>
+#16 0x7f41070fd726 <unknown>
+#17 0x7f41071007bf snd_pcm_open
+#18 0x5556de588152 <unknown>
+#19 0x5556de588ef9 <unknown>
+#20 0x5556de584e99 <unknown>
+#21 0x5556de58487b <unknown>
+#22 0x5556de57a5e3 <unknown>
+#23 0x5556de57a4c1 <unknown>
+#24 0x5556de57c304 <unknown>
+#25 0x5556de57bbcc <unknown>
+#26 0x5556e092c8bb <unknown>
+#27 0x5556e092c13c <unknown>
+#28 0x5556e0918c68 <unknown>
+#29 0x5556e09187e4 <unknown>
+#30 0x5556e091b647 <unknown>
+#31 0x5556e0920bcd <unknown>
+#32 0x5556e092084b <unknown>
+#33 0x5556de53d5c7 <unknown>
+#34 0x5556e0923eab <unknown>
+#35 0x5556e17f48db <unknown>
+#36 0x5556e17fb7d7 <unknown>
+#37 0x5556e17f60db <unknown>
+#38 0x5556e180554f <unknown>
+#39 0x5556e1804bf8 <unknown>
+#40 0x5556e17fb80e <unknown>
+#41 0x5556e17f2059 <unknown>
+#42 0x5556dd8e8d8f <unknown>
+#43 0x5556e181b58c <unknown>
+#44 0x5556e14885ff <unknown>
+#45 0x5556e14a9062 <unknown>
+#46 0x5556e1441127 <unknown>
+#47 0x5556e14a97e1 <unknown>
+#48 0x5556e1468f0e <unknown>
+#49 0x5556e0ddd6e8 <unknown>
+#50 0x5556ddc067f0 <unknown>
+#51 0x5556ddc078b6 <unknown>
+#52 0x5556ddc0554a <unknown>
+#53 0x5556ddc05630 <unknown>
+#54 0x5556dd8b2017 <unknown>
+#55 0x7f4106d9208a <unknown>
+#56 0x7f4106d9214b __libc_start_main
+#57 0x5556dd48e02a _start
+ALSA lib ../../pulse/pulse.c:242:(pulse_connect) PulseAudio: Unable to connect: Connection refused
+
+[297:0119/101124.261410:ERROR:alsa_util.cc(204)] PcmOpen: plug:default,Connection refused
+Terminated
+Terminated
+erresc: unknown csi ESC[?2026$p
+erresc: unknown csi ESC[4:3m
+erresc: unknown csi ESC[>4;2m
+Terminated
+Terminated
+Terminated
+Terminated
+Terminated
+Terminated
+Terminated
+Terminated
+erresc: unknown csi ESC[>4;0m

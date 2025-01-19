@@ -1,16 +1,16 @@
 #!/bin/bash
 
 # KEYBOARD LAYOUT
-layout=$(xkblayout-state print "%s(%e)")
+layout_in=$(xkblayout-state print "%c")
 keyboard_icon="󰥻"
-case $layout in
-	"us(basic)")
+case $layout_in in
+	"0")
         	layout="eng"
         ;;
-	"rs(basic)")
+	"1")
 		layout="срб"
         ;;
-    	"rs(latin)")
+    	"2")
         	layout="srb"
         ;;
 esac
