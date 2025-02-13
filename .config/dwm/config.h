@@ -96,12 +96,13 @@ static const Rule rules[] = {
   { "STM32CubeIDE", NULL, NULL, 1 << 1, 0, -1 },
   { "Stm32cubeide", NULL, NULL, 1 << 1, 0, -1 },
   { "Qalculate", NULL, NULL, NULL, 1, -1 },
-  { "Ferdium", NULL, NULL, 1 << 5, 0, -1 },
+  { "Ferdium", NULL, NULL, 1 << 3, 0, -1 },
   { "file-roller", NULL, NULL, NULL, 1, -1 },
   { "copyq", NULL, NULL, NULL, 1, -1 },
   { "Nitrogen", NULL, NULL, NULL, 1, -1 },
   { "pavucontrol", NULL, NULL, NULL, 1, -1 },
   { "steam", NULL, NULL, 1 << 6, 0, -1 },
+  { "org.remmina.Remmina", NULL, NULL, NULL, 1, -1 },
   { NULL, NULL, "Figure 1", NULL, 1, -1 },
   { NULL, NULL, "Figure 2", NULL, 1, -1 },
   { NULL, NULL, "Figure 3", NULL, 1, -1 },
@@ -109,7 +110,7 @@ static const Rule rules[] = {
 };
 
 /* layout(s) */
-static const float mfact = 0.52; /* factor of master area size [0.05..0.95] */
+static const float mfact = 0.72; /* factor of master area size [0.05..0.95] */
 static const int nmaster = 1;    /* number of clients in master area */
 static const int resizehints
     = 0; /* 1 means respect size hints in tiled resizals */

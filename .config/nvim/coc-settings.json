@@ -2,7 +2,12 @@
 	"clangd.path": "~/.config/coc/extensions/coc-clangd-data/install/19.1.2/clangd_19.1.2/bin/clangd",
 	"clangd.arguments": [
 		"--clang-tidy",
-		"--fallback-style=GNU"
+		"--fallback-style=GNU",
+		"--inlay-hints=false"
 	],
-	"coc.preferences.formatOnSave": true
+	"coc.preferences.formatOnSave": true,
+	"inlayHint.enable": false,
+	"inlayHint.display": false,
+	"inlayHint.enableParameter": false,
+	"inlayHint.refreshOnInsertMode": false
 }

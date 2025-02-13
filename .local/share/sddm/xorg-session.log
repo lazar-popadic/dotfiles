@@ -6,13 +6,13 @@ Notice: Gamma (Night): 0.800, 0.800, 0.800
 MPD error: Connection refused
 /home/lazar/.local/bin/bar_mpd_scroll: line 24: (counter + 1) % song_length : division by 0 (error token is "song_length ")
 MPD error: Connection refused
+MPD error: Connection refused
 Notice: Location: 45.20 N, 19.70 E
 Notice: Color temperature: 6500K
 Notice: Brightness: 1.00
 Notice: Status: Enabled
 Notice: Period: Daytime
 Notice: Color temperature: 5700K
-MPD error: Connection refused
 Connection error
 
 Connection error
@@ -39,24 +39,31 @@ WARNING: Could not find theme gnome
 WARNING: Could not find theme PiXflat
 WARNING: Could not find theme 
 WARNING: Could not find theme adwaita
-F: Can't get document portal: GDBus.Error:org.freedesktop.portal.Error.Failed: Can't mount path /run/user/1000/doc
+F: Can't get document portal: GDBus.Error:org.freedesktop.DBus.Error.NoReply: Message recipient disconnected from message bus without replying
 
-(nitrogen:3202): Gtk-WARNING **: 10:23:47.757: Unable to locate theme engine in module_path: "adwaita",
+(nitrogen:2126): Gtk-WARNING **: 13:47:19.060: Unable to locate theme engine in module_path: "adwaita",
 
-(nitrogen:3202): Gtk-WARNING **: 10:23:47.758: Unable to locate theme engine in module_path: "adwaita",
+(nitrogen:2126): Gtk-WARNING **: 13:47:19.061: Unable to locate theme engine in module_path: "adwaita",
+The program 'nitrogen' received an X Window System error.
+This probably reflects a bug in the program.
+The error was 'BadWindow (invalid Window parameter)'.
+  (Details: serial 132 error_code 3 request_code 20 minor_code 0)
+  (Note to programmers: normally, X errors are reported asynchronously;
+   that is, you will receive the error a while after causing it.
+   To debug your program, run it with the --sync command line
+   option to change this behavior. You can then get a meaningful
+   backtrace from your debugger if you break on the gdk_x_error() function.)
 
-(copyq:3217): Gtk-WARNING **: 10:23:47.847: Unable to locate theme engine in module_path: "adwaita",
+(copyq:2142): Gtk-WARNING **: 13:47:19.166: Unable to locate theme engine in module_path: "adwaita",
 
-(copyq:3217): Gtk-WARNING **: 10:23:47.848: Unable to locate theme engine in module_path: "adwaita",
+(copyq:2142): Gtk-WARNING **: 13:47:19.167: Unable to locate theme engine in module_path: "adwaita",
 MPD error: Connection refused
 /home/lazar/.local/bin/bar_mpd_scroll: line 24: (counter + 1) % song_length : division by 0 (error token is "song_length ")
-New PolkitAgentListener  0x5611ccda3db0
-Adding new listener  PolkitQt1::Agent::Listener(0x7ffca0553210) for  0x5611ccda3db0
 MPD error: Connection refused
-Warning: [default] QtWarning: QSystemTrayIcon::setVisible: No Icon set
 MPD error: Connection refused
 Connection error
 
+Warning: [default] QtWarning: QSystemTrayIcon::setVisible: No Icon set
 Connection error
 
 /home/lazar/.local/bin/bar_mpd_time: line 13: ((: > 59 : syntax error: operand expected (error token is "> 59 ")
@@ -64,20 +71,14 @@ Connection error
 /home/lazar/.local/bin/bar_mpd_time: line 17: ((: > 0 : syntax error: operand expected (error token is "> 0 ")
 Connection error
 
+New PolkitAgentListener  0x56412ba764d0
+Adding new listener  PolkitQt1::Agent::Listener(0x7ffdc4442c20) for  0x56412ba764d0
 Connection error
 
 /home/lazar/.local/bin/bar_volume: line 9: ((: > 59 : syntax error: operand expected (error token is "> 59 ")
 /home/lazar/.local/bin/bar_volume: line 11: ((: > 19 : syntax error: operand expected (error token is "> 19 ")
 /home/lazar/.local/bin/bar_volume: line 13: ((: > 0 : syntax error: operand expected (error token is "> 0 ")
 Warning: [qt.qpa.xcb] QtWarning: Unhandled client message:  "_NET_SYSTEM_TRAY_S0"
-
-(nitrogen:3202): Gtk-WARNING **: 10:23:48.266: Unable to locate theme engine in module_path: "adwaita",
-
-(nitrogen:3202): Gtk-WARNING **: 10:23:48.266: Unable to locate theme engine in module_path: "adwaita",
-
-(nitrogen:3202): GLib-GObject-CRITICAL **: 10:23:48.278: Attempting to freeze the notification queue for object GtkSettings[0x561faa01e9d0]; Property notification does not work during instance finalization.
-
-(nitrogen:3202): GLib-GObject-CRITICAL **: 10:23:48.278: Attempting to thaw the notification queue for object GtkSettings[0x561faa01e9d0]; Property notification does not work during instance finalization.
 MPD error: Connection refused
 /home/lazar/.local/bin/bar_mpd_scroll: line 24: (counter + 1) % song_length : division by 0 (error token is "song_length ")
 MPD error: Connection refused
@@ -96,7 +97,7 @@ Connection error
 /home/lazar/.local/bin/bar_volume: line 9: ((: > 59 : syntax error: operand expected (error token is "> 59 ")
 /home/lazar/.local/bin/bar_volume: line 11: ((: > 19 : syntax error: operand expected (error token is "> 19 ")
 /home/lazar/.local/bin/bar_volume: line 13: ((: > 0 : syntax error: operand expected (error token is "> 0 ")
-[2:0119/102348.512189:ERROR:bus.cc(407)] Failed to connect to the bus: Failed to connect to socket /run/dbus/system_bus_socket: No such file or directory
+[2:0213/134720.034122:ERROR:bus.cc(407)] Failed to connect to the bus: Failed to connect to socket /run/dbus/system_bus_socket: No such file or directory
 MPD error: Connection refused
 /home/lazar/.local/bin/bar_mpd_scroll: line 24: (counter + 1) % song_length : division by 0 (error token is "song_length ")
 MPD error: Connection refused
@@ -115,6 +116,7 @@ Connection error
 /home/lazar/.local/bin/bar_volume: line 9: ((: > 59 : syntax error: operand expected (error token is "> 59 ")
 /home/lazar/.local/bin/bar_volume: line 11: ((: > 19 : syntax error: operand expected (error token is "> 19 ")
 /home/lazar/.local/bin/bar_volume: line 13: ((: > 0 : syntax error: operand expected (error token is "> 0 ")
+N 13:47:20.560110 wp-internal-comp-l ../lib/wp/private/internal-comp-loader.c:945:wp_internal_comp_loader_load: Loading profile 'main'
 MPD error: Connection refused
 /home/lazar/.local/bin/bar_mpd_scroll: line 24: (counter + 1) % song_length : division by 0 (error token is "song_length ")
 MPD error: Connection refused
@@ -133,16 +135,16 @@ Connection error
 /home/lazar/.local/bin/bar_volume: line 9: ((: > 59 : syntax error: operand expected (error token is "> 59 ")
 /home/lazar/.local/bin/bar_volume: line 11: ((: > 19 : syntax error: operand expected (error token is "> 19 ")
 /home/lazar/.local/bin/bar_volume: line 13: ((: > 0 : syntax error: operand expected (error token is "> 0 ")
-N 10:23:49.317879 wp-internal-comp-l ../lib/wp/private/internal-comp-loader.c:945:wp_internal_comp_loader_load: Loading profile 'main'
-N 10:23:49.509954 wp-internal-comp-l ../lib/wp/private/internal-comp-loader.c:589:on_component_loaded: <WpCore:0x5558215380d0> optional component 'support.logind [module: libwireplumber-module-logind]' failed to load: Failed to locate module libwireplumber-module-logind
-N 10:23:49.510007 wp-internal-comp-l ../lib/wp/private/internal-comp-loader.c:641:wp_component_array_load_task_execute_step: <WpCore:0x5558215380d0> skipping component 'monitor.bluez.seat-monitoring [virtual]' because some of its dependencies were not loaded
-N 10:23:49.511402          wp-device ../lib/wp/device.c:630:wp_spa_device_new_from_spa_factory: SPA handle 'api.bluez5.enum.dbus' could not be loaded; is it installed?
-N 10:23:49.511455         s-monitors bluez.lua:386:createMonitor: PipeWire's BlueZ SPA plugin is missing or broken. Bluetooth devices will not be supported.
-N 10:23:49.512657          wp-device ../lib/wp/device.c:630:wp_spa_device_new_from_spa_factory: SPA handle 'api.bluez5.midi.enum' could not be loaded; is it installed?
-N 10:23:49.512700         s-monitors bluez-midi.lua:95:createMonitor: PipeWire's BlueZ MIDI SPA missing or broken. Bluetooth not supported.
-E 10:23:49.512802        pw.resource ../src/pipewire/resource.c:255:pw_resource_errorf_id: can't create node: No such file or directory
-W 10:23:49.512809            wp-node ../lib/wp/node.c:913:wp_impl_node_new_from_pw_factory: failed to create node from factory 'spa-node-factory'
-N 10:23:49.512815         s-monitors bluez-midi.lua:130:createServers: Failed to create BLE MIDI server.
+N 13:47:20.766653 wp-internal-comp-l ../lib/wp/private/internal-comp-loader.c:589:on_component_loaded: <WpCore:0x561f736a00d0> optional component 'support.logind [module: libwireplumber-module-logind]' failed to load: Failed to locate module libwireplumber-module-logind
+N 13:47:20.766679 wp-internal-comp-l ../lib/wp/private/internal-comp-loader.c:641:wp_component_array_load_task_execute_step: <WpCore:0x561f736a00d0> skipping component 'monitor.bluez.seat-monitoring [virtual]' because some of its dependencies were not loaded
+N 13:47:20.767793          wp-device ../lib/wp/device.c:630:wp_spa_device_new_from_spa_factory: SPA handle 'api.bluez5.enum.dbus' could not be loaded; is it installed?
+N 13:47:20.767820         s-monitors bluez.lua:386:createMonitor: PipeWire's BlueZ SPA plugin is missing or broken. Bluetooth devices will not be supported.
+N 13:47:20.768717          wp-device ../lib/wp/device.c:630:wp_spa_device_new_from_spa_factory: SPA handle 'api.bluez5.midi.enum' could not be loaded; is it installed?
+N 13:47:20.768750         s-monitors bluez-midi.lua:95:createMonitor: PipeWire's BlueZ MIDI SPA missing or broken. Bluetooth not supported.
+E 13:47:20.768832        pw.resource ../src/pipewire/resource.c:255:pw_resource_errorf_id: can't create node: No such file or directory
+W 13:47:20.768838            wp-node ../lib/wp/node.c:913:wp_impl_node_new_from_pw_factory: failed to create node from factory 'spa-node-factory'
+N 13:47:20.768844         s-monitors bluez-midi.lua:130:createServers: Failed to create BLE MIDI server.
+[0:00:37.863163135] [2555] [1;32m INFO [1;37mCamera [1;34mcamera_manager.cpp:325 [0mlibcamera v0.3.2
 MPD error: Connection refused
 /home/lazar/.local/bin/bar_mpd_scroll: line 24: (counter + 1) % song_length : division by 0 (error token is "song_length ")
 MPD error: Connection refused
@@ -161,9 +163,8 @@ Connection error
 /home/lazar/.local/bin/bar_volume: line 9: ((: > 59 : syntax error: operand expected (error token is "> 59 ")
 /home/lazar/.local/bin/bar_volume: line 11: ((: > 19 : syntax error: operand expected (error token is "> 19 ")
 /home/lazar/.local/bin/bar_volume: line 13: ((: > 0 : syntax error: operand expected (error token is "> 0 ")
-[0:03:22.612787259] [3667] [1;32m INFO [1;37mCamera [1;34mcamera_manager.cpp:325 [0mlibcamera v0.3.2
-[2:0119/102349.700464:ERROR:bus.cc(407)] Failed to connect to the bus: Failed to connect to socket /run/dbus/system_bus_socket: No such file or directory
-[2:0119/102349.700596:ERROR:bus.cc(407)] Failed to connect to the bus: Failed to connect to socket /run/dbus/system_bus_socket: No such file or directory
+[2:0213/134721.296503:ERROR:bus.cc(407)] Failed to connect to the bus: Failed to connect to socket /run/dbus/system_bus_socket: No such file or directory
+[2:0213/134721.296589:ERROR:bus.cc(407)] Failed to connect to the bus: Failed to connect to socket /run/dbus/system_bus_socket: No such file or directory
 LaunchProcess: failed to execvp:
 xdg-settings
 MPD error: Connection refused
@@ -188,11 +189,6 @@ MPD error: Connection refused
 /home/lazar/.local/bin/bar_mpd_scroll: line 24: (counter + 1) % song_length : division by 0 (error token is "song_length ")
 MPD error: Connection refused
 MPD error: Connection refused
-Connection error
-
-/home/lazar/.local/bin/bar_mpd_time: line 13: ((: > 59 : syntax error: operand expected (error token is "> 59 ")
-/home/lazar/.local/bin/bar_mpd_time: line 15: ((: > 19 : syntax error: operand expected (error token is "> 19 ")
-/home/lazar/.local/bin/bar_mpd_time: line 17: ((: > 0 : syntax error: operand expected (error token is "> 0 ")
 MPD error: Connection refused
 /home/lazar/.local/bin/bar_mpd_scroll: line 24: (counter + 1) % song_length : division by 0 (error token is "song_length ")
 MPD error: Connection refused
@@ -201,219 +197,97 @@ MPD error: Connection refused
 /home/lazar/.local/bin/bar_mpd_scroll: line 24: (counter + 1) % song_length : division by 0 (error token is "song_length ")
 MPD error: Connection refused
 MPD error: Connection refused
-[2:0119/102351.913472:ERROR:bus.cc(407)] Failed to connect to the bus: Failed to connect to socket /run/dbus/system_bus_socket: No such file or directory
-[2:0119/102351.913531:ERROR:bus.cc(407)] Failed to connect to the bus: Failed to connect to socket /run/dbus/system_bus_socket: No such file or directory
-[2:0119/102351.913565:ERROR:bus.cc(407)] Failed to connect to the bus: Failed to connect to socket /run/dbus/system_bus_socket: No such file or directory
+[2:0213/134723.442267:ERROR:bus.cc(407)] Failed to connect to the bus: Failed to connect to socket /run/dbus/system_bus_socket: No such file or directory
+[2:0213/134723.442350:ERROR:bus.cc(407)] Failed to connect to the bus: Failed to connect to socket /run/dbus/system_bus_socket: No such file or directory
+[2:0213/134723.442393:ERROR:bus.cc(407)] Failed to connect to the bus: Failed to connect to socket /run/dbus/system_bus_socket: No such file or directory
 [MobX] Since strict-mode is enabled, changing (observed) observable values without using an action is not allowed. Tried to modify: Settings@13.store
-F: Can't get document portal: GDBus.Error:org.freedesktop.DBus.Error.NoReply: Message recipient disconnected from message bus without replying
-Gtk-Message: 10:24:16.163: Failed to load module "gtk-dark-theme"
-Gtk-Message: 10:24:16.163: Failed to load module "gtk-dark-theme"
-Gtk-Message: 10:24:16.859: Failed to load module "gtk-dark-theme"
-Gtk-Message: 10:24:16.859: Failed to load module "gtk-dark-theme"
-[2:2:0119/102417.030406:ERROR:object_proxy.cc(576)] Failed to call method: org.kde.KWallet.isEnabled: object_path= /modules/kwalletd6: org.freedesktop.DBus.Error.ServiceUnknown: The name org.kde.kwalletd6 was not provided by any .service files
-[2:2:0119/102417.031484:ERROR:kwallet_dbus.cc(117)] Error contacting kwalletd6 (isEnabled)
-[2:2:0119/102417.031891:ERROR:object_proxy.cc(576)] Failed to call method: org.kde.KLauncher.start_service_by_desktop_name: object_path= /KLauncher: org.freedesktop.DBus.Error.ServiceUnknown: org.freedesktop.DBus.Error.ServiceUnknown
-[2:2:0119/102417.031911:ERROR:kwallet_dbus.cc(86)] Error contacting klauncher to start kwalletd6
-[2:2:0119/102417.032486:ERROR:object_proxy.cc(576)] Failed to call method: org.kde.KWallet.close: object_path= /modules/kwalletd6: org.freedesktop.DBus.Error.ServiceUnknown: The name org.kde.kwalletd6 was not provided by any .service files
-[2:2:0119/102417.032504:ERROR:kwallet_dbus.cc(412)] Error contacting kwalletd6 (close)
-[2:2:0119/102417.036878:ERROR:object_proxy.cc(576)] Failed to call method: org.kde.KWallet.isEnabled: object_path= /modules/kwalletd5: org.freedesktop.DBus.Error.ServiceUnknown: org.freedesktop.DBus.Error.ServiceUnknown
-[2:2:0119/102417.036936:ERROR:kwallet_dbus.cc(117)] Error contacting kwalletd5 (isEnabled)
-[2:2:0119/102417.037201:ERROR:object_proxy.cc(576)] Failed to call method: org.kde.KLauncher.start_service_by_desktop_name: object_path= /KLauncher: org.freedesktop.DBus.Error.ServiceUnknown: org.freedesktop.DBus.Error.ServiceUnknown
-[2:2:0119/102417.037210:ERROR:kwallet_dbus.cc(86)] Error contacting klauncher to start kwalletd5
-[2:2:0119/102417.037401:ERROR:object_proxy.cc(576)] Failed to call method: org.kde.KWallet.close: object_path= /modules/kwalletd5: org.freedesktop.DBus.Error.ServiceUnknown: org.freedesktop.DBus.Error.ServiceUnknown
-[2:2:0119/102417.037408:ERROR:kwallet_dbus.cc(412)] Error contacting kwalletd5 (close)
-[2:2:0119/102417.040670:ERROR:object_proxy.cc(576)] Failed to call method: org.kde.KWallet.isEnabled: object_path= /modules/kwalletd: org.freedesktop.DBus.Error.ServiceUnknown: org.freedesktop.DBus.Error.ServiceUnknown
-[2:2:0119/102417.040730:ERROR:kwallet_dbus.cc(117)] Error contacting kwalletd (isEnabled)
-[2:2:0119/102417.040945:ERROR:object_proxy.cc(576)] Failed to call method: org.kde.KLauncher.start_service_by_desktop_name: object_path= /KLauncher: org.freedesktop.DBus.Error.ServiceUnknown: org.freedesktop.DBus.Error.ServiceUnknown
-[2:2:0119/102417.040954:ERROR:kwallet_dbus.cc(86)] Error contacting klauncher to start kwalletd
-[2:2:0119/102417.041138:ERROR:object_proxy.cc(576)] Failed to call method: org.kde.KWallet.close: object_path= /modules/kwalletd: org.freedesktop.DBus.Error.ServiceUnknown: org.freedesktop.DBus.Error.ServiceUnknown
-[2:2:0119/102417.041146:ERROR:kwallet_dbus.cc(412)] Error contacting kwalletd (close)
-[2:167:0119/102417.537341:ERROR:object_proxy.cc(576)] Failed to call method: org.freedesktop.DBus.Properties.Get: object_path= /org/freedesktop/UPower: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.UPower was not provided by any .service files
-[2:167:0119/102417.537724:ERROR:object_proxy.cc(576)] Failed to call method: org.freedesktop.UPower.GetDisplayDevice: object_path= /org/freedesktop/UPower: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.UPower was not provided by any .service files
-[2:167:0119/102417.538153:ERROR:object_proxy.cc(576)] Failed to call method: org.freedesktop.UPower.EnumerateDevices: object_path= /org/freedesktop/UPower: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.UPower was not provided by any .service files
-[2:2:0119/102417.544689:ERROR:object_proxy.cc(576)] Failed to call method: org.freedesktop.portal.Secret.RetrieveSecret: object_path= /org/freedesktop/portal/desktop: org.freedesktop.DBus.Error.UnknownMethod: No such interface “org.freedesktop.portal.Secret” on object at path /org/freedesktop/portal/desktop
-[2:2:0119/102417.544733:ERROR:secret_portal_key_provider.cc(150)] Failed to retrieve secret: No response from portal.
-[2:2:0119/102418.045914:ERROR:sharing_service.cc(296)] Device registration failed with fatal error
-[2:46:0119/102418.050321:ERROR:get_updates_processor.cc(267)] PostClientToServerMessage() failed during GetUpdates with error Network error (ERR_INTERNET_DISCONNECTED)
-nm-applet-Message: 10:24:49.713: No keyring secrets found for CGA2121_6MkyFpP/802-11-wireless-security; asking user.
-nm-applet-Message: 10:25:01.956: No keyring secrets found for CGA2121_6MkyFpP/802-11-wireless-security; asking user.
-[2:36:0119/102503.550516:ERROR:get_updates_processor.cc(267)] PostClientToServerMessage() failed during GetUpdates with error Network error (ERR_INTERNET_DISCONNECTED)
-nm-applet-Message: 10:25:20.549: No keyring secrets found for CGA2121_6MkyFpP/802-11-wireless-security; asking user.
-[2:36:0119/102611.056783:ERROR:get_updates_processor.cc(267)] PostClientToServerMessage() failed during GetUpdates with error Network error (ERR_INTERNET_DISCONNECTED)
-[2:37:0119/102650.420788:ERROR:get_updates_processor.cc(267)] PostClientToServerMessage() failed during GetUpdates with error Network error (ERR_NAME_NOT_RESOLVED)
-(node:65) MaxListenersExceededWarning: Possible EventEmitter memory leak detected. 11 select-capture-device:7a760611-009f-49d8-ad64-13fd13e04a37 listeners added to [IpcRenderer]. MaxListeners is 10. Use emitter.setMaxListeners() to increase limit
+(node:66) MaxListenersExceededWarning: Possible EventEmitter memory leak detected. 11 select-capture-device:ecdbc6e1-a5ad-4ee4-9d20-f142ef0b0b3a listeners added to [IpcRenderer]. MaxListeners is 10. Use emitter.setMaxListeners() to increase limit
 (Use `exe --trace-warnings ...` to show where the warning was created)
-[2:36:0119/092945.753771:ERROR:get_updates_processor.cc(267)] PostClientToServerMessage() failed during GetUpdates with error Network error (ERR_NETWORK_CHANGED)
-[2:38:0119/093001.370495:ERROR:get_updates_processor.cc(267)] PostClientToServerMessage() failed during GetUpdates with error Network error (ERR_NETWORK_CHANGED)
-[2:37:0119/093005.793413:ERROR:get_updates_processor.cc(267)] PostClientToServerMessage() failed during GetUpdates with error Network error (ERR_NETWORK_CHANGED)
-Terminated
-[2:36:0119/093305.193436:ERROR:get_updates_processor.cc(267)] PostClientToServerMessage() failed during GetUpdates with error Network error (ERR_NETWORK_CHANGED)
-erresc: unknown csi ESC[?2026$p
-erresc: unknown csi ESC[4:3m
-erresc: unknown csi ESC[>4;2m
-erresc: unknown csi ESC[>4;0m
-[2:46:0119/093323.969556:ERROR:get_updates_processor.cc(267)] PostClientToServerMessage() failed during GetUpdates with error Network error (ERR_NETWORK_CHANGED)
-erresc: unknown csi ESC[?2026$p
-erresc: unknown csi ESC[4:3m
-erresc: unknown csi ESC[>4;2m
-[2:46:0119/093329.955181:ERROR:get_updates_processor.cc(267)] PostClientToServerMessage() failed during GetUpdates with error Network error (ERR_NETWORK_CHANGED)
-[2:46:0119/093330.116058:ERROR:get_updates_processor.cc(267)] PostClientToServerMessage() failed during GetUpdates with error Network error (ERR_NETWORK_CHANGED)
-[2:46:0119/093331.555237:ERROR:get_updates_processor.cc(267)] PostClientToServerMessage() failed during GetUpdates with error Network error (ERR_NETWORK_CHANGED)
-[2:85:0119/093340.421784:ERROR:get_updates_processor.cc(267)] PostClientToServerMessage() failed during GetUpdates with error Network error (ERR_NETWORK_CHANGED)
-[2:85:0119/093344.568145:ERROR:get_updates_processor.cc(267)] PostClientToServerMessage() failed during GetUpdates with error Network error (ERR_NETWORK_CHANGED)
-[2:85:0119/093349.775757:ERROR:get_updates_processor.cc(267)] PostClientToServerMessage() failed during GetUpdates with error Network error (ERR_NETWORK_CHANGED)
-[2:85:0119/093351.651096:ERROR:get_updates_processor.cc(267)] PostClientToServerMessage() failed during GetUpdates with error Network error (ERR_NETWORK_CHANGED)
-[2:85:0119/093359.467135:ERROR:get_updates_processor.cc(267)] PostClientToServerMessage() failed during GetUpdates with error Network error (ERR_NETWORK_CHANGED)
-[2:85:0119/093419.482832:ERROR:get_updates_processor.cc(267)] PostClientToServerMessage() failed during GetUpdates with error Network error (ERR_NAME_NOT_RESOLVED)
-[2:85:0119/093433.677831:ERROR:get_updates_processor.cc(267)] PostClientToServerMessage() failed during GetUpdates with error Network error (ERR_NETWORK_CHANGED)
-[2:85:0119/093443.748903:ERROR:get_updates_processor.cc(267)] PostClientToServerMessage() failed during GetUpdates with error Network error (ERR_NAME_NOT_RESOLVED)
-[2:85:0119/093453.009819:ERROR:get_updates_processor.cc(267)] PostClientToServerMessage() failed during GetUpdates with error Network error (ERR_NETWORK_CHANGED)
-[2:85:0119/093512.333965:ERROR:get_updates_processor.cc(267)] PostClientToServerMessage() failed during GetUpdates with error Network error (ERR_NETWORK_CHANGED)
-[2:85:0119/093512.353258:ERROR:get_updates_processor.cc(267)] PostClientToServerMessage() failed during GetUpdates with error Network error (ERR_NETWORK_CHANGED)
-[2:85:0119/093513.487452:ERROR:get_updates_processor.cc(267)] PostClientToServerMessage() failed during GetUpdates with error Network error (ERR_NETWORK_CHANGED)
-[2:85:0119/093520.972043:ERROR:get_updates_processor.cc(267)] PostClientToServerMessage() failed during GetUpdates with error Network error (ERR_NETWORK_CHANGED)
-Terminated
-Terminated
-Terminated
-Terminated
-Terminated
-Terminated
-Terminated
-Terminated
-Terminated
-[2:85:0119/093528.568141:ERROR:get_updates_processor.cc(267)] PostClientToServerMessage() failed during GetUpdates with error Network error (ERR_NETWORK_CHANGED)
-[2:85:0119/093529.423197:ERROR:get_updates_processor.cc(267)] PostClientToServerMessage() failed during GetUpdates with error Network error (ERR_NETWORK_CHANGED)
-[2:85:0119/093540.255396:ERROR:get_updates_processor.cc(267)] PostClientToServerMessage() failed during GetUpdates with error Network error (ERR_NETWORK_CHANGED)
-[2:85:0119/093556.338357:ERROR:get_updates_processor.cc(267)] PostClientToServerMessage() failed during GetUpdates with error Network error (ERR_NETWORK_CHANGED)
-[2:85:0119/093556.559448:ERROR:get_updates_processor.cc(267)] PostClientToServerMessage() failed during GetUpdates with error Network error (ERR_NETWORK_CHANGED)
-[2:49:0119/093605.795425:ERROR:get_updates_processor.cc(267)] PostClientToServerMessage() failed during GetUpdates with error Network error (ERR_NETWORK_CHANGED)
-[2:49:0119/093612.379001:ERROR:get_updates_processor.cc(267)] PostClientToServerMessage() failed during GetUpdates with error Network error (ERR_NETWORK_CHANGED)
-[51:51:0119/093707.591485:ERROR:shared_image_manager.cc(250)] SharedImageManager::ProduceSkia: Trying to Produce a Skia representation from a non-existent mailbox.
-nm-applet-Message: 09:40:52.920: No keyring secrets found for popadic_5GHz/802-11-wireless-security; asking user.
-[2:38:0119/094056.281991:ERROR:get_updates_processor.cc(267)] PostClientToServerMessage() failed during GetUpdates with error Network error (ERR_INTERNET_DISCONNECTED)
-[2:38:0119/094102.583329:ERROR:get_updates_processor.cc(267)] PostClientToServerMessage() failed during GetUpdates with error Network error (ERR_NAME_NOT_RESOLVED)
-Crashing due to FD ownership violation:
-#0 0x5556e14e566a <unknown>
-#1 0x5556e14de56c <unknown>
-#2 0x5556e14de527 close
-#3 0x7f4104dfd326 pa_close
-#4 0x7f4104dfd719 pa_close_allv
-#5 0x7f4104e06201 pa_close_all
-#6 0x7f4104e66ca8 <unknown>
-#7 0x7f4104e67835 <unknown>
-#8 0x7f4104e67ea8 pa_context_connect
-#9 0x7f4104dc7d27 pulse_connect
-#10 0x7f4104dc75be _snd_pcm_pulse_open
-#11 0x7f41070fd0ba <unknown>
-#12 0x7f41070fd726 <unknown>
-#13 0x7f41071007bf snd_pcm_open
-#14 0x5556de588152 <unknown>
-#15 0x5556de588ef9 <unknown>
-#16 0x5556de584d42 <unknown>
-#17 0x5556de58487b <unknown>
-#18 0x5556de57a5e3 <unknown>
-#19 0x5556de57a4c1 <unknown>
-#20 0x5556de57c304 <unknown>
-#21 0x5556de57bbcc <unknown>
-#22 0x5556e092c8bb <unknown>
-#23 0x5556e092c13c <unknown>
-#24 0x5556e0918c68 <unknown>
-#25 0x5556e09187e4 <unknown>
-#26 0x5556e091b647 <unknown>
-#27 0x5556e0920bcd <unknown>
-#28 0x5556e092084b <unknown>
-#29 0x5556de53d5c7 <unknown>
-#30 0x5556e0923eab <unknown>
-#31 0x5556e17f48db <unknown>
-#32 0x5556e17fb7d7 <unknown>
-#33 0x5556e17f60db <unknown>
-#34 0x5556e180554f <unknown>
-#35 0x5556e1804bf8 <unknown>
-#36 0x5556e17fb80e <unknown>
-#37 0x5556e17f2059 <unknown>
-#38 0x5556dd8e8d8f <unknown>
-#39 0x5556e181b58c <unknown>
-#40 0x5556e14885ff <unknown>
-#41 0x5556e14a9062 <unknown>
-#42 0x5556e1441127 <unknown>
-#43 0x5556e14a97e1 <unknown>
-#44 0x5556e1468f0e <unknown>
-#45 0x5556e0ddd6e8 <unknown>
-#46 0x5556ddc067f0 <unknown>
-#47 0x5556ddc078b6 <unknown>
-#48 0x5556ddc0554a <unknown>
-#49 0x5556ddc05630 <unknown>
-#50 0x5556dd8b2017 <unknown>
-#51 0x7f4106d9208a <unknown>
-#52 0x7f4106d9214b __libc_start_main
-#53 0x5556dd48e02a _start
-ALSA lib ../../pulse/pulse.c:242:(pulse_connect) PulseAudio: Unable to connect: Connection refused
+F: Can't get document portal: GDBus.Error:org.freedesktop.DBus.Error.NoReply: Message recipient disconnected from message bus without replying
+Gtk-Message: 13:48:39.175: Failed to load module "gtk-dark-theme"
+Gtk-Message: 13:48:39.175: Failed to load module "gtk-dark-theme"
+Gtk-Message: 13:48:39.895: Failed to load module "gtk-dark-theme"
+Gtk-Message: 13:48:39.895: Failed to load module "gtk-dark-theme"
+[2:2:0213/134840.060172:ERROR:object_proxy.cc(576)] Failed to call method: org.kde.KWallet.isEnabled: object_path= /modules/kwalletd6: org.freedesktop.DBus.Error.ServiceUnknown: The name org.kde.kwalletd6 was not provided by any .service files
+[2:2:0213/134840.061386:ERROR:kwallet_dbus.cc(117)] Error contacting kwalletd6 (isEnabled)
+[2:2:0213/134840.062058:ERROR:object_proxy.cc(576)] Failed to call method: org.kde.KLauncher.start_service_by_desktop_name: object_path= /KLauncher: org.freedesktop.DBus.Error.ServiceUnknown: org.freedesktop.DBus.Error.ServiceUnknown
+[2:2:0213/134840.062101:ERROR:kwallet_dbus.cc(86)] Error contacting klauncher to start kwalletd6
+[2:2:0213/134840.062684:ERROR:object_proxy.cc(576)] Failed to call method: org.kde.KWallet.close: object_path= /modules/kwalletd6: org.freedesktop.DBus.Error.ServiceUnknown: The name org.kde.kwalletd6 was not provided by any .service files
+[2:2:0213/134840.062711:ERROR:kwallet_dbus.cc(412)] Error contacting kwalletd6 (close)
+[2:2:0213/134840.067729:ERROR:object_proxy.cc(576)] Failed to call method: org.kde.KWallet.isEnabled: object_path= /modules/kwalletd5: org.freedesktop.DBus.Error.ServiceUnknown: org.freedesktop.DBus.Error.ServiceUnknown
+[2:2:0213/134840.067795:ERROR:kwallet_dbus.cc(117)] Error contacting kwalletd5 (isEnabled)
+[2:2:0213/134840.068028:ERROR:object_proxy.cc(576)] Failed to call method: org.kde.KLauncher.start_service_by_desktop_name: object_path= /KLauncher: org.freedesktop.DBus.Error.ServiceUnknown: org.freedesktop.DBus.Error.ServiceUnknown
+[2:2:0213/134840.068039:ERROR:kwallet_dbus.cc(86)] Error contacting klauncher to start kwalletd5
+[2:2:0213/134840.068228:ERROR:object_proxy.cc(576)] Failed to call method: org.kde.KWallet.close: object_path= /modules/kwalletd5: org.freedesktop.DBus.Error.ServiceUnknown: org.freedesktop.DBus.Error.ServiceUnknown
+[2:2:0213/134840.068241:ERROR:kwallet_dbus.cc(412)] Error contacting kwalletd5 (close)
+[2:2:0213/134840.072271:ERROR:object_proxy.cc(576)] Failed to call method: org.kde.KWallet.isEnabled: object_path= /modules/kwalletd: org.freedesktop.DBus.Error.ServiceUnknown: org.freedesktop.DBus.Error.ServiceUnknown
+[2:2:0213/134840.072336:ERROR:kwallet_dbus.cc(117)] Error contacting kwalletd (isEnabled)
+[2:2:0213/134840.072626:ERROR:object_proxy.cc(576)] Failed to call method: org.kde.KLauncher.start_service_by_desktop_name: object_path= /KLauncher: org.freedesktop.DBus.Error.ServiceUnknown: org.freedesktop.DBus.Error.ServiceUnknown
+[2:2:0213/134840.072644:ERROR:kwallet_dbus.cc(86)] Error contacting klauncher to start kwalletd
+[2:2:0213/134840.072846:ERROR:object_proxy.cc(576)] Failed to call method: org.kde.KWallet.close: object_path= /modules/kwalletd: org.freedesktop.DBus.Error.ServiceUnknown: org.freedesktop.DBus.Error.ServiceUnknown
+[2:2:0213/134840.072857:ERROR:kwallet_dbus.cc(412)] Error contacting kwalletd (close)
+[2:165:0213/134840.552447:ERROR:object_proxy.cc(576)] Failed to call method: org.freedesktop.DBus.Properties.Get: object_path= /org/freedesktop/UPower: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.UPower was not provided by any .service files
+[2:165:0213/134840.552716:ERROR:object_proxy.cc(576)] Failed to call method: org.freedesktop.UPower.GetDisplayDevice: object_path= /org/freedesktop/UPower: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.UPower was not provided by any .service files
+[2:165:0213/134840.552993:ERROR:object_proxy.cc(576)] Failed to call method: org.freedesktop.UPower.EnumerateDevices: object_path= /org/freedesktop/UPower: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.UPower was not provided by any .service files
+[2:2:0213/134840.558819:ERROR:object_proxy.cc(576)] Failed to call method: org.freedesktop.portal.Secret.RetrieveSecret: object_path= /org/freedesktop/portal/desktop: org.freedesktop.DBus.Error.UnknownMethod: No such interface “org.freedesktop.portal.Secret” on object at path /org/freedesktop/portal/desktop
+[2:2:0213/134840.558849:ERROR:secret_portal_key_provider.cc(150)] Failed to retrieve secret: No response from portal.
+[2:2:0213/134840.974467:ERROR:sharing_service.cc(296)] Device registration failed with fatal error
+F: Can't get document portal: GDBus.Error:org.freedesktop.DBus.Error.NoReply: Message recipient disconnected from message bus without replying
+Gtk-Message: 13:50:20.252: Failed to load module "gtk-dark-theme"
+Gtk-Message: 13:50:20.252: Failed to load module "gtk-dark-theme"
+Gtk-Message: 13:50:20.491: Failed to load module "gtk-dark-theme"
+Gtk-Message: 13:50:20.491: Failed to load module "gtk-dark-theme"
+[2:2:0213/135020.571277:ERROR:object_proxy.cc(576)] Failed to call method: org.kde.KWallet.isEnabled: object_path= /modules/kwalletd6: org.freedesktop.DBus.Error.ServiceUnknown: The name org.kde.kwalletd6 was not provided by any .service files
+[2:2:0213/135020.571334:ERROR:kwallet_dbus.cc(117)] Error contacting kwalletd6 (isEnabled)
+[2:2:0213/135020.571601:ERROR:object_proxy.cc(576)] Failed to call method: org.kde.KLauncher.start_service_by_desktop_name: object_path= /KLauncher: org.freedesktop.DBus.Error.ServiceUnknown: org.freedesktop.DBus.Error.ServiceUnknown
+[2:2:0213/135020.571617:ERROR:kwallet_dbus.cc(86)] Error contacting klauncher to start kwalletd6
+[2:2:0213/135020.571967:ERROR:object_proxy.cc(576)] Failed to call method: org.kde.KWallet.close: object_path= /modules/kwalletd6: org.freedesktop.DBus.Error.ServiceUnknown: The name org.kde.kwalletd6 was not provided by any .service files
+[2:2:0213/135020.571979:ERROR:kwallet_dbus.cc(412)] Error contacting kwalletd6 (close)
+[2:2:0213/135020.574806:ERROR:object_proxy.cc(576)] Failed to call method: org.kde.KWallet.isEnabled: object_path= /modules/kwalletd5: org.freedesktop.DBus.Error.ServiceUnknown: org.freedesktop.DBus.Error.ServiceUnknown
+[2:2:0213/135020.574843:ERROR:kwallet_dbus.cc(117)] Error contacting kwalletd5 (isEnabled)
+[2:2:0213/135020.575034:ERROR:object_proxy.cc(576)] Failed to call method: org.kde.KLauncher.start_service_by_desktop_name: object_path= /KLauncher: org.freedesktop.DBus.Error.ServiceUnknown: org.freedesktop.DBus.Error.ServiceUnknown
+[2:2:0213/135020.575043:ERROR:kwallet_dbus.cc(86)] Error contacting klauncher to start kwalletd5
+[2:2:0213/135020.575201:ERROR:object_proxy.cc(576)] Failed to call method: org.kde.KWallet.close: object_path= /modules/kwalletd5: org.freedesktop.DBus.Error.ServiceUnknown: org.freedesktop.DBus.Error.ServiceUnknown
+[2:2:0213/135020.575209:ERROR:kwallet_dbus.cc(412)] Error contacting kwalletd5 (close)
+[2:2:0213/135020.577679:ERROR:object_proxy.cc(576)] Failed to call method: org.kde.KWallet.isEnabled: object_path= /modules/kwalletd: org.freedesktop.DBus.Error.ServiceUnknown: org.freedesktop.DBus.Error.ServiceUnknown
+[2:2:0213/135020.577719:ERROR:kwallet_dbus.cc(117)] Error contacting kwalletd (isEnabled)
+[2:2:0213/135020.578299:ERROR:object_proxy.cc(576)] Failed to call method: org.kde.KLauncher.start_service_by_desktop_name: object_path= /KLauncher: org.freedesktop.DBus.Error.ServiceUnknown: org.freedesktop.DBus.Error.ServiceUnknown
+[2:2:0213/135020.578315:ERROR:kwallet_dbus.cc(86)] Error contacting klauncher to start kwalletd
+[2:2:0213/135020.578522:ERROR:object_proxy.cc(576)] Failed to call method: org.kde.KWallet.close: object_path= /modules/kwalletd: org.freedesktop.DBus.Error.ServiceUnknown: org.freedesktop.DBus.Error.ServiceUnknown
+[2:2:0213/135020.578550:ERROR:kwallet_dbus.cc(412)] Error contacting kwalletd (close)
+[2:175:0213/135021.012021:ERROR:object_proxy.cc(576)] Failed to call method: org.freedesktop.DBus.Properties.Get: object_path= /org/freedesktop/UPower: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.UPower was not provided by any .service files
+[2:175:0213/135021.012439:ERROR:object_proxy.cc(576)] Failed to call method: org.freedesktop.UPower.GetDisplayDevice: object_path= /org/freedesktop/UPower: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.UPower was not provided by any .service files
+[2:175:0213/135021.012816:ERROR:object_proxy.cc(576)] Failed to call method: org.freedesktop.UPower.EnumerateDevices: object_path= /org/freedesktop/UPower: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.UPower was not provided by any .service files
+[2:2:0213/135021.050435:ERROR:secret_portal_key_provider.cc(214)] Retrieved secret is empty.
+[2:2:0213/135021.050811:ERROR:object_proxy.cc(576)] Failed to call method: org.freedesktop.portal.Secret.RetrieveSecret: object_path= /org/freedesktop/portal/desktop: org.freedesktop.DBus.Error.UnknownMethod: No such interface “org.freedesktop.portal.Secret” on object at path /org/freedesktop/portal/desktop
+[2:2:0213/135021.050831:ERROR:request.cc(97)] Method call failed.
+[2:2:0213/135022.091708:ERROR:sharing_service.cc(303)] Device registration failed with fatal error
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+WARNING: Annotation classes from the 'javax.inject' or 'javax.annotation' package found.
+It is recommended to migrate to the corresponding replacements in the jakarta namespace.
+The Eclipse E4 Platform will remove support for those javax-annotations in a future release.
+To suppress this warning, set the VM property: -Declipse.e4.inject.javax.warning=false
+To disable processing of 'javax' annotations entirely, set the VM property: -Declipse.e4.inject.javax.disabled=true
 
-[297:0119/094134.117743:ERROR:alsa_util.cc(204)] PcmOpen: default,Connection refused
-Crashing due to FD ownership violation:
-#0 0x5556e14e566a <unknown>
-#1 0x5556e14de56c <unknown>
-#2 0x5556e14de527 close
-#3 0x7f4104dfd326 pa_close
-#4 0x7f4104dfd719 pa_close_allv
-#5 0x7f4104e06201 pa_close_all
-#6 0x7f4104e66ca8 <unknown>
-#7 0x7f4104e67835 <unknown>
-#8 0x7f4104e67ea8 pa_context_connect
-#9 0x7f4104dc7d27 pulse_connect
-#10 0x7f4104dc75be _snd_pcm_pulse_open
-#11 0x7f41070fd0ba <unknown>
-#12 0x7f41070fd726 <unknown>
-#13 0x7f4107100cd4 <unknown>
-#14 0x7f4107127327 _snd_pcm_plug_open
-#15 0x7f41070fd0ba <unknown>
-#16 0x7f41070fd726 <unknown>
-#17 0x7f41071007bf snd_pcm_open
-#18 0x5556de588152 <unknown>
-#19 0x5556de588ef9 <unknown>
-#20 0x5556de584e99 <unknown>
-#21 0x5556de58487b <unknown>
-#22 0x5556de57a5e3 <unknown>
-#23 0x5556de57a4c1 <unknown>
-#24 0x5556de57c304 <unknown>
-#25 0x5556de57bbcc <unknown>
-#26 0x5556e092c8bb <unknown>
-#27 0x5556e092c13c <unknown>
-#28 0x5556e0918c68 <unknown>
-#29 0x5556e09187e4 <unknown>
-#30 0x5556e091b647 <unknown>
-#31 0x5556e0920bcd <unknown>
-#32 0x5556e092084b <unknown>
-#33 0x5556de53d5c7 <unknown>
-#34 0x5556e0923eab <unknown>
-#35 0x5556e17f48db <unknown>
-#36 0x5556e17fb7d7 <unknown>
-#37 0x5556e17f60db <unknown>
-#38 0x5556e180554f <unknown>
-#39 0x5556e1804bf8 <unknown>
-#40 0x5556e17fb80e <unknown>
-#41 0x5556e17f2059 <unknown>
-#42 0x5556dd8e8d8f <unknown>
-#43 0x5556e181b58c <unknown>
-#44 0x5556e14885ff <unknown>
-#45 0x5556e14a9062 <unknown>
-#46 0x5556e1441127 <unknown>
-#47 0x5556e14a97e1 <unknown>
-#48 0x5556e1468f0e <unknown>
-#49 0x5556e0ddd6e8 <unknown>
-#50 0x5556ddc067f0 <unknown>
-#51 0x5556ddc078b6 <unknown>
-#52 0x5556ddc0554a <unknown>
-#53 0x5556ddc05630 <unknown>
-#54 0x5556dd8b2017 <unknown>
-#55 0x7f4106d9208a <unknown>
-#56 0x7f4106d9214b __libc_start_main
-#57 0x5556dd48e02a _start
-ALSA lib ../../pulse/pulse.c:242:(pulse_connect) PulseAudio: Unable to connect: Connection refused
-
-[297:0119/094134.176253:ERROR:alsa_util.cc(204)] PcmOpen: plug:default,Connection refused
-
-(ferdium:2): libnotify-WARNING **: 09:41:34.462: Running in confined mode, using Portal notifications. Some features and hints won't be supported
+Feb 13, 2025 2:31:00 PM org.glassfish.grizzly.http.server.NetworkListener start
+INFO: Started listener bound to [localhost:1595]
+Feb 13, 2025 2:31:00 PM org.glassfish.grizzly.http.server.HttpServer start
+INFO: [HttpServer] Started.
+Warning: 'app' is not in the list of known options, but still passed to Electron/Chromium.
+[W][03032.499867] pw.node      | [     impl-node.c: 1380 debug_xrun_graph()] (alsa_output.pci-0000_04_00.1.hdmi-stereo-extra1-49) graph xrun not-triggered (0 suppressed)
+[W][03032.499920] pw.node      | [     impl-node.c: 1390 debug_xrun_graph()] (alsa_output.pci-0000_04_00.1.hdmi-stereo-extra1-49) xrun state:0x7f4d804af008 pending:2/2 s:2832770073526 a:2832770087844 f:2832770116898 waiting:14318 process:29054 status:triggered
+erresc: unknown str ESC]8
+erresc: unknown str ESC]8
+erresc: unknown str ESC]8
+erresc: unknown str ESC]8
+erresc: unknown str ESC]8
+erresc: unknown str ESC]8
+erresc: unknown str ESC]8
+erresc: unknown str ESC]8
+erresc: unknown str ESC]8
+erresc: unknown str ESC]8
 erresc: unknown csi ESC[?2026$p
 erresc: unknown csi ESC[4:3m
 erresc: unknown csi ESC[>4;2m
@@ -430,151 +304,33 @@ erresc: unknown csi ESC[?2026$p
 erresc: unknown csi ESC[4:3m
 erresc: unknown csi ESC[>4;2m
 erresc: unknown csi ESC[>4;0m
-Terminated
-Terminated
 erresc: unknown csi ESC[?2026$p
 erresc: unknown csi ESC[4:3m
 erresc: unknown csi ESC[>4;2m
-Terminated
-Terminated
 erresc: unknown csi ESC[>4;0m
-Terminated
-Terminated
-Terminated
-Terminated
-Terminated
-Terminated
-Crashing due to FD ownership violation:
-#0 0x5556e14e566a <unknown>
-#1 0x5556e14de56c <unknown>
-#2 0x5556e14de527 close
-#3 0x7f4104dfd326 pa_close
-#4 0x7f4104dfd719 pa_close_allv
-#5 0x7f4104e06201 pa_close_all
-#6 0x7f4104e66ca8 <unknown>
-#7 0x7f4104e67835 <unknown>
-#8 0x7f4104e67ea8 pa_context_connect
-#9 0x7f4104dc7d27 pulse_connect
-#10 0x7f4104dc75be _snd_pcm_pulse_open
-#11 0x7f41070fd0ba <unknown>
-#12 0x7f41070fd726 <unknown>
-#13 0x7f41071007bf snd_pcm_open
-#14 0x5556de588152 <unknown>
-#15 0x5556de588ef9 <unknown>
-#16 0x5556de584d42 <unknown>
-#17 0x5556de58487b <unknown>
-#18 0x5556de57a5e3 <unknown>
-#19 0x5556de57a4c1 <unknown>
-#20 0x5556de57c304 <unknown>
-#21 0x5556de57bbcc <unknown>
-#22 0x5556e092c8bb <unknown>
-#23 0x5556e092c13c <unknown>
-#24 0x5556e0918c68 <unknown>
-#25 0x5556e09187e4 <unknown>
-#26 0x5556e091b647 <unknown>
-#27 0x5556e0920bcd <unknown>
-#28 0x5556e092084b <unknown>
-#29 0x5556de53d5c7 <unknown>
-#30 0x5556e0923eab <unknown>
-#31 0x5556e17f48db <unknown>
-#32 0x5556e17fb7d7 <unknown>
-#33 0x5556e17f60db <unknown>
-#34 0x5556e180554f <unknown>
-#35 0x5556e1804bf8 <unknown>
-#36 0x5556e17fb80e <unknown>
-#37 0x5556e17f2059 <unknown>
-#38 0x5556dd8e8d8f <unknown>
-#39 0x5556e181b58c <unknown>
-#40 0x5556e14885ff <unknown>
-#41 0x5556e14a9062 <unknown>
-#42 0x5556e1441127 <unknown>
-#43 0x5556e14a97e1 <unknown>
-#44 0x5556e1468f0e <unknown>
-#45 0x5556e0ddd6e8 <unknown>
-#46 0x5556ddc067f0 <unknown>
-#47 0x5556ddc078b6 <unknown>
-#48 0x5556ddc0554a <unknown>
-#49 0x5556ddc05630 <unknown>
-#50 0x5556dd8b2017 <unknown>
-#51 0x7f4106d9208a <unknown>
-#52 0x7f4106d9214b __libc_start_main
-#53 0x5556dd48e02a _start
-ALSA lib ../../pulse/pulse.c:242:(pulse_connect) PulseAudio: Unable to connect: Connection refused
-
-[297:0119/101124.209128:ERROR:alsa_util.cc(204)] PcmOpen: default,Connection refused
-Crashing due to FD ownership violation:
-#0 0x5556e14e566a <unknown>
-#1 0x5556e14de56c <unknown>
-#2 0x5556e14de527 close
-#3 0x7f4104dfd326 pa_close
-#4 0x7f4104dfd719 pa_close_allv
-#5 0x7f4104e06201 pa_close_all
-#6 0x7f4104e66ca8 <unknown>
-#7 0x7f4104e67835 <unknown>
-#8 0x7f4104e67ea8 pa_context_connect
-#9 0x7f4104dc7d27 pulse_connect
-#10 0x7f4104dc75be _snd_pcm_pulse_open
-#11 0x7f41070fd0ba <unknown>
-#12 0x7f41070fd726 <unknown>
-#13 0x7f4107100cd4 <unknown>
-#14 0x7f4107127327 _snd_pcm_plug_open
-#15 0x7f41070fd0ba <unknown>
-#16 0x7f41070fd726 <unknown>
-#17 0x7f41071007bf snd_pcm_open
-#18 0x5556de588152 <unknown>
-#19 0x5556de588ef9 <unknown>
-#20 0x5556de584e99 <unknown>
-#21 0x5556de58487b <unknown>
-#22 0x5556de57a5e3 <unknown>
-#23 0x5556de57a4c1 <unknown>
-#24 0x5556de57c304 <unknown>
-#25 0x5556de57bbcc <unknown>
-#26 0x5556e092c8bb <unknown>
-#27 0x5556e092c13c <unknown>
-#28 0x5556e0918c68 <unknown>
-#29 0x5556e09187e4 <unknown>
-#30 0x5556e091b647 <unknown>
-#31 0x5556e0920bcd <unknown>
-#32 0x5556e092084b <unknown>
-#33 0x5556de53d5c7 <unknown>
-#34 0x5556e0923eab <unknown>
-#35 0x5556e17f48db <unknown>
-#36 0x5556e17fb7d7 <unknown>
-#37 0x5556e17f60db <unknown>
-#38 0x5556e180554f <unknown>
-#39 0x5556e1804bf8 <unknown>
-#40 0x5556e17fb80e <unknown>
-#41 0x5556e17f2059 <unknown>
-#42 0x5556dd8e8d8f <unknown>
-#43 0x5556e181b58c <unknown>
-#44 0x5556e14885ff <unknown>
-#45 0x5556e14a9062 <unknown>
-#46 0x5556e1441127 <unknown>
-#47 0x5556e14a97e1 <unknown>
-#48 0x5556e1468f0e <unknown>
-#49 0x5556e0ddd6e8 <unknown>
-#50 0x5556ddc067f0 <unknown>
-#51 0x5556ddc078b6 <unknown>
-#52 0x5556ddc0554a <unknown>
-#53 0x5556ddc05630 <unknown>
-#54 0x5556dd8b2017 <unknown>
-#55 0x7f4106d9208a <unknown>
-#56 0x7f4106d9214b __libc_start_main
-#57 0x5556dd48e02a _start
-ALSA lib ../../pulse/pulse.c:242:(pulse_connect) PulseAudio: Unable to connect: Connection refused
-
-[297:0119/101124.261410:ERROR:alsa_util.cc(204)] PcmOpen: plug:default,Connection refused
-Terminated
-Terminated
 erresc: unknown csi ESC[?2026$p
 erresc: unknown csi ESC[4:3m
 erresc: unknown csi ESC[>4;2m
-Terminated
-Terminated
-Terminated
-Terminated
-Terminated
-Terminated
-Terminated
-Terminated
+erresc: unknown csi ESC[>4;0m
+erresc: unknown csi ESC[?2026$p
+erresc: unknown csi ESC[4:3m
+erresc: unknown csi ESC[>4;2m
+erresc: unknown str ESC]8
+erresc: unknown str ESC]8
+erresc: unknown csi ESC[>4;0m
+erresc: unknown csi ESC[?2026$p
+erresc: unknown csi ESC[4:3m
+erresc: unknown csi ESC[>4;2m
+erresc: unknown csi ESC[>4;0m
+erresc: unknown csi ESC[?2026$p
+erresc: unknown csi ESC[4:3m
+erresc: unknown csi ESC[>4;2m
+erresc: unknown csi ESC[>4;0m
+erresc: unknown csi ESC[?2026$p
+erresc: unknown csi ESC[4:3m
+erresc: unknown csi ESC[>4;2m
+erresc: unknown csi ESC[>4;0m
+erresc: unknown csi ESC[?2026$p
+erresc: unknown csi ESC[4:3m
+erresc: unknown csi ESC[>4;2m
 erresc: unknown csi ESC[>4;0m
