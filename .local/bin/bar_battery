@@ -1,34 +1,71 @@
+
 #!/bin/bash
 
-# BATTERY
-percentage=$(cat /sys/class/power_supply/BAT0/capacity)
-status=$(cat /sys/class/power_supply/BAT0/status)
-if [ "$status" = "Charging" ]; then
-	battery_icon='󰂄'
-elif [ "$percentage" -gt 95 ]; then	
- battery_icon='󰁹'
-elif [ "$percentage" -gt 91 ]; then	
- battery_icon='󰂂'
-elif [ "$percentage" -gt 81 ]; then	
- battery_icon='󰂁'
-elif [ "$percentage" -gt 71 ]; then	
- battery_icon='󰂀'
-elif [ "$percentage" -gt 61 ]; then	
- battery_icon='󰁿'
-elif [ "$percentage" -gt 51 ]; then	
- battery_icon='󰁾'
-elif [ "$percentage" -gt 41 ]; then	
- battery_icon='󰁽'
-elif [ "$percentage" -gt 31 ]; then	
- battery_icon='󰁼'
-elif [ "$percentage" -gt 21 ]; then	
- battery_icon='󰁻'
-elif [ "$percentage" -gt 11 ]; then	
- battery_icon='󰁻'
-elif [ "$percentage" -gt 5 ]; then	
- battery_icon='󰁺'
+BATTERY_CAPACITY="/sys/class/power_supply/BAT0/capacity"
+BATTERY_STATUS="/sys/class/power_supply/BAT0/status"
+LAST_BATTERY_FILE="/tmp/last_battery_percentage"
+
+# Read current battery percentage and status
+percentage=$(cat "$BATTERY_CAPACITY")
+status=$(cat "$BATTERY_STATUS")
+
+# Read the last recorded percentage (default to -1 if not found)
+if [ -f "$LAST_BATTERY_FILE" ]; then
+    last_percentage=$(cat "$LAST_BATTERY_FILE")
 else
- battery_icon='󰂃'
+    last_percentage=-1
 fi
 
-echo "$battery_icon $percentage"
+# Function to send notification once
+notify_battery() {
+    local level="$1"
+    local urgency="$2"
+    local icon="$3"
+    notify-send -u "$urgency" "$level" -i "$icon"
+}
+
+# Check if the battery is discharging and track changes
+if [ "$status" != "Charging" ]; then
+    echo "$percentage" > "$LAST_BATTERY_FILE"  # Store last percentage
+
+    # Send notification only when crossing thresholds
+    if [ "$percentage" -le 20 ] && [ "$last_percentage" -gt 20 ]; then
+        notify_battery "Battery is getting low." normal "battery-low"
+    elif [ "$percentage" -le 10 ] && [ "$last_percentage" -gt 10 ]; then
+        notify_battery "Battery almost empty!" critical "battery-empty"
+    elif [ "$percentage" -le 5 ] && [ "$last_percentage" -gt 5 ]; then
+        notify_battery "Battery is empty!" critical "battery-empty"
+    fi
+fi
+
+# Battery icons based on percentage
+if [ "$status" = "Charging" ]; then
+    battery_icon='󰂄'
+elif [ "$percentage" -gt 95 ]; then
+    battery_icon='󰁹'
+elif [ "$percentage" -gt 91 ]; then
+    battery_icon='󰂂'
+elif [ "$percentage" -gt 81 ]; then
+    battery_icon='󰂁'
+elif [ "$percentage" -gt 71 ]; then
+    battery_icon='󰂀'
+elif [ "$percentage" -gt 61 ]; then
+    battery_icon='󰁿'
+elif [ "$percentage" -gt 51 ]; then
+    battery_icon='󰁾'
+elif [ "$percentage" -gt 41 ]; then
+    battery_icon='󰁽'
+elif [ "$percentage" -gt 31 ]; then
+    battery_icon='󰁼'
+elif [ "$percentage" -gt 21 ]; then
+    battery_icon='󰁻'
+elif [ "$percentage" -gt 11 ]; then
+    battery_icon='󰁻'
+elif [ "$percentage" -gt 5 ]; then
+    battery_icon='󰁺'
+else
+    battery_icon='󰂃'
+fi
+
+echo "$battery_icon $percentage%"
+
