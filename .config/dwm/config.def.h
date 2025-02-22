@@ -2,13 +2,14 @@
 #include <X11/XF86keysym.h>
 
 /* appearance */
-static const unsigned int borderpx = 1; /* border pixel of windows */
-static const unsigned int gappx = 2;    /* gaps between windows */
-static const unsigned int snap = 16;    /* snap pixel */
-static const int showbar = 1;           /* 0 means no bar */
-static const int topbar = 1;            /* 0 means bottom bar */
-static const int vertpad = 2;           /* vertical padding of bar */
-static const int sidepad = 2;           /* horizontal padding of bar */
+static const unsigned int borderpx = 1;  /* border pixel of windows */
+static const unsigned int fborderpx = 1; /* border pixel of floating windows */
+static const unsigned int gappx = 2;     /* gaps between windows */
+static const unsigned int snap = 16;     /* snap pixel */
+static const int showbar = 1;            /* 0 means no bar */
+static const int topbar = 1;             /* 0 means bottom bar */
+static const int vertpad = 2;            /* vertical padding of bar */
+static const int sidepad = 2;            /* horizontal padding of bar */
 static const int user_bh
     = 4; /* 2 is the default spacing around the bar's font */
 static const unsigned int systraypinning
@@ -33,47 +34,46 @@ static const char adumbration_yellow[] = "#e4a95f";
 static const char adumbration_red[] = "#c72028";
 static const unsigned int invisible = 0x00;
 static const unsigned int alpha = 0xcc;
-static const char *colors[][3] = {
+static const char *colors[][4] = {
   /*               	fg      	bg    		border   */
-  [SchemeSel] = { black, white, white },
-  [SchemeNorm] = { white, black, black },
+  [SchemeSel] = { black, white, white, black },
+  [SchemeNorm] = { white, black, black, black },
   [SchemeStatus]
-  = { white, black, "#000000" }, // Statusbar right {text,background,not used
-                                 // but cannot be empty}
-  [SchemeTagsSel]
-  = { black, white, "#000000" }, // Tagbar left selected {text,background,not
-                                 // used but cannot be empty}
-  [SchemeTagsNorm]
-  = { white, black, "#000000" }, // Tagbar left unselected {text,background,not
-                                 // used but cannot be empty}
-  [SchemeInfoSel]
-  = { white, black,
-      "#000000" }, // infobar middle  selected {text,background,not used but
-                   // cannot be empty}
+  = { white, black, "#000000", black }, // Statusbar right {text,background,not
+                                        // used but cannot be empty}
+  [SchemeTagsSel] = { black, white, "#000000",
+                      black }, // Tagbar left selected {text,background,not
+                               // used but cannot be empty}
+  [SchemeTagsNorm] = { white, black, "#000000",
+                       black }, // Tagbar left unselected {text,background,not
+                                // used but cannot be empty}
+  [SchemeInfoSel] = { white, black, "#000000",
+                      black }, // infobar middle  selected {text,background,not
+                               // used but cannot be empty}
   [SchemeInfoNorm]
-  = { white, black,
-      "#000000" }, // infobar middle  unselected {text,background,not used but
-                   // cannot be empty}
+  = { white, black, "#000000",
+      black }, // infobar middle  unselected {text,background,not used but
+               // cannot be empty}
 };
-static const unsigned int alphas[][3] = {
+static const unsigned int alphas[][4] = {
   /*               	fg      	bg       	border     */
-  [SchemeSel] = { invisible, OPAQUE, OPAQUE },
-  [SchemeNorm] = { OPAQUE, invisible, OPAQUE },
-  [SchemeStatus]
-  = { OPAQUE, invisible, OPAQUE }, // Statusbar right {text,background,not used
-                                   // but cannot be empty}
-  [SchemeTagsSel]
-  = { invisible, OPAQUE, OPAQUE }, // Tagbar left selected {text,background,not
-                                   // used but cannot be empty}
-  [SchemeTagsNorm] = { OPAQUE, invisible,
+  [SchemeSel] = { invisible, OPAQUE, OPAQUE, OPAQUE },
+  [SchemeNorm] = { OPAQUE, invisible, OPAQUE, OPAQUE },
+  [SchemeStatus] = { OPAQUE, invisible, OPAQUE,
+                     OPAQUE }, // Statusbar right {text,background,not used
+                               // but cannot be empty}
+  [SchemeTagsSel] = { invisible, OPAQUE, OPAQUE,
+                      OPAQUE }, // Tagbar left selected {text,background,not
+                                // used but cannot be empty}
+  [SchemeTagsNorm] = { OPAQUE, invisible, OPAQUE,
                        OPAQUE }, // Tagbar left unselected {text,background,not
                                  // used but cannot be empty}
   [SchemeInfoSel]
-  = { OPAQUE, invisible,
+  = { OPAQUE, invisible, OPAQUE,
       OPAQUE }, // infobar middle  selected {text,background,not used but
                 // cannot be empty}
   [SchemeInfoNorm]
-  = { OPAQUE, invisible,
+  = { OPAQUE, invisible, OPAQUE,
       OPAQUE }, // infobar middle  unselected {text,background,not used but
                 // cannot be empty}
 };
