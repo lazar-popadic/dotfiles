@@ -2,14 +2,13 @@
 #include <X11/XF86keysym.h>
 
 /* appearance */
-static const unsigned int borderpx = 1;  /* border pixel of windows */
-static const unsigned int fborderpx = 1; /* border pixel of floating windows */
-static const unsigned int gappx = 2;     /* gaps between windows */
-static const unsigned int snap = 16;     /* snap pixel */
-static const int showbar = 1;            /* 0 means no bar */
-static const int topbar = 1;             /* 0 means bottom bar */
-static const int vertpad = 2;            /* vertical padding of bar */
-static const int sidepad = 2;            /* horizontal padding of bar */
+static const unsigned int borderpx = 1; /* border pixel of windows */
+static const unsigned int gappx = 2;    /* gaps between windows */
+static const unsigned int snap = 16;    /* snap pixel */
+static const int showbar = 1;           /* 0 means no bar */
+static const int topbar = 1;            /* 0 means bottom bar */
+static const int vertpad = 2;           /* vertical padding of bar */
+static const int sidepad = 2;           /* horizontal padding of bar */
 static const int user_bh
     = 4; /* 2 is the default spacing around the bar's font */
 static const unsigned int systraypinning
@@ -150,13 +149,11 @@ static const char *termcmd[] = { "st", NULL };
 /* commands spawned when clicking statusbar, the mouse button pressed is
  * exported as BUTTON */
 static const StatusCmd statuscmds[] = {
-  { "toggle_prog_tui ncmpcpp", 1 },
-  { "toggle_prog pavucontrol", 2 },
-  { "", 3 }, // notify-send Mouse$BUTTON
-  { "", 4 },
-  { "toggle_kbd | bar_reset", 5 },
-  { "gsimplecal", 6 },
-  { "gsimplecal", 7 },
+  { "gsimplecal", 1 },
+  { "toggle_prog_tui ncmpcpp", 2 },
+  { "toggle_prog pavucontrol", 3 },
+  { "toggle_kbd | bar_reset", 4 },
+
 };
 static const char *statuscmd[] = { "/bin/sh", "-c", NULL, NULL };
 
