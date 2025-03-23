@@ -8,6 +8,7 @@ text/plain=nvim.desktop;
 application/x-theme=nvim.desktop;
 application/x-shellscript=nvim.desktop;
 application/octet-stream=userapp-nvim-U6BDZ2.desktop;
+application/xml=nvim.desktop;
 
 [Default Applications]
 image/png=org.nomacs.ImageLounge.desktop
@@ -20,3 +21,4 @@ application/pdf=qpdfview.desktop
 application/x-theme=nvim.desktop
 application/x-shellscript=nvim.desktop
 application/octet-stream=userapp-nvim-U6BDZ2.desktop
+x-scheme-handler/vscode=code.desktop

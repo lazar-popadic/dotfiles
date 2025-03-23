@@ -1,7 +1,6 @@
 #!/bin/sh
 
 lxqt-policykit-agent &
-nitrogen --restore &
 picom -b &
 audio_startup.sh &
 sys_tray_startup.sh &
@@ -11,3 +10,5 @@ xrandr --output HDMI-A-0 --mode 1920x1080 -r 100 &
 laptop_mon_startup.sh &
 dunst &
 setxkbmap -layout "us,rs,rs" -variant ",basic,latin" -option "grp:alt_shift_toggle"
+sleep 1 &
+nitrogen --restore &

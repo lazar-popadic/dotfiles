@@ -1,49 +1,42 @@
-sw_volume: 100
+sw_volume: 52
 audio_device_state:1:pipewire-pulse
 state: stop
-current: 31
+current: 0
 random: 0
 repeat: 0
 single: 0
 consume: 0
-crossfade: 0
+crossfade: 5
 mixrampdb: 0.000000
 mixrampdelay: -1.000000
 playlist_begin
-0:Caladan Brood/2013 - Echoes of Battle/A1 City Of Azure Fire.mp3
-1:Caladan Brood/2013 - Echoes of Battle/A2 Echoes Of Battle.mp3
-2:Caladan Brood/2013 - Echoes of Battle/B3 Wild Autumn Wind.mp3
-3:Caladan Brood/2013 - Echoes of Battle/B4 The Passing Of The Grey Company.mp3
-4:Caladan Brood/2013 - Echoes of Battle/C5 To Walk The Ashes Of Dead Empires.mp3
-5:Caladan Brood/2013 - Echoes of Battle/C6 A Voice Born Of Stone And Dust.mp3
-6:Caladan Brood/2013 - Echoes of Battle/D7 Book Of The Fallen.mp3
-7:Caladan Brood/2013 - Echoes of Battle/D8 Marching Homewards.mp3
-8:Dawn/2004 - Slaughtersun (Crown Of The Triarchy)/CD 1/01. The Knell And The World.mp3
-9:Dawn/2004 - Slaughtersun (Crown Of The Triarchy)/CD 1/02. Falcula.mp3
-10:Dawn/2004 - Slaughtersun (Crown Of The Triarchy)/CD 1/03. To Archieve The Ancestral Powers.mp3
-11:Dawn/2004 - Slaughtersun (Crown Of The Triarchy)/CD 1/04. Ride The Wings Of Pestilence.mp3
-12:Dawn/2004 - Slaughtersun (Crown Of The Triarchy)/CD 1/05. The Aphelion Deserts.mp3
-13:Dawn/2004 - Slaughtersun (Crown Of The Triarchy)/CD 1/06. Stalker's Blessing.mp3
-14:Dawn/2004 - Slaughtersun (Crown Of The Triarchy)/CD 1/07. Malediction Murder.mp3
-15:Korgonthurus/2020 - Kuolleestasyntynyt/01 Kuolleestasyntynyt.mp3
-16:Korgonthurus/2020 - Kuolleestasyntynyt/02 Tuhontuoja.mp3
-17:Korgonthurus/2020 - Kuolleestasyntynyt/03 Syyttäjäenkeli.mp3
-18:Korgonthurus/2020 - Kuolleestasyntynyt/04 Riivattu.mp3
-19:Korgonthurus/2020 - Kuolleestasyntynyt/05 Yön lapsi.mp3
-20:Korgonthurus/2020 - Kuolleestasyntynyt/06 Nox.mp3
-21:Batushka/2019 - Панихида/01 - Песнь 1.mp3
-22:Batushka/2019 - Панихида/02 - Песнь 2.mp3
-23:Batushka/2019 - Панихида/03 - Песнь 3.mp3
-24:Batushka/2019 - Панихида/04 - Песнь 4.mp3
-25:Batushka/2019 - Панихида/05 - Песнь 5.mp3
-26:Batushka/2019 - Панихида/06 - Песнь 6.mp3
-27:Batushka/2019 - Панихида/07 - Песнь 7.mp3
-28:Batushka/2019 - Панихида/08 - Песнь 8.mp3
-29:Dawn/2004 - Slaughtersun (Crown Of The Triarchy)/CD 1/01. The Knell And The World.mp3
-30:Dawn/2004 - Slaughtersun (Crown Of The Triarchy)/CD 1/02. Falcula.mp3
-31:Dawn/2004 - Slaughtersun (Crown Of The Triarchy)/CD 1/03. To Archieve The Ancestral Powers.mp3
-32:Dawn/2004 - Slaughtersun (Crown Of The Triarchy)/CD 1/04. Ride The Wings Of Pestilence.mp3
-33:Dawn/2004 - Slaughtersun (Crown Of The Triarchy)/CD 1/05. The Aphelion Deserts.mp3
-34:Dawn/2004 - Slaughtersun (Crown Of The Triarchy)/CD 1/06. Stalker's Blessing.mp3
-35:Dawn/2004 - Slaughtersun (Crown Of The Triarchy)/CD 1/07. Malediction Murder.mp3
+0:Be'Lakor/Stone's Reach/01 - Venator.mp3
+1:Be'Lakor/Stone's Reach/02 - From Scythe to Sceptre.mp3
+2:Be'Lakor/Stone's Reach/03 - Outlive the Hand.mp3
+3:Be'Lakor/Stone's Reach/04 - Sun's Delusion.mp3
+4:Be'Lakor/Stone's Reach/05 - Held in Hollows.mp3
+5:Be'Lakor/Stone's Reach/06 - Husks.mp3
+6:Be'Lakor/Stone's Reach/07 - Aspect.mp3
+7:Be'Lakor/Stone's Reach/08 - Countless Skies.mp3
+8:Anathema/1993 - Serenades/Lovelorn Rhapsody.mp3
+9:Anathema/1993 - Serenades/Sweet Tears.mp3
+10:Anathema/1993 - Serenades/J'ai Fait Une Promesse.mp3
+11:Anathema/1993 - Serenades/They (Will Always) Die.mp3
+12:Anathema/1993 - Serenades/Sleepless.mp3
+13:Anathema/1993 - Serenades/Sleep In Sanity.mp3
+14:Anathema/1993 - Serenades/Scars Of The Old Stream.mp3
+15:Anathema/1993 - Serenades/Under A Veil (Of Black Lace).mp3
+16:Anathema/1993 - Serenades/Where Shadows Dance.mp3
+17:Anathema/1993 - Serenades/Dreaming - The Romance.mp3
+18:Dark Tranquillity/The Gallery (1995)/01 - Punish My Heaven.mp3
+19:Dark Tranquillity/The Gallery (1995)/02 - Silence, and the Firmament Withdrew.mp3
+20:Dark Tranquillity/The Gallery (1995)/03 - Edenspring.mp3
+21:Dark Tranquillity/The Gallery (1995)/04 - The Dividing Line.mp3
+22:Dark Tranquillity/The Gallery (1995)/05 - The Gallery.mp3
+23:Dark Tranquillity/The Gallery (1995)/06 - The One Brooding Warning.mp3
+24:Dark Tranquillity/The Gallery (1995)/07 - Midway Through Infinity.mp3
+25:Dark Tranquillity/The Gallery (1995)/08 - Lethe.mp3
+26:Dark Tranquillity/The Gallery (1995)/09 - The Emptiness from Which I Fed.mp3
+27:Dark Tranquillity/The Gallery (1995)/10 - Mine is the Grandeur....mp3
+28:Dark Tranquillity/The Gallery (1995)/11 - ...Of Melancholy Burning.mp3
 playlist_end
