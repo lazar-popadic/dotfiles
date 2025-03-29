@@ -105,10 +105,9 @@ static const Rule rules[] = {
   { "steam", NULL, NULL, 1 << 6, 0, -1, 0, 0, 0, 0, 0 },
   { "org.remmina.Remmina", NULL, NULL, NULL, 1, -1, 710, 340, 400, 400, 1 },
   { "org.gnome.FileRoller", NULL, NULL, NULL, 1, -1, 710, 340, 400, 400, 1 },
-  { NULL, NULL, "Figure 1", NULL, 1, -1, 1318, 24, 400, 600, 1 },
-  { NULL, NULL, "Figure 2", NULL, 1, -1, 1318, 424, 400, 600, 1 },
-  { NULL, NULL, "Figure 3", NULL, 1, -1, 1318, 824, 400, 600, 1 },
-  { NULL, NULL, "Figure 4", NULL, 1, -1, 1318, 1224, 400, 600, 1 },
+  { NULL, NULL, "Figure 1", NULL, 1, -1, 1318, 24, 600, 400, 1 },
+  { NULL, NULL, "Figure 2", NULL, 1, -1, 1318, 424, 600, 400, 1 },
+  { NULL, NULL, "Figure 3", NULL, 1, -1, 1318, 824, 600, 400, 1 },
 };
 
 /* layout(s) */
