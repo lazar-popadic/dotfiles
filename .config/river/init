@@ -153,6 +153,7 @@ udisksctl mount -b /dev/disk/by-uuid/16F8F3E3F8F3BED5 --no-user-interaction --fi
 eval "$(ssh-agent -s)" &
 gammastep -l 45.2:19.7 -t 6500:3600 -m wayland &
 audio_startup.sh &
+kanshi &
 wbg /home/lazar/Pictures/Wallpapers/inanna2.png &
 gsettings set org.gnome.desktop.interface gtk-theme "Tokyonight-Light-Compact-Storm" &
 gsettings set org.gnome.desktop.interface icon-theme 'Tokyonight-Light' &
