@@ -154,7 +154,7 @@ eval "$(ssh-agent -s)" &
 gammastep -l 45.2:19.7 -t 6500:3600 -m wayland &
 audio_startup.sh &
 kanshi &
-wbg /home/lazar/Pictures/Wallpapers/inanna2.png &
+swaybg -i /home/lazar/Pictures/Wallpapers/absolute_elsewhere.png -m fill &
 gsettings set org.gnome.desktop.interface gtk-theme "Tokyonight-Light-Compact-Storm" &
 gsettings set org.gnome.desktop.interface icon-theme 'Tokyonight-Light' &
 gsettings set org.gnome.desktop.interface font-name 'BitstromWera Nerd Font Regular 10' &
@@ -163,6 +163,7 @@ flatpak run com.rtosta.zapzap &
 waybar &
 nm-applet &
 copyq &
+steam &
 sleep 2
 
 pkill -x -USR2 waybar
